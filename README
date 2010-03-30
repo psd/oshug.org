@@ -1,0 +1,34 @@
+Notes on the site, becaue we'll no doubt forget all of this ..
+
+The site directory is the website, and contains two kinds of source files:
+
+    site/index.yaml -- the site global data
+    site/event/n.yaml  -- per-event data
+    site/event/n.mp3 -- the event file
+
+The templates directory contains templates to generate other site files:
+
+    templates/index.xxx -- the site index template
+    templates/event.xxx -- the per-event /event/ template
+    templates/item.xxx -- a per-event file shared by the index and event
+    ...
+
+To build and deploy the site, make sure your local copy is fresh:
+
+    $ git pull
+
+Make local changes to the yaml or templates, then build the site:
+
+	make
+
+Test the site in your browser, 
+
+Then commit everything including the generated target files:
+
+    $ git commit -m"blah blah" -a
+
+Deployment is a matter of running:
+
+	make deploy
+
+Which ssh's to the site and checks out the top copy from github
