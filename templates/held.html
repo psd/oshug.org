@@ -1,0 +1,10 @@
+				<p class='vcard '>
+					Held at
+					<a class='fn org url' href="[% locations.${event.location}.uri %]k">[% event.location %]</a>,
+					<span class='adr geo'>
+						<span class="locality">[% locations.${event.location}.locality %]</span> <span class="country-name">[% locations.${event.location}.country %]</span> 
+						(<abbr title="[% locations.${event.location}.latitude %]" class="latitude">[% locations.${event.location}.latitude %]</abbr>,
+						 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>)
+					</span>
+					on the <abbr class="published dtstart" title="[% event.dtstart %]">[% event.date %]</abbr>
+				</p>

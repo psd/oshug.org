@@ -1,0 +1,5 @@
+				<p class="tagged">Tagged with 
+[% FOREACH tag IN event.tags -%]
+					<a rel="tag" href="http://delicious.com/tag/[% tag FILTER remove('\s+') FILTER lower %]">[% tag %]</a>
+[% END -%]
+				</p>

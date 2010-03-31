@@ -1,0 +1,29 @@
+---
+number:      1
+title:       An introduction to the XMOS XS1 and Amino platforms
+description: |
+            For the inaugural event we are fortunate to have presentations from an employee of
+            XMOS Semiconductor and from Alan Wood of Folknology Labs.
+
+dtstart:     2010-04-29T18:00:00Z
+dtend:       2010-04-29T20:00:00Z
+date:        29th April 2009
+pubdate:     Thu, 29 Apr 2010 18:00:00 BST
+location:    Osmosoft
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://eventbright/foo
+
+css:
+    - simple.css
+
+tags:
+    - oshug
+    - hardware
+    - XMOS
+    - XS1
+    - osmosoft
+
+links:
+    - uri:   http://osmosoft.com
+      title: Osmosoft

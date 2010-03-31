@@ -1,0 +1,12 @@
+	<entry>
+		<title>[% event.title %]</title>
+		<id>[% event.uri %]</id>
+		<link rel="alternate" type="text/html" href="[% event.uri %]"/>
+		<link rel="enclosure" type="audio/mpeg" href="[% event.mp3 %]" length="[% event.length %]"/>
+		<content>[% event.description %]</content>
+        <updated>[% event.dtstart %]</updated>
+[% FOREACH tag IN event.tags -%]
+        <category term="[% tag %]"/>
+[% END -%]
+[% PROCESS item.georss FILTER indent(8) -%]
+	</entry>

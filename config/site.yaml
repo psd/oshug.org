@@ -1,0 +1,54 @@
+---
+title:        OSHUG
+subtitle:     Open Source Hardware User Group
+description:  A group of people with an interest in open source hardware.
+uri:          http://oshug.org
+email:        hello@oshug.org
+lang:         en-gb
+license:
+    title:   Creative Commons License
+    uri:     http://creativecommons.org/licenses/by/3.0/
+
+tags:
+    - open-source
+    - hardware
+    - development
+    - geek
+    - tea
+
+locations:
+    Osmosoft:
+        uri:       http://osmosoft.com
+        locality:  London
+        country:   UK
+        latitude:  51.498325
+        longitude: -0.134347
+
+# one line per-event
+released:
+    - 1
+
+feeds:
+    - atom
+
+media:
+    atom:
+        title: Atom
+        type: application/atom+xml
+
+    yaml:
+        title: YAML
+        type: text/yaml;charset=utf-8
+
+    xml:
+        title: XML
+        type: text/xml;charset=utf-8
+
+    json:
+        title: JSON
+        type: application/json
+
+    jsonp:
+        title: JSONP
+        type: application/javascript
+

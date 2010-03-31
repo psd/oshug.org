@@ -1,0 +1,54 @@
+body {
+	background-color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#title {
+	background-color: #302626;
+	margin: 0;
+	padding: 1em;
+}
+
+#title a,
+#title a:active,
+#title a:visited {
+	color: white; 
+	text-decoration: none;
+}
+
+#footer a,
+#footer a:active,
+#footer a:visited {
+	color: white; 
+}
+
+#content {
+	padding: 1em 10em;
+}
+
+#footer {
+	background-color: #302626;
+	color: #fff;
+	margin: 0;
+	padding: 1em;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font: bold 1.8em Helvetica, Arial, Sans-Serif;
+	text-shadow: 1px 1px #f52, 2px 2px #f52, 3px 3px #f52;
+	-webkit-transition: all 0.12s ease-out;
+	-moz-transition: all 0.12s ease-out;
+	-o-transition: all 0.12s ease-out;
+}
+
+h2 {
+	font: bold 1.4em Helvetica, Arial, Sans-Serif;
+	margin: 0 0 3px 0;
+	color: #302626;
+}

@@ -1,0 +1,12 @@
+        <div id='footer'>
+            <p>
+[% feedback FILTER indent(16) -%]
+                Send your feedback to us at <a href="mailto:[% email %]" class="email">[% email %]</a>
+            </p>
+            <p>
+                This site is released under a 
+                    <a id="license" rel="license" href="[% license.uri %]" title="[% license.title %]">[% license.title %]</a>.
+            </p>
+            <a type="[% media.$feed.type %]" href="/[% feed %]">[% media.$feed.title %]</a>
+		</ul>
+        </div>

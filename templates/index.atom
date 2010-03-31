@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:georss="http://www.georss.org/georss">
+	<title>[% title %]</title>
+	<subtitle type="html">[% summary %]</subtitle>
+	<link href="[% uri %]"/>
+	<link rel="self" type="[% media.rss.type %]" href="[% uri %]atom"/>
+	<id>[% uri %]</id>
+    <updated>[% updated %]</updated>
+	<author>
+		<name>[% author %]</name>
+		<email>[% email %]</email>
+		<uri>[% uri %]</uri>
+	</author>
+[% FOREACH event IN events.reverse -%]
+[% PROCESS item.atom -%]
+[% END %]
+</feed>

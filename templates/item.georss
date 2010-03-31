@@ -1,0 +1,3 @@
+<georss:point>[% locations.${event.location}.latitude %] [% locations.${event.location}.longitude %]</georss:point>
+<geo:lat>[% locations.${event.location}.latitude %]</geo:lat>
+<geo:long>[% locations.${event.location}.longitude %]</geo:long>

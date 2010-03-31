@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>[% title %] &mdash #[% event.number %]</title>
+	<meta name="author" content="[% author %]">
+	<meta name="description" content="[% description %]">
+	<meta name="keywords" content="[% keywords %]">
+    <meta name="ICBM" content="[% locations.${event.location}.latitude %], [% locations.${event.location}.latitude %]">
+    <meta name="geo.position" content="[% locations.${event.location}.latitude %]; [% locations.${event.location}.latitude %]">
+	<link rel="canonical" href="[% uri %]">
+[% FOREACH feed IN feeds -%]
+	<link rel="alternate" type="[% media.$feed.type %]" title="[% media.$feed.title %]" href="/[% feed %]">
+[% END %]
+[% FOREACH m IN media -%]
+	<link rel="alternate" type="[% m.value.type %]" title="#[% m.value.title %]" href="[% event.number %].[% m.key %]">
+[% END -%]
+	<link rel="stylesheet" href="../styles/main.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body id='content'>
+    <div class='wrapper vcard'>
+	[% PROCESS title.html -%]
+	<h2>[% subtitle %]</h2>
+        <h3><a href="" class="taggedlink summary">#[% event.number %] &mdash; [% event.title %]</a></h3>
+        <p class='description'>[% event.description %]</p>
+[% PROCESS held.html -%]
+[% PROCESS tags.html -%]
+[% PROCESS links.html -%]
+[% PROCESS footer.html -%]
+	</div>
+</body>
+</html>
