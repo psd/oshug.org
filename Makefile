@@ -12,3 +12,6 @@ all::	site
 
 site:
 	mkdir site
+
+deploy:	all
+	cd site && rsync -avz -e ssh * ${OSHUG_HOST}:${OSHUG_DIR}

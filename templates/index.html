@@ -12,41 +12,27 @@
 </head>
 <body>
 	[% PROCESS title.html -%]
-	<div id='content' class='vcard'>
-		<section id="forthcoming">
-		<h2>Latest Event</h2>
-		<ul id='events' class='hfeed'>
-[% FOREACH event IN events -%]
-			<li class='hentry xfolkentry vevent'>
-				<a class='entry-title summary' rel='bookmark' href='event/[% event.number %]'>#[% event.number %] &mdash; [% event.title %]</a>
-				<p class='entry-content'>[% event.description %]</p>
-[% PROCESS held.html -%]
-[% PROCESS tags.html -%]
-			</li>
+	<div id='content'>
+		<div id="forthcoming">
+[% FOREACH event IN events.reverse -%]
+[% PROCESS item.html -%]
+		<p>Please register on <a href="[% event.eventbright %]">Eventbright</a> and share this on <a href="[% event.upcoming %]">Upcoming</a>.</p>
 [% LAST %]
 [% END -%]
-		</ul>
-		<h2>All Events</h2>
-		<p>
-[% FOREACH event IN events -%]
-		<a href='event/[% event.number %]'>#[% event.number %]</a>
-[% END -%]
-		</p>
-		</section>
-		<section id="open-hardware">
+		</div>
+		<div id="open-hardware">
 		<h2>Open Hardware</h2>
 		<p>
 		Open hardware is an approach to building physical objects with the principle of allowing 
 		collaborative development, use and tinkering through the liberal licensing of artefacts such
 		as manuals, software, schematic diagrams and CAD documents.
-		</p>
-		<p>
-		Ranging from simple electronic circuits to digital and radio systems, through reprogrammable computing platforms, 
-		to hardware that combines elements of electronic, 
+		Typical open hardware projects range from simple electronic circuits to digital and radio systems, 
+		through reprogrammable computing platforms, to hardware that combines elements of electronic, 
         mechanical and software engineering, such as 3D printers and laser engravers. 
 		</p>
-		</section>
-		<section id="scope">
+		</div>
+
+		<div id="scope">
 		<h2>Scope</h2>
 		<p>
         We welcome open source software but ideally there should be a hardware hacking or open source hardware link, 
@@ -65,8 +51,9 @@
         We also plan to set up a wiki and various other collaboration tools in due course.
         If you would like to find out more we encourage you to join the discussion list and say hello!
 		</p>
-		</section>
-		<section id="meetings">
+		</div>
+
+		<div id="meetings">
 		<h2>Meetings</h2>
 		<p>
         For health and safety reasons please do not bring soldering irons or sharp tools etc. 
@@ -82,7 +69,22 @@
         Suggestions as to how to develop the user group and any associated resources are most welcome, 
         as indeed are offers of help in achieving this.
 		</p>
-		</section>
+		</div>
+
+		<div id="lists">
+		<h2>News</h2>
+		<p>We have a <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">mailing list</a> for discussion,
+		and you can keep up with upcoming events by subscribing to our <a href="/atom">feed</a>.
+		</p>
+		</div>
+		<div>
+		<h2>Events</h2>
+		<ul>
+[% FOREACH event IN events -%]
+		<li><a class='entry-title summary' rel='bookmark' href='event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></li>
+[% END -%]
+		</ul>
+		</div>
     </div>
 [% PROCESS footer.html -%]
 </body>

@@ -13,9 +13,8 @@ location:    Osmosoft
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
 registration: http://eventbright/foo
-
-css:
-    - simple.css
+eventbright: http://eventbright.com
+upcoming: http://upcoming.yahoo.com
 
 tags:
     - oshug

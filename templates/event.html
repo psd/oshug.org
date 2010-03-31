@@ -23,9 +23,17 @@
 	<h2>[% subtitle %]</h2>
         <h3><a href="" class="taggedlink summary">#[% event.number %] &mdash; [% event.title %]</a></h3>
         <p class='description'>[% event.description %]</p>
-[% PROCESS held.html -%]
-[% PROCESS tags.html -%]
-[% PROCESS links.html -%]
+[% PROCESS item.html -%]
+				<p class="tagged">Tagged with 
+[% FOREACH tag IN event.tags -%]
+					<a rel="tag" href="http://delicious.com/tag/[% tag FILTER remove('\s+') FILTER lower %]">[% tag %]</a>
+[% END -%]
+				</p>
+				<ul class="links">
+[% FOREACH link IN event.links -%]
+					<li><a href="[% link.uri %]">[% link.title %]</a></li>
+[% END -%]
+				</ul>
 [% PROCESS footer.html -%]
 	</div>
 </body>
