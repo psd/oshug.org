@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>[% title %] &mdash #[% event.number %]</title>
+	<title>[% title %] Event #[% event.number %]</title>
 	<meta name="author" content="[% author %]">
 	<meta name="description" content="[% description %]">
 	<meta name="keywords" content="[% keywords %]">
@@ -21,6 +21,16 @@
 	[% PROCESS title.html -%]
     <div id='content' class='vcard'>
 [% PROCESS item.html -%]
+				<p class=registration">Please register to attend via 
+[% FOREACH registration IN event.registration -%]
+					<a rel="registration" href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.
+				</p>
+[% END -%]
+				<p class="hashtag">Event hashtag:
+[% FOREACH hashtag IN event.hashtag -%]
+					<rel="hashtag">[% hashtag %]</rel>
+				</p>
+[% END -%]
 				<p class="tagged">Tagged with 
 [% FOREACH tag IN event.tags -%]
 					<a rel="tag" href="http://delicious.com/tag/[% tag FILTER remove('\s+') FILTER lower %]">[% tag %]</a>
