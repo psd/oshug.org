@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>[% title %]</title>
 	<meta name="description" content="[% description %]">
 	<meta name="keywords" content="[% keywords %]">
 	<link rel="canonical" href="[% uri %]">
@@ -17,17 +16,17 @@
 		<div id="forthcoming">
 [% FOREACH event IN events.reverse -%]
 [% PROCESS item.html -%]
-		<p>Please register to attend via <a href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.</p>
+		<p>Please register on <a href="[% event.eventbright %]">Eventbright</a> and share this on <a href="[% event.upcoming %]">Upcoming</a>.</p>
 [% LAST %]
 [% END -%]
 		</div>
 		<div id="open-hardware">
-		<h2>Open Source Hardware</h2>
+		<h2>Open Hardware</h2>
 		<p>
-		Open source hardware is an approach to building physical objects with the principle of allowing 
+		Open hardware is an approach to building physical objects with the principle of allowing 
 		collaborative development, use and tinkering through the liberal licensing of artefacts such
 		as manuals, software, schematic diagrams and CAD documents.
-		Typical open source hardware projects range from simple electronic circuits to digital and radio systems, 
+		Typical open hardware projects range from simple electronic circuits to digital and radio systems, 
 		through reprogrammable computing platforms, to hardware that combines elements of electronic, 
         mechanical and software engineering, such as 3D printers and laser engravers. 
 		</p>
@@ -36,9 +35,9 @@
 		<div id="scope">
 		<h2>Scope</h2>
 		<p>
-        We welcome discussion on open source software but ideally there should be a hardware hacking or open source hardware link, 
-        as there are already <a href="http://lug.org.uk">Linux user groups</a> which provide excellent opportunities for open source software enthusiasts 
-        to discuss, meet and share experiences.
+        We welcome open source software but ideally there should be a hardware hacking or open source hardware link, 
+        as there are already Linux User Groups which provide excellent opportunities for open source software enthusiasts 
+        to meet and share experiences.
 		</p>
 		<p>
         Mostly based in and around London, we aim to organise regular meetings in addition to communicating 
@@ -47,16 +46,10 @@
 		<p>
         Furthermore, this is not a “land grab” and we'd be happy to help, where we can, 
         if you are interested in starting up local groups elsewhere - whether that be sharing online resources or simply advice.
-		</p>
-		</div>
-
-		<div id="resources">
-		<h2>Resources</h2>
-		<p>
-        We operate two mailing lists: one for <a href="/cgi-bin/mailman/listinfo/oshug">general discussion</a> and a very low volume <a href="/cgi-bin/mailman/listinfo/oshug-announce">announcements list</a>. You can also subscribe to an <a href="/atom">Atom feed</a>, and we plan to set up a wiki and various other collaboration tools in due course.
-		</p>
-		<p>
-        If you have any feedback, suggestions or would like to get involved we encourage you to join the discussion list and say hello!
+        We are mostly based in and around London, and hope to organise regular meetings in addition to communicating 
+        We operate two mailing lists: one for general discussion and a very low volume list for use in announcing forthcoming events. 
+        We also plan to set up a wiki and various other collaboration tools in due course.
+        If you would like to find out more we encourage you to join the discussion list and say hello!
 		</p>
 		</div>
 
@@ -66,24 +59,22 @@
         For health and safety reasons please do not bring soldering irons or sharp tools etc. 
         unless advised that it is fine to do so. Laptops, breadboards and battery powered equipment 
         are fine and encouraged. If you need access to a workshop with tools and equipment we suggest 
-        you <a href="http://hackerspaces.org/wiki/List_of_Hacker_Spaces">look up your nearest hackspace</a> (the linked list is not exhaustive – if you don't 
+        you look up your nearest hackspace (the linked list is not exhaustive – if you don't 
         find somewhere nearby you might try a few web searches).
-		</p>
-		<p>
         Not all meetings may involve presentations, and the primary goal is to provide an environment in 
         which those with an interest in open source hardware can meet, share experiences and learn from each other. 
         It is hoped that events will be shaped by the wider user group membership, 
 
         and whilst meetings are initially being held in London, they could be held anywhere. 
-        Suggestions for events and how to develop the user group and any associated resources are most welcome, 
+        Suggestions as to how to develop the user group and any associated resources are most welcome, 
         as indeed are offers of help in achieving this.
 		</p>
 		</div>
 
 		<div id="lists">
 		<h2>News</h2>
-		<p><b>05th April 2010:</b> We have a <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">mailing list</a> for discussion,
-		and you can be notified of upcoming events by subscribing to the  <a href="/cgi-bin/mailman/listinfo/oshug-announce">announce list</a> or our <a href="/atom">Atom feed</a>.
+		<p>We have a <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">mailing list</a> for discussion,
+		and you can keep up with upcoming events by subscribing to our <a href="/atom">feed</a>.
 		</p>
 		</div>
 		<div>

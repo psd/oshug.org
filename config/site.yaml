@@ -18,7 +18,7 @@ tags:
 
 locations:
     Osmosoft:
-        uri:       http://www.osmosoft.com/#[[Contact%20us]]
+        uri:       http://osmosoft.com
         locality:  London
         country:   UK
         latitude:  51.498325
