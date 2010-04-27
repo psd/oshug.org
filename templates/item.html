@@ -5,10 +5,16 @@
 				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
 				<span class='adr geo'>
 					<span class="locality">[% locations.${event.location}.locality %]</span> <span class="country-name">[% locations.${event.location}.country %]</span> 
+					[<a href="http://maps.google.co.uk/maps?q=[% locations.${event.location}.latitude %],[% locations.${event.location}.longitude %]">map</a>]
 					(<abbr title="[% locations.${event.location}.latitude %]" class="latitude">[% locations.${event.location}.latitude %]</abbr>,
-					 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>)
+					 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>) 
 				</span>
 			</p>
+			<p class=registration">Please register to attend via 
+[% FOREACH registration IN event.registration -%]
+				<a rel="registration" href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.
+			</p>
+[% END -%]
 			<div class='entry-content'>
 				<p id="abstract">[% event.description %]</p>
 				[% event.sessions %]

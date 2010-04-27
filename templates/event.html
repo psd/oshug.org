@@ -19,13 +19,8 @@
 </head>
 <body>
 	[% PROCESS title.html -%]
-    <div id='content' class='vcard'>
+    <div id='content'>
 [% PROCESS item.html -%]
-				<p class=registration">Please register to attend via 
-[% FOREACH registration IN event.registration -%]
-					<a rel="registration" href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.
-				</p>
-[% END -%]
 				<p class="hashtag">Event hashtag:
 [% FOREACH hashtag IN event.hashtag -%]
 					<a href="http://search.twitter.com/search?q=[% hashtag %]" rel="hashtag">[% hashtag %]</a>
