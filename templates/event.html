@@ -28,7 +28,7 @@
 [% END -%]
 				<p class="hashtag">Event hashtag:
 [% FOREACH hashtag IN event.hashtag -%]
-					<rel="hashtag">[% hashtag %]</rel>
+					<a href="http://search.twitter.com/search?q=[% hashtag %]" rel="hashtag">[% hashtag %]</a>
 				</p>
 [% END -%]
 				<p class="tagged">Tagged with 

@@ -3,7 +3,7 @@
 		<id>[% event.uri %]</id>
 		<link rel="alternate" type="text/html" href="[% event.uri %]"/>
 		<link rel="enclosure" type="audio/mpeg" href="[% event.mp3 %]" length="[% event.length %]"/>
-		<content>[% event.description %]</content>
+		<content>[% event.description %] [% event.sessions %]</content>
         <updated>[% event.dtstart %]</updated>
 [% FOREACH tag IN event.tags -%]
         <category term="[% tag %]"/>

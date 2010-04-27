@@ -2,25 +2,38 @@
 number:      1
 title:       An introduction to XCore XS1 and Amino
 description: |
-            For the inaugural event we are fortunate to have presentations from Prof. David May FRS, CTO of XMOS Semiconductor, and Alan Wood of Folknology Labs. 
-             <p><b>
-            XCore XS1 (XMOS)
-             </b></p>
-             <p> 
-            David May will be known to many as architect of the <a href="http://en.wikipedia.org/wiki/Transputer">transputer</a> and author of the concurrent programming language, <a href="http://en.wikipedia.org/wiki/Occam_(programming_language)">occam</a>. As co-founder and chief technical officer of XMOS Semiconductor, he will be presenting an introduction to the <a href="http://en.wikipedia.org/wiki/XCore_XS1">XCore XS1 microprocessor architecture</a> and the associated development environment. <i>[actual abstract TBC]</i>
-             </p>
-             <p><i>
-            XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks, DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, with XMOS extensions to C for concurrency (XC).
-             </i></p>
-             <p><b>
-            Amino (Folknology Labs)
-             </b></p>
-             <p>
-            Amino: a networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the line between software and hardware, and Amino uses this technology to further blur the line between prototyping and production. Amino is also Internet native, event driven and optimised for concurrency, and may be seen as a building block for networked open source hardware creation.
-             </p>
-             <p><i>
-            Alan Wood - a.k.a. <a href="http://www.twitter.com/folknology">Folknology</a> - originally trained in systems engineering, got lost in software engineering and open source for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the last few years. Al's interest lay in pushing the envelope for open source hardware/software production and agility: "We are approaching a tipping point where open source and open creation physically changes the real world not just the virtual world. With Amino we are selling a creative tool, not a finished product. We are selling possibilities. The participant decides what runs on it, not us. We just give them as much as we can to help them through that process.". 
-             </i></p>
+            For the inaugural event we are fortunate to have presentations from 
+            <a href="http://en.wikipedia.org/wiki/David_May_(computer_scientist)">Prof. David May</a> FRS, 
+            CTO of <a href="http://www.xmos.com/">XMOS</a> Semiconductor,
+            and <a href="http://twitter.com/folknology">Alan Wood</a> of <a href="http://twitter.com/folknology">Folknology Labs</a>.
+
+sessions: |
+            <h2>XMOS</h2>
+            <p id="DavidMay">
+            <a href="http://en.wikipedia.org/wiki/David_May_(computer_scientist)">David May</a> will be known to many as architect of the <a href="http://en.wikipedia.org/wiki/Transputer">transputer</a> 
+            and author of the concurrent programming language, <a href="http://en.wikipedia.org/wiki/Occam_(programming_language)">occam</a>. 
+            As co-founder and chief technical officer of <a href="http://www.xmos.com/">XMOS Semiconductor</a>, he will be presenting an introduction to the 
+            <a href="http://en.wikipedia.org/wiki/XCore_XS1">XCore XS1 microprocessor architecture</a> and 
+            the associated development environment.</p>
+            <p>XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
+            DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
+            However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
+            with XMOS extensions to C for concurrency (XC).</p>
+            <a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
+            <h2>Amino</h2>
+            <p id="Amino">A networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
+            line between software and hardware, and Amino uses this technology to further blur the line between prototyping and production. 
+            Amino is also Internet native, event driven and optimised for concurrency, and may be seen as a building block for networked 
+            open source hardware creation.</p>
+            <p id='AlanWood'>Alan Wood - a.k.a. <a href="http://www.twitter.com/folknology">Folknology</a> &mdash; 
+            originally trained in systems engineering, got lost in software engineering and open source for a decade, 
+            before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the 
+            last few years.</p>
+            <p>Al's interest lay in pushing the envelope for open source hardware/software production and agility: 
+            "We are approaching a tipping point where open source and open creation physically changes the real world not just the virtual world. 
+            With Amino we are selling a creative tool, not a finished product. We are selling possibilities. 
+            The participant decides what runs on it, not us. We just give them as much as we can to help them through that process."
+            </p>
 
 dtstart:     2010-04-29T18:00:00Z
 dtend:       2010-04-29T20:00:00Z

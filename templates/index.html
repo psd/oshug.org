@@ -16,11 +16,12 @@
 	<div id='content'>
 		<div id="forthcoming">
 [% FOREACH event IN events.reverse -%]
-[% PROCESS item.html -%]
-		<p>Please register to attend via <a href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.</p>
+[% PROCESS abstract.html -%] 
+		<p><i><a href="event/[% event.number %]">More info ..</a></i>
 [% LAST %]
 [% END -%]
 		</div>
+		<hr>
 		<div id="open-hardware">
 		<h2>Open Source Hardware</h2>
 		<p>
@@ -81,18 +82,10 @@
 		</div>
 
 		<div id="lists">
-		<h2>News</h2>
-		<p><b>05th April 2010:</b> We have a <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">mailing list</a> for discussion,
+		<h2>Discussion</h2>
+		<p>We have a <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">mailing list</a> for discussion,
 		and you can be notified of upcoming events by subscribing to the  <a href="/cgi-bin/mailman/listinfo/oshug-announce">announce list</a> or our <a href="/atom">Atom feed</a>.
 		</p>
-		</div>
-		<div>
-		<h2>Events</h2>
-		<ul>
-[% FOREACH event IN events -%]
-		<li><a class='entry-title summary' rel='bookmark' href='event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></li>
-[% END -%]
-		</ul>
 		</div>
     </div>
 [% PROCESS footer.html -%]

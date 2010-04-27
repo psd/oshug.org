@@ -1,5 +1,5 @@
 	<div class='vevent'>
-			<p><a class='entry-title summary' rel='bookmark' href='/event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></p>
+			<h2><a class='entry-title summary' rel='bookmark' href='/event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></h2>
 			<p class='vcard'>
 				On the <abbr class="dtstart" title="[% event.dtstart %]">[% event.date %]</abbr> at
 				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
@@ -9,5 +9,8 @@
 					 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>)
 				</span>
 			</p>
-			<p class='entry-content'>[% event.description %]</p>
+			<div class='entry-content'>
+				<p id="abstract">[% event.description %]</p>
+				[% event.sessions %]
+			</div>
 	</div>

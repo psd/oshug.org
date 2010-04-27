@@ -11,8 +11,8 @@ RewriteRule ^[% m.key %]$ /index.[% m.key %] [L]
 [% END -%]
 
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(/event/[0-9]+)$ $1.html
 
 RewriteRule ^(.*jsonp)$ /jsonp.php [L]
 

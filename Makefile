@@ -14,4 +14,4 @@ site:
 	mkdir site
 
 deploy:	all
-	cd site && rsync -avz -e ssh * ${OSHUG_HOST}:${OSHUG_DIR}
+	cd site && rsync -avz -e ssh .htaccess * ${OSHUG_HOST}:${OSHUG_DIR}
