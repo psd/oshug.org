@@ -19,9 +19,9 @@ sessions: |
             DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
             However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
             with XMOS extensions to C for concurrency (XC).</p>
-            <a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
             <h2>Amino</h2>
-            <p id="Amino">A networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
+            <p id="Amino"><a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
+            is a networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
             line between software and hardware, and Amino uses this technology to further blur the line between prototyping and production. 
             Amino is also Internet native, event driven and optimised for concurrency, and may be seen as a building block for networked 
             open source hardware creation.</p>

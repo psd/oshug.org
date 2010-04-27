@@ -1,4 +1,6 @@
-#Header set Access-Control-Allow-Origin "*"
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
 
 [% FOREACH m IN media -%]
 AddType [% m.value.type %] .[% m.key %]
