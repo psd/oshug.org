@@ -19,7 +19,9 @@ tags:
 locations:
     Osmosoft:
         uri:       http://www.osmosoft.com/#[[Contact%20us]]
+        street:    1a Broadway Street
         locality:  London
+        postcode:  SW1H 0AY
         country:   UK
         latitude:  51.498325
         longitude: -0.134347

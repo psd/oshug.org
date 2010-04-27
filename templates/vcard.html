@@ -1,0 +1,13 @@
+			<p class='vcard'>
+				On the <abbr class="dtstart" title="[% event.dtstart %]">[% event.date %]</abbr> at
+				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
+				<span class='adr geo'>
+					<span class="street-address">[% locations.${event.location}.street %]</span>,
+					<span class="locality">[% locations.${event.location}.locality %]</span>,
+					<span class="postal-code">[% locations.${event.location}.postcode %]</span>,
+					<span class="country-name">[% locations.${event.location}.country %]</span>
+					[<a href="http://maps.google.co.uk/maps?q=[% locations.${event.location}.latitude %],[% locations.${event.location}.longitude %]">map</a>]
+					(<abbr title="[% locations.${event.location}.latitude %]" class="latitude">[% locations.${event.location}.latitude %]</abbr>,
+					 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>) 
+				</span>
+			</p>

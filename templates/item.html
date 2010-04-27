@@ -1,15 +1,6 @@
 	<div class='vevent'>
 			<h2><a class='entry-title summary' rel='bookmark' href='/event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></h2>
-			<p class='vcard'>
-				On the <abbr class="dtstart" title="[% event.dtstart %]">[% event.date %]</abbr> at
-				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
-				<span class='adr geo'>
-					<span class="locality">[% locations.${event.location}.locality %]</span> <span class="country-name">[% locations.${event.location}.country %]</span> 
-					[<a href="http://maps.google.co.uk/maps?q=[% locations.${event.location}.latitude %],[% locations.${event.location}.longitude %]">map</a>]
-					(<abbr title="[% locations.${event.location}.latitude %]" class="latitude">[% locations.${event.location}.latitude %]</abbr>,
-					 <abbr title="[% locations.${event.location}.longitude %]" class="longitude">[% locations.${event.location}.longitude %]</abbr>) 
-				</span>
-			</p>
+			[% PROCESS vcard.html %]
 			<p class=registration">Please register to attend via 
 [% FOREACH registration IN event.registration -%]
 				<a rel="registration" href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a>.
