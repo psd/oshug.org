@@ -8,18 +8,18 @@ description: |
             and <a href="http://twitter.com/folknology">Alan Wood</a> of <a href="http://twitter.com/folknology">Folknology Labs</a>.
 
 sessions: |
-            <h2>XMOS</h2>
+            <h2 id='XMOS'>XMOS</h2>
+            <p>XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
+            DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
+            However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
+            with XMOS extensions to C for concurrency (XC).</p>
             <p id="DavidMay">
             <a href="http://en.wikipedia.org/wiki/David_May_(computer_scientist)">David May</a> will be known to many as architect of the <a href="http://en.wikipedia.org/wiki/Transputer">transputer</a> 
             and author of the concurrent programming language, <a href="http://en.wikipedia.org/wiki/Occam_(programming_language)">occam</a>. 
             As co-founder and chief technical officer of <a href="http://www.xmos.com/">XMOS Semiconductor</a>, he will be presenting an introduction to the 
             <a href="http://en.wikipedia.org/wiki/XCore_XS1">XCore XS1 microprocessor architecture</a> and 
             the associated development environment.</p>
-            <p>XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
-            DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
-            However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
-            with XMOS extensions to C for concurrency (XC).</p>
-            <h2>Amino</h2>
+            <h2 id='Amino'>Amino</h2>
             <p id="Amino"><a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
             is a networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
             line between software and hardware, and Amino uses this technology to further blur the line between prototyping and production. 
@@ -45,7 +45,7 @@ generator:   vi
 registration: http://oshugxmos.eventbright.com
 upcoming: http://upcoming.yahoo.com/event/5654428/gb/London/OSHUG-1-An-Introduction-to-XCore-XS1-amp-Amino/Osmosoft-Towers-Room-404/
 
-hashtag: #oshugxmos
+hashtag: #oshug
 
 tags:
     - oshug
@@ -59,17 +59,3 @@ tags:
     - osmosoft
     - electronics
     - transputer
-
-links:
-    - uri:   http://www.xmos.com
-      title: XMOS
-    - uri:   http://www.xmos.com/company/team/david-may
-      title: David May
-    - uri:   http://www.xcore.com/projects/amino
-      title: Amino
-    - uri:   http://blog.folknology.com/
-      title: Alan Wood / Folknology Labs
-    - uri:   http://xcore.com/groups/opensource-group
-      title: XCore Exchange Open Source Group
-    - uri:   http://osmosoft.com
-      title: Osmosoft

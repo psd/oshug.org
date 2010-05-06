@@ -21,7 +21,14 @@
 [% LAST %]
 [% END -%]
 		</div>
-		<hr>
+		<div id="events">
+		<h2>Previous Events</h2>
+		<p>
+[% FOREACH event IN events -%]
+		<i><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %]</a></i>
+[% END -%]
+		</p>
+		</div>
 		<div id="open-hardware">
 		<h2>Open Source Hardware</h2>
 		<p>

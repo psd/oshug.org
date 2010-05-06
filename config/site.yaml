@@ -29,6 +29,7 @@ locations:
 # one line per-event
 released:
     - 1
+    - 2
 
 feeds:
     - atom
