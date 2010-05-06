@@ -1,0 +1,53 @@
+---
+number:      2
+title:       Open Hardware Licensing and Models for Sustainability
+description: |
+            For our second meeting we've presentations from <a href="http://twitter.com/andrewjskatz">Andrew Katz</a> on licensing 
+            Open Source Hardware projects and a representitive from <a href="http://payitforwardprinting.com/">Pay It Forward</a> on
+            Altruistic 3D printing using <a href="http://reprap.org">RepRap</a>.
+
+sessions: |
+            <h2 id='Licensing'>Free and open source software is mainstream. Free and open hardware isn't.</h2>
+            <p>Andrew is increasingly involved in open hardware, and considers what, 
+            if anything, is different about hardware which makes open projects a challenge, 
+            and whether it is possible to construct a licence, like the GPL, 
+            which has a copyleft element applicable to hardware.
+            </p>
+            <p id='AndrewKatz'>
+            <a href="http://twitter.com/andrewjskatz">Andrew Katz</a> is a partner at <a href="www.moorcrofts.com">Moorcrofts LLP</a>, 
+            a boutique law firm in England's Thames Valley and advises a wide range of businesses on free 
+            and open source related issues. He has lectured and published widely on the subject and is 
+            a founder editor of the International Free and Open Source Software Law Review. 
+            Before becoming a solicitor, he trained as a barrister, and moonlighted as a 
+            programmer during his studies at Bar School, programming in Turbo Pascal. 
+            He has released software under the GPL.
+            </p>
+            <h2 id='http://payitforwardprinting.com'>Pay It Forward — Alturistic 3D Printing</h2>
+            <p>A movement to bootstrap the <a href="http://www.thingiverse.com/">thingiverse</a>
+            using <a href="http://reprap.org/wiki/RepStrap">RepStrap</a> machines to 
+            print parts to help other people get started with <a href="http://reprap.org">RepRap</a> machines.
+            </p>
+
+
+dtstart:     2010-05-27T18:00:00Z
+dtend:       2010-05-27T20:00:00Z
+date:        27th May 2010
+pubdate:     Thu, 28 May 2010 18:00:00 BST
+location:    Osmosoft
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://eventbright.com
+upcoming: http://upcoming.yahoo.com/
+
+hashtag: #oshug
+
+tags:
+    - oshug
+    - OpenSource
+    - hardware
+    - RepRap
+    - GPL
+    - licensing
+    - 3Dprinting
+    - osmosoft
+    - electronics
