@@ -8,7 +8,7 @@ description: |
             and <a href="http://twitter.com/folknology">Alan Wood</a> of <a href="http://twitter.com/folknology">Folknology Labs</a>.
 
 sessions: |
-            <h2 id='XMOS'>XMOS</h2>
+            <h3 id='XMOS'>XMOS</h3>
             <p>XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
             DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
             However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
@@ -19,7 +19,7 @@ sessions: |
             As co-founder and chief technical officer of <a href="http://www.xmos.com/">XMOS Semiconductor</a>, he will be presenting an introduction to the 
             <a href="http://en.wikipedia.org/wiki/XCore_XS1">XCore XS1 microprocessor architecture</a> and 
             the associated development environment.</p>
-            <h2 id='Amino'>Amino</h2>
+            <h3 id='Amino'>Amino</h3>
             <p id="Amino"><a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
             is a networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
             line between software and hardware, and Amino uses this technology to further blur the line between prototyping and production. 
@@ -44,8 +44,6 @@ isoduration: P0Y0M0DT02H00M00S
 generator:   vi
 registration: http://oshugxmos.eventbright.com
 upcoming: http://upcoming.yahoo.com/event/5654428/gb/London/OSHUG-1-An-Introduction-to-XCore-XS1-amp-Amino/Osmosoft-Towers-Room-404/
-
-hashtag: #oshug
 
 tags:
     - oshug

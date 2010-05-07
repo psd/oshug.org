@@ -1,20 +1,64 @@
+/*
+ *  Prefix font, freely licensed by Tom Murphy
+ *  http://fonts.tom7.com/fonts93.html
+ */
+@font-face {
+	font-family: Prefix;
+	src: url("prefix.eot");	/* converted for IE */
+}
+@font-face {
+	font-family: Prefix;
+	src: url("prefix.ttf");
+}
+
 body {
 	background-color: #fff;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 	margin: 0;
 	padding: 0;
 }
 
-#title {
-	background-color: #302626;
+h1 {
+	font-family: Prefix, Sans-Serif;
+	font-size: 6em;
+	text-align: left;
+	margin: 0.5em 0 0.5em 0;
+}
+
+h2, h3 {
+	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
+	font-size: 3em;
 	margin: 0;
-	padding: 1em;
+	color: #302626;
+	padding: 0.75em 0 0.25em 0;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+#title h2 {
+	color: #302626;
+	font-size: 1em;
+	font-style: italic;
+}
+
+#title {
+	margin: 0;
+	padding: 0 0 2em 12em;
+}
+
+h2 a,
+h2 a:active,
+h2 a:visited {
+	color: #302626;
+	text-decoration: none;
 }
 
 #title a,
 #title a:active,
 #title a:visited {
-	color: white; 
+	color: #201616;
 	text-decoration: none;
 }
 
@@ -25,30 +69,15 @@ body {
 }
 
 #content {
-	padding: 1em 10em;
+	padding: 1em 12em 4em 12em;
 }
 
 #footer {
 	background-color: #302626;
 	color: #fff;
-	margin: 0;
+	margin: 2em 0 0 0;
 	padding: 1em;
 	font-size: 0.8em;
 	text-align: center;
 }
 
-h1 {
-	text-align: center;
-	color: #fff;
-	font: bold 1.8em Helvetica, Arial, Sans-Serif;
-	text-shadow: 1px 1px #f52, 2px 2px #f52, 3px 3px #f52;
-	-webkit-transition: all 0.12s ease-out;
-	-moz-transition: all 0.12s ease-out;
-	-o-transition: all 0.12s ease-out;
-}
-
-h2 {
-	font: bold 1.4em Helvetica, Arial, Sans-Serif;
-	margin: 0 0 3px 0;
-	color: #302626;
-}

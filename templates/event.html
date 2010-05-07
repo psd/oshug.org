@@ -21,22 +21,6 @@
 	[% PROCESS title.html -%]
     <div id='content'>
 [% PROCESS item.html -%]
-				<p class="hashtag">Event hashtag:
-[% FOREACH hashtag IN event.hashtag -%]
-					<a href="http://search.twitter.com/search?q=[% hashtag %]" rel="hashtag">[% hashtag %]</a>
-				</p>
-[% END -%]
-				<p class="tagged">Tagged with 
-[% FOREACH tag IN event.tags -%]
-					<a rel="tag" href="http://delicious.com/tag/[% tag FILTER remove('\s+') FILTER lower %]">[% tag %]</a>
-[% END -%]
-				</p>
-				<p>Useful links:</p>
-				<ul class="links">
-[% FOREACH link IN event.links -%]
-					<li><a href="[% link.uri %]">[% link.title %]</a></li>
-[% END -%]
-				</ul>
 	</div>
 [% PROCESS footer.html -%]
 </body>

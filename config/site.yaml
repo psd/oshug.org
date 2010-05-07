@@ -26,11 +26,6 @@ locations:
         latitude:  51.498325
         longitude: -0.134347
 
-# one line per-event
-released:
-    - 1
-    - 2
-
 feeds:
     - atom
 
@@ -54,4 +49,9 @@ media:
     jsonp:
         title: JSONP
         type: application/javascript
+
+# one line per-event
+released:
+    - 1
+    - 2
 
