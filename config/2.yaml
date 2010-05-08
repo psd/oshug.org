@@ -8,7 +8,8 @@ description: |
 
 sessions: |
             <h3 id='Licensing'>Free and open source software is mainstream. Free and open hardware isn't.</h3>
-            <p>Andrew is increasingly involved in open hardware, and considers what, 
+            <p>
+            Andrew is increasingly involved in open hardware, and considers what, 
             if anything, is different about hardware which makes open projects a challenge, 
             and whether it is possible to construct a licence, like the GPL, 
             which has a copyleft element applicable to hardware.

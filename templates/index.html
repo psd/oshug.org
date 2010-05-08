@@ -14,21 +14,16 @@
 <body>
 	[% PROCESS title.html -%]
 	<div id='content'>
-		<div id="forthcoming">
-[% FOREACH event IN events.reverse -%]
-[% PROCESS abstract.html -%] 
-		<p><i><a href="event/[% event.number %]">More details, including how to register for this event..</a></i>
-[% LAST %]
-[% END -%]
-		</div>
 		<div id="events">
-		<h2>Previous Events</h2>
-		<p>
-[% FOREACH event IN events -%]
-		<i><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %]</a></i>
+		<h2>Events</h2>
+		<ul>
+[% FOREACH event IN events.reverse -%]
+		<li><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %]</a>
+		</li>
 [% END -%]
-		</p>
+		</ul>
 		</div>
+
 		<div id="open-hardware">
 		<h2>Open Source Hardware</h2>
 		<p>

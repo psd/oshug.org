@@ -22,6 +22,9 @@
     <div id='content'>
 [% PROCESS item.html -%]
 	</div>
+	<div id="flickr"></div>
 [% PROCESS footer.html -%]
+	<script type="text/javascript" src="flickr.js"></script>
+	<script type="text/javascript">flickr('flickr', { 'page':1, 'per_page':20, 'tags':'oshug:event=1' });</script>
 </body>
 </html>

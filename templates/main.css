@@ -1,16 +1,3 @@
-/*
- *  Prefix font, freely licensed by Tom Murphy
- *  http://fonts.tom7.com/fonts93.html
- */
-@font-face {
-	font-family: Prefix;
-	src: url("prefix.eot");	/* converted for IE */
-}
-@font-face {
-	font-family: Prefix;
-	src: url("prefix.ttf");
-}
-
 body {
 	background-color: #fff;
 	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
@@ -18,15 +5,25 @@ body {
 	padding: 0;
 }
 
+#title {
+	margin: 0 5em 2em 12em;
+}
+
+#title img {
+	float: right;
+	margin-top: -180px;
+}
+
+h1, h2, h3 {
+	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
+}
+
 h1 {
-	font-family: Prefix, Sans-Serif;
-	font-size: 6em;
-	text-align: left;
-	margin: 0.5em 0 0.5em 0;
+	margin: 3em 0 0;
+	font-size: 3em;
 }
 
 h2, h3 {
-	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 	font-size: 3em;
 	margin: 0;
 	color: #302626;
@@ -37,15 +34,12 @@ h3 {
 	font-size: 2em;
 }
 
+
+
 #title h2 {
 	color: #302626;
 	font-size: 1em;
 	font-style: italic;
-}
-
-#title {
-	margin: 0;
-	padding: 0 0 2em 12em;
 }
 
 h2 a,
@@ -58,7 +52,7 @@ h2 a:visited {
 #title a,
 #title a:active,
 #title a:visited {
-	color: #201616;
+	color: #302626;
 	text-decoration: none;
 }
 
