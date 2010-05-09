@@ -71,6 +71,14 @@ h2 a:visited {
 	padding: 1em 12em 4em 12em;
 }
 
+#flickr {
+	padding-top: 3em;
+}
+
+.tag {
+	font-family: fixed;
+}
+
 #footer {
 	background-color: #302626;
 	color: #fff;
@@ -80,3 +88,26 @@ h2 a:visited {
 	text-align: center;
 }
 
+#flickr {
+	margin: 0 auto;
+}
+
+#flickr a { 
+	float: left;
+	padding: 4px;
+	background: #ccc;
+	margin: 10px;
+}
+
+#flickr a:hover { 
+	background: #66ccff; 
+}
+
+#flickr a img {
+	border: 0;
+}
+
+#upload {
+	clear: both;
+	padding: 1em 0;
+}

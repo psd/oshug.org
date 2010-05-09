@@ -1,6 +1,6 @@
 ---
 number:      1
-title:       An introduction to XCore XS1 and Amino
+title:       An introduction to the XMOS XCore XS1 and Amino
 description: |
             For the inaugural event we are fortunate to have presentations from 
             <a href="http://en.wikipedia.org/wiki/David_May_(computer_scientist)">Prof. David May</a> FRS, 
@@ -8,8 +8,8 @@ description: |
             and <a href="http://twitter.com/folknology">Alan Wood</a> of <a href="http://twitter.com/folknology">Folknology Labs</a>.
 
 sessions: |
-            <h3 id='XMOS'>XMOS</h3>
-            <p>XMOS is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
+            <h3 id='XMOS'>XMOS XCore XS1</h3>
+            <p><a href="http://www.xmos.com">XMOS</a> is a fabless semiconductor company that develops multi-core multi-threaded processors designed to execute several real-time tasks,
             DSP, and control flow all at once. XMOS coined the term software-defined silicon, and this can be seen as midway between FPGA and MCU. 
             However, unlike an FPGA there is no requirement for a complex HDL toolchain, and C and C++ can be employed in development, 
             with XMOS extensions to C for concurrency (XC).</p>
