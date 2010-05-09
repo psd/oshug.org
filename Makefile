@@ -7,7 +7,7 @@ SCRIPTS=\
 	$(BAKE)
 
 # no dependencies, always runs ..
-all::	site site/images site/styles site/images/oshug.png
+all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf
 	$(BAKE)
 
 site:
@@ -21,6 +21,9 @@ site/images:
 
 site/images/oshug.png:
 	ln images/oshug.png site/images/oshug.png
+
+site/images/oshug.pdf:
+	ln images/oshug.pdf site/images/oshug.pdf
 
 deploy:	all
 	cd site && rsync -avz -e ssh .htaccess * ${OSHUG_HOST}:${OSHUG_DIR}
