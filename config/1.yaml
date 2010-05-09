@@ -37,6 +37,8 @@ sessions: |
 
 dtstart:     2010-04-29T18:00:00Z
 dtend:       2010-04-29T20:00:00Z
+start:       18:00
+end:         20:00
 date:        29th April 2010
 pubdate:     Thu, 29 Apr 2010 18:00:00 BST
 location:    Osmosoft

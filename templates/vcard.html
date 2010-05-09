@@ -1,5 +1,6 @@
 			<p class='vcard'>
-				On the <abbr class="dtstart" title="[% event.dtstart %]">[% event.date %]</abbr> at
+				On the <abbr class="dtstart" title="[% event.dtstart %]">[% event.date %]</abbr>,
+				<abbr class="dtend" title="[% event.dtend %]">[% event.start %] - [% event.end %]</abbr> at
 				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
 				<span class='adr geo'>
 					<span class="street-address">[% locations.${event.location}.street %]</span>,

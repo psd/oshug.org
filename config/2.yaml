@@ -34,6 +34,8 @@ sessions: |
 date:        27th May 2010
 dtstart:     2010-05-27T18:00:00Z
 dtend:       2010-05-27T20:00:00Z
+start:       18:00
+end:         20:00
 pubdate:     Thu, 28 May 2010 18:00:00 BST
 location:    Osmosoft
 isoduration: P0Y0M0DT02H00M00S
