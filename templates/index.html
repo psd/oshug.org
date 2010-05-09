@@ -7,22 +7,22 @@
 	<meta name="keywords" content="[% keywords %]">
 	<link rel="canonical" href="[% uri %]">
 [% FOREACH m IN media -%]
-    <link rel="alternate" type="[% m.value.type %]" title="[% m.value.title %]" href="[% m.key %]">
+	<link rel="alternate" type="[% m.value.type %]" title="[% m.value.title %]" href="[% m.key %]">
 [% END -%]
 	<link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" charset="utf-8">
 </head>
 <body>
 	[% PROCESS title.html -%]
-	<div id='content'>
+	<div id="content">
 		[% introduction %]
 		<p>Events:</p>
-		<ul id='events'>
+		<ul id="events">
 [% FOREACH event IN events.reverse -%]
-		<li><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %] &mdash [% event.title %]</a>
+		<li><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %] &mdash; [% event.title %]</a>
 		</li>
 [% END -%]
 		</ul>
-    </div>
+	</div>
 [% PROCESS footer.html -%]
 </body>
 </html>

@@ -1,4 +1,4 @@
-Notes on the site, becaue we'll no doubt forget all of this ..
+Notes on the site, because we'll no doubt forget all of this...
 
 The site directory is the website, and contains two kinds of source files:
 
@@ -19,9 +19,9 @@ To build and deploy the site, make sure your local copy is fresh:
 
 Make local changes to the yaml or templates, then build the site:
 
-	make
+    $ make
 
-Test the site in your browser, 
+Test the site in your browser,
 
 Then commit everything including the generated target files:
 
@@ -29,6 +29,6 @@ Then commit everything including the generated target files:
 
 Deployment is a matter of running:
 
-	make deploy
+    $ make deploy
 
-Which ssh's to the site and checks out the top copy from github
+Which ssh's to the site and checks out the top copy from GitHub
