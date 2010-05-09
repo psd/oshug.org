@@ -6,12 +6,17 @@ body {
 }
 
 #title {
-	margin: 0 5em 5em 12em;
+	margin: 0 2em 5em 12em;
+	float: left;
 }
 
-#title img {
+img.logo {
 	float: right;
-	margin-top: -180px;
+	padding: 2.5em 2em 0 0;
+}
+
+#content {
+	clear: both;
 }
 
 h1, h2, h3 {

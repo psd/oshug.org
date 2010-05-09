@@ -9,6 +9,15 @@ license:
     title:   Creative Commons License
     uri:     http://creativecommons.org/licenses/by/3.0/
 
+introduction: |
+    <p>
+    A small group of people with a shared interest in 
+    <a href="http://en.wikipedia.org/wiki/Open-source_hardware">Open Source Hardware</a>, 
+    we hold regular meetings in and around London.
+    We welcome suggestions for topics and speakers for future events 
+    on the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">discussion list</a>.
+    </p>
+
 tags:
     - open-source
     - hardware
@@ -54,4 +63,3 @@ media:
 released:
     - 1
     - 2
-

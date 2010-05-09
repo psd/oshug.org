@@ -14,13 +14,7 @@
 <body>
 	[% PROCESS title.html -%]
 	<div id='content'>
-		<p>
-        A small group of people with a shared interest in 
-		<a href="http://en.wikipedia.org/wiki/Open-source_hardware">Open Source Hardware</a>, 
-		we hold regular meetings in and around London.
-		We welcome suggestions topics and speakers for future events 
-		on the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">discussion list</a>.
-		</p>
+		[% introduction %]
 		<p>Events:</p>
 		<ul id='events'>
 [% FOREACH event IN events.reverse -%]
