@@ -16,9 +16,10 @@
 	<div id="content">
 		[% introduction %]
 		<p>Events:</p>
-		<ul id="events">
+		<ol id="events">
 [% FOREACH event IN events.reverse -%]
-		<li><a href="event/[% event.number %]" title="[% event.title %]">#[% event.number %] &mdash; [% event.title %]</a>
+		<li value="[% event.number %]">
+			<a href="event/[% event.number %]" title="[% event.title %]">[% event.title %]</a>
 		</li>
 [% END -%]
 		</ul>
