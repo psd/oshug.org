@@ -89,7 +89,7 @@ mkdir("$outdir/event");
     foreach my $event (@{$site->{events}}) {
         my $n = $event->{number};
         saveAs("event/$n.json", $json->pretty->encode($event));
-        saveAs("event/$n.xml", $xml->XMLout($event, RootName => 'event'));
+        #saveAs("event/$n.xml", $xml->XMLout($event, RootName => 'event'));
     }
 }
 

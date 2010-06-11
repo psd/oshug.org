@@ -19,6 +19,7 @@ sessions: |
             As co-founder and chief technical officer of <a href="http://www.xmos.com/">XMOS Semiconductor</a>, he will be presenting an introduction to the 
             <a href="http://en.wikipedia.org/wiki/XCore_XS1">XCore XS1 microprocessor architecture</a> and 
             the associated development environment.</p>
+            <object width="400" height="300"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=11624968&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=11624968&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/11624968">Open Source Hardware User Group - Prof. David May, XMOS</a> from <a href="http://vimeo.com/mattlucht">Matt Lucht</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
             <h3 id='Amino'>Amino</h3>
             <p id="Amino"><a href="http://www.xcore.com/projects/amino">Amino</a> (<a href="http://blog.folknology.com/">Folknology Labs</a>)
             is a networked creator tool for hardware and software production. XMOS software-defined silicon technology serves to blur the 
