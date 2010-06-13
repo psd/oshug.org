@@ -1,0 +1,68 @@
+---
+number:      3
+title:       Arduino: An Open Hardware Success Story
+description: |
+            For the third meeting we'll be asking the question "what factors contribute to the success of an open source hardware project?", 
+            and using <a href="http://www.arduino.cc/">Arduino</a> and derivatives LilyPad Arduino and the concurrency.cc board as 
+            the basis for an informal case study
+
+sessions: |
+            <h3>Running an Arduino business</h3>
+            <p><i>Speaker and abstract to be confirmed</i></p>
+            <h3>Concurrency.cc - parallel programming for makers and artists</h3>
+            <p id="concurrencycc">The <a title="concurrency.cc" href="http://concurrency.cc/">concurrency.cc</A> project describes itself as 
+            "a group of educators and researchers exploring the development of tools that make parallel programming more 
+            accessible to more people. Our hope is that concurrency.cc will serve the community of developers surrounding parallel 
+            and concurrent languages on the Arduino and other low-cost embedded platforms."
+            </p>
+            <p id="AdamSampson"><a title="Adam Sampson" hreF="http://offog.org/">Adam Sampson</A> is a research associate in 
+            the field of concurrent programming and complex systems simulation at the University of Kent.  
+            He has enjoyed electronics as a hobby ever since being told off for dismantling the family vacuum cleaner as a small child.
+            </p>
+            <p id="OmerKilic"><a title="Omer Kilic" href="http://omer.kilic.name/">Omer Kilic</a> 
+            (<a title="Omer Kilic (Twitter)" href="http://twitter.com/omerk">twitter</A>) is a research student at the University of Kent 
+            working on dynamically reconfigurable architectures and embedded systems.  
+            He is passionate about the open-source hardware movement and likes tinkering, 
+            so much so that he founded <A TITLE="TinkerSoc" HREF="http://tinkersoc.org">TinkerSoc</A>, The University of Kent Tinkering Society
+            </p>
+            <h3>LilyPad - an Arduino based platform for wearables and e-textiles</h3>
+            <p id="LilyPad">The <A TITLE="LilyPad Arduino" HREF="http://web.media.mit.edu/~leah/LilyPad/index.html">LilyPad Arduino</A> 
+            is a microcontroller, plus a set of sewable electronic components designed so they can be put together to create interactive wearables 
+            or textiles based artworks. There is quite a range of components such as LEDS, sensors, buzzer, accelerometer and more 
+            that can be connected with conductive thread. The board is based on the ATmega168V/328Vand was designed and developed by Leah Buechley 
+            and SparkFun Electronics.
+            </p>
+            <p id="RainAshford">
+            <A TITLE="Rain Ashford" HREF="http://rainycatz.wordpress.com/">Rain Ashford</A> (<A TITLE="Rain Ashford (twitter)" HREF="http://twitter.com/rainycat">twitter</A>) 
+            is Senior Producer at BBC Learning where she is presently across the BBC's Media Literacy supertopic portal. 
+            During her 10 years at the BBC she has developed and produced many of the BBC's high priority sites and online activities. 
+            Passionate about technology, she recently started a Women in Technology network for her colleagues to discuss careers, 
+            training, raising their profile and encouraging women to look at careers in tech. 
+            She previously worked for BBC R&D as a Technologist where she worked on the 
+            groundbreaking R&amp;DTV project and the BBC's developer network, BBC Backstage, 
+            she's a hardware hacker, coder, artist, gamer and blogger.
+            </p>
+
+
+
+date:        1st July 2010
+dtstart:     2010-07-01T18:00:00Z
+dtend:       2010-07-01T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Fri, 11 Jun 2010 09:31:25 BST
+location:    Osmosoft
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugsuccess.eventbrite.com/
+upcoming:     http://upcoming.yahoo.com/event/6531789
+
+tags:
+    - oshug
+    - OpenSource
+    - hardware
+    - Arduino
+    - concurency.cc
+    - LilyPad
+    - osmosoft
+    - electronics
