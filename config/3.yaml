@@ -1,14 +1,21 @@
 ---
 number:      3
-title:       Arduino: An Open Hardware Success Story
+title:       Arduino: An Open Source Hardware Success Story
 description: |
             For the third meeting we'll be asking the question "what factors contribute to the success of an open source hardware project?", 
             and using <a href="http://www.arduino.cc/">Arduino</a> and derivatives LilyPad Arduino and the concurrency.cc board as 
             the basis for an informal case study
 
 sessions: |
-            <h3>Running an Arduino business</h3>
-            <p><i>Speaker and abstract to be confirmed</i></p>
+            <h3>Current Cost Bridge - an Arduino based, hackable consumer device</h3>
+            <p id="currentcostbridge">The <a title="The Current Cost Bridge" href="http://www.currentcost.com/product-bridge.html">Current Cost Bridge</a> was developed using the open-source Arduino
+platform.  The reason for using Arduino, was to speed up the development
+process of the bridge, allowing for fast prototyping and producing a
+hackable device</p>
+            <p id="ChrisDalby"><a title="Chris Dalby" href="http://www.yellowpark.net/cdalby/">Chris Dalby</a> (<a title="Chris Dalby (Twitter)" href="http://twitter.com/yellowpark">twitter</a>) is Lead Software Developer at Current Cost Ltd with over 10
+years experience in software development and network infrastructure.  Chris
+joined Current Cost in December 2010 to develop desktop and web based
+software for the Current Cost monitor range.</p>
             <h3>Concurrency.cc - parallel programming for makers and artists</h3>
             <p id="concurrencycc">The <a title="concurrency.cc" href="http://concurrency.cc/">concurrency.cc</A> project describes itself as 
             "a group of educators and researchers exploring the development of tools that make parallel programming more 
@@ -66,3 +73,4 @@ tags:
     - LilyPad
     - osmosoft
     - electronics
+    - CurrentCost
