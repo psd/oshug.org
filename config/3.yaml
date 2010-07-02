@@ -16,6 +16,7 @@ sessions: |
             years experience in software development and network infrastructure.  Chris
             joined Current Cost in December 2009 to develop desktop and web based
             software for the Current Cost monitor range.</p>
+            <object width="400" height="300"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=13030285&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=13030285&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/13030285">Chris Dalby and Paul Downey talking about the Current Cost Bridge</a> from <a href="http://vimeo.com/mattlucht">Matt Lucht</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
             <h3>Concurrency.cc - parallel programming for makers and artists</h3>
             <p id="concurrencycc">The <a title="concurrency.cc" href="http://concurrency.cc/">concurrency.cc</A> project describes itself as 
             "a group of educators and researchers exploring the development of tools that make parallel programming more 
@@ -32,6 +33,9 @@ sessions: |
             He is passionate about the open-source hardware movement and likes tinkering, 
             so much so that he founded <A TITLE="TinkerSoc" HREF="http://tinkersoc.org">TinkerSoc</A>, The University of Kent Tinkering Society
             </p>
+            <object type="application/x-shockwave-flash" width="400" height="225" data="http://www.flickr.com/apps/video/stewart.swf?v=71377" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&photo_secret=7978426252&photo_id=4751783255"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=71377"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=71377" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&photo_secret=7978426252&photo_id=4751783255" height="225" width="400"></embed></object>
+            <p><a href="http://www.flickr.com/photos/psd/4751783255/">Adam Sampson demonstrates a pair of concurrencyCC devices running an Occam driven LED display</a> from <a href="http://flicker.com/photos/psd">Paul Downey</a> on <a href="http://flickr.com">flickr</a></p>
+            <object width="400" height="300"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=13030643&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=13030643&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/13030643">Adam Sampson and Omer Kilic talking with Dj Walker-Morgan after #oshug</a> from <a href="http://vimeo.com/mattlucht">Matt Lucht</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
             <h3>LilyPad - an Arduino based platform for wearables and e-textiles</h3>
             <p id="LilyPad">The <A TITLE="LilyPad Arduino" HREF="http://web.media.mit.edu/~leah/LilyPad/index.html">LilyPad Arduino</A> 
             is a microcontroller, plus a set of sewable electronic components designed so they can be put together to create interactive wearables 
@@ -49,7 +53,7 @@ sessions: |
             groundbreaking R&amp;DTV project and the BBC's developer network, BBC Backstage, 
             she's a hardware hacker, coder, artist, gamer and blogger.
             </p>
-
+            <object width="400" height="300"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=13030141&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=13030141&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/13030141">Rain Ashford talking about Arduino and open source hardware</a> from <a href="http://vimeo.com/mattlucht">Matt Lucht</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 
 
 date:        1st July 2010

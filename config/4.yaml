@@ -1,0 +1,25 @@
+---
+number:      4
+title:       To be arranged!
+description: |
+            We welcome suggestions for topics and speakers for our fourth meeting, current possible topics are "radio", "biology" or "journalism" ..
+
+sessions: |
+
+
+date:        23rd Sept 2010
+dtstart:     2010-09-23T18:00:00Z
+dtend:       2010-09-23T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Fri, 2 Jul 2010 09:31:25 BST
+location:    Osmosoft
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://eventbrite.com/
+upcoming:     http://upcoming.yahoo.com
+
+tags:
+    - oshug
+    - OpenSource
+    - hardware
