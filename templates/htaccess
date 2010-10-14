@@ -5,7 +5,6 @@ Header set Access-Control-Allow-Origin "*"
 # this makes me sad ..
 Options -MultiViews
 
-
 [% FOREACH m IN media -%]
 AddType [% m.value.type %] .[% m.key %]
 [% END -%]
@@ -18,7 +17,7 @@ RewriteRule ^[% m.key %]$ /index.[% m.key %] [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(/event/[0-9]+)$ $1.html
+RewriteRule ^(event/[0-9]+)$ $1.html
 
 RewriteRule ^(.*jsonp)$ /jsonp.php [L]
 
