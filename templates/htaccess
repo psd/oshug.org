@@ -2,6 +2,10 @@
 Header set Access-Control-Allow-Origin "*"
 </IfModule>
 
+# this makes me sad ..
+Options -MultiViews
+
+
 [% FOREACH m IN media -%]
 AddType [% m.value.type %] .[% m.key %]
 [% END -%]
