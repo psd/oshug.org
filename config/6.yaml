@@ -1,0 +1,39 @@
+---
+number:     6
+title:       At Home (Tacticalendar, Denkimono Clock)
+description: |
+            Open source principles and methodologies can ....
+
+sessions: |
+            <h3>Tacticalendar</h3>
+            <p id="Tacticalendar"><a title="Tacticalendar" href="http://tacticalendar.co.uk/">Tacticalendar</a> is an open design project for a timeless 4-week-ahead rolling planner. New versions are managed through a <a title="Tacticalendar Issue Tracker" href="http://github.com/cefn/Tacticalendar/issues">github issue-tracker</a>, laser cut from plywood and acrylic, articulated with duct tape, offered at a discount to release candidate testers and finally shared with premium customers. A continually evolving product, it is the first to market from the <a title="Enigmaker.org" href="http://enigmaker.org">Enigmaker.org</a> open prototyping experiment - a two-month project to prototype an invention every week in the public domain. Patent protection has been rejected in favour of a share-alike design and an open innovation community. Near-term feature testing includes Google Calendar synchronization using machine-vision and augmented-reality techniques.</p>
+            <p id="CefnHoile"><a title="Cefn Hoile" href="http://cefn.com/">Cefn Hoile</a> sculpts open source hardware and software, and supports others doing the same. Drawing on ten years of experience in R&D for a multinational technology company, he works as a public domain inventor through <a title="Enigmaker" href="http://enigmaker.org">Enigmaker.org</a>, and an innovation catalyst and architect of bespoke digital installations and prototypes, working most recently with Tinker.it, BT, the BBC, EDF, Nokia. Cefn is a founder-member of the <a title="Curiosity Collective" href="http://curiositycollective.org">CuriosityCollective.org</a> digital arts group, and a regular contributor to open source projects and not-for-profits.</p>
+
+            <h3>Denkimono Clock</h3>
+            <p id="Denkimono">The<a title=Denkimono Clock" href="http://www.denkimono.com/timer/">Denkimono Clock</a>is... </p>
+            <p id="MarkLongstaff-Tyrrell"><a title="Mark Longstaff-Tyrrell" href="http://www.frisnit.com/">Mark Longstaff-Tyrrell</a>...</p>
+
+date:        18th Nov 2010
+dtstart:     2010-11-18T18:00:00Z
+dtend:       2010-11-18T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Sun, 24 Oct 2010 19:00:00 BST
+location:    London Hackspace
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugathome.eventbrite.com/
+upcoming:     http://upcoming.yahoo.com/event/7182024/
+
+tags:
+    - oshug
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - community
+    - enigmaker
+    - denkimono
+    - domestic
+    - clock
+    - planner
+    - osmosoft

@@ -7,14 +7,14 @@ description: |
 sessions: |
             <h3>HPSDR - High Performance Software Defined Radio</h3>
             <p id="HPSDR"><a title="HPSDR" href="http://openhpsdr.org/">HPSDR</a> is an open source (GNU type) hardware and software project intended as the "next generation" software-defined radio for radio amateurs and shortwave listeners. It is being developed by a group of software-defined radio enthusiasts around the world, and in a modular hardware fashion to help promote experimentation by both hardware and software developers.</p>
-            <p id="John Melton"><a title="John Melton" href="http://g0orx.blogspot.com/">John Melton</a> has held an amateur radio license since 1984 when he was first licensed as N6LYT while living and working in California, and he was assigned the UK callsign of G0ORX on moving back to the UK. He became interested in developing open source software in 1990 with the launch of AMSAT Oscar 16, an amateur radio satellite with a store and forward messaging payload. He developed an open source software package to communicate with the satellite that ran on Linux (pre 1.0) and subsequently wrote an open source fully automated satellite ground station software package in Java. John has been a software engineer since 1970 when he was employed by Burroughs Corporation, and for the last 14 years he has worked for Sun Microsystems who were acquired by Oracle this year.</p>
+            <p id="JohnMelton"><a title="John Melton" href="http://g0orx.blogspot.com/">John Melton</a> has held an amateur radio license since 1984 when he was first licensed as N6LYT while living and working in California, and he was assigned the UK callsign of G0ORX on moving back to the UK. He became interested in developing open source software in 1990 with the launch of AMSAT Oscar 16, an amateur radio satellite with a store and forward messaging payload. He developed an open source software package to communicate with the satellite that ran on Linux (pre 1.0) and subsequently wrote an open source fully automated satellite ground station software package in Java. John has been a software engineer since 1970 when he was employed by Burroughs Corporation, and for the last 14 years he has worked for Sun Microsystems who were acquired by Oracle this year.</p>
 
             <h3>Open Discussion - Ideas for Future Meetings</h3>
             <p id="OpenDiscussion"> Themes, speakers, venues - it's all up for grabs! Have your say and help shape future OSHUG meetings. Offer to present, suggest a speaker or sit quietly until it's time to cross the road to the pub...</p>
 
 date:        21st Oct 2010
-dtstart:     2010-09-23T18:00:00Z
-dtend:       2010-09-23T20:00:00Z
+dtstart:     2010-10-21T18:00:00Z
+dtend:       2010-10-21T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Tues, 12 Oct 2010 21:31:25 BST

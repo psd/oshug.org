@@ -35,6 +35,14 @@ locations:
         latitude:  51.498325
         longitude: -0.134347
 
+    London Hackspace:
+        uri:       http://london.hackspace.org.uk/
+        street:    Unit 24, Cremer Business Centre, 37 Cremer Street
+        locality:  London
+        country:   UK
+        latitude:  51.530746
+        longitude: -0.076218
+
 feeds:
     - atom
 
@@ -66,3 +74,4 @@ released:
     - 3
     - 4
     - 5
+    - 6
