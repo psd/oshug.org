@@ -2,7 +2,7 @@
 number:     6
 title:       At Home (Tacticalendar, Denkimono Clock)
 description: |
-            Open source principles and methodologies can ....
+            Open source hardware is not just about catering for niche applications and marginal use cases and many projects are concerned with creating devices for everyday use. For the sixth OSHUG meeting we'll have presentations on two projects targeted at the home and one that doesn't even involve electricity!
 
 sessions: |
             <h3>Tacticalendar</h3>
@@ -10,8 +10,11 @@ sessions: |
             <p id="CefnHoile"><a title="Cefn Hoile" href="http://cefn.com/">Cefn Hoile</a> sculpts open source hardware and software, and supports others doing the same. Drawing on ten years of experience in R&D for a multinational technology company, he works as a public domain inventor through <a title="Enigmaker" href="http://enigmaker.org">Enigmaker.org</a>, and an innovation catalyst and architect of bespoke digital installations and prototypes, working most recently with Tinker.it, BT, the BBC, EDF, Nokia. Cefn is a founder-member of the <a title="Curiosity Collective" href="http://curiositycollective.org">CuriosityCollective.org</a> digital arts group, and a regular contributor to open source projects and not-for-profits.</p>
 
             <h3>Denkimono Clock</h3>
-            <p id="Denkimono">The<a title=Denkimono Clock" href="http://www.denkimono.com/timer/">Denkimono Clock</a>is... </p>
-            <p id="MarkLongstaff-Tyrrell"><a title="Mark Longstaff-Tyrrell" href="http://www.frisnit.com/">Mark Longstaff-Tyrrell</a>...</p>
+            <p id="Denkimono">The<a title=Denkimono Clock" href="http://www.denkimono.com/timer/">Denkimono Clock</a> is a kit to build a countdown timer, fully functional alarm clock and stopwatch, that is not only fun to build but that also provides a practical device for everyday use. This talk will cover the initial design and build as a personal hobby project, to its redesign as a commercial kit and the associated sales, marketing and after-sales service. Initial concerns over open sourcing and how these turned out to be unfounded will also be covered.</p>
+            <p id="MarkLongstaff-Tyrrell"><a title="Mark Longstaff-Tyrrell" href="http://www.frisnit.com/">Mark Longstaff-Tyrrell</a> trained as an electronics engineer and was seduced by the money and glamour of software and began his career writing code for fruit machines in a shed in Wolverhampton. He subsequently progressed to developing for mobile handsets with extendible aerials in the late 90s, and then for stylus driven PDAs and currently develops software for Android devices.</p>
+
+             <h3>Lightning Talks</h3>
+             <p id="LightningTalks">Take the stage for five minutes and tell us all about your open hardware home hacks!</p>
 
 date:        18th Nov 2010
 dtstart:     2010-11-18T18:00:00Z

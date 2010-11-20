@@ -39,6 +39,7 @@ locations:
         uri:       http://london.hackspace.org.uk/
         street:    Unit 24, Cremer Business Centre, 37 Cremer Street
         locality:  London
+        postcode:  E2 8HD
         country:   UK
         latitude:  51.530746
         longitude: -0.076218
