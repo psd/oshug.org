@@ -44,6 +44,16 @@ locations:
         latitude:  51.530746
         longitude: -0.076218
 
+    BBC Digital Media Village:
+        uri:       http://bbc.co.uk/
+        street:    BBC White City Media Centre, Wood Lane
+        locality:  London
+        postcode:  W12 7
+        country:   UK
+        latitude:  51.513889
+        longitude: -0.226667
+
+
 feeds:
     - atom
 
@@ -76,3 +86,4 @@ released:
     - 4
     - 5
     - 6
+    - 7
