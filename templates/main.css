@@ -17,6 +17,7 @@ img.logo {
 
 #content {
 	clear: both;
+	max-width: 90em;
 }
 
 h1, h2, h3 {
