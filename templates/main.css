@@ -111,7 +111,7 @@ h2 a:visited {
 	padding: 1em 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	#title,
 	#content,
 	#footer {
