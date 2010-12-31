@@ -110,3 +110,18 @@ h2 a:visited {
 	clear: both;
 	padding: 1em 0;
 }
+
+@media screen and (max-width: 600px) {
+	#title,
+	#content,
+	#footer {
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 1em;
+	}
+	img.logo {
+		width: 33%;
+		float: right;
+	}
+}
