@@ -1,0 +1,31 @@
+---
+number:     7
+title:      Open Learning at the BBC
+description: |
+            TBA ..
+
+sessions: |
+            
+
+date:        10th Feb 2011
+dtstart:     2011-02-10:00:00Z
+dtend:       2011-02-10:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 13 Dec 2010 17:00:00 BST
+location:    BBC Media Village
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://eventbrite.com/
+upcoming:     http://upcoming.yahoo.com/
+lanyrd:       http://lanyrd.com/
+
+tags:
+    - oshug
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - community
+    - domestic
+    - osmosoft
+    - BBC
