@@ -2,20 +2,20 @@
 number:     7
 title:      Open Learning (BBC, Tinker London)
 description: |
-            TBA ..
+            Hosted by <a href="http://backstage.bbc.co.uk/openlab/">BBC Open Learning</a>.
 
 sessions: |
             <h3>The BBC Computer Literacy Project</h3>
             <p id="ComputerLiteracy">Why did the BBC embark on one of its most ambitious projects - the Computer Literacy Project - in 1982? What was the scene like then and how successful was the enterprise. What technical issues were involved? 85% of schools used BBC Micros and millions were sold, along with best selling books and software, including 'telesoftware'. What is the legacy - if at all? How did the work then benefit BBC technology now?</p>
-            <p id="DavidAllen">After being Head of Science at Beaumont and Stonyhurst Colleges, David Allen joined the BBC in 1969 as an Assistant producer/director. He became producer and then executive producer of a range of programmes. As a programme maker, he was series editor of the BBC Computer Literacy Project 1982-1986 and intimately connected with the creation of the BBC Microcomputer. He received seven awards (including the New York Film Festival, Sony Innovation awards, RTS Judges Award and Times Technology Programme of the Year two years running. With BBC R&D helped evolve radio cameras and virtual studio production. When David retired he was executive producer in Production Modernisation. He is currently making documentaries for BBC R&D and for Historic Royal Palaces.</p>
+            <p id="DavidAllen" class="vcard">After being Head of Science at Beaumont and Stonyhurst Colleges, <a href="http://en.wikipedia.org/wiki/David_Allen_(television_producer)" class="fn url">David Allen</a> joined the BBC in 1969 as an Assistant producer/director. He became producer and then executive producer of a range of programmes. As a programme maker, he was series editor of the BBC Computer Literacy Project 1982-1986 and intimately connected with the creation of the BBC Microcomputer. He received seven awards (including the New York Film Festival, Sony Innovation awards, RTS Judges Award and Times Technology Programme of the Year two years running. With BBC R&D helped evolve radio cameras and virtual studio production. When David retired he was executive producer in Production Modernisation. He is currently making documentaries for BBC R&D and for Historic Royal Palaces.</p>
 
             <h3>The BBC Domesday Project - If I could Do it All Over Again</h3>
             <p id="Domesday">The BBC Domesday Project was an interactive media production made as part of celebrations of the 900th anniversary of William the Conqueror's Domesday Book of 1086. It was a technical triumph, combining digital data with analogue pictures, video and sound with an innovative user interface running on an 8-bit BBC Microcomputer controlling a state-of-the-art laser videodisc. 25 years later it has still not been possible to republish something that over a million people helped to make, and despite sometime heroic reclamation and preservation, it is still virtually impossible to access the original software. Andy Finney was one of the project founders and he produced some of the material in the project. He will explain the origins and technical background to the Domesday discs in the context of both it 1980s origins and how much of what it pioneered has since become commonplace.</p>
-            <p id="AndyFinney">Andy Finney started in radio and moved into television, video and interactive video within the BBC over a 21 year career. Since leaving he has concentrated on web-based technologies including databases, these days with a lean towards digital television reception. He worked with the then Public Record Office and the BBC to help preserve the audio-visual content of the Domesday discs and still keeps a fatherly eye out for re-publication.</p>
+            <p id="AndyFinney" class="vcard"><a href="http://www.atsf.co.uk/ilight/" class="fn url">Andy Finney</a> started in radio and moved into television, video and interactive video within the BBC over a 21 year career. Since leaving he has concentrated on web-based technologies including databases, these days with a lean towards digital television reception. He worked with the then Public Record Office and the BBC to help preserve the audio-visual content of the Domesday discs and still keeps a fatherly eye out for re-publication.</p>
 
             <h3>Standing on the Shoulders of Hackers</h3>
             <p id="StandingHackers">Learning is an intrinsic aspect of open source projects. Practices such as documenting and sharing work, following one’s own interests, and ad hoc organizing open up - and complicate - opportunities for learning and teaching, especially in informal and semi-formal contexts. Drawing on his experiences teaching Arduino workshops, Daniel will talk about how both the hardware and open-source aspects of OSH affect processes and tools for learning and teaching.</p>
-            <p id="DanielSoltis">Daniel Soltis is an interaction designer specializing in physical interfaces, play and games, and the rough edges where engineering, design, art, and learning meet. He has been working with <a title="Tinker London" href="http://www.tinkerlondon.com">Tinker London</a> since 2008, studied physical computing and game design at <a title="NYU Interactive Telecommunications Program" href="http://itp.nyu.edu">NYU’s Interactive Telecommunications Program</a>, and in prior life had various adventures in math and physics, teaching, editing, and medical writing. He has taught Arduino, Processing, and rapid prototyping for events and institutions including Thinking Digital, CIID, the V&A, and dConstruct, and has spoken about games and hardware at events including SXSW, the SIGGRAPH Video Game Symposium, Playful, and Open Hardware Camp.</p>
+            <p id="DanielSoltis" class="vcard"><a href="http://www.danielsoltis.com/" class="fn url">Daniel Soltis</a> is an interaction designer specializing in physical interfaces, play and games, and the rough edges where engineering, design, art, and learning meet. He has been working with <a title="Tinker London" href="http://www.tinkerlondon.com">Tinker London</a> since 2008, studied physical computing and game design at <a title="NYU Interactive Telecommunications Program" href="http://itp.nyu.edu">NYU’s Interactive Telecommunications Program</a>, and in prior life had various adventures in math and physics, teaching, editing, and medical writing. He has taught Arduino, Processing, and rapid prototyping for events and institutions including Thinking Digital, CIID, the V&A, and dConstruct, and has spoken about games and hardware at events including SXSW, the SIGGRAPH Video Game Symposium, Playful, and Open Hardware Camp.</p>
 
 date:        10th Feb 2011
 dtstart:     2011-02-10:T18:00Z
@@ -26,8 +26,9 @@ pubdate:     Mon, 13 Dec 2010 17:00:00 BST
 location:    BBC Media Centre
 isoduration: P0Y0M0DT02H30M00S
 generator:   vi
-registration: http://eventbrite.com/
-upcoming:     http://upcoming.yahoo.com/
+registration: 
+eventbrite:
+upcoming:     foo
 lanyrd:       http://lanyrd.com/2011/oshug7/
 
 tags:
