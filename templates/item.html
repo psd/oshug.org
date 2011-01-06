@@ -1,11 +1,18 @@
 	<div class='vevent'>
 			<h2><a class='entry-title summary' rel='bookmark' href='/event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></h2>
 			[% PROCESS vcard.html %]
-			<p class=registration">Please register to attend via 
-[% FOREACH registration IN event.registration -%]
-				<a rel="registration" href="[% event.registration %]">Eventbrite</a> and share on <a href="[% event.upcoming %]">Upcoming</a> and <a href="[% event.lanyrd %]">Lanyrd</a>.
-			</p>
+			<p class=registration">Please register to attend
+[% IF event.registration -%]
+				via <a rel="registration" href="[% event.registration %]">Eventbrite</a> 
+[% ELSE -%]
+				<i>(registation not yet open)</i>
 [% END -%]
+				and share on
+[% IF event.upcoming -%]
+				<a href="[% event.upcoming %]">Upcoming</a> and 
+[% END -%]
+				<a href="[% event.lanyrd %]">Lanyrd</a>.
+			</p>
 			<div class='entry-content'>
 				<p id="abstract">[% event.description %]</p>
 				[% event.sessions %]
