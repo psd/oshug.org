@@ -27,8 +27,8 @@ location:    BBC Media Centre
 isoduration: P0Y0M0DT02H30M00S
 generator:   vi
 registration: 
-eventbrite:
-upcoming:     foo
+eventbrite: 
+upcoming:   
 lanyrd:       http://lanyrd.com/2011/oshug7/
 
 tags:
