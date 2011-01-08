@@ -1,8 +1,12 @@
 ---
 number:     7
-title:      Open Learning (BBC, Tinker London)
+title:      Learning (BBC, Tinker London)
 description: |
-            Hosted by <a href="http://www.bbc.co.uk/learningdevelopment/">BBC Learning Development</a>.
+            <p>The ability to study and improve the design of open source hardware is a core principle and it follows therefore that as a methodology it is well suited to learning environments. Community, collaboration and ecosystem are also central open source hardware, however, ambitious projects that embraced these principles existed long before its advent.</p>
+            <p>At the seventh OSHUG meeting we'll be hearing from ex-BBC employees that were intimately involved in the BBC's Computer Literacy Project, the creation of the <a title=BBC Micro" href="http://en.wikipedia.org/wiki/BBC_Micro">BBC Micro</a> and the <a title="BBC Domesday Project" href="http://en.wikipedia.org/wiki/BBC_Domesday_Project">Domesday</a> project. First hand experiences from that heady time during the 1980s when the UK was at the forefront of microcomputer development will frame the opportunity that faces us once again. Whereas lessons learnt will help us to build on these experiences and to strive to ensure that pitfalls are avoided.</p>
+            <p>We will also be hearing from Tinker London about experiences of teaching open source technologies and how this differs from more traditional approaches to learning.</p>
+
+            <p>Kindly hosted by <a href="http://www.bbc.co.uk/learningdevelopment/">BBC Learning Development</a>.</p>
 
 sessions: |
             <h3>The BBC Computer Literacy Project</h3>
@@ -17,18 +21,20 @@ sessions: |
             <p id="StandingHackers">Learning is an intrinsic aspect of open source projects. Practices such as documenting and sharing work, following one’s own interests, and ad hoc organizing open up - and complicate - opportunities for learning and teaching, especially in informal and semi-formal contexts. Drawing on his experiences teaching Arduino workshops, Daniel will talk about how both the hardware and open-source aspects of OSH affect processes and tools for learning and teaching.</p>
             <p id="DanielSoltis" class="vcard"><a href="http://www.danielsoltis.com/" class="fn url">Daniel Soltis</a> is an interaction designer specializing in physical interfaces, play and games, and the rough edges where engineering, design, art, and learning meet. He has been working with <a title="Tinker London" href="http://www.tinkerlondon.com">Tinker London</a> since 2008, studied physical computing and game design at <a title="NYU Interactive Telecommunications Program" href="http://itp.nyu.edu">NYU’s Interactive Telecommunications Program</a>, and in prior life had various adventures in math and physics, teaching, editing, and medical writing. He has taught Arduino, Processing, and rapid prototyping for events and institutions including Thinking Digital, CIID, the V&A, and dConstruct, and has spoken about games and hardware at events including SXSW, the SIGGRAPH Video Game Symposium, Playful, and Open Hardware Camp.</p>
 
+             <p><b>Note: Please aim to arrive for 18:00 - 18:15 as the event will start at 18:30 prompt. Note also that the venue is the Media Centre at White City and <i>not the main White City building itself!</i> On arrival please report to reception.</b></p>
+
+
 date:        10th Feb 2011
 dtstart:     2011-02-10:T18:00Z
 dtend:       2011-02-10:T20:30Z
 start:       18:00
 end:         20:30
 pubdate:     Mon, 13 Dec 2010 17:00:00 BST
-location:    BBC Media Centre
+location:    BBC White City Media Centre
 isoduration: P0Y0M0DT02H30M00S
 generator:   vi
-registration: 
-eventbrite: 
-upcoming:   
+registration: http://oshuglearning.eventbrite.com/
+upcoming:     http://upcoming.yahoo.com/event/7595882/ 
 lanyrd:       http://lanyrd.com/2011/oshug7/
 
 tags:
