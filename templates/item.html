@@ -1,9 +1,9 @@
 	<div class='vevent'>
 			<h2><a class='entry-title summary' rel='bookmark' href='/event/[% event.number %]'>Event #[% event.number %] &mdash; [% event.title %]</a></h2>
 			[% PROCESS vcard.html %]
-			<p class=registration">Please register to attend
+			<p class=registration">Please 
 [% IF event.registration -%]
-				via <a rel="registration" href="[% event.registration %]">Eventbrite</a> 
+				via <a rel="registration" href="[% event.registration %]">register</a> to attend
 [% ELSE -%]
 				<i>(registation not yet open)</i>
 [% END -%]
