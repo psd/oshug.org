@@ -53,6 +53,14 @@ locations:
         latitude:  51.513359
         longitude: -0.227874
 
+    Skills Matter:
+        uri:       http://skillsmatter.com/
+        street:    116-120 Goswell Road
+        locality:  London
+        postcode:  EC1V 7DP
+        country:   UK
+        latitude:  51.525335
+        longitude: -0.099056
 
 feeds:
     - atom
@@ -88,3 +96,4 @@ released:
     - 6
     - 7
     - 8
+    - 9

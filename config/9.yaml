@@ -1,0 +1,58 @@
+---
+number:     9
+title:      Chips (Programmable Logic, Computer Conservation with FPGAs, OpenCores & OpenRISC 1000)
+description: |
+            <p>Programmable logic, and in particular field-programmable gate arrays (FPGAs), is a topic that has frequently come up at OSHUG meetings, both in informal discussion and in presentations (see use of FPGAs in projects covered at <a href="/events/5">OSHUG #5</a> & <a href="/events/8">OSHUG #8</a>).</p>
+            <p>This is a particularly exciting technology in the context of open source hardware, as it presents an opportunity to realise performance gains approaching those that are associated with custom silicon – an Application-Specific Integrated Circuit (ASIC) - albeit without the enormous foundry start-up costs which make this largely the reserve of major industry. Furthermore, the design artefacts lend themselves to collaborative development and can be handled in a manner similar to that employed with the source code to computer software.</p>
+
+             <p>At the ninth OSHUG meeting we will be given an introduction to programmable logic and the associated development cycle, we'll hear about applications in computer conservation, and we will learn about open source chip design, the OpenCores community and the MIPS-like OpenRISC 1000 CPU.</p>
+
+sessions: |
+            <h3>A Brief Introduction to Programmable Logic</h3>
+            <p id="ProgrammableLogic">Programmable Logic Devices - mainly FPGAs – are frequently utilised in high speed and computationally intensive applications, and with modern devices containing several million transistors and many gigabits/second of connectivity they are becoming increasingly popular in the race to achieve exascale computing power.</p>
+            <p>But what does this all mean and how can FPGAs achieve this processing power? How do they differ from the good old CPUs we have in our everyday computers?</p>
+            <p>In essence, an FPGA is a device that contains configurable blocks of logic along with flexible interconnect between these blocks. They can be configured to contain exactly and only those operations that appear in the algorithms employed in a particular application, which can potentially give them quite a bit of an advantage in terms of throughput and efficiency when compared to static instruction set processors such as a traditional x86 CPU.</p>
+            <p id="OmerKilic" class="vcard"><a title="Omer Kilic" href="http://omer.kilic.name">Omer Kilic</a> is a research student at the University of Kent working on dynamically reconfigurable architectures and embedded systems. When he is not busy working on his PhD project (a reconfigurable heterogeneous computing framework) or running lab classes, he enjoys <a href="http://canthack.org">tinkering</a> and drinking good beer.</p>
+
+             <h3>Computer Conservation with FPGAs</h3>
+             <p id="ComputerConservation">Having acquired an <a href="http://www-03.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2030.html">IBM System/360 Model 30 mainframe</a> whilst he was at university, Lawrence Wilkinson brought it back to life, then abandoned it when the rent and power costs became a drain, and has since felt very guilty. As they became obsolete in the early 1970s, very few IBM System/360s now exist in running order. To make amends he embarked on a project of re-creating the Model 30 as a gate-level simulation, using the original circuits and microcode. While the software-based Hercules emulator is available to run all 360 and 370 software, Lawrence's programmable logic-based solution faithfully replicates the Model 30 with its limited storage and I/O capability, and provides a front panel interface. The basic CPU is implemented in a Xilinx S3 FPGA and the VHDL is available for download under the GPL. Development of the project continues with the further addition of storage and I/O devices.</p>
+             <p id="LawrenceWilkison" class="vcard"><a title="Lawrence Wilkinson" href="http://www.ljw.me.uk/">Lawrence Wilkinson</a> started out as an Electrical and Electronic Engineer in Auckland in the 1980s, transmogrified into an IT and Accounting support person in the late 80s, then went back to hardware and low-level software upon moving to England in the mid 90s. Eventually ending up with the new BAR Formula 1 team, he spent a few years writing and supporting on-car control software, won the World Championship with Brawn Grand Prix in 2009, and currently supports various factory test systems for Mercedes-Benz Grand Prix in Northamptonshire.</p>
+
+             <h3>OpenCores, Chip Design and the OpenRISC 1000</h3>
+             <p id="OpenCores"><a title="Opencores" href="http://opencores.org/">Opencores</a> dates back to 1999 as a forum for open source chip designs, primarily intended for FPGA, but also used in ASIC. It now hosts several hundred designs, and has over 100,000 registered users world wide.</p>
+             <p>This talk will look at what is involved in putting together an open source chip design. In particular the licensing issues represent a challenge, with standard F/OSS licenses having serious weaknesses when it comes to licensing hardware.</p>
+             <p>It will finish with an overview of OpenCores' flagship project, the <a title="OpenRISC 1000" href="http://en.wikipedia.org/wiki/OpenRISC">OpenRISC 1000</a>. This is a 32-bit MIPS-like RISC processor, with a full reference SoC design. It comes with a GNU development tool chain, a number of RTOS ports and an up to date uClibc Linux kernel/BusyBox implementation. In recent years the entire front-end design flow has become open source, as open source electronic design automation (EDA) tools have become available. It has now reached the stage of maturity where some of its development is by commercially funded engineers, as well as a large community of volunteers.</p>
+              <p id="JeremyBennett" class="vcard"><a title="Dr Jeremy Bennett" href="http://www.jeremybennett.com/">Dr Jeremy Bennetti</a> is Chief Executive of Embecosm Limited. <a title="Embecosm" href="http://www.embecosm.com/">Embecosmi</a> provides open source services, tools and models to facilitate embedded software development with complex systems-on chip. He spends two days a month working as the Embedded Systems Champion for the <a title="Electronics, Sensors and Photonics KTN" href="https://ktn.innovateuk.org/web/espktn">Electronics, Sensors and Photonics KTN</a>, which seeks to improve the flow of knowledge between academia and industry. He can be contacted via <a href="mailto:jeremy.bennett@embecosm.com">jeremy.bennett@embecosm.com</a>.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+date:        21st April 2011
+dtstart:     2011-04-21:T18:00Z
+dtend:       2011-04-21:T20:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 14 March 2010 21:00:00 BST
+location:    Skills Matter
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://skillsmatter.com/event/java-jee/oshug-open-source-chips/js-1481
+upcoming:     http://upcoming.yahoo.com/event/7905331/
+lanyrd:       http://lanyrd.com/2011/oshug9/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - FPGA
+    - logic
+    - OpenCores
+    - OpenRISC
+    - SkillsMatter
+    - ComputerConservation
+    - System360
+    - IBM
+    - mainframe
+    - Embecosm
