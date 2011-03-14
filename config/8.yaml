@@ -1,0 +1,41 @@
+---
+number:     8
+title:      Performance (MilkyMist)
+description: |
+            <p>It stands to reason that hardware which is open to being studied, modified and improved would be well suited to performance environments, and just as F/OSS has proved popular in support of creative practices so is OSHW similarly gaining favour. With designs ranging from simple electronic instruments that make for an ideal first electronics project to vastly more complex processing and synthesis devices.</p>
+
+            <p>At the eighth OSHUG meeting we'll be hearing about the Milkymist™ project which "develops a comprehensive open source solution for the live synthesis of interactive visual effects for VJs (video performance artists)".</p>
+
+sessions: |
+            <h3>MilkyMist - An FPGA-based open-hardware video synthesis platform</h3>
+            <p id="MilkyMist">The <a title="MilkyMist website" href="http://www.milkymist.org/">MilkyMist</a> project develops a stand-alone device in a small form factor that is capable of rendering MilkDrop-esque visuals effects in real time, with a high level of interaction with many sensors and using live audio and video streams as a base. The flexibility of the FPGA used as a central component enables advanced users to modify the design, and also permits compact integration of many interfaces (Ethernet, OSC, MIDI, DMX512, video inputs, GPIO, VGA output, USB, Irda ...), making Milkymist™ a platform of choice for the mobile VJ. But Milkymist™ is more than a visual synthesizer - it is also one of the leading open source system-on-chip designs. It is today the fastest open source system-on-chip capable of running Linux, and it comes with an extensive set of features and graphics accelerators. The IP cores that make up the system-on-chip are entirely written in open source synthesizable Verilog HDL and come with test benches and documentation, which makes Milkymist™ a great library of re-usable logic cores to serve as a base for other open source hardware.</p>
+            <p id="YannSionneau" class="vcard"><a title="Yann Sionneau" href="http://twitter.com/#!/yannsionneau">Yann Sionneau</a> is a twenty two  year old Frenchman and soon to be graduated from the telecommunication and networking engineering school Télécom SudParis. His current interests in the main are low level software development, FPGA design, embedded systems and networks. He read his first C language book when he was 12 and fell in love with the language. He met Sebastien Bourdeauducq (aka lekernel), leader of the Milkymist project, in 2008 while doing whilst an intern at a startup co-founded by Sebastien. He ported <a title="RTEMS website" href="http://www.rtems.com/">RTEMS</a> to Milkymist as part of the Google Summer of Code 2010 program and has been following the project for some time.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:15 as the event will start at 18:30 prompt.</b></p>
+
+date:        10th March 2011
+dtstart:     2011-03-10:T18:00Z
+dtend:       2011-03-10:T19:30Z
+start:       18:00
+end:         19:30
+pubdate:     Mon, 14 Feb 2010 21:00:00 BST
+location:    Osmosoft
+isoduration: P0Y0M0DT01H30M00S
+generator:   vi
+registration: http://oshugperformance.eventbrite.com/
+upcoming:     http://upcoming.yahoo.com/event/7811625/
+lanyrd:       http://lanyrd.com/2011/oshug8/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - MilkyMist
+    - performance
+    - VJ
+    - Osmosoft
+    - FPGA
+    - RTEMS
