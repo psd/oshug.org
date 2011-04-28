@@ -1,19 +1,19 @@
 ---
 number:     10
-title:      Open for Change (Onawi, 40 Fires, Bristol Braille Technology)
+title:      Open for Change (Radiation Monitoring in Japan, 40 Fires, Bristol Braille Technology)
 description: |
             <p>A great deal of open source hardware is built by engineers for engineers, and comprises mostly electronics and/or computing technology.  Which is not at all surprising given the origins of the movement and where we are on the adoption curve. However, a growing number of projects are seeking to tackle ever more challenging problems and working with an increasingly broader selection of technologies.</p> 
 
-             <p>At the tenth OSHUG meeting we will hear from Onawi, a non-profit that is working to deliver liberally licensed wind turbine technology, 40 Fires, a foundation that is building an open source hydrogen fuel cell electric car, and from Bristol Braille Technology, who are considering the possibility of an open source Braille display.</p>
+             <p>At the tenth OSHUG meeting we will be hearing about the efforts of hackers in Japan to build their own open source radiation monitoring infrastructure. We will learn about the work of 40 Fires, a foundation that is building an open source hydrogen fuel cell electric car. And we will hear from Bristol Braille Technology about the need for an affordable refreshable Braille display, and the potential open source hardware opportunity.</p>
 
 sessions: |
-            <h3>Open Renewables</h3>
-            <p id="Onawi"> .</p>
-            <p id="JavierRuiz" class="vcard">Javier Ruiz... </p>
+            <h3>Open Source Radiation Monitoring in Japan</h3>
+            <p id="Radiation">Hackers in Japan responded to recent nuclear plant radiation leaks by setting up their own monitoring infrastructure. In this talk we will take a look at some of the radiation monitoring devices they built, the technology they used to share and make sense of the data and the work that continues to be done.</p>
+            <p id="NickWeldin" class="vcard">< a title="Nick Weldin - Twitter" href="http://twitter.com/tinkernick">Nick Weldin</a> initiated the first public <a title="Arduino" href="http://arduino.cc">Arduino</a> course in the UK in 2005, because he didn't want to program PIC chips on the accounts computer at work after everyone else had gone home any more, and he couldn't get his boss to send him to the Arduino course that was running in Spain. When <a title="Tinker.it!" href="http://www.tinker.it">Tinker.it!</a> started up he joined them and ran courses teaching Arduino wherever anyone was interested. He continues to run a course on Arduino, and is co-author of the recently released <a title="Arduino Cookbook" href="http://oreilly.com/catalog/9780596802486">Arduino Cookbook</a>.</p>
 
              <h3>An open source approach to developing energy-efficient technology</h3>
              <p id="40Fires">Two years ago start-up company <a title="Riversimple" href="http://www.riversimple.com/">Riversimple</a> unveiled a ground-breaking vehicle that has the potential to transform the auto industry. The Riversimple urban vehicle, due to be in production in 2014, is lightweight, powered by hydrogen and capable of 300 mpg (energy equivalent).  As part of its strategy, Riversimple announced the establishment of an independent open source foundation, <a title="40 Fires" href="http://www.40fires.org/">40 Fires</a>, that would make available the designs for the car on-line under an open source license. Two years on, the 40 Fires team report on the joys, trials and tribulations of working on a potentially game-changing project in one of the world's biggest industries.</p>
-             <p id="PatrickAndrews" class="vcard">Patrick Andrews is project leader of the 40 Fires Foundation and a board member of eco-car company Riversimple. A former corporate lawyer with Kingfisher and Pratt & Whitney, he now spends his time pursuing an interest in social innovation, with a particular focus on alternative business models and governance structures.</p>
+             <p id="PatrickAndrews" class="vcard">i<a title="Patrick Andrews - Twitter" href="http://twitter.com/patrickandr">Patrick Andrews</a> is project leader of the 40 Fires Foundation and a board member of eco-car company Riversimple. A former corporate lawyer with Kingfisher and Pratt & Whitney, he now spends his time pursuing an interest in social innovation, with a particular focus on alternative business models and governance structures.</p>
 
              <h3>Developing a revolutionary, affordable Braille Cell Display</h3>
              <p id="BristolBrailleTechnology">Braille usage has been shown to have a strong correlation with employment&mdash;and by extension <em>independence</em>&mdash;amongst the blind. However Braille usage is stagnating under a lack of technical innovation which has left it hugely expensive and uncommon.</p>
@@ -42,12 +42,13 @@ tags:
     - opensourcehardware
     - openhardware
     - community
-    - renewables
-    - turbine
+    - radiation
+    - Japan
+    - Fukushima
+    - Arduino
+    - Pachube
     - hydrogencar
     - braille
-    - Onawi
     - 40Fires
     - BristolBrailleTechnology
-    - turbine
     - CentreforCreativeCollaboration
