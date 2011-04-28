@@ -63,7 +63,7 @@ locations:
         longitude: -0.099056
 
     Centre for Creative Collaboration:
-	uri:       http://www.creativecollaboration.org.uk/
+        uri:       http://www.creativecollaboration.org.uk/
         street:    16 Acton Street
         locality:  London
         postcode:  WV1X 9NG
