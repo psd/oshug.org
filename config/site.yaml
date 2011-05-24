@@ -78,8 +78,10 @@ locations:
         latitude:  51.529049
         longitude: -0.116436
 
-    University of Kent:
-        street: 'School of Engineering and Digital Arts (Jennison Building)'
+    'School of Engineering and Digital Arts':
+        uri:    http://www.eda.kent.ac.uk/
+        extendedaddress: Jennison Building
+        street: The University of Kent
         locality: Canterbury
         region: Kent
         postcode: CT2 7NT

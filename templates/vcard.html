@@ -3,6 +3,7 @@
 				<abbr class="dtend" title="[% event.dtend %]">[% event.start %] - [% event.end %]</abbr> at
 				<a class='fn org url' href="[% locations.${event.location}.uri %]">[% event.location %]</a>,
 				<span class='adr geo'>
+					[% IF locations.${event.location}.extendedaddress %]<span class="extended-address">[% locations.${event.location}.extendedaddress %]</span>,[% END %]
 					<span class="street-address">[% locations.${event.location}.street %]</span>,
 					<span class="locality">[% locations.${event.location}.locality %]</span>,
 					[% IF locations.${event.location}.region %]<span class="region">[% locations.${event.location}.region %]</span>,[% END %]
