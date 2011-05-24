@@ -5,6 +5,7 @@
 				<span class='adr geo'>
 					<span class="street-address">[% locations.${event.location}.street %]</span>,
 					<span class="locality">[% locations.${event.location}.locality %]</span>,
+					[% IF locations.${event.location}.region %]<span class="region">[% locations.${event.location}.region %]</span>,[% END %]
 					<span class="postal-code">[% locations.${event.location}.postcode %]</span>,
 					<span class="country-name">[% locations.${event.location}.country %]</span>
 					[<a href="http://maps.google.co.uk/maps?q=[% locations.${event.location}.latitude %],[% locations.${event.location}.longitude %]">map</a>]
