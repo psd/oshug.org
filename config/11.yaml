@@ -2,7 +2,7 @@
 number:     11
 title:      (Canterbury)
 description: |
-             <p>For our 11<sup>th</sup> meeting, we are visiting <a href="http://www.eda.kent.ac.uk/">School of Engineering and Digital Arts</a> of <a href="http://www.kent.ac.uk/">The University of Kent</a>, home of the <a href="http://www.concurrency.cc/">concurrent.cc</a> project. Canterbury is approximately one hour away by <a href="http://traintimes.org.uk/London/Canterbury/18:00a/2011-6-23/21:45/2011-6-23/">train</a> from central London.</p>
+             <p>For our 11<sup>th</sup> meeting, we are visiting <a href="http://www.eda.kent.ac.uk/">School of Engineering and Digital Arts</a> of <a href="http://www.kent.ac.uk/">The University of Kent</a>, home of the <a href="http://www.concurrency.cc/">concurrent.cc</a> project. <a href="http://traintimes.org.uk/London/Canterbury/18:00a/2011-6-23/21:45/2011-6-23/">Trains run regularly to and from central London</a> and take approximately an hour.</p>
 
 sessions: |
             <h3>Open Source Hardware Collaboration</h3>
