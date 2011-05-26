@@ -60,7 +60,7 @@ mkdir("$outdir/event");
         my $file = "$indir/$ev.yaml";
         my $event = LoadFile($file);
         my $n = $event->{number};
-        $event->{uri} = $site->{uri} . "event/$n";
+        $event->{uri} = $site->{uri} . "/event/$n";
 
         push(@{$site->{events}}, $event);
     }

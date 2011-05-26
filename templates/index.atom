@@ -5,7 +5,7 @@
 	<title>[% title %]</title>
 	<subtitle type="html">[% summary %]</subtitle>
 	<link href="[% uri %]"/>
-	<link rel="self" type="[% media.rss.type %]" href="[% uri %]atom"/>
+	<link rel="self" type="[% media.rss.type %]" href="[% uri %]/atom"/>
 	<id>[% uri %]</id>
     <updated>[% updated %]</updated>
 	<author>
