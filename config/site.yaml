@@ -5,6 +5,7 @@ description:  A group of people with an interest in open source hardware.
 uri:          http://oshug.org/
 email:        hello@oshug.org
 lang:         en-gb
+author:       oshug.org
 license:
     title:   Creative Commons License
     uri:     http://creativecommons.org/licenses/by/3.0/

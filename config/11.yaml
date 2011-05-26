@@ -20,8 +20,8 @@ sessions: |
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt. Parking is available at the Jennison Building, however, please ensure that you are parked within a bay.</b></p>
 
 date:        23rd June 2011
-dtstart:     2011-06-23:00Z
-dtend:       2011-06-23:00Z
+dtstart:     2011-06-23T18:00:00Z
+dtend:       2011-06-23T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Tue, 24 May 2011 21:18:00 BST
