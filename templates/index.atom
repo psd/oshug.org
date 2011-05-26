@@ -3,7 +3,7 @@
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	xmlns:georss="http://www.georss.org/georss">
 	<title>[% title %]</title>
-	<subtitle type="html">[% summary %]</subtitle>
+	<subtitle type="html">[% subtitle %]</subtitle>
 	<link href="[% uri %]"/>
 	<link rel="self" type="[% media.rss.type %]" href="[% uri %]/atom"/>
 	<id>[% uri %]</id>
