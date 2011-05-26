@@ -2,7 +2,7 @@
 		<title>[% event.title %]</title>
 		<id>[% event.uri %]</id>
 		<link rel="alternate" type="text/html" href="[% event.uri %]"/>
-		<content>[% event.description %] [% event.sessions %]</content>
+		<content type="html"><![CDATA[ [% event.description %] [% event.sessions %] ]]></content>
         <updated>[% event.dtstart %]</updated>
 [% FOREACH tag IN event.tags -%]
         <category term="[% tag %]"/>
