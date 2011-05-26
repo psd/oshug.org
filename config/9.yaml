@@ -1,8 +1,8 @@
 ---
 number:     9
-title:      Chips (Programmable Logic, Computer Conservation with FPGAs, OpenCores & OpenRISC 1000)
+title:      Chips (Programmable Logic, Computer Conservation with FPGAs, OpenCores &amp; OpenRISC 1000)
 description: |
-            <p>Programmable logic, and in particular field-programmable gate arrays (FPGAs), is a topic that has frequently come up at OSHUG meetings, both in informal discussion and in presentations (see use of FPGAs in projects covered at <a href="/event/5">OSHUG #5</a> & <a href="/event/8">OSHUG #8</a>).</p>
+            <p>Programmable logic, and in particular field-programmable gate arrays (FPGAs), is a topic that has frequently come up at OSHUG meetings, both in informal discussion and in presentations (see use of FPGAs in projects covered at <a href="/event/5">OSHUG #5</a> &amp; <a href="/event/8">OSHUG #8</a>).</p>
             <p>This is a particularly exciting technology in the context of open source hardware, as it presents an opportunity to realise performance gains approaching those that are associated with custom silicon – an Application-Specific Integrated Circuit (ASIC) - albeit without the enormous foundry start-up costs which make this largely the reserve of major industry. Furthermore, the design artefacts lend themselves to collaborative development and can be handled in a manner similar to that employed with the source code to computer software.</p>
 
              <p>At the ninth OSHUG meeting we will be given an introduction to programmable logic and the associated development cycle, we'll hear about applications in computer conservation, and we will learn about open source chip design, the OpenCores community and the MIPS-like OpenRISC 1000 CPU.</p>
