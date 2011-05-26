@@ -14,8 +14,8 @@ sessions: |
              <p><b>Note: Please aim to arrive for 18:00 - 18:15 as the event will start at 18:30 prompt.</b></p>
 
 date:        10th March 2011
-dtstart:     2011-03-10T18:00Z
-dtend:       2011-03-10T19:30Z
+dtstart:     2011-03-10T18:00:00Z
+dtend:       2011-03-10T19:30:00Z
 start:       18:00
 end:         19:30
 pubdate:     Mon, 14 Feb 2010 21:00:00 BST

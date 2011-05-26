@@ -23,8 +23,8 @@ sessions: |
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
 
 date:        19th May 2011
-dtstart:     2011-05-19T18:00Z
-dtend:       2011-05-19T20:00Z
+dtstart:     2011-05-19T18:00:00Z
+dtend:       2011-05-19T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Tue, 19 April 2011 21:18:00 BST

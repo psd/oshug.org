@@ -25,8 +25,8 @@ sessions: |
 
 
 date:        10th Feb 2011
-dtstart:     2011-02-10T18:00Z
-dtend:       2011-02-10T20:30Z
+dtstart:     2011-02-10T18:00:00Z
+dtend:       2011-02-10T20:30:00Z
 start:       18:00
 end:         20:30
 pubdate:     Mon, 13 Dec 2010 17:00:00 BST
