@@ -1,16 +1,23 @@
 ---
 number:     11
-title:      (Canterbury)
+title:      Goes to Canterbury! (Collaboration, building communities, surface mount adventures)
 description: |
-             <p>For our 11<sup>th</sup> meeting, we are visiting <a href="http://www.eda.kent.ac.uk/">School of Engineering and Digital Arts</a> of <a href="http://www.kent.ac.uk/">The University of Kent</a>, home of the <a href="http://www.concurrency.cc/">concurrent.cc</a> project. <a href="http://traintimes.org.uk/London/Canterbury/18:00a/2011-6-23/21:45/2011-6-23/">Trains run regularly to and from central London</a> and take approximately an hour.</p>
+             <p>For our 11<sup>th</sup> meeting, we are visiting the <a href="http://www.eda.kent.ac.uk/">School of Engineering and Digital Arts</a> at the <a href="http://www.kent.ac.uk/">University of Kent</a>. <a href="http://traintimes.org.uk/London/Canterbury/18:00a/2011-6-23/21:45/2011-6-23/">Trains run regularly to and from central London</a> and take approximately an hour. For anyone wishing to stay overnight please see the <a href="http://oshug.org/other/canterbury-bnb-2605.pdf">list of accommodation</a>.</p>
 
 sessions: |
             <h3>Open Source Hardware Collaboration</h3>
-            <p id="Collaboration">An assesment of the current state of the art in hardware collaboration through a tour of a series of Open Source Hardware projects. How easy is it to discover projects, view and understand their designs,  build your own version and conribute changes back?</p>
-            <p id="PaulDowney" class="vcard"><a class="fn url" title="Paul Downey" href="http://blog.whatfettle.com">Paul Downey</a> (<a href="http://twitter.com/psd" class="nickname">psd</a>) is a <a href="http://thewebisagreement.com">doodling</a> software hacker, formally a member of <a href="http://osmosoft.com">Osmosoft</a> a small Open Source software team where he represented <a href="http://bt.com">BT</a> at the <a href="http://www.w3.org">W3C</a>, is a co-organiser of <a href="http://oshug.org">OSHUG</a> and a co-founder of <a href="http://solderpad.com" class="org">SolderPad</a>, a collaboration system for electronics systems.</p>
+            <p id="Collaboration">An assessment of the current state of the art in hardware collaboration through a tour of a series of Open Source Hardware projects. How easy is it to discover projects, view and understand their designs,  build your own version and contribute changes back?</p>
+            <p id="PaulDowney" class="vcard"><a class="fn url" title="Paul Downey" href="http://blog.whatfettle.com">Paul Downey</a> (<a href="http://twitter.com/psd" class="nickname">psd</a>) is a <a href="http://thewebisagreement.com">doodling</a> software hacker, former member of <a href="http://osmosoft.com">Osmosoft</a>--a small Open Source software team--where he represented <a href="http://bt.com">BT</a> at the <a href="http://www.w3.org">W3C</a>, a co-organiser of <a href="http://oshug.org">OSHUG</a> and a co-founder of <a href="http://solderpad.com" class="org">SolderPad</a>, a collaboration platform for electronic design.</p>
 
+             <h3>Building open, communicating communities</h3>
+             <p id="Communities">The hardware engineering community is typically seen as fragmented, closed and conservative, shackled by the dependency on restrictive closed-source tools. Thankfully, we are now at a time where this is changing. In this talk, Saar Drimer will discuss his efforts to bring the FPGA community together so we can reach the level of sharing and project integration that the open source software community currently enjoys. The end goal is to reach a state where projects are integrated in a similar way to what Linux's package mangers enable: "sudo apt-get ddr2-controller". [<a title="fpgaproj" href="https://www.boldport.com/docs/fpgaproj">Background reading</a>].</p>
+             <p id="SaarDrimer" class="vcard"><a class="fn url" title="Saar Drimer" href="http://www.saardrimer.com">Saar Drimer</a> is an experienced hardware engineer. In the past he's <a href="http://www.cl.cam.ac.uk/~sd410">hacked the UK's Chip and PIN payment system</a>, and <a href="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-763.pdf">advocated reproducible research practices in the engineering sciences</a>. Now he's working on <a href="http://www.boldport.com">boldport</a>, an "<a href="https://www.boldport.com/blog/?p=20">IndieEDA</a>" company that aims to make HW/FPGA easier.</p>
 
-             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+             <h3>Adventures in working with surface mount devices</h3>
+             <p id="SMT">An ambitious open source hardware project--Amino--recently called for Alan Wood to uplift his home lab to support prototyping, testing and basic production using surface mount devices. Alan will be sharing with us some of the things he has learnt, and giving us a run through what you might require in order to tackle working with surface mount devices yourself. Rather than using expensive off-the-shelf tooling, Alan will be covering a number of affordable approaches that make this possible without breaking the bank.</p>
+             <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood" href="http://twitter.com/folknology">Alan Wood</a> originally trained in systems engineering, got lost in software engineering and open source for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the last few years.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt. Parking is available at the Jennison Building, however, please ensure that you are parked within a bay.</b></p>
 
 date:        23rd June 2011
 dtstart:     2011-06-23:00Z
@@ -21,7 +28,7 @@ pubdate:     Tue, 24 May 2011 21:18:00 BST
 location:    'School of Engineering and Digital Arts'
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
-registration: 
+registration: http://oshugcanterbury.eventbrite.com
 upcoming:     
 lanyrd:       http://lanyrd.com/2011/oshug11/
 
@@ -33,3 +40,15 @@ tags:
     - openhardware
     - community
     - UniversityOfKent
+    - collaboration
+    - FPGA
+    - Boldport
+    - make
+    - SMD
+    - SMT
+    - surfacemount
+    - hotplate
+    - soldering
+    - construction
+    - PCB
+
