@@ -1,0 +1,17 @@
+/* JANITORS */
+	Co-Founder: Andrew Back
+	Contact: andrew [at] solderpad.com
+	Twitter: @9600
+	Url: http://andrewback.net
+	From: Hebden Bridge, UK
+
+	Co-Founder: Paul Downey
+	Contact: psd [at] solderpad.com
+	Twitter: @psd
+	Url: http://blog.whatfettle.com
+	From: Berkhamsted, UK
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	IDE: Linux, bash, vi, Perl, git

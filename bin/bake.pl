@@ -43,6 +43,11 @@ mkdir("$outdir/event");
     #
     template("main.css", $site, "styles/main.css");
 
+	#
+	#  humans.txt
+	#
+    template("humans.txt", $site, "humans.txt");
+
 
     #
     #  site json/xml
