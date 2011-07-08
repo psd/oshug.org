@@ -1,0 +1,33 @@
+---
+number:     oshcamp
+li:         13
+title:      Open Source Hardware Camp
+description: |
+            <p>A day of hands-on hacking with electronics, 3D-printers open to anyone with an interest in technology;
+            an opportunity to meet, experiment and collaborate with people 
+            representing several interesting Open Source Hardware projects.</p>
+
+sessions: |
+            <p>Four rooms of activity with short plenary sessions in the morning and afternoon.</p>
+
+date:        27th October 2011
+dtstart:     2011-10-27T10:00:00Z
+dtend:       2011-10-27T18:00:00Z
+start:       10:00
+end:         18:00
+pubdate:     Fri, 8 July 2011 10:00:00 BST
+updated:     2011-07-08T10:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT08H00M00S
+generator:   vi
+registration: 
+lanyrd:       http://lanyrd.com/2011/oshcamp/
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
