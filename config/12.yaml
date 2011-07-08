@@ -1,0 +1,45 @@
+---
+number:     12
+title:      Made by You ( )
+description: |
+             <p>TBD .</p> 
+
+sessions: |
+            <h3>DIY Double-sided PCB Design and Development for embedded ARM</h3>
+            <p id="DIYDSPCB">Inspired by the success of the Arduino platform and driven by a recognition that to go from raw materials to a working system is both exciting and empowering, a project was born to develop a powerful microcontroller board that can be built from scratch. With this came the challenge of designing a double-sided PCB that will accommodate a 64-pin LQFP package on 0.5mm pitch, and that can be built using low cost DIY techniques.</p>
+            <p>In this talk we will learn about the rules which needed to be applied in order to ensure that construction of such a PCB is practical, and discoveries that were made in its development.</a>
+            <p id="GaryBulmer" class="vcard"><a class="fn url" title="Gary Bulmer - Blog" href="http://ourduino.wordpress.com">Gary Bulmer</a> gained his degree in Computer Science in the early 1980s and developed software for companies including ICL, before going on to teach Computer Science and Software Engineering at degree level and beyond. During the 1990s he was a co-founder of Parallax Solutions, a software services company with customers that included Rover Group and Rolls Royce, and that partnered with Sun Microsystems and delivered their Enterprise Architecture Blueprints. He's since held the position of Chief Architect at Keane, Aspen Technology and Caritor. More recently he has become involved in education, running Arduino workshops for local schools and at events including Howduino, DEV8D and fizzPop.</p>
+
+             <h3>Home Power Control</h3>
+             <p id="HomePower"></p>
+             <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner"> .</p>
+
+             <h3>RGB LED Control</h3>
+             <p id="RGBLED">.</p>
+             <p id="AndyBennet"><span class="vcard"><span class="fn">Andy Bennet</span></span> .</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+date:        29th September 2011
+dtstart:     2011-09-29T18:00:00Z
+dtend:       2011-09-29T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Fri, 8 July 2011 10:20:00 BST
+updated:     2011-09-08T00:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugyou.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2011/oshug12/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Pachube
+    - CentreforCreativeCollaboration
