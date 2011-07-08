@@ -104,7 +104,7 @@ sub template
     my $path = "$outdir/$output";
     if (-f $template) {
         print "$path\n" if ($verbose);
-        $tt->process($template, $site, $path) || die $tt->error;
+        $tt->process($template, $site, $path, { binmode => ':encoding(UTF-8)' }) || die $tt->error;
     }
 }
 
@@ -117,7 +117,7 @@ sub saveAs
     local (*FILE);
     my $path = "$outdir/$filename";
     print "$path\n" if ($verbose);
-    open FILE, "> $path";
+    open FILE, ">:utf8 $path";
     print FILE $content;
     close FILE;
 }
