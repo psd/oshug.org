@@ -66,6 +66,7 @@ mkdir("$outdir/event");
         my $event = LoadFile($file);
         my $n = $event->{number};
         $event->{uri} = $site->{uri} . "event/$n";
+        $event->{li} ||= $event->{number};
 
         push(@{$site->{events}}, $event);
     }

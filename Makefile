@@ -28,6 +28,5 @@ site/images/oshug.pdf:
 site/favicon.ico:
 	ln images/favicon.ico site/favicon.ico
 
-
 deploy:	all
 	cd site && rsync -avz -e ssh .htaccess * ${OSHUG_HOST}:${OSHUG_DIR}

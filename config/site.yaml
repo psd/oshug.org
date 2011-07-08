@@ -71,15 +71,7 @@ locations:
         latitude:  51.529049
         longitude: -0.116436
 
-    Centre for Creative Collaboration:
-        uri:       http://www.creativecollaboration.org.uk/
-        street:    16 Acton Street
-        locality:  London
-        postcode:  WC1X 9NG
-        latitude:  51.529049
-        longitude: -0.116436
-
-    'School of Engineering and Digital Arts':
+    School of Engineering and Digital Arts:
         uri:    http://www.eda.kent.ac.uk/
         extendedaddress: Jennison Building
         street: The University of Kent
@@ -126,3 +118,4 @@ released:
     - 9
     - 10
     - 11
+    - oshcamp
