@@ -10,9 +10,9 @@ sessions: |
             <p>In this talk we will learn about the rules which needed to be applied in order to ensure that construction of such a PCB is practical, and discoveries that were made in its development.</a>
             <p id="GaryBulmer" class="vcard"><a class="fn url" title="Gary Bulmer - Blog" href="http://ourduino.wordpress.com">Gary Bulmer</a> gained his degree in Computer Science in the early 1980s and developed software for companies including ICL, before going on to teach Computer Science and Software Engineering at degree level and beyond. During the 1990s he was a co-founder of Parallax Solutions, a software services company with customers that included Rover Group and Rolls Royce, and that partnered with Sun Microsystems and delivered their Enterprise Architecture Blueprints. He's since held the position of Chief Architect at Keane, Aspen Technology and Caritor. More recently he has become involved in education, running Arduino workshops for local schools and at events including Howduino, DEV8D and fizzPop.</p>
 
-             <h3>Home Power Control</h3>
-             <p id="HomePower"></p>
-             <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner"> .</p>
+             <h3>A Simple Approach to Controlling Power from Internet Apps</h3>
+             <p id="HomePower">Working with mains power can be a daunting prospect and requires due care and attention. In this presentation we will hear about a simple and safe way to control mains-powered appliances from the Internet using cheap wireless links. This will include a live demo based on MBED and an explanation of this approach, and there will be opportunity to discuss its pros and cons.</p>
+             <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner">Paul Tanner</a>is a consultant, developer and maker in wood, metal, plastic, electronics and software.  His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service startups, switching to consulting in 2000.</p>
 
              <h3>RGB LED Control</h3>
              <p id="RGBLED">.</p>
@@ -43,3 +43,6 @@ tags:
     - community
     - Pachube
     - CentreforCreativeCollaboration
+    - ARM
+    - mbed
+    - PowerControl
