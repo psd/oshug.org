@@ -28,8 +28,12 @@ sessions: |
              <li>A light lunch and refreshments will be provided. Please ensure that you make any dietary requirements clear when registering.</li>
              </i></ul></p>
 
-             <center><p><strong>Sponsored by:</strong></p>
-             <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark" alt="DesignSpark from RS Components" href="http://www.designspark.com"/></center>
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.designspark.com">
+                     <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark" alt="DesignSpark from RS Components">
+                 </a>
+             </center>
 
 date:        27th October 2011
 dtstart:     2011-10-27T09:30:00Z
