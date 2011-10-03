@@ -7,7 +7,7 @@ SCRIPTS=\
 	$(BAKE)
 
 # no dependencies, always runs ..
-all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/favicon.ico
+all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/images/DS_with_RS.jpg site/favicon.ico
 	$(BAKE)
 
 site:
@@ -24,6 +24,9 @@ site/images/oshug.png:
 
 site/images/oshug.pdf:
 	ln images/oshug.pdf site/images/oshug.pdf
+
+site/images/DS_with_RS.jpg:
+	ln images/DS_with_RS.jpg site/images/DS_with_RS.jpg
 
 site/favicon.ico:
 	ln images/favicon.ico site/favicon.ico

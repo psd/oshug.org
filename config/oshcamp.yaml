@@ -3,24 +3,45 @@ number:     oshcamp
 li:         13
 title:      Open Source Hardware Camp
 description: |
-            <p>A day of hands-on hacking with electronics, 3D-printers open to anyone with an interest in technology;
-            an opportunity to meet, experiment and collaborate with people 
-            representing several interesting Open Source Hardware projects.</p>
+            <p>Join us at the inaugural Open Source Hardware Camp for a hands-on day of three parallel workshops, with short plenary sessions in the morning and afternoon.</p>
 
 sessions: |
-            <p>Four rooms of activity with short plenary sessions in the morning and afternoon.</p>
+            <h3>Practical 3D Printing</h3>
+            <p id="Practical3DPrinting">A hands-on session in which we will use <a title="OpenSCAD" href="http://www.openscad.org/">OpenSCAD</a> (an open-source, code-based, 3D parametric CAD software system to design simple 3-dimensional objects), and other freely available tools, to turn the resulting designs into files that can be used to drive a RepRap 3D printer, or similar rapid prototyping device. <i>Further details TBD</i>.</p>
+            <p id="GrahamKlyne" class="vcard"><a class="fn url" title="Graham Klyne - Twitter" href="http://twitter.com/gklyne">Graham Klyne</a> has been a software developer since the late 1970s, during that time having been involved in projects and products ranging from industrial process control, 3-D motion capture, network infrastructure, home automation, semantic web technologies and research data curation.  He has also been involved in the development of IETF and Web standards.  More recently, he has been pursuing a personal interest in 3D printing - which neatly complements his earlier work in motion capture - and has constructed a RepRap machine (which he hopes to use for making specialist parts for model aircraft) and has been learning a little about 3-D parametric CAD.</p>
+             <p id="DavidFlanders" class="vcard">As a member of the pif3D project, <a class="fn url" title="David Flanders - Twitter" href="http://twitter.com/dfflanders">David Flanders</a> helps coordinate the parts, materials, tools and skill required for people to build their own 3D printers. This is all done for free, so long as you promise to help someone else build their own printer as well!  David enjoys hacking code in his spare time and working on designing new 3D models, currently he is working on prototype 3D models for: a rollerblade frame (for off road inline skating), a flowerpot that has a water reservoir (so it doesn't dry out when you are on holiday or forget to water it) and lighting fixtures (including translucent lamp shades, candelabras and chandeliers).  David's day job is working with technology innovation projects in Universities throughout the UK.</p>
+
+             <h3>Building the Internet of Things with Nanode and Pachube</h3>
+             <p id="IoT">In this workshop we will be given an introduction to <a title="Nanode" href="http://nanode.eu/">Nanode</a>, the low cost open source Arduino-like board that has built in web connectivity, and <a title="Pachube" href="https://pachube.com/">Pachube</a>, the web-based service "built to manage the World's real-time data".  Following which the workshop will split into two groups and build a real world IoT application for the Centre for Creative Collaboration. With one group focusing on Nanode development and the other using Pachube to develop the online part of the application.</p>
+             <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="http://twitter.com/monsonsite">Ken Boak</a> joined BBC Research Department after graduating and worked on digital picture processing of HDTV images, and coding algorithms for video distribution around studios. Since then, Ken has worked in laboratory instrumentation, telecommunications, low power wireless and consumer electronics produced in the Far East. With an interest in renewables, Ken now develops laboratory instruments to teach undergraduates the principles of photovoltaic and wind power. Outside of work, Ken is interested in smart wireless sensors, open source hardware and low cost solutions for the Internet of Things.</p>
+             <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software. His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, switching to consulting in 2000.</p>
+
+             <h3>Collaboration in Open Source Hardware</h3>
+             <p id="OSHWCollaboration">Whilst the development practices associated with open source software are now reasonably mature and understood by many, the same cannot be said of open source hardware and with it come specific challenges. For example, in terms of collaboration across design tools, managing contributions, licensing and project presentation. In this workshop we will be given an introduction to Electronic Design Automation (EDA) tools and the process of documenting a project, licensing and other challenges, before looking at the current options available for presentation and collaboration. <i>Further details TBD</i>.</p>
+             <p id="PaulDowney" class="vcard"><a class="fn url" title="Paul Downey - Twitter" href="http://twitter.com/psd">Paul Downey</a> is a <a title="The Web is Agreement" href="http://thewebisagreement.com/">doodler</a>, a maker and a veteran communications software developer. He has been hacking embedded systems since the late 1970s. Formerly <a title="BT" href="http://www.bt.com">BT</a>'s Chief Web Services Architect, and lead <a title="W3C" href="http://www.w3.org/">W3C</a> representative, he was until recently a member of <a title="Osmosoft" href="http://osmosoft.com">Osmosoft</a> — a small team building open source Web collaboration systems. Paul is co-founder of <a title="SolderPad" href="http://solderpad.com">SolderPad</a>, a place to share, discover and collaborate on electronic projects.</p>
+             <p id="AndrewBack" class="vcard"><a class="fn url" title="Andrew Back - Twitter" href="http://twitter.com/9600">Andrew Back</a> is an <a title="Andrew Back - art" href="http://andrewback.net">artist</a>, electronics hacker and open source advocate. He acted as <a title="BT" href="http://www.bt.com">BT</a>'s Open Source Strategist, establishing company-wide open source policy and process and representing them at a number of bodies including <a title="The Linux Foundation" href="http://www.linuxfoundation.org/">The Linux Foundation</a> and <a title="ATIS" href="http://www.atis.org/">ATIS</a>. Andrew co-founded the <a title="Electron Club" href="http://www.electronclub.org">Electron Club</a> in 2006 — one of the UK's first hackerspaces, and is co-founder of <a title="SolderPad" href="http://solderpad.com">SolderPad</a>, a place to share, discover and collaborate on electronic projects.</p>
+
+             <p><strong>Note:</strong></p>
+
+             <p><ul><i>
+             <li>Please aim to arrive for 09:30-09:45 as the event will start at 10:00 prompt.</li>
+             <li>A light lunch and refreshments will be provided. Please ensure that you make any dietary requirements clear when registering.</li>
+             </i></ul></p>
+
+             <center><p><strong>Sponsored by:</strong></p>
+             <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark" alt="DesignSpark from RS Components" href="http://www.designspark.com"/></center>
 
 date:        27th October 2011
-dtstart:     2011-10-27T10:00:00Z
+dtstart:     2011-10-27T09:30:00Z
 dtend:       2011-10-27T18:00:00Z
-start:       10:00
+start:       09:30
 end:         18:00
 pubdate:     Fri, 8 July 2011 10:00:00 BST
-updated:     2011-07-08T10:00:00Z
+updated:     2011-10-03T10:00:00Z
 location:    Centre for Creative Collaboration
-isoduration: P0Y0M0DT08H00M00S
+isoduration: P0Y0M0DT08H30M00S
 generator:   vi
-registration: 
+registration: http://oshcamp.eventbrite.com
 lanyrd:       http://lanyrd.com/2011/oshcamp/
 
 tags:
@@ -31,3 +52,9 @@ tags:
     - opensourcehardware
     - openhardware
     - community
+    - RepRap
+    - PayItForward
+    - Nanode
+    - IoT
+    - Pachube
+    - SolderPad
