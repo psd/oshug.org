@@ -7,7 +7,11 @@ description: |
 
 sessions: |
             <h3>Practical 3D Printing</h3>
-            <p id="Practical3DPrinting">A hands-on session in which we will use <a title="OpenSCAD" href="http://www.openscad.org/">OpenSCAD</a> (an open-source, code-based, 3D parametric CAD software system to design simple 3-dimensional objects), and other freely available tools, to turn the resulting designs into files that can be used to drive a RepRap 3D printer, or similar rapid prototyping device. <i>Further details TBD</i>.</p>
+            <p id="Practical3DPrinting">In this workshop we will explore the potential of at-home-desktop-3D-printing - that's right, just like you have paper printer sitting next to your desk at home you can now also have a 3D printer!</p>
+            <p>We will begin with a general overview of 3D printing and will be working with a hobbyist 3D printer called the <a title="RepRap" href="http://code.google.com/p/pif3d/wiki/RepRap">RepRap</a>. Providing a landscape of both the tools and communities that you can get involved with, before splitting up into two groups.</p>
+            <p>The first group will be for those new to 3D printing and we'll walk you through the basics of how to use Google Sketchup to draw 3D parts, how those parts are rendered out to STL files and then how the STL file is configured for the 3D printer via SkeinForge.</p>
+            <p>The second group will be for those with some experience of 3D printing and will involve hands-on with <a title="OpenSCAD" href="http://www.openscad.org/">OpenSCAD</a> (an open-source, code-based, 3D parametric CAD software system to design simple 3-dimensional objects), and other freely available tools, to turn the resulting designs into files that can be used to drive a RepRap 3D printer, or similar rapid prototyping device.</p>
+            <p>By the end of the day you should: a.) feel confident that you know what communities to get involved with so you can get your own parts to build your own 3D printer, b.) understand the tools, suppliers and skills you will need to actually build your printer, and c.) have a bunch of great ideas for what can be printed on a 3D printer.</p>
             <p id="GrahamKlyne" class="vcard"><a class="fn url" title="Graham Klyne - Twitter" href="http://twitter.com/gklyne">Graham Klyne</a> has been a software developer since the late 1970s, during that time having been involved in projects and products ranging from industrial process control, 3-D motion capture, network infrastructure, home automation, semantic web technologies and research data curation.  He has also been involved in the development of IETF and Web standards.  More recently, he has been pursuing a personal interest in 3D printing - which neatly complements his earlier work in motion capture - and has constructed a RepRap machine (which he hopes to use for making specialist parts for model aircraft) and has been learning a little about 3-D parametric CAD.</p>
              <p id="DavidFlanders" class="vcard">As a member of the pif3D project, <a class="fn url" title="David Flanders - Twitter" href="http://twitter.com/dfflanders">David Flanders</a> helps coordinate the parts, materials, tools and skill required for people to build their own 3D printers. This is all done for free, so long as you promise to help someone else build their own printer as well!  David enjoys hacking code in his spare time and working on designing new 3D models, currently he is working on prototype 3D models for: a rollerblade frame (for off road inline skating), a flowerpot that has a water reservoir (so it doesn't dry out when you are on holiday or forget to water it) and lighting fixtures (including translucent lamp shades, candelabras and chandeliers).  David's day job is working with technology innovation projects in Universities throughout the UK.</p>
 
@@ -41,7 +45,7 @@ dtend:       2011-10-27T18:00:00Z
 start:       09:30
 end:         18:00
 pubdate:     Fri, 8 July 2011 10:00:00 BST
-updated:     2011-10-03T10:00:00Z
+updated:     2011-10-05T20:00:00Z
 location:    Centre for Creative Collaboration
 isoduration: P0Y0M0DT08H30M00S
 generator:   vi
