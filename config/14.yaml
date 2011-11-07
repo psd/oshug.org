@@ -1,0 +1,50 @@
+---
+number:     14
+title:       Open for Change Pt.2 (Hexayurt, O + S Project, Onawi)
+description: |
+             <p>Back in May at <title="OSHUG #10" href="/event/10">OSHUG #10</a> we heard about three projects concerned with effecting positive change. At the thirteenth OSHUG meeting we'll be continuing with this theme, and hearing about the Hexayurt disaster relief shelter, documenting Appropriate Technology for the needs of others, and open renewables.</p>
+
+sessions: |
+            <h3>Free and Open Source Housing</h3>
+            <p id="Hexayurt">The <a title="Hexayurt" href="http://hexayurt.com/">Hexayurt</a> is an award-winning replacement for the disaster relief tent which provides shelter at 20% the cost of a tent. It is designed to be manufactured anywhere in the world at any scale, from local materials, as Free hardware, to house humans in need. The Hexayurt Project maintains the <a title="Hexayurt designs" href="http://www.appropedia.org/Hexayurt_playa_checklist">designs</a> and makes them freely available. An estimated $250,000 worth of Hexayurts were built at Burning Man this year.</p>
+            <p id="VinayGupta" class="vcard"><a class="fn url" title="Vinay Gupta - Twitter" href="http://twitter.com/leashless">Vinay Gupta</a> is one the world’s leading thinkers on infrastructure theory, state failure solutions, and managing global system risks including poverty/development and the environmental crisis. He works at both the theoretical level, building models and mapping tools and at the practical level, as the designer of the Hexayurt, he helped start the US National Defense University <a title="STAR-TIDES" href="http://star-tides.net/">STAR-TIDES</a> program on humanitarian assistance, consulted on urban resilience for Arup, and is an associate fellow of the <a title="UCL ISRS" href="http://www.ucl.ac.uk/isrs/">UCL Institute for Security and Resilience Studies</a>.</p>
+
+             <h3>The Needs of Others</h3>
+             <p id="NeedsOfOthers">One of the areas seeing heavy influence from the Free and Open Source Software (F/OSS) movement is <a title="Appropriate Technology" href="http://en.wikipedia.org/wiki/Appropriate_technology">Appropriate Technology</a>, and the <a title="O+S Project" href="http://approdoc.wordpress.com/">O+S Project</a> is working from the perspective of its documentation. It is investigating the difficulty in translating from F/OSS to Appropriate Technology at both a practices and principles level, and how we must go further to meet the goals with the world’s poorest people.</p>
+             <p id="AlRaziMasri" class="vcard"><a class="fn url" title="Al Razi Masri - Twitter" href="http://twitter.com/jumplogic">Al Razi Masri</a> is a recent Manufacturing Engineering graduate and founder of the O+S Project. In addition to which he is working on documentation for the Hexayurt Project and instructional documents for other Appropriate Technology.</p>
+
+             <h3>Open Hardware and Renewable Energy</h3>
+             <p id="Onawi"><a title="Onawi" href="http://onawi.org">Onawi</a> is a non-profit organisation promoting open hardware for the development of non-domestic wind energy systems. Open hardware is becoming increasingly popular, as we can see in the recent initiative by Facebook to open up the technology behind their data-centres. However, most open hardware projects are targeted at hobbyists or those looking for custom do-it-yourself alternatives to mass market products. While this is a very positive aspect, at Onawi we believe that open licensing and collaborative development could have a far reaching impact on industrial production. In particular, Open Hardware could provide the horizontal technology transfer of renewables required to fight climate change in developing countries.</p>
+             <p id="JavierRuiz"><span class="vcard"><span class="fn">Javier Auiz</span></span> is a UK based digital activist and social entrepreneur promoting open data, open standards and open licensing as the basis for a better future based on transparency, participation and collaboration. His practical work cuts across various spheres ranging from citizen journalism, archives to renewable energy. His background is in anthropology and technology management, and you can normally find him at the Open Rights Group.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the talks will start at 18:30 prompt.</b></p>
+
+date:        24th November 2011
+dtstart:     2011-11-24T18:00:00Z
+dtend:       2011-11-24T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 7 November 2011 21:00:00 GMT
+updated:     2011-11-07T21:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugchange2.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2011/oshug13/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Hexayurt
+    - CentreforCreativeCollaboration
+    - C4CC
+    - Housing
+    - documentation
+    - DisasterRelief
+    - Onawi
+    - Renewables
