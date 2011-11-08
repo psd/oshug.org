@@ -9,6 +9,8 @@ Options -MultiViews
 AddType [% m.value.type %] .[% m.key %]
 [% END -%]
 
+redirect 301 /event/13 http://oshug.org/event/14
+
 RewriteEngine On
 RewriteBase /
 [% FOREACH m IN media -%]
