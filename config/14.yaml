@@ -2,7 +2,7 @@
 number:     14
 title:       Open for Change Pt.2 (Hexayurt, O + S Project, Onawi)
 description: |
-             <p>Back in May at <title="OSHUG #10" href="/event/10">OSHUG #10</a> we heard about three projects concerned with effecting positive change. At the thirteenth OSHUG meeting we'll be continuing with this theme, and hearing about the Hexayurt disaster relief shelter, documenting Appropriate Technology for the needs of others, and open renewables.</p>
+             <p>Back in May at <a title="OSHUG #10" href="/event/10">OSHUG #10</a> we heard about three projects concerned with effecting positive change. At the thirteenth meeting we'll be continuing with this theme, and hearing about the Hexayurt disaster relief shelter, documenting Appropriate Technology for the needs of others, and open renewables.</p>
 
 sessions: |
             <h3>Free and Open Source Housing</h3>
@@ -31,7 +31,7 @@ isoduration: P0Y0M0DT02H00M00S
 generator:   vi
 registration: http://oshugchange2.eventbrite.com/
 upcoming:     
-lanyrd:       http://lanyrd.com/2011/oshug13/
+lanyrd:       http://lanyrd.com/2011/oshug14/
 
 tags:
     - OSHUG
