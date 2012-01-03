@@ -1,0 +1,50 @@
+---
+number:     15
+title:       Wireless (Hacking Commodity Wireless, Practical Wireless, Contiki OS)
+description: |
+             <p>At the fifteenth OSHUG meeting we'll be taking a look at wireless technologies. We will hear how you can repurpose low cost commodity equipment, we will be given an introduction to RF basics, and we will learn about the Contiki operating system.</p>
+
+sessions: |
+            <h3>Hacking Commodity Wireless</h3>
+            <p id="HackingCommodityWireless">Many people build their hacks from the ground up, but those short of time sometimes prefer to repurpose cheap off-the-shelf components that can be made to fit the bill. A good example being a wireless thermometer for external use, where an off-the-shelf device provides an inexpensive option complete with the requisite weatherproof packaging.  However, such devices typically use proprietary protocols and good documentation is rarely available. This talk will look at how to interface such devices where a degree of reverse-engineering is frequently required.</p>
+            <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software.  His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, switching to consulting in 2000.</p>
+
+             <h3>Practical Wireless</h3>
+             <p id="PracticalWireless"></p>Adding wireless connectivity to your latest open hardware project is not difficult, provided that you take the time to understand some of the principles of RF communication. In this talk we will learn about the basics of wireless propagation, and take a look at some of the low cost modules which now make adding wireless even easier.</p>
+             <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="http://twitter.com/monsonsite">Ken Boak</a> joined BBC Research Department after graduating and worked on digital picture processing of HDTV images, and coding algorithms for video distribution around studios. Since then, Ken has worked in laboratory instrumentation, telecommunications, low power wireless and consumer electronics produced in the Far East. With an interest in renewables, Ken now develops laboratory instruments to teach undergraduates the principles of photovoltaic and wind power. Outside of work, Ken is interested in smart wireless sensors, open source hardware and low cost solutions for the Internet of Things.</p>
+
+             <h3>An Introduction to the Contiki O/S</h3>
+             <p id="Contiki">This talk is aimed to introduce the <a title="Contiki" href="http://www.contiki-os.org/">Contiki OS</a> and some of the development hardware. We will learn about the process of bootstrapping the development environment and there will be a hands-on tutorial.</p>
+            <p id="IlyaDmitrichenko"><span class="vcard"><span class="fn">Ilya Dmitrichenko</span></span> was born in Soviet Latvia in 1985, grew up and attended a secondary school there, and moved to UK as soon as Latvia joined the EU. He attended the biggest university in London and was rather disappointed with the education, but nevertheless carried on and had fun working on a final year engineering project which served as an introduction to the topic of this talk. Ilya is interested in various aspects of hardware and software, spanning from WSN to DSP and several other random fields.</p> 
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the talks will start at 18:30 prompt.</b></p>
+
+date:        26th January 2012
+dtstart:     2012-01-26T18:00:00Z
+dtend:       2012-01-26T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Tue, 3 January 2012 23:00:00 GMT
+updated:     2012-01-03T23:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugwireless.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2012/oshug15/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - wireless
+    - CentreforCreativeCollaboration
+    - C4CC
+    - Contiki
+    - ContikiOS
+    - Networking
+    - InternetofThings
+    - IoT
