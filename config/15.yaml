@@ -1,8 +1,8 @@
 ---
 number:     15
-title:       Wireless (Hacking Commodity Wireless, Practical Wireless, Contiki OS)
+title:       Wireless (Hacking Commodity Wireless, Practical Wireless, Contiki OS, CWIG)
 description: |
-             <p>At the fifteenth OSHUG meeting we'll be taking a look at wireless technologies. We will hear how you can repurpose low cost commodity equipment, we will be given an introduction to RF basics, and we will learn about the Contiki operating system.</p>
+             <p>At the fifteenth OSHUG meeting we'll be taking a look at wireless technologies. We will hear how you can repurpose low cost commodity equipment, we will be given an introduction to RF basics, we will learn about the Contiki operating system, and we will be introduced to Ciseco's new Wireless Internet Gateway.</p>
 
 sessions: |
             <h3>Hacking Commodity Wireless</h3>
@@ -16,6 +16,10 @@ sessions: |
              <h3>An Introduction to the Contiki O/S</h3>
              <p id="Contiki">This talk is aimed to introduce the <a title="Contiki" href="http://www.contiki-os.org/">Contiki OS</a> and some of the development hardware. We will learn about the process of bootstrapping the development environment and there will be a hands-on tutorial.</p>
             <p id="IlyaDmitrichenko"><span class="vcard"><span class="fn">Ilya Dmitrichenko</span></span> was born in Soviet Latvia in 1985, grew up and attended a secondary school there, and moved to UK as soon as Latvia joined the EU. He attended the biggest university in London and was rather disappointed with the education, but nevertheless carried on and had fun working on a final year engineering project which served as an introduction to the topic of this talk. Ilya is interested in various aspects of hardware and software, spanning from WSN to DSP and several other random fields.</p> 
+
+             <h3>CWIG — The Ciseco Wireless Internet Gateway</h3>
+             <p id="CWIG">The CWIG is a new open hardware device that is designed to be the "one and only" platform you'd need for a wireless gateway. It employs the same ATmega328 microcontroller that is familiar to Arduino users and supports Ciseco's TI CC1110-based XRF module, XBee, Bluetooth, RFM12B, X10/HomeEasy, FRAM, SD, Ethernet and over-the-air programming with AVRDude. It's sized to be housed in a low cost, compact enclosure and to be cheap to build using through-hole components. In this talk we will be given an introduction to the CWIG and also to the XRF wireless UART and programmable RF module.</p>
+             <p id="MilesHodkinson"><span class="vcard"><span class="fn">Miles Hodkinson</span></span>'s twenty-odd year relationship with IT ended around six years ago when he decided that it was time to do something completely different. He had looked around without success for something to log and control his wind turbine, solar panels and Lister single cylinder engine, and found that nothing was flexible enough for the money he wanted to pay (tens of pounds per device), so he decided he would try and build it himself. After a number of years working on a human-focused method of networking originally built using XBee modules and now termed LLAP, his company developed the TI CC1110-based XRF module.<p>
 
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the talks will start at 18:30 prompt.</b></p>
 
@@ -48,3 +52,7 @@ tags:
     - Networking
     - InternetofThings
     - IoT
+    - Ciseco
+    - CWIG
+    - XBee
+    - CC1110
