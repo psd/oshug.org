@@ -1,0 +1,52 @@
+---
+number:     16
+title:       Manufacturing (Breadboard to Finished Product, Arduino Shield, Modular RepRap Electronics)
+description: |
+             <p>At the sixteenth OSHUG meeting we will be hearing about first-hand experiences of taking an open source hardware design from being a project to a product. With insights into prototyping, some of the manufacturing options available and the challenges that may be encountered.</p>
+
+sessions: |
+            <h3>From Breadboard to Finished Product</h3>
+            <p id="BreadboardFinished">You have a cool project, people are sending you emails asking where they could get their hands on one and you find yourself googling "electronics manufacturing"... Should you get yourself a toaster oven and start a miniature production line in your living room or should you just outsource it? What challenges await you if you decide to go down the contract manufacturing route? This talk aims to give the audience an overview of the electronics manufacturing process, using a project recently completed by the speaker as a case study.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="http://twitter.com/omerk">Omer Kilic</a> is theoretically still a research student at the University of Kent, although he intends to submit his thesis (which is about a reconfigurable heterogeneous computing framework) pretty soon. He likes tiny computers, things that 'just work' and beer. He currently works for Erlang Solutions in London, exploring the use of Erlang programming language in the Embedded Systems domain and develops tools and support material to help the adoption of this technology.</p>
+
+             <h3>Arduino Shield: From Design to Manufacturing</h3>
+             <p id="ArduinoShield">The Arduino CAN-Bus shield gives the Arduino CAN-Bus capability. In this presentation we will learn about the design process from PCB layout and prototyping, to testing with a simulator and eventually testing with a real car. And about the perils of using a simulator, small scale production and outsourcing.</p>
+             <p id="SukkinPang" class="vcard"><a class="fn url" title="Sukkin Pang - Twitter" href="http://twitter.com/skpang_uk">Sukkin Pang</a> is a design engineer and a director at <a href="http://www.skpang.co.uk/catalog/">SK Pang Electronics Ltd</a>. He graduated from the University of Hertfordshire and has over 20 years of industrial experience. He is passionate about open source hardware and has four Arduino shields published. He used to tinker in assembler on the Z80, 6502, PIC and AVR, but nowadays he mainly uses C and C++.</p>
+
+              <h3>Design and Build of Modular RepRap Electronics</h3> 
+              <p id="ModularElectronics">After meeting at <a href="http://oggcamp.org/" title="OggCamp">OggCamp 2011</a> a number of people decided to form a Thames Valley area group for those interested in using and building <a href="http://reprap.org" title="RepRap">RepRap</a> 3D printers, and Thames Valley RepRap User Group (TVRRUG) was born. Alan Wood offered to help out with the electronics side of printer builds, expecting that only a handful 3D printing geeks would join up. One month later the group were organising a build of 20 RepRaps and 30 complete sets of electronics! They had originally decided to go with a kit-based approach for this, but couldn't find a modular candidate that would meet their requirements. So they took matters into their own hands and Alan and the group designed a new modular kit [See: <a href="http://solderpad.com/folknology/dual-stepper-motor-module/" title="Dual Stepper Motor Module">DSMM</a> and <a href="https://solderpad.com/folknology/open-motion-controller/" title="Open Motion Controller">OMC</a>] that can be used both with RepRap and other Cartesian robotic platforms. In this talk Alan will go through the distributed design and build process they adopted, as well as covering details of the design itself.</p>
+
+              <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood" href="http://twitter.com/folknology">Alan Wood</a> originally trained in systems engineering, got lost in software engineering and open source for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the last few years.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the talks will start at 18:30 prompt.</b></p>
+
+date:        23rd February 2012
+dtstart:     2012-02-23T18:00:00Z
+dtend:       2012-02-23T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 6 February 2012 19:30:00 GMT
+updated:     2012-02-07T19:30:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugmanufacturing.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2012/oshug16/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - manufacturing
+    - prototyping
+    - arduino
+    - arduinoshield
+    - C4CC
+    - SKPang
+    - TVRRUG
+    - RepRap
+    - 3DPrinting
