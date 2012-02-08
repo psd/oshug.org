@@ -20,13 +20,20 @@ sessions: |
 
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the talks will start at 18:30 prompt.</b></p>
 
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.designspark.com">
+                     <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark" alt="DesignSpark from RS Components">
+                 </a>
+             </center>
+
 date:        23rd February 2012
 dtstart:     2012-02-23T18:00:00Z
 dtend:       2012-02-23T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Mon, 6 February 2012 19:30:00 GMT
-updated:     2012-02-07T19:30:00Z
+updated:     2012-02-08T06:40:00Z
 location:    Centre for Creative Collaboration
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
@@ -50,3 +57,4 @@ tags:
     - TVRRUG
     - RepRap
     - 3DPrinting
+    - DesignSpark
