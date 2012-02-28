@@ -1,0 +1,57 @@
+---
+number:     17
+title:       Practical System-on-Chip (Program your own open source FPGA SoC)
+description: |
+             <p>At the <a href="/event/9">ninth OSHUG meeting</a> we were given an introduction to FPGA development, and to the OpenCores community and the OpenRISC 1000 open source processor family. At the seventeenth OSHUG meeting we will be given a comprehensive introduction to the practicalities of programming your own open source FPGA system-on-chip.</p>
+
+sessions: |
+            <h3>How to Program Your Own Open Source FPGA System-on-Chip</h3>
+            <p id="FPGASoC">It is possible to buy a FPGA prototyping board like the Terasic DE0-nano, capable of running a complete 32-bit System-on-Chip for around £50. Even larger boards with the memory capacity to bring up a full Linux system on the design cost a few hundred pounds.</p>
+            <p>In this talk Julius Baxter and Jeremy Bennett will present the OpenRISC architecture and OpenRISC Reference Platform SoC (ORPSoC), and show how to take this open source design and get it running on an FPGA board.</p>
+            <p>This is a practical evening, aimed at users who have never done any chip design. Using a Xilinx ML501 prototyping board, Julius Baxter will demonstrate all the steps from obtaining the initial hardware design through to bringing up the board and booting a full Linux system.</p>
+            <p>The following topics will be covered:
+            <ul>
+                <li>an overview of OpenCores and the OpenRISC project</li>
+                <li>an introduction to the Verilog Hardware Design Language</li>
+                <li>how to synthesize the design into a FPGA bitstream</li>
+                <li>what needs modifying to run on different boards</li>
+                <li>how to get software running</li>
+                <li>porting a simple (newlib) library to the board</li>
+                <li>demonstration of Linux booting</li>
+            </ul>
+            </p>
+            <p><i>Note that this will be an interactive session, and participants are encouraged to bring their along own FPGA dev boards and laptops and to join in, should they wish. If you have a board that is not <a href="http://opencores.org/or1k/FPGA_Development_Boards">listed</a> as having a preconfigured ORPSoC build, or you have any other questions concerning the practicalities of this, you should direct your question to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">OSHUG discussion list</a>.</i></p>
+            <p id="JuliusBaxter" class="vcard">Julius Baxter has been involved with the OpenRISC project for 4 years, and during that time he's worked on everything from processor Verilog RTL to the Linux kernel port. After finishing undergraduate studies in his native Australia, he then studied a System-on-Chip design Master's at KTH in Stockholm, Sweden, while working at ORSoC AB - the owners and operators of OpenCores.org. Now living and working Cambridge, Julius maintains a role as an active developer and maintainer on the OpenRISC project, largely dealing with RTL, toolchain and architecture work.</p>
+              <p id="JeremyBennett" class="vcard">Dr Jeremy Bennett is Chief Executive of <a href="http://www.embecosm.com/">Embecosm</a> which provides open source services, tools and models to facilitate embedded software development with complex systems-on-chip. He has been involved with OpenCores for the past decade, and is responsible for much of the software tool chain. Contact him at <a href="mailto:jeremy.bennett@embecosm.com">jeremy.bennett@embecosm.com</a>.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+date:        29th March 2012
+dtstart:     2012-02-29T18:00:00Z
+dtend:       2012-02-29T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 20 February 2012 19:30:00 GMT
+updated:     2012-02-28T21:45:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugfpgasoc.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2012/oshug17/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - FPGA
+    - opencores
+    - openrisc
+    - soc
+    - Linux
+    - Verilog
+    - Embecosm
+    - DesignSpark
