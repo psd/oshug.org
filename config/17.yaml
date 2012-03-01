@@ -26,6 +26,13 @@ sessions: |
 
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
 
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.designspark.com">
+                     <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark" alt="DesignSpark from RS Components">
+                 </a>
+             </center>
+
 date:        29th March 2012
 dtstart:     2012-02-29T18:00:00Z
 dtend:       2012-02-29T20:00:00Z
