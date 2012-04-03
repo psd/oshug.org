@@ -1,0 +1,52 @@
+---
+number:     18
+title:       Energy-efficient Computing (Open Compute, BeagleBoard, Event-driven XCore)
+description: |
+             <p>At the eighteenth OSHUG meeting we will hear how open source collaboration is being used to transform data centre design, and how open source hardware and software have been used to enable low cost ARM development. It will also be the OSHUG 2<sup>nd</sup> anniversary, and two years on we are delighted to <a href="/event/1">welcome back</a> XMOS, who will be giving us an introduction to event-driven programming with XCore.</p>
+
+sessions: |
+            <h3>The Open Compute Project</h3>
+            <p id="OpenCompute">Facebook uses a lot of servers, and those servers use a lot of energy. To minimise the costs associated with those servers and data center facilities, Facebook engineers came up with a fresh design. To build a community around that design it has been open sourced via the <a href="http://opencompute.org/" title="Open Compute Project">Open Compute Project</a> (OCP). OCP is now involved in taking the requirements of many large data center users, and turning them into designs for servers, the racks that hold them, the facilities that power and cool them, and the management interfaces that control them. This presentation will give an overview of what Facebook have built, and how OCP plans to transform data centers elsewhere.</p>
+            <p id="ChrisSwan" class="vcard">Chris Swan has been an electronics hobbyist and software hacker since primary school. These days he's an IT guy at a large bank, focussed on security and innovation - including mobile, consumerisation and cloud computing. Alongside his day job Chris chairs the infrastructure working group at the Open Data Center Alliance (ODCA), which is partnered with the Open Compute Project (OCP).</p>
+
+             <h3>BeagleBoard.org Community - Open Hardware, Open Software, Open Platforms</h3>
+             <p id="BeagleBoard"><a href="http://beagleboard.org/">BeagleBoard.org</a> has created a number of products since its conception a few years ago, from the initial 'BeagleBoard' single board computer, through to the enhanced 'BeagleBoard-xM' with more performance and connectivity, and its most recent and expandable platform, the 'BeagleBone'. All of these have set out to achieve a goal of bringing high performance ARM-based processing technology to a wide 'community' of developers and users, in low-cost 'open' platforms, giving access to as much of the system-on-chip features as possible. The recent launch of the 'BeagleBone' was a great testament to this vibrant 'community', key to Beagleboard.org, which enabled a wealth of advanced platform and application software to be immediately available, and a large amount of hardware expertise providing feedback and ready to start building add-ons and clones. This was exactly what was hoped for when the project was initially conceived by a couple of engineers discussing at the coffee machine about how their technology could be made more widely accessible. The community continues to grow each day, with more and more exciting and innovative uses for these low-cost, open platforms revealed on the various mailing lists and chat rooms - from 'football playing robots' to 'media servers', the list, expertise and imagination seems endless!</p>
+             <p>This presentation hopes to give an overview of the BeagleBoard.org community project and how the products have been created and supported. There have been many exciting moments, many challenges and many lessons learned throughout this project - some of which will hopefully be covered during this presentation and discussion.</p>
+             <p id="RogerMonk" class="vcard">Roger Monk is a System Applications Engineer for Texas Instruments, and has spent the last 10+ years working closely with customers to build hi-tech electronic products based around Texas Instruments Embedded Processing technology across a range of application areas. Roger is passionate about open-source technology and the ability for it to help deliver higher quality, more innovative products to market quickly. He has been closely involved with the BeagleBoard.org community project since its conception.</p>
+
+             <h3>Event-driven Programming with XCore</h3>
+             <p id="EventDriven"><a href="http://www.xmos.com/">XMOS</a> designs concurrent, event-driven processor cores. Because of the deterministic nature of the architecture both real-time algorithms and hardware interfaces can be developed as software. The event-driven nature of the processor means that all programs pause until they need to perform a task, making them inherently efficient.</p>
+             <p>In this talk we will discuss events, concurrency, and how hardware interfaces can be programmed in software. We will then show the design of the slice-kit development system, which enables XCores to be easily attached to peripheral PCB's containing, for example, an Ethernet PHY.</p>
+             <p id="HenkMuller" class="vcard">Henk Muller is currently the Principal Technologist at XMOS Ltd. In that role he has been involved in the design and implementation of hardware and software for real time systems. Prior to that, Henk worked in Academia for 20 years in computer architecture, compilers, and ubiquitous computing. He holds a doctorate from the University of Amsterdam.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+date:        26th April 2012
+dtstart:     2012-04-26T18:00:00Z
+dtend:       2012-04-26T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 19 March 2012 21:30:00 GMT
+updated:     2012-04-03T15:47:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugenergyefficient.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2012/oshug18/
+
+tags:
+    - OSHUG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - OpenCompute
+    - EnergyEfficient
+    - BeagleBoard
+    - ARM
+    - TexasInstruments
+    - XMOS
+    - XCore
+    - EventDriven
