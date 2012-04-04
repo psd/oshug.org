@@ -21,13 +21,21 @@ sessions: |
 
              <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
 
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.skpang.co.uk/catalog/">
+                     <img class="sponsor" src="/images/skpang_logo.gif" title="SK Pang electronics" alt="SK Pang electronics">
+                 </a>
+             </center>
+
+
 date:        26th April 2012
 dtstart:     2012-04-26T18:00:00Z
 dtend:       2012-04-26T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Mon, 19 March 2012 21:30:00 GMT
-updated:     2012-04-03T15:47:00Z
+updated:     2012-04-04T17:47:00Z
 location:    Centre for Creative Collaboration
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
