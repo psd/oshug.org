@@ -20,6 +20,71 @@ img.logo {
 	max-width: 90em;
 }
 
+#support {
+        clear: both;
+        max-width: 90em;
+        padding: 1em 12em 4em 12em;
+	text-align: center;
+}
+
+#support ul {
+	list-style-type: none;	
+}
+
+#support ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0 5px 5px;
+}
+
+#support ul li a {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	background: transparent none no-repeat center center;
+	text-indent: -9999px;
+}
+
+#support ul li a#osmosoft {
+	background-image: url('/images/sup_osmosoft.png');
+}
+
+#support ul li a#designspark {
+	background-image: url('/images/sup_designspark.jpg');
+}
+
+#support ul li a#bbcld {
+	background-image: url('/images/sup_bbcld.jpg');
+}
+
+#support ul li a#londonhackspace {
+	background-image: url('/images/sup_londonhackspace.jpg');
+}
+
+#support ul li a#skillsmatter {
+	background-image: url('/images/sup_skillsmatter.gif');
+}
+
+#support ul li a#universityofkent {
+	background-image: url('/images/sup_universityofkent.jpg');
+}
+
+#support ul li a#c4cc {
+	background-image: url('/images/sup_c4cc.jpg');
+}
+
+#support ul li a#oomlout {
+	background-image: url('/images/sup_oomlout.jpg');
+}
+
+#support ul li a#skpang {
+	background-image: url('/images/sup_skpang.gif');
+}
+
+#support ul li a#memset {
+	background-image: url('/images/sup_memset.gif');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }
@@ -68,7 +133,7 @@ h2 a:visited {
 }
 
 #content {
-	padding: 1em 12em 4em 12em;
+	padding: 1em 12em 0 12em;
 }
 
 #flickr {
