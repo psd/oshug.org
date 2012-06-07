@@ -7,7 +7,7 @@ SCRIPTS=\
 	$(BAKE)
 
 # no dependencies, always runs ..
-all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/images/DS_with_RS.jpg site/images/skpang_logo.gif site/images/sup_ site/favicon.ico
+all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/images/DS_with_RS.jpg site/images/skpang_logo.gif site/images/Embecosm.jpg site/images/sup_ site/favicon.ico
 	$(BAKE)
 
 site:
@@ -31,6 +31,9 @@ site/images/DS_with_RS.jpg:
 site/images/skpang_logo.gif:
 	ln images/skpang_logo.gif site/images/skpang_logo.gif
 
+site/images/Embecosm.jpg:
+	ln images/Embecosm.jpg site/images/Embecosm.jpg
+
 site/images/sup_:
 	ln images/sup_bbcld.jpg site/images/sup_bbcld.jpg
 	ln images/sup_c4cc.jpg site/images/sup_c4cc.jpg
@@ -42,6 +45,7 @@ site/images/sup_:
 	ln images/sup_skillsmatter.gif site/images/sup_skillsmatter.gif
 	ln images/sup_skpang.gif site/images/sup_skpang.gif
 	ln images/sup_universityofkent.jpg site/images/sup_universityofkent.jpg
+	ln images/sup_embecosm.jpg site/images/sup_embecosm.jpg
 
 site/favicon.ico:
 	ln images/favicon.ico site/favicon.ico

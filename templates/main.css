@@ -85,6 +85,10 @@ img.logo {
 	background-image: url('/images/sup_memset.gif');
 }
 
+#support ul li a#embecosm {
+	background-image: url('/images/sup_embecosm.jpg');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }
