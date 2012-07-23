@@ -81,6 +81,16 @@ locations:
         latitude: 51.298383
         longitude: 1.064172
 
+    The Birchcliffe Centre:
+        uri:       http://pennineheritage.org.uk/projects/the-birchliffe-centre
+        street:    Birchcliffe Road
+        locality:  Hebden Bridge
+        region:    West Yorkshire
+        postcode:  HX7 8DG
+        latitude:  53.743433
+        country:   UK
+        longitude: -2.008952
+
 feeds:
     - atom
 
@@ -127,3 +137,4 @@ released:
     - 18
     - 19
     - 20
+    - oshcamp2012

@@ -1,0 +1,123 @@
+---
+number:     oshcamp2012
+li:         21
+title:      Open Source Hardware Camp 2012
+description: |
+            <p>Open Source Hardware Camp 2012 will take place place in the north of England in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. Building on the success of last year's <a href="/event/oshcamp" title="OSHCamp 2011">OSHCamp</a>, it will be a weekend long event with nine talks on the Saturday and four parallel workshops on the Sunday.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with discounts available for group bookings. This page will be updated with additional local information in due course.</p>
+sessions: |
+            <h3>Practical Experiences with the Google Android Accessory Development Kit (ADK)</h3>
+            <p id="ADK">The ADK is an exciting development platform that makes it possible to easily combine Android applications with custom hardware built around Arduino. Such combinations have the best of both worlds by enabling the creation of a mobile phone application with access to peripheral devices that is only limited by your imagination.</p>
+            <p>This talk will cover two projects that extend what the phone can do by integrating both input and output devices. And will cover some of the dos and don'ts of using the ADK and associated IDEs. If time permits there will also be a demonstration with a quick run through of the code.</p>
+            <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="http://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software. His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, switching to consulting in 2000.</p>
+            <p><i>If you can't wait to get your hands on the ADK software browse to <a href="http://developer.android.com/tools/adk">http://developer.android.com/tools/adk</a></i>.</p>
+            
+            <h3>The Internet of Things and Arduino</h3>
+            <p id="IoTArduino">As connecting hardware to the network becomes cheaper and cheaper we're seeing the rise of what is being called the Internet of Things, or “IoT” for short.</p>
+            <p>This talk will give an introduction to the Internet of Things and explain how open hardware platforms such as Arduino are helping it grow.  With plenty of examples of IoT projects, from using sensors to map global radiation levels to bakeries that tweet when the bread is fresh out of the oven.</p>
+            <p id="AdrianMcEwen" class="vcard"><a class="fn url" title="Adrian McEwen - Twitter" href="http://twitter.com/amcewen">Adrian McEwen</a> has been connecting odd things to the Internet since the mid-90s. Starting with cash registers, and then as part of the team who were first to put a web browser onto a mobile phone. As the mobile phone and set-top box work became more mainstream he dropped down a level to Arduino which led to Internet-enabled bubble machines and chicken-food silos...</p>
+            <p>Adrian has been working with Arduino since 2008 — which is when <a href="http://bubblino.com/" title="Bubblino">Bubblino</a>, the aforementioned bubble machine which watches twitter, was created — and is charge of the Arduino Ethernet library. He is based in Liverpool, where he runs MCQN Ltd, a company that builds IoT devices and products.</p>
+
+            <h3>Developing Linux on Embedded Devices</h3>
+            <p id="EmbeddedLinux">This talk will provide an introduction to developing Linux on embedded devices. Firstly we will look at the capabilities of popular boards such as the BeagleBone and the Raspberry Pi. Then using the example of a BeagleBone controller for a 3D printer the talk with explain how to develop for an embedded device. It will consider what comprises an embedded Linux software stack. The talk will discuss boot loaders, kernels and root filesystems. We will discuss what are the minimum software packages required in a root file system. The talk will then go on to consider the tools required to develop for an embedded target. It will look at what tools are available to help the embedded developer and speed up this development process. Once you have developed your software you need to debug it. The talk will look at what debugging tools are available for debugging embedded devices.</p>
+            <p id="MelanieRhiannaLewis" class="vcard"><a class="fn url" title="Melani Rhianna Lewis - Twitter" href="http://twitter.com/cyberspice">Melanie Rhianna Lewis</a> started a life long love of electronics as a child when her Dad helped her make a "crystal" radio with an ear piece, a coil of wire, a diode and a radiator! At the same time the home computer revolution started and she would lust after the "build your own computers" advertised in the electronics magazines of the time. She never got one but did end up the proud owner of a BBC Micro. Melanie learnt everything she could about the machine and including assembler, operating systems, drivers, interrupt, and, thanks to the circuit diagram in the Advanced User Guide, digital electronics. After the BBC Micro came the Acorn Archimedes and so started a long relationship with ARM processors. In the 90s Melanie became interested in Linux and then developed one of the first ARM Linux distributions running on an Acorn RISC PC. The hobby became a job and Melanie currently works for an embedded device consultancy near Bradford where a lot of her work is still with ARM processors.</p>
+
+            <h3>Interfacing the Raspberry Pi to the World — Everything you need to know about P1</h3>
+            <p id="InterfacingPi">You've received your Pi, set up a web server on it and maybe played a few rounds of Quake. You're looking for a new challenge and suddenly the header on the corner of the board catches your eye. A quick Google search for "P1 Raspbery Pi" gets you to the eLinux wiki page on <a href="http://elinux.org/RPi_Low-level_peripherals">Low level peripherals</a>, and you suddenly realise that you can do all sorts of fun stuff by adding extra bits to your Raspberry Pi using this magical expansion port. Where do you start? Is it safe to connect a motor directly to the pins? What sort of interesting components are out there?</p>
+             <p>In this talk we will look at the ways we can communicate with the outside world using the GPIO pins on the Raspberry Pi. We will explore the mechanical, electrical and software side of things and talk about a few example projects you can try at home, and the hardware limitations will be covered and workarounds provided.</p>
+             <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="http://twitter.com/OmerK">Omer Kilic</a> is theoretically still a research student at the University of Kent, although he intends to submit his thesis (which is about a reconfigurable heterogeneous computing framework) pretty soon. He likes tiny computers, things that 'just work' and beer. He currently works for Erlang Solutions in London, exploring the use of Erlang programming language in the Embedded Systems domain and develops tools and support material to help the adoption of this technology.</p>
+             <p><i>This talk will also serve as an introduction for the Raspberry Pi workshop on the Sunday, where we will explore the example projects covered in more detail.</i></p>
+
+             <h3>Sensing Wearable Technology</h3>
+             <p id="SensingWearableTechnology">An introduction to wearable technology that will include examples which incorporate sensors, plus work which makes use of the LilyPad Arduino, an open source, sewable microcontroller.</p>
+             <p id="RainAshford" class="vcard"><a class="fn url" title="Rain Ashford - Twitter" href="http://twitter.com/rainycat">Rain Ashford</a> creates wearable technology & electronic art, her most recent work involves investigating physiological sensing technologies and how they can be applied to wearable artworks to measure and interpret moods, health and lifestyle data. Rain also creates fun, interactive and aesthetically pleasing works that include gaming and musical elements. She is keen to demonstrate that electronics, components and circuitry doesn't have to be regarded as cold, boring, hard and boxy and instead can be fun, colourful and elegant, plus be integrated into an overall design of a work.</p>
+             <p>Rain’s background is in developing online activities for the BBC as a Senior Producer at BBC Learning and also as Technologist at BBC R&D, co-running BBC Backstage. She currently works as a freelance consultant for the Open University and for Technocamps designing and leading workshops in coding and electronics in the form of wearable technology for 11-19 year-olds, plus is a PhD researcher, peering into wearable electronics & art.</p>
+
+             <h3>Running OpenBTS in the Real World</h3>
+             <p id="OpenBTS">This talk will explore the <a href="http://en.wikipedia.org/wiki/OpenBTS" title="OpenBTS – Wikipedia">OpenBTS</a> project and describe how it uses software-defined radio and open source Internet telephony to create a small but complete GSM mobile phone network.</p>
+             <p>Experiences of operating OpenBTS installations on the Pacific island of Niue and at the Burning Man festival in the Nevada desert will be covered, along with how OpenBTS has been integrated with other systems for use in disaster relief. Licensing permitting there will also be a live demonstration.</p>
+             <p id="TimPanton" class="vcard"><a class="fn url" title="Tim Panton - Twitter" href="http://twitter.com/steely_glint">Tim Panton</a> is a software engineer with a particular interest in projects that blend web applications and person-to-person speech into an integrated user experience. He has many years hands-on experience with the OpenBTS project, working closely with the core development team on numerous installations.</p>
+              <p>Tim is currently working on the Phono.com, Tropo.com and Rayo.org products at VoxeoLabs, producing web developer-friendly APIs by using XMPP protocols to drive innovative telephony applications that can be used anywhere by anyone.</p>
+
+               <h3>The 3D Printed Revolution</h3>
+               <p id="3DPrintedRevolution">Over recent years Open Source 3D printers have quickly developed alongside their commercial counterparts offering affordable and accessible alternatives. This talk will cover experiences using commercial printers and how the speaker's interests have moved to open source designs and how the two compare. Examples will be shown of projects using these technologies, such as "Fable", a clock manufactured by Selective Laser Sintering, and a wrist watch designed to be printed on a RepRap. There will also be a run through of the design considerations and how files were created, fixed and sliced in preparation to print on a RepRap.</p>
+               <p id="MarkGilbert">Mark Gilbert graduated in 2000 from Sheffield Hallam University with a degree in Industrial Design Innovation. After several years working as a design engineer, Mark started working as a freelance industrial designer for several companies in the Northwest. Over the last 6 years he has also worked closely with the Bolton Science and Technology Centre as the "Designer in Residence" where he has developed workshops around the centre's 3D printing and CAD facilities.</p>
+               <p>In 2008 Mark set up the design studio <a href="www.gilbert13.co.uk" title="Gilbert13 Design Studioxi"”>Gilbert13</a> with his wife Angela where they design and develop products inspired by experimentation into digital manufacturing processes, 3D printing and additive manufacturing. Recent projects have taken their experience from rapid prototyping to use 3D printing as a manufacturing tool that can change the way people design, co create and distribute objects.</p>
+
+               <h3>The Bots are Coming</h3>
+               <p id="BotsAreComing">In the last two decades we have seen software and data change the fabric of economics, and the advent of personal computing and the Internet enable many new business models. However, the next two decades will be even more radical as that wave of innovation shifts from the virtual domain to a physical manifestation. Atoms are the new bits and the open sourcing and democratisation of bot technology is allowing us to enter into an era of personal production. And this talk will explore how 3D printing and additive manufacturing are revolutionising production as we know it.</p>
+               <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="http://twitter.com/folknology">Alan Wood</a> originally trained in systems engineering, got lost in software engineering and open source for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the last few years.</p>
+
+               <h3>DIYBIO - The Next Frontier</h3>
+               <p id="DIYBIO">DIYBIOMCR is an public group based at <a href="http://madlab.org.uk/" title="Manchester Digital Laboratory">MadLab</a> dedicated to making biology an accessible pursuit for citizen scientists, amateur biologists and biological engineers who value openness and safety. This talk will give an overview of the movement, and what is going on at MadLab involving not only biology but also diverse fields such as hardware-hackers, artists, journalists and the open-source movement.</p>
+               <p id="HwaYoungJung" class="vcard"><a class="fn url" title="Hwa Young Jung - Twitter" href="http://twitter.com/hwayoung">Hwa Young Jung</a> is a co-founder and a director of MadLab, a community centre for creative, tech and science based the Manchester. Over 50 user groups meet once a month, including DIYBIOMCR, initially a joint funded project with MMU and the Wellcome Trust.</p>
+
+               <h3>Sunday Workshops</h3>
+               <p id="SundayWorkshops">Workshops will be reasonably informal and shaped by the participants, and details are subject to change depending upon the level of interest expressed.</p>
+               <p>Please feel free to bring along equipment and components provided that you are able to take full responsibility for your own personal safety and that of others. Common sense should be exercised!</p>
+
+               <p><strong>Practical IoT Applications with the Google ADK and Arduino</strong></p>
+               <p>Hands on IoT building sessions that follow on from Saturday's ADK and Arduino talks.</p>
+
+               <p><strong>Interfacing the Raspberry Pi to the World</strong></p>
+              <p>Here you will learn how to connect a selection of devices to your Raspberry Pi utilising the methods discussed during Saturday's talk. We will have a few Raspberry Pi boards available for the workshop but please bring your own if you were one of the lucky ones to have received one.</p>
+
+               <p><strong>Building GSM Networks with Open Source</strong></p>
+               <p>A look at the practical steps involved in creating a low power GSM network using open source technology.</p>
+               <p><i>Note: this workshop will be subject to a spectrum licence being granted.</i></p>
+
+               <p><strong>Practical 3D Printing</strong></p>
+               <p><i>TBD.</i></p> 
+
+               <p><strong>Note:</strong></p>
+
+               <p><ul><i>
+                 <li>Please aim to arrive for 09:00 on the Saturday as the event will start at 09:30 prompt.</li>
+                 <li>A light lunch and refreshments will be provided on the Saturday. Please ensure that you make any dietary requirements clear when registering.</li>
+               </i></ul></p>
+
+               <div id="support">
+                 <p><strong><i>Sponsored by:</i></strong></p>
+                 <p><ul>
+                 <li><a id="designspark" title="DesignSpark from RS Components" href="http://www.designspark.com">DesignSpark from RS Components</a></li>
+                 <li><a id="capitalscf" title="Capital SCF" href="http://www.capitalscf.com/">Capital SCF</a></li>
+                 <li><a id="cosm" title="Cosm" href="https://cosm.com/">Cosm</a></li>
+                 </ul></p>
+                 <p><strong><i>OSHCamp kit bags provided by:</i></strong></p>
+                 <p><ul>
+                 <li><a id="skpang" title="SK Pang Electronics" href="http://www.skpang.co.uk">SK Pang</a></li>
+                 <li><a id="oomlout" title="Oomlout" href="http://oomlout.com/">Oomlout</a></li>
+                 </ul></p>
+               </div>
+
+date:        15th September 2012
+dtstart:     2012-10-15T09:00:00Z
+dtend:       2012-10-16T16:00:00Z
+start:       09:00
+end:         16:00
+pubdate:     Mon, 23 July 2012 22:00:00 BST
+updated:     2012-07-23T22:00:00Z
+location:    The Birchcliffe Centre
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2012.eventbrite.com
+lanyrd:       http://lanyrd.com/2012/oshcamp/
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - RepRap
+    - IoT
+    - ADK
+    - 3DPrinting
+    - DIYBIO
+    - GSM
+    - OpenBTS
+    - EmbeddedLinux
+    - RaspberryPi
+    - WearableTechnology
