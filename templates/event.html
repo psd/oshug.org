@@ -6,8 +6,8 @@
 	<meta name="author" content="[% author %]">
 	<meta name="description" content="[% description %]">
 	<meta name="keywords" content="[% keywords %]">
-    <meta name="ICBM" content="[% locations.${event.location}.latitude %], [% locations.${event.location}.latitude %]">
-    <meta name="geo.position" content="[% locations.${event.location}.latitude %]; [% locations.${event.location}.latitude %]">
+	<meta name="ICBM" content="[% locations.${event.location}.latitude %], [% locations.${event.location}.latitude %]">
+	<meta name="geo.position" content="[% locations.${event.location}.latitude %]; [% locations.${event.location}.latitude %]">
 	<link rel="canonical" href="[% uri %]">
 [% FOREACH feed IN feeds -%]
 	<link rel="alternate" type="[% media.$feed.type %]" title="[% media.$feed.title %]" href="/[% feed %]">
