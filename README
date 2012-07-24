@@ -17,6 +17,10 @@ To build and deploy the site, make sure your local copy is fresh:
 
     $ git pull
 
+You'll need Perl and a few modules:
+
+    $ cpan Template YAML JSON
+
 Make local changes to the yaml or templates, then build the site:
 
     $ make
