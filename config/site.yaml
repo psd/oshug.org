@@ -91,6 +91,16 @@ locations:
         country:   UK
         longitude: -2.008952
 
+    Erlang Solutions:
+        uri:       https://www.erlang-solutions.com/
+        extendedaddress: New Loom House
+        street:    101 Back Church Lane
+        locality:  London
+        postcode:  E1 1LU
+        country:   UK
+        latitude:  51.512889
+        longitude: -0.067243
+
 feeds:
     - atom
 
@@ -138,3 +148,4 @@ released:
     - 19
     - 20
     - oshcamp2012
+    - 22

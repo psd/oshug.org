@@ -1,0 +1,64 @@
+---
+number:     22
+title:       Embedded (Erlang, Parallella, Compiler Options and Energy Consumption)
+description: |
+             <p>Embedded systems continue to grow in importance as they play an ever-increasing role in everyday life: more computing is done on the move as smartphone functionality catches up with desktops and services move to the Cloud; the Internet of Things is set to herald an age in which networked objects create and consume data on our behalves. These, and many other applications, are driving an insatiable demand for more powerful and energy-efficient embedded solutions.</p> 
+             <p>At the twenty-second OSHUG meeting we will hear how Erlang can be used to bring concurrency to multi-core embedded systems, we will learn about the Parallella project which aims to make parallel computing accessible to everyone, and we will hear about vital research into optimising compiler options for energy-efficiency.</p>
+
+sessions: |
+            <h3>Erlang Embedded — Concurrent Blinkenlights and More!</h3>
+            <p id="EmbeddedErlang">Managing the resources and utilising the increasingly popular multi-core and heterogeneous aspects of modern embedded systems require new sets of tools and methodologies that differ from the traditional C/C++ flow.</p>
+            <p><a href="http://www.erlang.org/" title="Erlang website">Erlang</a> provides features that are highly relevant to solve these issues and yet it is pretty much unknown in the embedded domain — which is surprising considering that it was originally designed for embedded applications at Ericsson!</p>
+            <p>This talk aims to provide an overview of Erlang and the current state of its usage in the embedded domain and talk about our plans to help speed up the adoption rate of Erlang in embedded projects.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="http://twitter.com/omerk">Omer Kilic</a> works on Erlang Embedded, a Knowledge Transfer Partnership project in collaboration with University of Kent. The aim of this project is to bring the benefits of concurrent systems development using Erlang to the field of embedded systems; through investigation, analysis, software development and evaluation.</p>
+            <p>Prior to joining Erlang Solutions, Omer was a research student in the Embedded Systems Lab at the University of Kent, working on a reconfigurable heterogeneous computing framework as part of his PhD thesis (which he intends to submit soon!)</p>
+            <p>Omer likes tiny computers, things that 'just work' and real beer.</p> 
+
+            <h3>Parallella — Supercomputing for Everyone</h3>
+            <p id="Parallella">The <a href="http://www.parallella.org/" title="The Parallella project">Parallella</a> computing platform is based on the Adapteva Epiphany processor. Implemented in 65nm or 28nm silicon, Epiphany offers 16 or 64 cores and delivers up to 50 GFLOPS/watt, and the entire Parallella board complete with a dual-core ARM A9 host will consume around 5 watts.</p>
+            <p>This talk will present the Epiphany architecture and explore the challenges of developing an effective GNU tool chain, and discuss the use of open source, and an approach to engineering that developed one of the fastest chips in the world from concept to second generation silicon for just a few million dollars.</p>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Jeremy Bennett - Twitter" href="http://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is the founder of Embecosm, and an expert on hardware modelling and embedded software development. Prior to founding Embecosm, Dr Bennett was Vice President of ARC International PLC and previously Vice President of Marconi PLC.</p>
+            <p>In his earlier academic career, he pursued academic research in computer architecture, modelling and compiler technology at Bath and Cambridge Universities. He is the author of the popular textbook "Introduction to Compiling Techniques" (McGraw-Hill 1990, 1995, 2003).</p>
+            <p>Dr Bennett holds an MA and PhD in Computer Science from Cambridge University. He is a Member of the British Computer Society, a Chartered Engineer, a Chartered Information Technology Professional and Fellow of the Royal Society of Arts.</p>
+
+            <h3>Measuring the impact of compiler options on energy consumption in embedded platforms</h3>
+            <p id="CompilerOptions">Energy efficiency is the highest priority for modern software-hardware co-design. The potential for compiler options to impact on power consumption of running programs has often been discussed.  However there has never been a comprehensive analysis of the magnitude of that impact, or how it varies between processor architectures and compilers.</p>
+            <p>This presentation will describe a project undertook during the the Summer of 2012 at the University of Bristol Department of Computer Science and funded by Embecosm, to explore the effect of compiler options on energy consumption of compiled programs.</p>
+            <p>The talk will discuss the accurate measurement of power consumption on a range of small embedded systems. The whole setup was under control of an XMOS board, making it possible to run the tens of thousands of tests needed for statistical robustness in just a few weeks. The results of these tests will be discussed, the implications for compiling embedded systems, and the potential for future research in this area.</p>
+            <p>This research was unusual, in that it was funded as a completely open project. A wiki detailed progress from week to week, the relevant open source communities were kept regularly informed, and the results will be published in open access journals. The talk will also cover the issues around funding and running an academic research project in this manner.</p>
+            <p id="JamesPallister" class="vcard">James Pallister is a graduate of the University of Bristol, where he achieved joint First Class Honours in Computer Science and Electronics. During the summer of 2012, he led Embecosm's research program into the impact of compilers on energy consumption in embedded systems, which was a development of James' work at the University of Bristol with the XMOS multi-core processor.</p>
+            <p>Mr Pallister has returned to Bristol in October 2012, where he is studying for a PhD in low-power multi-core system design. He remains a Technical Advisor to Embecosm.</p>
+            <p id="SimonHollis" class="vcard"><a class="fn url" title="Simon Hollis - Homepage" href="http://www.cs.bris.ac.uk/~simon/">Simon Hollis</a> is a lecturer in the Microelectronics Research Group, Department of Computer Science, University of Bristol. His interests lie in the creation of energy-efficient embedded systems, processor interconnects and parallel languages and run-times.</p>
+            <p>He is the creator of the RasP and Skip-link Networks-on-Chip, and is currently working on the <a href="http://www.cs.bris.ac.uk/Research/Micro/swallow.jsp" title="Swallow website">Swallow</a> many-core system, which targets 480 processing cores in under 200W. A main aim of the research is to re-investigate the memory/communication balance in large scale computing systems.</p>
+
+            <b>Note: Please aim to arrive for 18:45 or shortly after as the event will start at 19:00 prompt.</b></p>
+
+date:        15th November 2012
+dtstart:     2012-11-15T18:45:00Z
+dtend:       2012-11-15T20:30:00Z
+start:       18:45
+end:         20:30
+pubdate:     Thu, 18 October 2012 19:46:00 GMT
+updated:     2012-10-18T19:46:00Z
+location:    Erlang Solutions
+isoduration: P0Y0M0DT01H45M00S
+generator:   vi
+registration: http://oshugembedded.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2012/oshug22/
+
+tags:
+    - OSHUG
+    - ErlangSolutions
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Erlang
+    - Parallella
+    - Adapteva
+    - Epiphany
+    - Embecosm
+    - embedded
+    - embeddedsystems

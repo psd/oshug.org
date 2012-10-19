@@ -3,8 +3,9 @@ number:     oshcamp2012
 li:         21
 title:      Open Source Hardware Camp 2012
 description: |
-            <p>Open Source Hardware Camp 2012 will take place place in the north of England in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. Building on the success of last year's <a href="/event/oshcamp" title="OSHCamp 2011">OSHCamp</a>, it will be a weekend long event with nine talks on the Saturday and four parallel workshops on the Sunday.</p>
-            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with discounts available for group bookings. This page will be updated with additional local information in due course.</p>
+            <p>Open Source Hardware Camp 2012 will take place place in the north of England in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. Building on the success of last year's <a href="/event/oshcamp" title="OSHCamp 2011">OSHCamp</a>, it will be a weekend long event with ten talks on the Saturday and four parallel workshops on the Sunday.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+            <p>There will be a social event on the Saturday evening from 8PM, and those interested in pre-event drinks on the Friday should join the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug" title=OSHUG discussion list">discussion list</a>.</p> 
 sessions: |
             <h3>Practical Experiences with the Google Android Accessory Development Kit (ADK)</h3>
             <p id="ADK">The ADK is an exciting development platform that makes it possible to easily combine Android applications with custom hardware built around Arduino. Such combinations have the best of both worlds by enabling the creation of a mobile phone application with access to peripheral devices that is only limited by your imagination.</p>
@@ -39,6 +40,11 @@ sessions: |
              <p id="TimPanton" class="vcard"><a class="fn url" title="Tim Panton - Twitter" href="http://twitter.com/steely_glint">Tim Panton</a> is a software engineer with a particular interest in projects that blend web applications and person-to-person speech into an integrated user experience. He has many years hands-on experience with the OpenBTS project, working closely with the core development team on numerous installations.</p>
               <p>Tim is currently working on the Phono.com, Tropo.com and Rayo.org products at VoxeoLabs, producing web developer-friendly APIs by using XMPP protocols to drive innovative telephony applications that can be used anywhere by anyone.</p>
 
+               <h3>Developing a Heavy Lift UAV — Pitfalls, Problems and Opportunities</h3>
+               <p id="HeavyLiftUAV">Unmanned aerial vehicles (UAV) are suitable for replacing dull, dirty and dangerous airborne tasks. The next future developments in UAV use are in heavy lift and vertical take-off and landing (VTOL). The ability to place a useful load in a geographic location of choice becomes pressing in many applications. The problems are that helicopters are excellent heavy lift machines but are limited by range and payload. Aeroplanes don’t provide the VTOL unless heavy engines and complex gearboxes are utilised.</p>
+               <p>The development of the conventional take-off and landing (CTOL) UAV is the beginning of a utilitarian UAV which is modular and low cost. The future will involve VTOL and higher payloads (Euro-pallet sized). This presentation will show a path of development from CTOL, through to VTOL Olecopter and ultimately a heavy lift (pallet container) UAV.</p>
+               <p id="EdwardStrickland" class="vcard">Edward Strickland is a Chartered Engineer with a background in aerospace and a degree in Aeronautical Engineering. He was the project manager for the Empire Test Pilot School, has lived and worked in Tanzania as a VSO volunteer, and has produced a CTOL airframe for the <a href="http://openrelief.org/">OpenRelief</a> project which has been designed so that it can be constructed in developing countries using local resources.</a>
+
                <h3>The 3D Printed Revolution</h3>
                <p id="3DPrintedRevolution">Over recent years Open Source 3D printers have quickly developed alongside their commercial counterparts offering affordable and accessible alternatives. This talk will cover experiences using commercial printers and how the speaker's interests have moved to open source designs and how the two compare. Examples will be shown of projects using these technologies, such as "Fable", a clock manufactured by Selective Laser Sintering, and a wrist watch designed to be printed on a RepRap. There will also be a run through of the design considerations and how files were created, fixed and sliced in preparation to print on a RepRap.</p>
                <p id="MarkGilbert">Mark Gilbert graduated in 2000 from Sheffield Hallam University with a degree in Industrial Design Innovation. After several years working as a design engineer, Mark started working as a freelance industrial designer for several companies in the Northwest. Over the last 6 years he has also worked closely with the Bolton Science and Technology Centre as the "Designer in Residence" where he has developed workshops around the centre's 3D printing and CAD facilities.</p>
@@ -59,15 +65,28 @@ sessions: |
                <p><strong>Practical IoT Applications with the Google ADK and Arduino</strong></p>
                <p>Hands on IoT building sessions that follow on from Saturday's ADK and Arduino talks.</p>
 
+               <p><i>Run by: <a href="#PaulTanner">Paul Tanner</a> &amp; <a href="#AdrianMcEwen">Adrian McEwen</a>.</i></p>
+
+               <p><i>Bring an Arduino with Ethernet and/or a Google ADK if you have one, along with sensors, LEDs and displays etc.</i></p>
+
                <p><strong>Interfacing the Raspberry Pi to the World</strong></p>
-              <p>Here you will learn how to connect a selection of devices to your Raspberry Pi utilising the methods discussed during Saturday's talk. We will have a few Raspberry Pi boards available for the workshop but please bring your own if you were one of the lucky ones to have received one.</p>
+               <p>Here you will learn how to connect a selection of devices to your Raspberry Pi utilising the methods discussed during Saturday's talk.</p>
+               <p><i>Run by: <a href="#OmerKilic">Omer Kilic</a> &amp; <a href="#MelanieRhiannaLewis">Melanie Rhianna Lewis</a>.</i></p>
+
+               <p><i>We will have a few Raspberry Pi boards available for the workshop but please bring your own if you were one of the lucky ones to have received one, along with breadboard and any useful components if you have these.</i></p>
 
                <p><strong>Building GSM Networks with Open Source</strong></p>
+
                <p>A look at the practical steps involved in creating a low power GSM network using open source technology.</p>
+
+               <p><i>Run by: <a href="#TimPanton">Tim Panton</a> &amp; <a href="http://twitter.com/9600" title="Andrew Back: Twitter">Andrew Back</a>.</i></p>
                <p><i>Note: this workshop will be subject to a spectrum licence being granted.</i></p>
 
                <p><strong>Practical 3D Printing</strong></p>
-               <p><i>TBD.</i></p> 
+
+               <p>In this workshop we will work with simple models that will be printed out using a RepRap.</p> 
+
+               <p><i>Run by: <a href="#AlanWood">Alan Wood</a>, <a href="#MarkGilbert">Mark Gilbert</a> &amp; <a href="http://twitter.com/mikethebee" title="Mike Beardmore: Twitter">Mike Beardmore</a>.</i></p>
 
                <p><strong>Note:</strong></p>
 
@@ -96,7 +115,7 @@ dtend:       2012-09-16T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Mon, 23 July 2012 22:00:00 BST
-updated:     2012-07-23T22:00:00Z
+updated:     2012-08-17T10:20:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -121,3 +140,6 @@ tags:
     - EmbeddedLinux
     - RaspberryPi
     - WearableTechnology
+    - OpenRelief
+    - UAV
+    - DIYDrones
