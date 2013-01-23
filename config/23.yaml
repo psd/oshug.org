@@ -1,0 +1,55 @@
+---
+number:    23
+title:       Products (Nanode, An Industry Perspective, Licensing Update)
+description: |
+             <p>Coming up for a year ago, at OSHUG #16, we heard three first-hand experiences of developing open source hardware designs into finished products. At the twenty-third meeting we'll further explore this topic through reflections on the Nanode project as it approaches its second anniversary, and an industry perspective on developing open source hardware. There will also be an update on developments in open source hardware licensing, a subject that was explored at the second OSHUG meeting back in May 2010.</p>
+
+sessions: |
+            <h3>As Nanode Approaches Two</h3>
+            <p>With the second anniversary of the <a href="http://www.nanode.eu/" title="Nanode website">Nanode</a> project approaching and in excess of 2,500 sold worldwide, this talk looks at the initial aims, commercialisation and spin-offs as a typical open source hardware design. Exploring the concept, start-up phase and challenge of maintaining momentum in a constantly evolving open source marketplace.</a> 
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak" href="http://twitter.com/monsonite">Ken Boak</a> has worked in electronics hardware design for 25 years. Initially with BBC Research Department where Ken worked on early HDTV digital picture processing systems. In 1998 Ken embarked on ten years in telecommunications and volume product production in the Far East. Recently Ken has worked on scientific and educational instruments, and open source systems both in the UK and USA.</p>
+
+             <h3>Open Source Hardware Licensing Update</h3>
+             <p id="LicensingUpdate">It's been a busy time in open source hardware licensing - CERN's Open Hardware Licence has been undergoing a lot of work behind the scenes, and a new version is about to be released. There are rumours of a new version of the TAPR Open Hardware licence, and the debate between copyleft and academic licences rages on. Andrew Katz has been involved of all of these activities and will provide an update on the current state of licensing, and some pointers on the best licence to adopt.</p>
+             <p id="AndrewKatz" class="vcard"><a class="fn url" title="Andrew Katz" href="http://twitter.com/andrewjskatz">Andrew Katz</a> is a partner at boutique law firm Moorcrofts LLP in the Thames Valley. He specialises in IT/IP work, and in particular advises clients on licensing and liability issues around open source software.He was involved in drafting both GPL3 and the England and Wales version of the Creative Commons licence as well as all major open hardware licences. Many years ago, he designed and built a Z80 SS50 bus-based computer system, created a lightweight version of the Citroen Dyane, mainly by ripping it body off, and hacked together an air compressor from bits and pieces found in a scrapyard.  He is currently part-time interim COO of the Maria DB foundation.</p>
+
+             <h3>Developing Open Source Hardware: an Industry Perspective</h3>
+             <p id="IndustryPerspective">RS Components have developed a new platform for which the hardware design will be published under an open source licence. This talk will provide an overview of this exciting new development and provide an insight into the motivations for making the design freely available to all. The product development and manufacturing process will also be covered in brief along with some of the challenges experienced, and the broader project goals and ongoing commitment to the open source community.</p>
+             <p id="MikeBrojak">Mike Brojak is responsible at RS Components for the development of free resources for electronics engineers, and believes in helping engineers to be more productive in order to achieve their highest potential. His technical background is in hardware and software for embedded systems, primarily for mobile automation control. He has an Electronics Systems Design degree from Oxford Brookes University.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.designspark.com">
+                     <img class="sponsor" src="/images/DS_with_RS.jpg" title="DesignSpark from RS" alt="DesignSpark from RS">
+                 </a>
+             </center>
+
+date:        21st February 2013
+dtstart:     2013-01-21T18:00:00Z
+dtend:       2013-01-21T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 21 Jan 2013 20:00:00 GMT
+updated:     2013-01-21T20:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugproducts.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug23/
+
+tags:
+    - OSHUG
+    - C4CC
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Arduino
+    - Nanode
+    - DesignSpark
+    - Licensing
+    - Kits
