@@ -105,6 +105,10 @@ img.logo {
         background-image: url('/images/sup_erlangsolutions.png');
 }
 
+#support ul li a#quick2wire {
+	background-image: url('/images/sup_quick2wire.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

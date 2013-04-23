@@ -1,0 +1,60 @@
+---
+number:     25
+title:       Is Three (Writing AVR Firmware, Panel)
+description: |
+             <p>The twenty-fifth meeting marks our third anniversary, and will feature a talk on writing embedded firmware and a panel discussion that will explore the future of open source hardware.</p>
+
+sessions: |
+            <h3>Writing firmware for the AVR: A Morse Code Beacon</h3>
+            <p id="WritingFirmwareAVR">In this talk we will look at a number of techniques for making the most of the miniscule MSP430 and ATTiny embedded microcontrollers. Explaining how to approach the task of developing software for constrained systems such as those with only a few hundred bytes of RAM or a few kilobytes of Flash. Predominantly writing in C and using Chris Swan's Morse Code Beacon as an example, revealing why code needs to be structured in ways that may initially seem counter-intuitive or undesirable, as well as how the resources are used and allocated.</p>
+             <p>Such techniques are essential for getting almost any useful program to run in small systems, and when applied to slightly bigger machines such as the ATmega — found in platforms such as Arduino — they can allow really comprehensive programs to be executed successfully.</p>
+             <p id="AndyBennett"><a class="fn url" title="Andy Bennett" href="https://twitter.com/databasescaling">Andy Bennett</a> is an engineer that likes to inhabit the void between hardware and the software that runs on it. After graduating from Imperial College with a degree in Electronic & Electrical Engineering, he joined Access Devices Digital Limited where he designed software and FPGAs for the UK's first Dual Tuner Personal Video Recorders. He continued working on Advanced Product Development at Pace Micro Technology before leaving to build distributed database engines at GenieDB. One year ago he founded Knodium where he applies his finely honed ability to produce software on a shoestring.</p>
+
+             <h3>Panel discussion: The Future of Open Source Hardware</h3>
+             <p id="Panel">Interest in open source hardware continues to grow unabated and the movement has come a long way in the three years since our first meeting. However, could it ever provide opportunities on the same scale as those afforded by its much older and now well understood cousin, open source software? What are the barriers to growth? How are the intellectual property and economic considerations different to those of open source software? These are just some of the questions that we plan to explore as part of this panel discussion.</a>
+
+             <p id="PaulDowney" class="vcard"><strong><em>Moderated by:</em></strong> <a class="fn url" title="Paul Downey - Twitter" href="http://twitter.com/psd">Paul Downey</a>.</p>
+
+             <p id="CorneliaBoldyreff" class="vcard"><a class="fn url" title="Professor Cornelia Boldyreff - Home Page" href="http://homepages.uel.ac.uk/C.Boldyreff/">Professor Cornelia Boldyreff</a> is Visiting Professor in the School of Computing and Mathematical Sciences at the University of Greenwich, and Chair of the BCS Open Source Specialist Group. She is a Fellow of the BCS and HEA, and a member of the ACM and the BCS Women's Committee. She has over 30 years experience in software engineering and has lead extensive research within open source software.</p>
+
+             <p id="SukkinPang" class="vcard"><a class="fn url" title="Sukkin Pang - Twitter" href="http://twitter.com/skpang_uk">Sukkin Pang</a> is a design engineer and a director at <a href="http://www.skpang.co.uk/catalog/">SK Pang Electronics Ltd</a>. He graduated from the University of Hertfordshire and has over 20 years of industrial experience. He is passionate about open source hardware and has four Arduino shields published. He used to tinker in assembler on the Z80, 6502, PIC and AVR, but nowadays he mainly uses C and C++.</p>
+
+              <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood" href="http://twitter.com/folknology">Alan Wood</a> originally trained in systems engineering, got lost in software engineering and open source for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum over the last few years.</p>
+
+             <p id="NigelRix" class="vcard"><a class="fn url" title="Nigel Rix - Connect profile" href="https://connect.innovateuk.org/web/nigel.rix/summary">Nigel Rix</a> is Director of Electronics at the ESP KTN, part of the UK's innovation agency, the Technology Strategy Board. Nigel has over 30 years experience working with a variety high tech companies from multi-nationals to start-ups and on hardware and software based products from electron beam lithography and laser systems to solutions for the security sector.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://quick2wire.com">
+                     <img class="sponsor" src="/images/Quick2Wire.png" title="Electronics kits for Hobbyists, Makers and Educators." alt="Quick2Wire logo">
+                 </a>
+             </center>
+
+date:        18th April 2013
+dtstart:     2013-04-18T18:00:00Z
+dtend:       2013-04-18T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thu, 4 April 2013 09:00:00 GMT
+updated:     2013-04-04T09:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugisthree.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug25/
+
+tags:
+    - OSHUG
+    - C4CC
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Panel
+    - AVR
+    - morse
+    - firmware

@@ -1,0 +1,62 @@
+---
+number:     24
+title:       Lightning Talks 
+description: |
+             <p>For the twenty-fourth OSHUG meeting we've decided to try something new and we will be hosting a series of lightning talks. The first five talks have been confirmed and details of these can be found below. Offers of additional talks of between five and ten minutes are invited and proposals can either be submitted in advance via <a href="mailto:andrew@carrierdetect.com">e-mail</a> or made on the night (please arrive early).</p>
+             <p>Note that this month the meeting takes place on a <strong>Wednesday</strong>.</p>
+
+sessions: |
+            <h3>FUNcube Satellite</h3>
+            <p id="funcube"><a href="http://funcube.org.uk/" title="FUNcube website">FUNcube-1</a> is a UK amateur radio educational satellite that is due to be launched later this year, and that uses open source hardware to bring real-time space based experiments to classrooms around the globe. Three members of the on-board computer team will discuss project goals and progress.</p>
+
+             <h3>64-core Parallella Prototype</h3>
+             <p id="64parallella">Simon Cook will be demonstrating one of only two 64-core <a href="http://www.parallella.org" title="Parallella website">Parallella</a> prototypes in the UK.</p>
+
+             <h3>PCBmodE — a PCB design tool written in Python around JSON, SVG and Inkscape</h3>
+             <p id="pcbmode">Saar Drimer will be talking about an open source PCB design tool, that reads shape and placement information stored in JSON files to produce an SVG graphical representation of them. Routing is drawn with Inkscape, then extracted by PCBmodE and stored in an input JSON file that's used for the next board generation. A post-processor 'gerberises' the SVGs into "Extended Gerbers" (RS-274X) for manufacturing.</p>
+
+             <h3>Interfacing High-performance Low-cost Embedded Systems with FPGAs</h3>
+             <p id="fpgainterfacing">Mustafa H. Yuce will be talking about an open source project that interfaces embedded systems including BeagleBone and Raspberry Pi with FPGAs, to enable the implementation of high-speed parallel processing applications such as computer vision.</p>
+
+             <h3>Flux</h3>
+             <p id="flux">Alan Wood will be talking about the recently developed <a href="http://solderpad.com/folknology/fluxpi/" title="FluxPi on SolderPad">Flux</a> series of boards that are used for motion control applications.</p>
+
+             <h3>Open Source Junction 4 Report</h3>
+             <p id="osj4">Paul Tanner will be providing a <a href="http://www.e-ssociation.com/blog/?p=235" title="Paul Tanner's OSJ4 notes">report</a> from the OSS Watch two day workshop, <a href="http://osj4.eventbrite.co.uk/" title="OSJ4 Eventbrite page">Open Source Junction 4: Open Source Hardware meets Open Source Software</a>.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.embecosm.com">
+                     <img class="sponsor" src="/images/Embecosm.jpg" title="Embecosm: services - tools - models for embedded development" alt="Embecosm logo">
+                 </a>
+             </center>
+
+date:        20th March 2013
+dtstart:     2013-03-20T18:00:00Z
+dtend:       2013-03-20T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 4 Marc 2013 21:30:00 GMT
+updated:     2013-03-04T21:30:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshuglightning.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug24/
+
+tags:
+    - OSHUG
+    - C4CC
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - FUNcube
+    - Parallella
+    - FPGA
+    - Flux
+    - OSSWatch

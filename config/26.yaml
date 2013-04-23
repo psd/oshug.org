@@ -1,0 +1,58 @@
+---
+number:     26
+title:       Sensor Networks (Contiki, Low Power Wireless Sensors, quick2link)
+description: |
+             <p>At the twenty-sixth meeting we will have talks on Contiki, the open source operating system for the Internet of Things, low power wireless sensors and quick2link, a protocol for distributed sensor/actuator networks.</p>
+
+sessions: |
+            <h3>An Introduction to the Contiki O/S</h3>
+            <p id="Contiki">This talk aims to introduce the <a title="Contiki" href="http://www.contiki-os.org/">Contiki OS</a> and some of the development hardware that is used with it. We will learn about the process of bootstrapping the development environment and there will be a hands-on tutorial.</p>
+            <p id="IlyaDmitrichenko"><span class="vcard"><span class="fn">Ilya Dmitrichenko</span></span> was born in Soviet Latvia in 1985, grew up and attended a secondary school there, and moved to UK as soon as Latvia joined the EU. He attended the biggest university in London and was rather disappointed with the education, but nevertheless carried on and had fun working on a final year engineering project which served as an introduction to the topic of this talk. Ilya is interested in various aspects of hardware and software, spanning from WSN to DSP and several other random fields.</p>
+            <p><i>Note that this talk was originally scheduled for OSHUG #15.</i></p>
+            <h3>Low Power Wireless Sensors around the Home</h3>
+            <p id="LowPowerWirelessSensors">Have you ever wondered how much electricity the kettle used this week, what effect installing that loft insulation had on the temperature of the living room, or how humid the loft is?</p>
+            <p>Small low power wireless nodes make it very easy to deploy a network of sensors to monitor, for example, electrical power, temperature and humidity around the home or office.</p>
+            <p>This talk will give practical examples of connecting low power wireless sensor nodes to the Web using RFM12B/SRF/XRF 433MHz/868MHz wireless modules, Arduino-based hardware and firmware, and a Raspberry Pi base station running the <a title="Emoncms website" href="http://emoncms.org/">Emoncms</a> open-source web-application to log, process and visualise the data. Experience will be drawn from <a title="OpenEnergyMonitor website" href="http://openenergymonitor.org/emon/">OpenEnergyMonitor</a>, a project to develop open source energy monitoring tools to help us relate to our use of energy, energy systems and the challenge of sustainable energy.</p>
+             <p id="GlynHudson" class="vcard"><a class="fn url" title="Glyn Hudson" href="http://twitter.com/glynhudson">Glyn Hudson</a> is a hardware developer for the OpenEnergyMonitor project. Together with Trystan Lea he runs the OpenEnergyMonitor website and online shop. Glyn has a passion for open hardware, sustainable energy and rock climbing&hellip; in no particular order!</p>
+             <h3>quick2link</h3>
+             <p id="quick2link"><a title="quick2link Github" href="https://github.com/quick2wire/quick2link">quick2link</a> is a very simple, extensible protocol for controlling distributed sensor/actuator networks. Inspired by Ward Cunningham's txtzyme project, it grew out of the needs of C3Pi — an experimental robot. However, it's equally applicable to environmental monitoring applications. The current implementation uses a Raspberry Pi controlling Arduino-based slaves but the architecture and much of the code are hardware-independent.</p>
+             <p id="RomillyCocking" class="vcard"><a class="fn url" title="Romilly Cocking" href="http://twitter.com/romillyc">Romilly Cocking</a> spent the ten years before his 'retirement' as an agile software developer, coach and trainer. He spent the first two years of retirement experimenting with robotics. Then Raspberry Pi came along, and now Romilly works full-time running Quick2Wire.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://www.skpang.co.uk/catalog/">
+                     <img class="sponsor" src="/images/skpang_logo.gif" title="SK Pang electronics" alt="SK Pang electronics">
+                 </a>
+             </center>
+
+date:        16th May 2013
+dtstart:     2013-05-16T18:00:00Z
+dtend:       2013-05-16T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thu, 18 April 2013 14:00:00 GMT
+updated:     2013-04-18T14:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugsensornets.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug26/
+
+tags:
+    - OSHUG
+    - C4CC
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - Quick2Wire
+    - Contiki
+    - OpenEnergyMonitor
+    - wireless
+    - networks
+    - lowpowerwireless
+    - quick2link
