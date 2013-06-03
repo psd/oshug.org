@@ -1,0 +1,52 @@
+---
+number:     27
+title:       Boards (Beautifully Functional Circuits, Little Printer)
+description: |
+             <p>At the twenty-seventh meeting there will be a talk on designing printed circuit boards that are aesthetically pleasing as well as functional, and a talk on the design and manufacture of the Little Printer, and the upcoming BERG Cloud dev board.</p>  
+
+sessions: |
+            <h3>Beautifully Functional Circuits</h3>
+            <p id="BeautifullyFunctionalCircuits">Circuit design is typically thought of as block-based and purely functional; it doesn't necessarily have to be. Our inherent creativity as engineers has been dampened by unimaginative and limiting design tools, that have forced us to "forget" that functional circuits can, and should, be beautiful too. This talk will explore these limitations and how we could do better.</p>
+            <p id="SaarDrimer" class="vcard"><a class="fn url" title="Saar Drimer" href="http://twitter.com/boldport">Saar Drimer</a> is an experienced hardware engineer. In the past few years he's been developing tools for effective and efficient hardware design.</p>  
+            <h3>Little Printer</h3>
+            <p id="LittlePrinter">In 2012 the design and product company BERG launched Little Printer, their internet-connected thermal printer that prints its own face. It was the first consumer product that BERG had made, and went on to be nominated for the 2013 Designs of the Year by the Design Museum.</p>
+            <p>In this talk we will explore the project's evolution, from prototype to mass produced product. The talk will cover the way BERG's design process works, going to China to organise plastic injection moulding, passing certification and EMC, and many other practical aspects of making and selling consumer products that connect online.</p>
+            <p>The talk will also cover a technical overview of the whole stack that brings Little Printer to life, the extraction and evolution of the underlying BERG Cloud platform, and the forthcoming developer kits that open up the platform to anybody.</p>
+             <p id="NickLudlam" class="vcard"><a class="fn url" title="Nick Ludlam" href="https://twitter.com/nickludlam">Nick Ludlam</a> is CTO at BERG, and is responsible for the collective software development, from the embedded code running inside Little Printer, the Ruby/Rails-based cloud architecture, and the use of Amazon Web Services to scale.</p>
+             <p id="AndyHuntington" class="vcard"><a class="fn url" title="Andy Huntington" href="https://twitter.com/andy_huntington">Andy Huntington</a> is Hardware Producer & Designer at BERG and is responsible for all of BERG's physical hardware, from the electronics and PCBs to the industrial design and manufacturing of Little Printer itself. He has a background in music and moved through software into hardware following an Interaction Design MA at the Royal College of Art.</p>
+
+             <p><b>Note: Please aim to arrive for 18:00 - 18:20 as the event will start at 18:30 prompt.</b></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://solderpad.com">
+                     <img class="sponsor" src="/images/Solderpad.png" title="SolderPad" alt="SolderPad">
+                 </a>
+             </center>
+
+date:        20th June 2013
+dtstart:     2013-06-20T18:00:00Z
+dtend:       2013-06-20T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 3 June 2013 12:00:00 GMT
+updated:     2013-06-03T12:00:00Z
+location:    Centre for Creative Collaboration
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugboards.eventbrite.com/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug27/
+
+tags:
+    - OSHUG
+    - C4CC
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - EDA
+    - Boldport
+    - BERG 
+    - LittlePrinter
