@@ -101,6 +101,15 @@ locations:
         latitude:  51.512889
         longitude: -0.067243
 
+    Hebden Bridge Town Hall:
+        uri:       http://www.hebdenbridgetownhall.org.uk/
+        street:    St. George's Street
+        locality:  Hebden Bridge
+        postcode:  HX7 7BY
+        country:   UK
+        latitude:  53.742436
+        longitude: -2.012918
+
 feeds:
     - atom
 
@@ -154,3 +163,4 @@ released:
     - 25
     - 26
     - 27
+    - oshcamp2013
