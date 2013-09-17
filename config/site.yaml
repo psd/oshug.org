@@ -110,6 +110,15 @@ locations:
         latitude:  53.742436
         longitude: -2.012918
 
+    BCS London:
+        uri:       http://www.bcs.org
+        extendedaddress: 1st Floor, The Davidson Building
+        street:    5 Southampton Street
+        locality:  London
+        postcode:  WC2E 7HA
+        latitude:  51.562105
+        longitude: -1.782532
+
 feeds:
     - atom
 
@@ -164,3 +173,4 @@ released:
     - 26
     - 27
     - oshcamp2013
+    - 29

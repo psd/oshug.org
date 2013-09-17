@@ -1,0 +1,43 @@
+---
+number:     29
+title:       Production by the Proletariat (RepRap, TVRRUG)
+description: |
+             <p>For the twenty-ninth meeting we will be joining forces with the <a href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a>, to host talks from the creator of RepRap, Adrian Bowyer, and Alan Wood of Thames Valley RepRapUser Group.</p>
+
+sessions: |
+            <h3>The Ownership of the Means of Production by the Proletariat</h3>
+            <p id="RepRap">Look at your computer setup. Imagine you hooked up a 3D printer. Instead of printing on bits of paper this 3D printer makes real, robust, mechanical parts. To give you an idea of how robust, think Lego bricks and you’re in the right area. You could make lots of useful stuff, but interestingly you could also make lots of the parts to make another 3D printer. That would be a machine that could copy itself.</p>
+            <p>This talk will be about RepRap – the Replicating Rapid-prototyper.  This 3D printer builds the component up in layers of plastic.  This technology already existed before RepRap, but the cheapest proprietary machine then would have set you back £15,000. And it wasn’t even designed so that it could make itself.  So what the RepRap team have done is to develop and to give away the designs for a much cheaper machine with the novel capability of being able to self-copy (material costs are about £300).  That way it’s accessible to small communities in the developing world as well as individuals in the developed world.  The RepRap machine is being distributed entirely free to everyone using open-source – so, if you have one, you can make another and give it to a friend…</p>
+            <p id="Adrian Bowyer" class="vcard"><a class="fn url" title="Adrian Bowyer" href="http://en.wikipedia.org/wiki/Adrian_Bowyer">Adrian Bowyer</a> holds a first degree and a PhD in engineering from Imperial College.  He was an academic at the University of Bath for 35 years.  He retired in 2012 to help to run the company <a href="http://www.reprappro.com/">RepRap Professional Ltd</a>.
+            <p>Adrian's areas of research are geometric modelling and geometric computing in general (he is one of the authors of the Bowyer-Watson algorithm for Voronoi diagrams), the application of computers to manufacturing, and biomimetics.  In 2004 he created RepRap – humanity’s first self-replicating general-purpose manufacturing machine.</p> 
+            <h3>Experiences from the Thames Valley RepRap User Group</h3>
+            <p id="TVRRUG">Thames Valley RepRap User Group (TVRRUG) was set up to provide support to those who wanted to build their own RepRap 3D printer, and to exchange information and ideas between those who had already successfully completed builds.</p>
+            <p>TVRRUG has now organised three group build rounds, sourcing and printing parts, and resulting in many working printers. Along the way the group has produced extensive documentation, and designed its own electronics and a variant of the Prusa Mendel design.</p>
+             <p id="Alan Wood" class="vcard"><a class="fn url" title="Alan Wood" href="https://twitter.com/folknology">Alan Wood</a> originally trained in systems engineering, and got lost in software engineering and F/OSS for a decade, before returning back to his hardware roots via the open source hardware and makers movement that has gathered momentum in recent years.</p>
+
+             <p><b>Note: Please aim to arrive for 17:30 - 18:20 as the first talk will start at 18:30 prompt.</b></p>
+
+date:        2nd October 2013
+dtstart:     2013-10-02T17:30:00Z
+dtend:       2013-10-02T21:00:00Z
+start:       17:30
+end:         21:00
+pubdate:     Tue, 17 September 2013 14:00:00 GMT
+updated:     2013-09-17T14:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT03H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/740/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug29/
+
+tags:
+    - OSHUG
+    - OSSG
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - RepRap
+    - 3DPrinting
