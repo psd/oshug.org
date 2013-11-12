@@ -117,6 +117,10 @@ img.logo {
 	background-image: url('/images/sup_surevoip.png');
 }
 
+#support ul li a#abopen {
+	background-image: url('/images/sup_abopen.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

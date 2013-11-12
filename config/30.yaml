@@ -1,0 +1,61 @@
+---
+number:     30
+title:       Speed  (overclocking, souped-up BBC Micro, compiler optimisation)
+description: |
+             <p>The thirtieth OSHUG meeting is dedicated to the quest for computing speed. It will feature talks on a hardware design to aid overclocking, retrofitting a 30+ year old microcomputer with modern processors, and compiler optimisation.</p>
+
+sessions: |
+            <h3>Fast and Furious: Overclocking chips for fun and profit</h3>
+            <p id="FastFurious">Due to the variance in silicon manufacturing technologies, integrated circuits used in everyday designs are usually spec'ed at lower speeds than their actual capabilities. It is, therefore, not unlikely for chips to run faster than their advertised speeds, sometimes at significant margins with a little push. The umbrella term used for this practice is <em>overclocking</em> and it encapsulates a variety of techniques from simply increasing the clock speed to employing elaborate systems with liquid nitrogen cooling.</p>
+            <p>This talk will provide an overview of overclocking and overvolting techniques — investigating the effects of forcing chips to run faster on the silicon level — and present vftweak: an open source hardware design that aims to simplify experimenting with circuits by providing a programmable interface and monitoring tools.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="http://twitter.com/omerk">Omer Kilic</a> works on Erlang Embedded, a Knowledge Transfer Partnership project in collaboration with University of Kent and Erlang Solutions. The aim of this project is to bring the benefits of concurrent systems development using Erlang to the field of embedded systems; through investigation, analysis, software development and evaluation.</p>
+            <p>Before joining Erlang Solutions, Omer was a research student in the Embedded Systems Lab at the University of Kent, working on a reconfigurable heterogeneous computing framework.</p>
+            <p>Omer likes tiny computers, things that 'just work' and real beer.</p> 
+
+            <h3>Souping up the BBC Micro</h3>
+            <p id="SoupedBBCMicro">This talk will introduce a selection of projects which allow modern processors to be used with a 30+ year old BBC Micro, before exploring in more detail the speaker's own open hardware contribution to the options available.</p>
+            <p id="JasonFlynn" class="vcard">Jason Flynn creates open electronics designs for the amateur radio and retro computing. His main areas of interest are digital TV, microwave, satellite and most things related to Acorn and ARM. He previously held a post on the RSGB Data Communications Committee, is an honorary member of SSETI, has been committee of Martlesham Radio Society for 7 years, and is presently involved in setting up a hackspace in Ipswich.</p>
+            <h3>How compiler optimisation helps you get the best out of your hardware</h3>
+            <p id="CompilerOptimisation">This talk will give a high-level overview of compiler optimisation, covering general approaches used in both local and global optimisation, and also taking a look at the technique of superoptimization. The talk will conclude by looking at some of the 200+ optimisation passes used in GCC.</p>
+            <p>The talk will be given by Jeremy Bennett, and he will be joined by Joern Rennecke and Simon Cook, who will take questions about optimisation in the compilers on which they are involved.</p>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Jeremy Bennett" - Twitter" href="http://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder of Embecosm and an expert on debugging and silicon chip modeling. A former academic, Jeremy holds a MA and PhD from Cambridge University and is a Chartered Engineer, Chartered Information Technology Professional and Fellow of the Royal Society of Arts. He is the author of the standard textbook, "Introduction to Compiling Techniques" (McGraw-Hill 1990, 1996, 2003).</p>
+            <p id="Simon Cook" class="vcard"><a class="fn url" title="Simon Cook" - Twitter" href="http://twitter.com/simonpcook">Simon Cook</a> leads Embecosm's work on LLVM and is author of the standard guide to the LLVM assembler. He is also an expert on low-energy compilation, being lead engineer on the MAGEEC project. Simon holds a double first class honors degree in Computer Science and Electronics from Bristol University.</p>
+            <p id="Jörn Rennecke" class="vcard">Jörn Rennecke is an expert on compiler back-end optimization and also leads Embecosm's work on GCC. Over 18 years he has become one of the all-time largest contributors to the compiler. During 2006-9, Jörn was a major contributor to the EU-funded MILEPOST project, which developed the first machine learning compiler optimization framework. He is currently maintainer for GCC for the Epiphany and Synopsys ARC architectures and a major contributor to GCC for Atmel AVR.</p>
+
+            <p><strong>Note: Please aim to arrive for 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        28th November 2013
+dtstart:     2013-11-28T18:00:00Z
+dtend:       2013-11-28T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Tue, 5 November 2013 10:00:00 GMT
+updated:     2013-11-05T10:00:00Z
+location:    Erlang Solutions
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://oshugspeed.eventbrite.co.uk/
+upcoming:     
+lanyrd:       http://lanyrd.com/2013/oshug30/
+
+tags:
+    - OSHUG
+    - ErlangSolutions
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - overclocking
+    - performance
+    - BBCMicro
+    - compileroptimisation
+    - GCC
+    - LLVM
