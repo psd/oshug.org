@@ -1,0 +1,51 @@
+---
+number:     32
+title:       Embedded Scripting (Lua, Espruino, Micro Python) 
+description: |
+             <p>The thirty-second OSHUG meeting will take a look at the use of scripting languages with deeply embedded computing platforms, which have much more constrained resources than the platforms which were originally targeted by the languages.</p>
+
+sessions: |
+            <h3>Programming a microcontroller with Lua</h3>
+            <p id="MicrocontrollerLua"><a href="http://www.eluaproject.net/">eLua</a> is a full version of the Lua programming language for microcontrollers, running on bare metal. Lua provides a modern high level dynamicaly typed language, with first class functions, coroutines and an API for interacting with C code, and yet which is very small and can run in a memory constrained environment. This talk will cover the Lua language and microcontroller environment, and show it running on-off-the-shelf ARM Cortex boards as well as the Mizar32, an open hardware design built especially for eLua.</p>
+            <p id="JustinCormack" class="vcard"><a class="fn url" title="Juston Cormack - Twitter" href="http://twitter.com/justincormack">Justin Cormack</a> is a software developer based in London. He previously worked at a startup that built LED displays and retains a fondness for hardware. He organizes the <a href="http://www.meetup.com/London-Lua-User-Group/">London Lua User Group</a>, which hosts talks on the Lua programming language.</p>
+
+            <h3>Bringing JavaScript to Microcontrollers</h3>
+            <p id="JavascriptMicrocontroller">This talk will discuss the benefits and challenges of running a modern scripting language on microcontrollers with extremely limited resources. In particular we will take a look at the Espruino JavaScript interpreter and how it addresses these challenges and manages to run in less than 8kB of RAM.</p>
+            <p id="GordonWilliams" class="vcard"><a class="fn url" title="Gordon Williams — Twitter" href="https://twitter.com/Espruino">Gordon Williams</a> has developed software for companies such as Altera, Nokia, Microsoft and Lloyds Register, but has been working on the Espruino JavaScript interpreter for the last 18 months. In his free time he enjoys making things - from little gadgets to whole cars.</p>
+
+            <h3>Micro Python — Python for microcontrollers</h3>
+            <p id="MicroPython">Microcontrollers have recently become powerful enough to host high-level scripting languages and run meaningful programs written in them. In this talk we will explore the software and hardware of the Micro Python project, an open source implementation of Python 3 which aims to be as compatible as possible with CPython, whilst still fitting within the RAM and ROM constraints of a microcontroller. Many tricks are employed to put as much as possible within ROM, and to use the least RAM and minimal heap allocations as is feasible. The project was successfully funded via a <a href="https://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers">Kickstarter campaign</a> at the end of 2013, and the hardware is currently being manufactured at Jaltek Systems UK.</p>
+            <p id="DamienGeorge" class="vcard"><a class="fn url" title="Damien George" - Twitter" href="https://twitter.com/micropython">Damien George</a>  is a theoretical physicist who likes to write compilers and build robots in his spare time.</p>
+
+            <p><strong>Note: Please aim to by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        27th March 2014
+dtstart:     2014-03-27T17:30:00Z
+dtend:       2014-03-27T20:30:00Z
+start:       17:30
+end:         20:30
+pubdate:     Fri, 21 February 2014 10:00:00 GMT
+updated:     2014-02-21T10:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT03H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/998/
+upcoming:     
+lanyrd:       http://lanyrd.com/2014/oshug32/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - embedded
+    - scripting
+    - lua
+    - javascript
+    - python

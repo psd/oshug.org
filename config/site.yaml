@@ -116,8 +116,8 @@ locations:
         street:    5 Southampton Street
         locality:  London
         postcode:  WC2E 7HA
-        latitude:  51.562105
-        longitude: -1.782532
+        latitude:  51.510812
+        longitude: -0.121733
 
 feeds:
     - atom
@@ -176,3 +176,4 @@ released:
     - 29
     - 30
     - 31
+    - 32
