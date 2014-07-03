@@ -1,0 +1,48 @@
+---
+number:     33
+title:       Radio Pt.2 (Networking Literacy Project, Everyone has a radio in them) 
+description: |
+             <p>The thirty-third OSHUG meeting will be the second on the theme of radio, with talks on a bold vision for a project that aims to increase understanding of personal networking, and on a toolkit that lets you build your own physical Internet radio.</p> 
+
+sessions: |
+            <h3>The Networking Literacy Project</h3>
+            <p id="Networking Literacy">"Beep-BEEP!" - Some of us will remember the distinctive click when throwing the power switch of a BBC Micro, and the immediate gratifying sounds it made. Thirty years ago, public awareness of personal computing was low, and civil society acted to raise literacy in anticipation of the coming boom. Today, computers are pervasive in everyday life, and their function is increasingly to deliver distributed computing applications. Indeed, we are on the cusp of another era of personal technological progress and growth, this time for personal networking. Understanding and literacy about this is low, while importance and opportunity are high. This talk will explore some of the learning opportunities, and how the technology community could contribute to eliminating the widespread functional illiteracy in this important area of technology.</p>
+            <p id="MartinGeddes" class="vcard"><a class="fn url" title="Martin Geddes - Twitter" href="http://twitter.com/martingeddes">Martin Geddes</a> is an authority on the future of the telecoms industry, ranging from emerging business models to new network technologies. He is a futurologist, writer, speaker, consultant, and technologist. Martin is currently writing a book, The Internet is Just a Prototype, on the future of distributed computing.</p>
+
+            <h3>Everyone has a radio in them, it turns out</h3>
+            <p id="EveryoneRadio">Inspired by the challenge of making a physical radio device that did anything interesting and web friendly, a small team within BBC R&D spent a few days building an Archers Avoider using off the shelf components and free software alongside BBC created custom services for controlling audio IP streams.</p>
+            <p>"<a href="http://radiodan.github.io/">Radiodan</a>" is now at v2.0 and consists of open source web-developer-friendly software designed to work on a Raspberry Pi, used for controlling audio streams, getting a device on a wifi network, and controlling buttons, dials and leds, plus a kit of parts, a case and some instructions.</p>
+            <p>This talk will take a look at some of Radiodan's technology, in the context of our goal of making it something that anyone can start to build a radio with. It will also explore why it's important and interesting to widen the pool of people who can make radios, and how a new field for us has changed the way we work.</p>
+            <p id="LibbyMiller" class="vcard"><a class="fn url" title="Libby Miller — Twitter" href="https://twitter.com/libbymiller">Libby Miller</a> is a producer and developer working in the BBC R&D Central Lab. She currently works on Radiodan, a project about cheap, rapid prototyping for radios. She also works on the VistaTV EU project on the use and visualisation of real-time IPTV statistics, and the MediaScape project, which is about developer-friendly standards for connected devices. Before that, she led the BBC's part of NoTube, including work on APIs to TV for second screens, resolution of broadcast metadata to web metadata, synchronised social experiences, and recommendations and serendipity.</p>
+
+            <p><strong>Note: Please aim to by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        24th April 2014
+dtstart:     2014-03-27T17:30:00Z
+dtend:       2014-03-27T20:30:00Z
+start:       17:30
+end:         20:30
+pubdate:     Wed, 02 April 2014 09:30:00 GMT
+updated:     2014-04-02T09:30:00Z
+location:    BCS London
+isoduration: P0Y0M0DT03H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1060/
+upcoming:     
+lanyrd:       http://lanyrd.com/2014/oshug33/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - radio
+    - networking
+    - broadcast
+    - BBC

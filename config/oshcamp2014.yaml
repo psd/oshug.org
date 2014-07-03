@@ -1,0 +1,182 @@
+---
+number:     oshcamp2014
+li:         35
+title:      Open Source Hardware Camp 2014
+description: |
+            <p>Open Source Hardware Camp will take place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. For the second year running it is being hosted as part of the technology festival, <a href="http://wutheringbytes.com/">Wuthering Bytes</a>. However, this year OSHCamp will have the Waterfront Hall to itself on the Saturday and Sunday, with a separate Festival Day taking place on the Friday and with talks on a broader selection of technical topics.</p> 
+
+            <p>Details of the OSHUG talks and workshops can be found below and the Wuthering Bytes website will be updated in due course with details of the complete programme of events.</p>
+
+            <p>Note that socials are planned for both the Friday and Saturday evenings, with the former being hosted at the Town Hall and where there will be a bar, food available and music and a live performance, and the latter will be hosted at a local hostelry that serves food.</p>
+
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a>, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Linux bootloaders and kernel configuration</h4>
+            <p id="LinuxBootloaders">Linux is popular in embedded devices, but most use it once the kernel has booted and don't consider how it was started. This talk explores just what happens when you first start an embedded device that is running Linux, and will look at common bootloaders, such as U-Boot, along with kernel boot options. Finally, we will look at useful kernel configuration options for embedded devices.</p>
+            <p id="MelanieRhiannaLewis" class=vcard"><a class="fn url" title="Melanie Rhianna Lewis - Twitter" href="https://twitter.com/cyberspice">Melanie Rhianna Lewis</a> started a life long love of electronics as a child when her Dad helped her make a "crystal" radio with an ear piece, a coil of wire, a diode and a radiator! At the same time the home computer revolution started and she would lust after the "build your own computers" advertised in the electronics magazines of the time. She never got one but did end up the proud owner of a BBC Micro. Melanie learnt everything she could about the machine and including assembler, operating systems, drivers, interrupt, and, thanks to the circuit diagram in the Advanced User Guide, digital electronics. After the BBC Micro came the Acorn Archimedes and so started a long relationship with ARM processors. In the 90s Melanie became interested in Linux and then developed one of the first ARM Linux distributions running on an Acorn RISC PC. The hobby became a job and Melanie currently works for an embedded device consultancy near Bradford where a lot of her work is still with ARM processors. Recently Melanie became a sporty person and now spends a lot of her time hitting girls. She will probably bore you with tales of roller derby!</p>
+
+            <h4>Open source archaeological geophysics - is it achievable?</h4>
+            <p id="OpenSourceGeophysics">The advance of technology into Archaeology has allowed geophysical surveys to "peer into the ground" and direct the diggers to the most likely "targets". However, as anyone whose watched Time Team will know, using Resistivity and Magnetometry doesn't always guarantee results. Such equipment is not usually within the financial reach of most hobbyists.  However, the recent explosion of the Arduino, Pi and other cheap electronics has meant making such surveying equipment may be possible.</p>
+            <p>A small research project involving an informal collaboration between members of the Derbyshire Archaeological Society (DAS) & Derby Makers is exploring whether a high accuracy GPS unit, Magnetometer and a resistivity probe can be made and yield worthwhile results within a budget of £1,000. DAS has kindly funded this research and we are about 50% of the way through the GPS project. This talk will introduce the project and take a look at progress to date.</p>
+            <p id="Tony Brookes" class="vcard"><u>Tony Brookes</u> was firstly an engineer and then worked in IT for a while (!) Now working part-time, hobbies easily fill the time available. Drawn to archaeological and historical research by way of Time Team, he now tries to apply open source software (Scribus, Inkscape, Qgis) and hardware (Arduino, et al) to investigating parish history and other interesting topics.</p>
+
+            <h4>An open source aquaponics control system</h4>
+            <p id="OpenSourceAquaponics">Aquaponics is a closed system of food production that farms fish alongside vegetables, and this talk will look at the development of an open source aquaponics control system for the <a href="http://incredibleaquagarden.co.uk/">Incredible AquaGarden</a> project in Todmorden, highlighting certain features of the design and exploring some of the difficulties encountered and how these have been addressed.</p>
+            <p>A control and monitoring system with an event-driven 'flowchart' interface will be presented, where data about aspects such as pH, temperature and light level etc. are collected and logged in order to monitor the environment. The system responds dynamically to control the level of water in the plant growing bed, to maximise the yield. Some design decisions and technical aspects of the system will be demonstrated and discussed, together with the open source model for sustaining the project.</p>
+            <p>Finally, we will look at the operational Node-RED installation in Todmorden, showing how the system is collecting readings and controlling the water level, and we'll talk about how MQTT has been used to loosely couple the code running on the Arduino with Node-RED on a Raspberry Pi.</p>
+            <p id="GarethColemanNaomiRosenberg" class="vcard"><u>Gareth Coleman</u> is a inventive hardware hacker who's talent lies in connecting diverse devices. <u>Dr Naomi Rosenberg</u> is a freelance software developer with a background in formal logic who works on a wide variety of platforms. They <a class="fn url" title="layer zero labs - website" href="http://l0l.org.uk/">both</a> get a especially enthusiastic about open hardware, free software and empowering humans.</p>
+
+            <h4>From Idea to Finished Product: A Tale of DFM and CEM</h4>
+            <p id="IdeatoFinishedProduct">With numerous easily accessible embedded platforms around and concepts such as rapid prototyping and crowdfunding now being useful things as opposed to just buzzwords, designing the Next Big Thing without leaving your study is becoming a common story for makers and tinkerers.</p>
+            <p>While it is true that going from an idea to a finished product has never been easier thanks to the abundance of design resources and affordable manufacturing services, designing for volume manufacturing requires a different mindset that usually does not apply to casual weekend hacks. From component choice to packaging and logistics, there are several elements that needs to be taken into consideration, as they may cause significant headaches otherwise.</p>
+            <p>This talk will provide an overview of electronics manufacturing process, covering details such as managing design data, handling dependencies, component and process choices, testing and certification and several other aspects of DFM: Design for Manufacturability.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerK">Omer Kilic</a> is an Embedded Systems hacker who likes tinkering, a lot. He also likes tiny computers, things that just work and good beer.</p>
+
+            <h4>Driving milling machines with Linux</h4>
+            <p id="MillingMachines">Driving a milling machine with Linux is fairly easy and <a href="http://www.linuxcnc.org/">LinuxCNC</a> (previously known as “EMC”) even provides a real-time distribution install disk. However, driving the machine is only half the story and gcode generation is at least as important.</p>
+            <p>This talk will share experiences using a mill and a router with Linux, looking at PCB manufacture, engraving, 3D milling, casting, tool paths, materials, tools and parametric design.</p>
+            <p id="MattVenn" class="vcard"><a class="fn url" title="Matt Venn - Twitter" href="https://twitter.com/matthewvenn">Matt Venn</a> has run hundreds of creative science workshops for thousands of children and adults around the world. For the last year, he has been working with teachers in preparation for the computer science curriculum changes; creating and leading courses, workshops and projects.</p>
+            <p>When he's not inventing new ways of getting people excited about science, Matt plays music, invents puzzle boxes, practices martial arts and maintains bikes.</p>
+
+            <h4>Oxford Flood Network - easier to Apologise Than to Ask Permission</h4>
+            <p id="OxfordFloodNetwork"><a href="http://oxfloodnet.co.uk/">Oxford Flood Network</a> is a citizen sensing project which monitors water levels around the city, in streams, rivers and even under floorboards, sending water levels back to the Internet using low-powered wireless.</p>
+            <p>The network explores the possibilities of a smart city that is created by its citizens, rather than a more typical top-down deployment. Sensor networks are generally used to collect data about us for reasons and agendas chosen by others, but we can build sensor networks too; crowd-sourced data can be gathered for your agenda — providing evidence for your issues.</p>
+            <p>In this talk we will hear how Oxford Flood Network has developed an open source model for hardware and software, and the challenges of sticking mysterious boxes under bridges.</p>
+            <p id="BenWard" class="vcard"><a class="fn url" title="Ben Ward - Twitter" href="https://twitter.com/crouchingbadger">Ben Ward</a> is founder of <a href="http://love-hz.com/">Love Hz</a>, promoting the use of white space spectrum for open innovation in the Internet of Things. A survivor of the dotcom bubble, subsea bandwidth glut and the UK broadband wars, he's still surprisingly optimistic about the future.</p>
+
+            <h4>An introduction to writing applications for the Parallella board</h4>
+            <p id="ParallellaApplications"><a href="http://www.parallella.org/">Parallella</a> is a credit card-sized computer with a many-core accelerator that allows it to achieve high floating-point performance while consuming only a few watts. In this talk we will take a look at the Epiphany architecture and how to use the eSDK to write highly parallel applications for it, using hardware and software features to benchmark code and optimise performance.</p>
+            <p id="SimonCook" class="vcard"><a class="fn url" title="Simon Cook - Twitter" href="https://twitter.com/simonpcook">Simon Cook</a> leads <a href="http://www.embecosm.com">Embecosm</a>'s work on LLVM and is author of the standard guide to the LLVM assembler. He is also an expert on low-energy compilation and is lead engineer on the <a href="http://mageec.org">MAGEEC</a> project. Simon holds a double first class honors degree in Computer Science and Electronics from Bristol University.</p>
+
+            <h4>Radio Then and Pararchive: decentralised, pervasive, and open story telling</h4>
+            <p id="RadioThenPararchive">Radio Then is a citywide cultural history experience, telling stories about Manchester’s jazz and popular music heritage using a small, Arduino-powered radio. Participants explore the city and tune in to archival broadcasts related to places, people, and events of note. In actual fact, the ‘radio’ contains GPS and audio breakouts to track its location and cue audio tracks depending on its coordinates.</p>
+            <p>The project is being created to showcase findings from <a href="http://pararchive.com/">Pararchive</a>, an AHRC project being conducted by the University of Leeds, in partnership with the BBC, National Media Museum, Science Museum Group, and Manchester Digital Laboratory, among others. Pararchive represents an opportunity for members of the public to engage with archives, decentralising the material from archive holders, and offering alternative and personal perspectives on events.</p>
+            <p id="JamesMedd" class="vcard"><a class="fn url" title="James Medd - website" href="http://jamesmedd.co.uk/">James Medd</a> is an artist, musician, and maker based in Manchester. He teaches all things digital in the north west of the UK, and creates whimsical, entertaining, and accessible interactive artworks. He currently leads <a href="https://twitter.com/arduino_mcr">Arduino Manchester</a>, a community group for Arduino users in Manchester, and will be developing more interactive audio experiences at <a href="http://www.watershed.co.uk/pmstudio/">Watershed’s Pervasive Media Studio</a> later this year, as a winner of their graduate and new talent competition.</p>
+
+             <h4>Commercialising your ideas</h4>
+             <p id="CommercialisingIdeas">Whether you're taking the time to build something fun, or have a solution to a problem you have faced, you are 'in your own right' an inventor.</p>
+             <p>One of the biggest challenges inventors face isn't making their product work, it's generating a living to continue inventing. Having spent over a decade in both sales and business development I have witnessed people use various methods to overcome this hurdle. I hope to share with you some of my experiences to provide you with some ideas you can take away and use when looking to turn a hobby or bright idea into a financial success. Our topic of conversation will take us from having a light bulb moment, to securing orders and reaping the rewards.</p>
+             <p id="WilliamStone" class="vcard"><u>William Stone</u> is the Head of Channel Strategy for hardware manufacturer, <a href="http://shop.ciseco.co.uk/">Ciseco</a>. He is responsible for various commercial areas of the business including the very familiar responsibility of growing Ciseco's rapidly expanding chain of partners and distributors. Now with 36 recognized distributors worldwide, Ciseco has a growing presence and reputation in electronics manufacturing and Internet of Things (IoT).</p>
+
+              <h4>OpenTRV: energy technology that saves householders money</h4>
+              <p id="OpenTRV">The <a href="http://opentrv.org.uk/">OpenTRV</a> project aims to provide software, hardware designs and excellent interoperability to allow UK and EU householders to as much as halve their heating bills and carbon footprint with simple to fit hardware costing around £100 per house. Everything is freely available under liberal licensing — even our 3D printed enclosures — to enable adoption and cost savings.</p>
+              <p id="DamonHart-Davis" class="vcard"><a class="fn url" title="Damon Hart-Davis - Twitter" href="https://twitter.com/DamonHD">Damon Hart-Davis</a> gets excited about electronics, parallelism, robotics, distributed systems and resource efficiency, and solar PV and halving space-heating carbon footprint with cheap microcontrollers (OpenTRV) are two of his current passions. Damon has been working on “mission-critical” systems in banking for most of the last 20 years and before that founded one of the first UK Internet Service Providers.</p>
+
+              <h4>Interfacing with SPI and I2C</h4>
+              <p id="SPII2C">SPI and I2C are industry standard methods of interfacing IO devices to micro-controllers and CPUs using just a few connections. SPI requires four wires and I2C just two.</p>
+              <p>This talk introduces SPI and I2C. It describes how they work and how you use them. It will look at common IO devices that connect via SPI or I2C. Finally it will look at controlling SPI and I2C devices from two example controllers, the Arduino and the Raspberry PI, in languages such as C and Python.</p>
+              <p>Speaker: <a href="#MelanieRhiannaLewis">Melanie Rhianna Lewis</a>.</p>
+
+              <h4>Concurrency in the real world with xCORE and XC</h4>
+              <p id="ConcurrencyxCORE">There are many cases where a simple microcontroller won't cut it and the FPGA design route may be too drawn out and costly, particularly if your background is in software.</p>
+              <p>With the XMOS multi-core microcontroller architecture and toolset it's now possible to tackle complex hardware problems using familiar software and algorithms, avoiding the need to work with Verilog or VHDL. The XMOS XS1 microcontrollers provide tens of nano second resolution and deterministic, predictable, real-time operation in software. The XMOS toolset enables designs to be simulated and analysed, and signals to be monitored and scoped all within the IDE.</p>
+              <p>The XC extensions to C provide simple interfaces and tasks to write concurrent programs, taking care of nasty race conditions and parallel usage errors. xCORE open source libraries help break down complex domain-specific tasks, allowing you to focus on developing applications. While XMOS Links enable microcontrollers and boards to be chained together in a divide and conquer manner, allowing you to orchestrate your own hardware solutions.</p>
+              <p>This talk will introduce the XMOS technology and explore a selection of real world applications.</p>
+              <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with concurrent and distributed programming for over a decade. His recent work includes smart grid, control, and motion systems based on XMOS' concurrent technology. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com">xCORE</a> and other SHW communities, such as <a href="http://www.tvrrug.org.uk">TVRRUG</a>, as well as a founder of hackspace, <a href="http://www.sh-hackspace.org.uk/">SHH</a>.</p>
+
+               <h4><i><center>Compered by:</center></i></h4>
+               <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="https://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software. His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, switching to consulting in 2000.</p>
+               <h3 id="workshops">Sunday :: Workshops</h3>
+               <p>Some  workshops will provide tools, boards and components etc. However, subject to demand this may involve an element of sharing and please feel free to bring along equipment and components, but note that you must be able to take full responsibility for your own personal safety and that of others in respect to these. Common sense must be exercised!</p>
+
+               <h4>Let's build a flood network for Hebden Bridge!</h4>
+               <p id"BuildFloodNetwork">Split into two teams, one will attempt to install flood sensors on the beautiful Hebden Water just outside the venue, while the other links these these to the Internet using readily available technology.</p>
+               <p>Proven hardware designs will be used to show you how can send water levels back to the Internet using low-powered wireless links, and sustainable approaches to citizen sensing will be explored.</p>
+               <p>Run by: <a href="#BenWard">Ben Ward</a>.</p>
+               <p><em>Workshop notes: you may want to bring wellies if you plan to join the sensor installation team! Also feel free to bring sensors and boards that you think may be useful.</em></p>
+
+               <h4>Building applications that sense and respond to the real world</h4>
+               <p id="ApplicationsSense">Following on from their talk, Naomi and Gareth will be joined by Paulo Marini, the Tormorden project's resident aquaponicist. Together they will facilitate a hack session to help you build applications that respond to the real world.</p>
+               <p>Run by: <a href="#GarethColemanNaomiRosenberg">Gareth Coleman and Dr Naomi Rosenberg</a>.
+               <p><em>Workshop notes: Bring your own hardware to work on, such as Raspberry Pi and Arduino etc. if you can, and they'll try to find ways to get your projects connected.</em></p>
+
+               <h4>Do you want to build a robot? #meArm assembly workshop</h4>
+               <p id"meArm">How about starting with an <a href="http://www.thingiverse.com/thing:298820">Arm</a>? With just a screwdriver and enthusiasm you can build an Open Source Robot Arm. If you bring an Arduino or Pi with you, you're free to stay on with your meArm and tinker with the code too.</p>
+               <p>The meArm is a project to get low cost robot arms into the hands of as many people as possible. Started in February this year it's made fast progress through open development. Already "home brew" (those not from the laser forges of phenoptix in Nottingham) versions have been spotted in the UK, Switzerland, the USA and Mexico!</p>
+               <p id="BenGray" class="vcard"><a class="fn url" title="Ben Gray - Twitter" href="https://twitter.com/phenoptix">Ben Gray</a> is a proponent of Open Hardware and founder of <a href="phenoptix.com">phenoptix</a>, a maker business based in Beeston, Nottinghamshire. Ben graduated from the University of Exeter with a chemistry degree and a fledgling phenoptix before moving to Nottingham to complete a PhD in theoretical physical chemistry. Through the open hardware movement he has been able explore the wonderful world of electronics and take phenoptix from a pocket money project to the full time job it is today.</p>
+               <p><em>Workshop notes: Bring along a laptop and, if you like, an Arduino or Raspberry Pi.</em></p>
+
+               <h4>Introduction to Bus Pirate</h4>
+               <p id="BusPirate">The Bus Pirate is a universal open source hardware device that can be used to communicate using various buses, such as SPI, I2C, UART and JTAG, with various devices. The Bus Pirate is, per the designers, intended to "Eliminate a ton of early prototyping effort with new or unknown chips."</p>
+               <p>This tutorial will introduce the Bus Pirate. Describe how to configure it and install the software required to use it. It will then look at some basic interfacing to devices via SPI and I2C. It will work through how you can 'sniff' buses. Finally it will look at use the Bus Pirate as a simple frequency measurement and generator device.</p>
+               <p>Run by: <a href="#MelanieRhiannaLewis">Melanie Rhianna Lewis</a>.</p>
+               <p><em>Workshop notes: bring along a laptop (Bus Pirate is supported under Windows, Linux and OSX) and, if you can, some hardware to debug. There will be a limited number of Bus Pirates available, but if you have one please bring it along.</em></p>
+
+               <h4>Building your first Parallella application</h4>
+               <p id="ParallellaWorkshop">This workshop follows on from the previous day's talk and participants will build a simple project which targets the Parallella board and uses all 16 cores of the Epiphany floating-point accelerator.</p>
+               <p>Run by: <a href="#SimonCook">Simon Cook</a>.</p>
+               <p><em>Workshop notes: Please bring along a laptop and, if you have one, a Parallella board (a limited number of boards will be available for use by those who do not own one).</em></p>
+
+               <h4>The real world works concurrently and so can you</h4>
+               <p id="XMOSWorkshop">This workshop will take you through the basics of embedded concurrent programming using an XMOS multi-core startKIT. We will cover basic parallel processing extensions to C (XC) using tasks, interfaces, timers and ports. We will also get some insight into our running code using xSCOPE, a real-time debugging system built in to the XMOS tools. In addition we will use software modules to drop in rich functionality from the open source xCORE libraries.</p>
+               <p>Run by: <a href="#AlanWood">Alan Wood</a>.</p>
+               <p><em>Workshop notes: bring along a laptop and any devices you would like to interface.</em></p>
+
+               <h4>Design a PCB Shrimp and have it fabricated</h4>
+               <p id="ShrimpPCB">The <a href="http://shrimping.it/blog/">Shrimp</a> is a super low cost Arduino clone. It makes an excellent teaching resource, and is usually delivered as a 'breaded shrimp' - using a breadboard. For hackers, it's a great way to knock up a quick, cheap microcontroller circuit.</p>
+               <p>In this workshop we'll make a PCB version of the shrimp — a more robust and Arduino shield compatible version — and you will be guided through the process of drawing the schematic, laying out the PCB and optionally placing an order with <a href="https://oshpark.com/">OSHPark</a> for your very own PCB shrimp.</p>
+               <p>Participants will be working in pairs. Boards will cost about £6 each. Kits of components can conveniently be ordered from <a href="http://shrimping.it/blog/kits/">shrimping.it</a> for £4.</p>
+               <p>Run by: <a href="#MattVenn">Matt Venn</a>.</p>
+               <p><em>Workshop notes: bring along a laptop.</em></p>
+
+               <h4>OpenTRV build and getting started</h4>
+               <p id="OpenTRVBuild">Kits will be available to solder and boards and cables to buy, along with valves that will be used to demonstrate how you can use Arduino-based technology to halve your heating bill.</p>
+               <p>Run by: <a href="#DamonHart-Davis">Damon Hart-Davis</a>.</p>
+               <p><em>Workshop notes: Please bring your own soldering iron, solder and AA batteries if you would like to build a kit to take away, and be aware that SMD soldering experience and a steady hand will be required to solder the TMP112 temperature sensor.</em></p>
+ 
+
+                <p><strong>NOTE:</strong>
+                </ul>
+                 <li>There are <u>separate</u> tickets for Friday, Saturday and Sunday.</li>
+                 <li>A light lunch and refreshments will be provided each day.</li>
+                 <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+                </ul></p>
+
+               <div id="support">
+                 <p><strong><i>With thanks to sponsors:</i></strong></p>
+                 <p><ul>
+                 <li><a id="designspark" title="DesignSpark from RS Components" href="http://www.rs-online.com/designspark/electronics/">DesignSpark from RS Components</a></li>
+                 <li><a id="xmos" title="XMOS - Multicore Microcontrollers" href="http://www.xmos.com/">XMOS - Multicore Microcontrollers</a></li>
+                 <li><a id="codethink" title="Codethink - Providing Genius" href="http://www.codethink.co.uk">Codethink - Providing Genius</a></li>
+                 </ul></p>
+               </div>
+
+date:        16th August 2014
+dtstart:     2014-08-16T09:00:00Z
+dtend:       2014-08-17T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Mon, 30 June 2014 09:00:00 BST
+updated:     2014-06-30T09:00:00Z
+location:    Hebden Bridge Town Hall
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://wb2014.eventbrite.co.uk
+lanyrd:       http://lanyrd.com/2014/wutheringbytes/
+
+tags:
+    - OSHUG
+    - wutheringbytes
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - IoT
+    - shrimping
+    - energyconsumption
+    - sensors
+    - Parallella
+    - XMOS
+    - BusPirate
+    - Linux
+    - SPI
+    - I2C
+    - OpenTRV
+    - meARM

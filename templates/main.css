@@ -121,6 +121,14 @@ img.logo {
 	background-image: url('/images/sup_abopen.png');
 }
 
+#support ul li a#xmos {
+	background-image: url('/images/sup_xmos.png');
+}
+
+#support ul li a#codethink {
+	background-image: url('/images/sup_codethink.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

@@ -1,0 +1,54 @@
+---
+number:     34
+title:       Teaching (Teaching with LilyPad, Raspberry Pi in education, MzTEK)
+description: |
+             <p>The thirty-fourth OSHUG meeting will feature three talks that each explore approaches to teaching electronics and programming.</p>
+
+sessions: |
+            <h3>Teaching with the LilyPad Arduino</h3>
+            <p id="TeachingLilypad">In this talk we will hear about experiences of teaching basic electronics and coding principles via wearable technology and e-textiles, using the LilyPad Arduino — a sewable microcontroller — in workshops with people of all ages at universities, schools at hackspaces.</p>
+            <p id="RainAshford" class="vcard"><a class="fn url" title="Rain Ashford - Twitter" href="http://twitter.com/rainycat">Rain Ashford</a> designs and constructs wearable technology, e-textiles and interactive artworks. A PhD candidate at Goldsmiths, where she is investigating the possibility that wearable technology can be used to augment new forms of non-verbal communication, particularly in the areas of body language and emotion, by the amplifying and visualising of physiological data. She has studied Fine Art, Multimedia, and Electronics Engineering, which has led to her work developing as a convergence of art, programming and electronics.</p>
+
+            <h3>Raspberry Pi in education</h3>
+            <p id="RasPiEducation">Challenges, benefits and experiences with the Raspberry Pi as an educational tool.</p>
+            <p id="MattVenn" class="vcard"><a class="fn url" title="Matt Venn — Twitter" href="https://twitter.com/matthewvenn">Matt Venn</a> has run hundreds of creative science workshops for thousands of children and adults around the world. For the last year, he has been working with teachers in preparation for the computer science curriculum changes; creating and leading courses, workshops and projects.</p>
+            <p>When he's not inventing new ways of getting people excited about science, Matthew plays music, invents puzzle boxes, practices martial arts and maintains bikes.</p>
+
+            <h3>MzTEK: festivals, workshops and take away technologies</h3>
+            <p id="mztek"><a href="http://www.mztek.org/">MzTEK</a> is a non-profit organisation that aims to redress the imbalance of women artists working in the fields of new media, computer arts, electronics and technology. Based in London and supported by Hackney arts institution [ space ], and Centre for Creative Collaboration in Kings Cross, and hosting a range of workshops, talks and self-initiated tinker sessions.</p>
+            <p>In collaboration with partner organisations, MzTEK develop interesting, accessible and curiosity igniting workshops that can be delivered in short time frames and engage a wide audience with varying skills. Working with open source technologies and tools to help ensure that participants continue making and tinkering with the technologies they encounter long after workshops. Furthermore, doing this at festivals and events where the hope is to encounter a broad range of participants and unpredictable work environments! This talk will discuss some previous projects such as the Hacked Human Orchestra, a wearable electronics project devised in collaboration with Guerrilla Science, and suggest ways that thematic focus, together with a well balanced combination of skill acquisition, creativity and fun can enhance workshop delivery.</p>
+            <p id="ShaunaConcannon" class="vcard">Shauna Concannon is an interdisciplinary researcher interested in communication spaces and constructive disagreement. She has been working with MzTEK for the past few years, developing and facilitating workshops in Processing, Arduino and wearable electronics. She is currently undertaking a PhD in Media and Arts Technology at Queen Mary University of London.</p>
+
+            <p><strong>Note: Please aim to by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        21st May 2014
+dtstart:     2014-04-27T17:30:00Z
+dtend:       2014-04-27T20:30:00Z
+start:       17:30
+end:         20:30
+pubdate:     Tues, 06 May 2014 17:00:00 GMT
+updated:     2014-05-06T17:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT03H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1093/
+upcoming:     
+lanyrd:       http://lanyrd.com/2014/oshug34/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - education
+    - teaching
+    - LilyPad
+    - Arduino
+    - RaspberryPi
+    - MzTEK
