@@ -72,6 +72,10 @@ sessions: |
               <p>This talk introduces SPI and I2C. It describes how they work and how you use them. It will look at common IO devices that connect via SPI or I2C. Finally it will look at controlling SPI and I2C devices from two example controllers, the Arduino and the Raspberry PI, in languages such as C and Python.</p>
               <p>Speaker: <a href="#MelanieRhiannaLewis">Melanie Rhianna Lewis</a>.</p>
 
+              <h4>Introduction to Baserock</h4>
+              <p id="BaserockIntro">Baserock is a new set of open source tools for creating "appliance" operating system images. The aim is to close the gap between source code repositories and the code running on a device. This talk will go over Baserock's philosophy, what it provides and how you can try it out today.</p>
+              <p id="SamThursfield" class="vcard"><a class="fn url" title="Sam Thursfield - Twitter" href="https://twitter.com/robotmakesmesad">Sam Thursfield</a> likes it when technology is surprising in a good way but does not like it when it is surprising in a bad way. He spends a lot of time trying to reduce the amount of code that is required to do things. He has been known to play the trombone in and around Manchester.</p>
+
               <h4>Concurrency in the real world with xCORE and XC</h4>
               <p id="ConcurrencyxCORE">There are many cases where a simple microcontroller won't cut it and the FPGA design route may be too drawn out and costly, particularly if your background is in software.</p>
               <p>With the XMOS multi-core microcontroller architecture and toolset it's now possible to tackle complex hardware problems using familiar software and algorithms, avoiding the need to work with Verilog or VHDL. The XMOS XS1 microcontrollers provide tens of nano second resolution and deterministic, predictable, real-time operation in software. The XMOS toolset enables designs to be simulated and analysed, and signals to be monitored and scoped all within the IDE.</p>
@@ -152,7 +156,7 @@ dtend:       2014-08-17T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Mon, 30 June 2014 09:00:00 BST
-updated:     2014-06-30T09:00:00Z
+updated:     2014-07-10T16:57:00Z
 location:    Hebden Bridge Town Hall
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -180,3 +184,4 @@ tags:
     - I2C
     - OpenTRV
     - meARM
+    - Baserock
