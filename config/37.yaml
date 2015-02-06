@@ -1,0 +1,54 @@
+---
+number:     37
+title:       Open Source in Business
+description: |
+             <p>An evening of talks exploring different commercial aspects of open source — hardware and software — including crowdfunding an open hardware microenterprise, navigating licensing issues, trade associations, and building a business on free software.</p>
+             <p><em>Hosted in conjunction with the BCS Open Source Specialist Group.</em></p>
+
+sessions: |
+            <h3>Open Source Consortium - an introduction</h3>
+            <p id="OpenSourceConsortium"><a href="http://www.opensourceconsortium.org/" title="The Open Source Consortium">OSC</a> is a trade association which represents companies and individuals delivering solutions and advice based on Open Standards and Free & Open Source Software.</p>
+            <p>As a trade association, OSC gives its members greater influence than they could achieve alone by providing a collective voice, and by supporting initiatives such as the implementation of open standards in public sector IT, the inclusion of open standards in school curricula and levelling the gender balance in the industry. At the core of its vision, OSC campaigns for the use of Open Standards in all aspects of public and commercial life, promoting the unique advantages of Free & Open Source Software and the independent expertise offered by members.</p>
+            <p id="IrenieWhite" class="vcard"><a class="fn url" title="Irenie White — Blog" href="http://www.credativ.co.uk/credativ-blog/irenie-white">Irenie White</a> has been Chair of the Open Source Consortium since 2013 after working with the organisation for 3 years. This year she was appointed as MD of credativ, a free software consulting and services company, after running operations there for 6 years. As a STEMNET Ambassador and through her work with Advancing Women in IT, Irenie is committed to supporting bottom-up growth in the wider technology industry. Outside of work her family comes first, music a close second.</p>
+
+            <h3>Notes from the first three months of an Open Source Microenterprise</h3>
+            <p><em>&mdash;How I learned to stop worrying and love the Kickstarter</em></p>
+            <p id="MicroenterpriseNotes">Starting an Open Source Hardware business is lot of work, even if you've spent 11 years running a different one. There are all sorts of things you've forgotten about and there are a whole host of new challenges as you try to do things the right way from the start. None of it is easy, but all of it beats having a 9-5.</p>
+            <p id="BenjaminGray" class="vcard"><a class="fn url" title="Benjamin Gray — Twitter" href="https://twitter.com/phenoptix">Benjamin Gray</a> is a proponent of Open Hardware, founder of <a href="https://www.kickstarter.com/projects/phenoptix/mearm-pocket-sized-industrial-robotics-for-everybo" title="Kickstarter: MeArm">MeArm</a>, an open source robot arm manufacturer and phenoptix a recently retired maker business. Ben graduated from the University of Exeter with a chemistry degree and a fledgling phenoptix before moving to Nottingham to complete a PhD in theoretical physical chemistry. With 11 years of Maker business experience under his belt he's set out on a new adventure manufacturing the MeArm, a pocket sized robot arm.</p>
+
+            <h3>But I didn't mean *that*</h3>
+            <p id="NotThat">Accidents and incidents exploring relationships between corporations and the licenses they use to share, from Creative Commons to GPL.</p>
+            <p id="PaulBeech" class="vcard"><a class="fn url" title="Paul Beech — Twitter" href="https://twitter.com/guru">Paul Beech</a> used his graphic and web design skills to co-found <a href="http://pimoroni.com/" title="Pimoroni">Pimoroni</a>, a maker company that does Raspberry Pi and Arduino stuff. Code: open source. Hardware: less so.</p>
+
+            <h3>Giving it away: Free Software as a business strategy</h3>
+            <p id="GivingItAway"><a href="https://www.bytemark.co.uk/">Bytemark Hosting</a> has been involved in building, fixing and publishing Free Software since its foundation in 2002. Back then, free Software was seen as an unquestionable part of a winning business strategy for big firms, but within years firms that bet too much on it were brought down to earth. Matthew Bloch, Bytemark's MD, narrates his own company's successes, profitability and changes in strategy around this important social movement.</p>
+            <p id="MatthewBloch" class="vcard"><a class="fn url" title="Matthew Bloch — Twitter" href="https://twitter.com/matthewbloch">Matthew Bloch</a> is MD and co-founder of Bytemark Hosting, one of the UK's oldest and best-respected hosting and cloud providers, with its own data centre in York and staff of 23. Previous to Bytemark Matthew worked as a programmer on several Java virtual machines, and the PC emulator for Acorn computers.</p>
+
+               <h4><i><center>Compered by:</center></i></h4>
+               <p id="GarethHalfacree" class="vcard"><a class="fn url" title="Gareth Halfacree - Twitter" href="https://twitter.com/ghalfacree">Gareth Halfacree</a> is a <a href="http://freelance.halfacree.co.uk">freelance technology journalist</a> and the co-author of the Raspberry Pi User Guide, alongside project co-founder Eben Upton. He also writes the maker-centric Hobby Tech column for Custom PC Magazine, as well as numerous features in magazines including PC Pro, Linux User & Developer, Micro Mart, Computeractive and others.</p>
+               <p>Formerly a system administrator working in the education sector, Gareth's passion for open source projects has followed him from one career to another and he can often be seen reviewing, documenting or even contributing to projects including GNU/Linux, LibreOffice, Fritzing and Arduino. He is also the creator of the Sleepduino and Burnduino open hardware projects and numerous small software tools, all released under permissive licences.</p>
+
+            <p><strong>Note: Please aim to arrive by 17:45 as the first talk will start at 18:00 prompt.</strong></p>
+
+date:        22nd January 2015
+dtstart:     2015-01-22T17:30:00Z
+dtend:       2015-01-22T20:30:00Z
+start:       17:30
+end:         20:30
+pubdate:     Mon, 05 January 2015 19:05:00 GMT
+updated:     2015-05-19T05:00:00Z
+location:    Owen Lecture Theatre
+isoduration: P0Y0M0DT03H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1361/
+upcoming:     
+lanyrd:       http://lanyrd.com/2015/oshug37/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - business
+    - Kickstarter
+    - licensing

@@ -1,0 +1,55 @@
+---
+number:     36
+title:       Chips Pt.2 (Chip Design for Teenagers, Cocotb, lowRISC)
+description: |
+             <p>Back in April 2011 we had our <a href="/event/9" title="Chips (Programmable Logic, Computer Conservation with FPGAs, OpenCores & OpenRISC 1000)">first meeting on the theme of open source chip design</a>, and then around one year later we took a <a href="/event/17" title="Practical System-on-Chip (Program your own open source FPGA SoC)">closer look at the OpenRISC Reference Platform System-on-Chip</a>. The thirty-sixth meeting will feature talks on chip design for teenagers, an open source verification framework, and a fully open source system-on-chip that will be manufactured in volume.</p>
+
+sessions: |
+            <h3>Silicon Chip Design for Teenagers</h3>
+            <p id="ChipDesignTeenagers">These days we expect school students to learn to write code, and teachers are turning to tools like Scratch (for primary education) and Python (for secondary education). But why stick to software languages. Why not teach coding in Verilog and get children to design silicon chips.</p>
+            <p>Earlier this year Dan Gorringe attended <a href="http://chiphack.org">Chip Hack</a> II in Cambridge. Inspired by this he spent two weeks work experience at Embecosm in August 2014 modifying the Chip Hack materials for use by Year 9-11 students. His resulting application note, <em>"Silicon Chip Design for Teenagers"</em>, is to be published very shortly by Embecosm.</p>
+            <p>In this talk, Dan will share his experience of learning silicon chip design, using Verilog for his first serious attempt at coding and encountering Mentor Graphics EDA tools for the first time.</p>
+            <p id="DanGorringe" class="vcard"><u>Dan Gorringe</u> has just started year 11 and faces the horrors of GCSE exams in 8 months time, so silicon chip design is just light relief. He has aspirations to a career in computing.</p>
+
+            <h3>Cocotb, an Open Source Verification Framework</h3>
+            <p id="Cocotb">Verifying hardware designs has always been a significant challenge but very few open-source tools have emerged to support this effort. The recent advances in verification to facilitate complex designs often depend on specialist knowledge and expensive software tools. In this talk we will look at <a href="http://cocotb.com" title="Coroutine Co-simulation Test Bench">Cocotb</a>, an open-source verification framework, and explore whether Python is a viable language for verification.</p>
+            <p id="ChrisHiggs" class="vcard"><a class="fn url" title="Chris Higgs — Twitter" href="https://twitter.com/PVCocotb">Chris Higgs</a> has over a decade of experience working with FPGAs in various industries. His software background has shaped his approach to RTL design and verification and he now spends his time trying to bridge the divide between hardware and software development.</p>
+
+            <h3>lowRISC — a Fully Open Source RISC-V System-on-Chip</h3>
+            <p id="lowRISC">The <a href="http://www.lowrisc.org/">lowRISC</a> project has been formed to produce a System-on-Chip which will be open source right down to the HDL, implementing the open RISC-V instruction set architecture. Volume manufacture of silicon manufacture is planned, along with creating and distributing low-cost development boards. This talk will describe the aims of the lowRISC project, summarise its current status, describe some of the features that are being implemented, and give details on how you can get involved.</p>
+            <p id="AlexBradbury" class="vcard"><a class="fn url" title="Alex Bradbury — Twitter" href="https://twitter.com/asbradbury">Alex Bradbury</a> is a researcher at the University of Cambridge Computer Laboratory where he works on compilation techniques for a novel many-core architecture. He writes LLVM Weekly, is co-author of Learning Python with Raspberry Pi, and has been a contributor to the Raspberry Pi project since the first alpha hardware was available.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        23rd October 2014
+dtstart:     2014-10-23T18:00:00Z
+dtend:       2014-10-23T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thurs, 02 October 2014 11:20:00 GMT
+updated:     2014-10-11T20:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1253/
+upcoming:     
+lanyrd:       http://lanyrd.com/2014/oshug36/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - education
+    - chips
+    - silicon
+    - RTL
+    - FPGA
+    - Cocotb
+    - lowRISC

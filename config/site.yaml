@@ -119,6 +119,15 @@ locations:
         latitude:  51.510812
         longitude: -0.121733
 
+    Owen Lecture Theatre:
+        uri:       http://www.shu.ac.uk/eventservices/venues/owen-lecture-theatre
+        extendedaddress: 1028 Owen Building, Sheffield Hallam University
+        street:    Howard Street
+        locality:  Sheffield
+        postcode:  S1 1WB
+        latitude:  53.379176
+        longitude: -1.466163
+ 
 feeds:
     - atom
 
@@ -180,3 +189,6 @@ released:
     - 33
     - 34
     - oshcamp2014
+    - 36
+    - 37
+    - 38

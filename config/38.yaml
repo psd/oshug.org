@@ -1,0 +1,56 @@
+---
+number:     38
+title:       Energy (Exploring "open" in energy, Electricity from Woodchips, OpenTRV)
+description: |
+             <p>The thirty-eighth meeting will take a look open source technologies in support of the generation and efficient use of energy.</p>
+
+sessions: |
+            <h3>Exploring "Open" in Energy</h3>
+            <p id="OpeninEnergy"><a href="http://arcolaenergy.com/">Arcola Energy</a> builds energy systems using fuel cells powered by hydrogen. Fuel cells are one of those great ideas that has yet to gain much traction in real markets. They put men on the moon, but since then commercial progress has been slow. One way of opening up uses of fuel cells is to involve a much wider developer community. To explore this Arcola has developed a fuel cell developer kit and started on the road to working with open source groups. This talk will look at our journey, the success to far and the challenges ahead.</p>
+            <p id="RichardKemp-Harper" class="vcard"><a class="fn url" title="Richard Kemp-Harper — Twitter" href="https://twitter.com/kemp_harper">Richard Kemp-Harper</a> is a former research scientist who spent several years managing web development, including open source systems at Oxfam. He then moved into technology and innovation, working at Innovate UK running innovation programmes in intelligent mobility, rail and energy. He specialises in not being a specialist.</p>
+
+            <h3>Electricity from Woodchips — An Edwardian Idea — Tamed with 21st Century Microelectronics</h3>
+            <p id="ElecricalWoodchips">First studied in the 1820s, gasification is the process of converting a hydrocarbon solid fuel, such as coal or wood, into a low calorific value gas suitable for running an internal combustion engine. Used for vehicle transportation during World War 2 — gasification has enjoyed a renaissance at the start of the 21st Century. Low cost, open source microelectronics are used to tame this technology, from a labour intensive manual process, to a fully automated turnkey system.</p>
+            <p id="KenBoak" class="vcard">In January 2012, <a class="fn url" title="Ken Boak — Twitter" href="https://twitter.com/Monsonite">Ken Boak</a> quit his UK electronic design job and travelled to Berkeley, California, to work on a new biomass energy project — an open source, microcontroller based control system for a wood chip fired CHP system.</p>
+            <p>The company — an East Bay area start-up —  "All Power Labs", had a compact, self-contained biomass gasification system, close to commercialisation.</p>
+            <p>In the 6 month contract, Ken productionised the open source, control and automation system, using standard, globally available components and rationalised the wiring loom so that low cost, modular assembly was practical.</p>
+            <p>Ken started his career at BBC Research Department in 1986 working on digital signal processing systems for HDTV - and subsequently over 30 years, a mix of 10 other technology companies, both UK and US based, in the fields of instrumentation, automation, telemetry and telecomms.</p>
+            <p>Ken tries to live a low impact lifestyle in a modest Edwardian house in Surrey, with a little help from modern electronics.</p> 
+
+            <h3>Scratching the itch: saving the planet</h3>
+            <p id="ScratchingItch">When BigCo and .gov are not sorting your problem then open everything makes it easier for you to scratch your own itch, especially with the very positive innovation support around right now, possibly the best for 30 years.  And when you can save the planet, be your own boss, and meet and work with lots of fabulous interesting people, what’s holding you back?</p>
+            <p id="DamonHart-Davis" class="vcard"><a class="fn url" title="Damon Hart-Davis — Twitter" href="https://twitter.com/DamonHD">Damon Hart-Davis</a> is lead on the <a href="http://opentrv.org.uk/" title="The OpenTRV project">OpenTRV open source project</a> created following his 2012 presentation to DECC's smart heating workshop. He has freelanced in technology for over 30 years, delivering mission-critical products from design to BAU in the City for more than 20 of those, and has founded and been involved in several start-ups over that time with his creations seen on TV, the Web, and his pioneering Internet Service Provider helping crack open that market more than 20 years ago. A previous virtual/on-line credit-card company start-up that he co-founded as CTO, Ixaris, turns over ~£10m.</p>
+            <p id="MarkHill" class="vcard"><u>Mark Hill</u> spent 15 years in the City after a solid grounding in IT at the chip level at the microprocessor manufacturer Inmos, designing and delivering highly complex systems. Project management, direction and governance are all part of his toolkit. He now speaks regularly about innovation, collaboration and IoT. Recently he founded a mobile phone software start-up and is now OpenTRV Ltd's co-founder.</p> 
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        19 February 2015
+dtstart:     2015-02-19T17:30:00Z
+dtend:       2015-02-19T20:00:00Z
+start:       17:30
+end:         20:00
+pubdate:     Tues, 26 January 2015 11:00:00 GMT
+updated:     2015-02-11T00:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1410/
+upcoming:     
+lanyrd:       http://lanyrd.com/2015/oshug38/
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - Energy
+    - fuelcell
+    - gasification
+    - opentrv
