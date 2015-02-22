@@ -1,0 +1,61 @@
+---
+number:     39
+title:       Radio Pt. 3 (OpenBeacon, HPSDR, Building Things)
+description: |
+             <p>The thirty-ninth meeting will feature an update on the HPSDR project, which we first heard about back in October 2010 at <a href="/event/5">OSHUG #5</a>. There will also be talks on Bluetooth Low Energy programming and OpenBeacon, and Building Things.</p>
+
+sessions: |
+            <h3>Low Power to the People - take back Bluetooth Low Energy control!</h3>
+            <p><em>&nbsp;&mdash;Programming BLE the hard way: bare metal programming of nRF51 BLE tokens for fun and profit.</em></p>
+            <p id="OpenBeacon">The talk will start with a brief overview of the Bluetooth Low Energy advertisement protocol and how to implement bare-metal BLE on top of the ARM-based nRF51 chip — without using the manufacturer provided Bluetooth stack. The general development flow will be explored along with some useful examples, closing with some mischief that can be caused using this knowledge :-)</p>
+            <p>The latest version of the <a href="http://get.openbeacon.org/">OpenBeacon</a> tag design is supposed to be the ultimate hacking, fuzzing and pen testing tool for Bluetooth Low Energy. The hardware schematics and the PCB layout were released under the CC attribution license. We strongly believe that the future of the Internet of Things can be privacy enabled and can work distributed, without selling your soul to large cloud services.</p>
+            <p id="MiloschMeriac" class="vcard"><a class="fn url" title="Milosch Meriac — website" href="https://meriac.com">Milosch Meriac</a> has over 20 years experience in the information security business and hardware design. He is currently living in Cambridge where he works for ARM on securing the Internet of Things. In his private time he loves making and grokking things. He is currently playing with RGB strips to create <a href="http://blinkenstick.org">light paintings</a>.</p>
+            <p>Milosch is the co-founder of active and passive RFID open source projects like Sputnik/OpenBeacon, OpenPCD and OpenPICC, and is committed to RFID related security research. He broke the iCLASS RFID security system and was involved in breaking Mifare Classic security.</p>
+            <p>As a member of the Blinkenlights Stereoscope Core Team Milosch designed the 2.4GHz OpenBeacon-based dimmmer/Ethernet dardware that was used in the Toronto City Hall Installation. As one of the three maintainers of the former Xbox-Linux Project he helped to break Xbox security and to port the first Linux system to the Xbox. His focus is on hardware development, embedded systems, RF designs, active and passive RFID hardware development, custom-tailoring of embedded Linux hardware platforms, real time systems, IT-security and reverse engineering.</p>
+
+            <h3>OpenHPSDR Update</h3>
+            <p id="OpenHPSDR">A review of hardware and software progress of the <a href="http://openhpsdr.org/">High Performance Software Define Radio</a>, an open source hardware and software project being developed by an international group of ham radio enthusiasts.</p>
+            <p id="JohnMelton" class="vcard"><a class="fn url" title="John Melton — website" href="http://g0orx.blogspot.co.uk/">John Melton</a> has held a ham radio license since 1984 and has developed several open source Linux applications, including ground station software for working digital satellites and software defined radios. He is a retired software engineer after 48 years developing software for several computer manufacturers including Burroughs Corporation, ICL, Sun Microsystems and Oracle Corporation.</p>
+
+            <h3>Building Things</h3>
+            <p id="BuildingThings">Creative communities are having an ever increasing influence on the way in which global companies like Microsoft, Samsung and Google go about developing new products. Access to open source technology creates new ways for inventors, makers and coders to turn ideas into things others want to use or buy. Embarking on the journey of turning an idea into a product comes with numerous hurdles, including: access to expensive machinery, technology, or skills which just aren’t readily available to many.</p>
+            <p>Miles and Will from <a href="http://wirelessthings.net/">Wireless Things</a> (formerly <em>Ciseco</em>) will describe how ‘Building Things’, their latest open source hardware, will help people build their own cool wireless devices.</p>
+            <p id="MilesHodkinson" class="vcard">Current CEO of Wireless Things, <a class="fn url" title="Miles Hodkinson — Twitter" href="https://twitter.com/wirelessthings">Miles Hodkinson</a> previously made a living selling and supporting scalable IT infrastructure. Whilst Head of Software Security for Egg PLC he always harboured a passion for tinkering. Miles has transformed his passion from a hobby in his garden shed, to one of the ‘go-to’ companies for people building IoT solutions, all manufactured in his home town of Nottingham.</p>
+            <p id="WillStone" class="vcard">Head of Channel Strategy for Wireless Things, <a class="fn url" title="Will Stone — Twitter" href="https://twitter.com/BigWillStone">Will Stone</a> has spent the last decade between running an outsourced sales company and in engineering recruitment. Will teamed up with Miles at the beginning of 2014 and is responsible for commercial aspects of the business, including the management of their rapidly expanding chain of partners and distributors. Now with 40 recognized distributors across 21 countries, Wireless Things has a growing presence and reputation in the Internet of Things.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the first talk will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        19 March 2015
+dtstart:     2015-03-19T17:30:00Z
+dtend:       2015-03-19T20:00:00Z
+start:       17:30
+end:         20:00
+pubdate:     Wed, 18 February 2015 20:30:00 GMT
+updated:     2015-02-18T20:30:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1452/ 
+upcoming:     
+lanyrd:      http://lanyrd.com/2015/oshug39/ 
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - wireless
+    - radio
+    - SDR
+    - bluetooth
+    - BLE
+    - buildingthings
+    - openbeacon
+    - HPSDR
