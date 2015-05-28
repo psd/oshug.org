@@ -1,0 +1,59 @@
+---
+number:     42
+title:       Chips Pt.3 (BERI, Do we need separate Hardware Construction languages? OpenTransputer)
+description: |
+             <p>This will be the third OSHUG meeting exploring the topic of silicon chip design, with talks on the Bluespec Extensible RISC Implementation, another asking whether we need separate hardware construction languages, and a third talk on an open source implementation of the Transputer.</a>
+
+sessions: |
+            <h3>BERI: An open RISC softcore for research and experimentation</h3>
+            <p id="BERI"><a href="http://www.cl.cam.ac.uk/research/security/ctsrd/beri/" title="Bluespec Extensible RISC Implementation (BERI) ">BERI</a> (the Bluespec Extensible RISC Implementation) is a softcore processor jointly developed by SRI International and The University of Cambridge. It implements a superset of the MIPS III ISA in Bluespec, a high-level HDL and supports a fully open source, permissively licensed, software stack comprising the FreeBSD operating system and the LLVM compiler suite. This talk will describe the design of the BERI processor and its use.</p>
+            <p>BERI was created to facilitate experimentation at the boundaries between CPU architecture, operating systems, and programming languages. It runs in Altera and Xilinx FPGAs, including the NetFPGA 10G board. At 100MHz, it is fast enough to use as a real computer (albeit a fairly slow one).</p>
+            <p>The talk will discuss the BERI softcore, jointly developed by The University of Cambridge and SRI International and the associated open source software stack. BERI, the Bluespec Extensible RISC Implementation, is a 64-bit MIPS implementation in Bluespec, a high-level hardware description language. It implements the instruction set that debuted in the MIPS R4000 core in 1991, and therefore a set that is free of patents owing to its age. In spite of this, it is a relatively modern 64-bit architecture and is well supported by open source systems.</p>
+            <p>The FreeBSD port to BERI required minimal changes, which were shipped as part of the FreeBSD 10.0 release, and runs unmodified userland 64-bit MIPS code. BERI can run in simulation at a speed acceptable for testing but not for general usage or in an FPGA at 100MHz. The BERI design supports multiple cores on a single FPGA and work is ongoing to support multicore across boards connected with a low-latency interconnect.</p>
+            <p id="JonathanWoodruff" class="vcard"><a class="fn url" title="Jonathan Woodruff — Homepage" href="http://www.cl.cam.ac.uk/~jdw57/">Jonathan Woodruff</a> received his undergraduate degree from the University of Texas, and Masters and PhD from the University of Cambridge. Jonathan is a key developer of the BERI open-source research processor and its CHERI extension for memory safety.  Jonathan is interested in hardware prototyping in FPGA to support full-system design exploration and has implemented a variety of flexible hardware components, including a many-core cache emulator, a multi-threaded ARM core, and many components of the BERI ecosystem.</p>
+
+            <h3>Do we need separate Hardware Construction Languages?</h3>
+            <p id=NeedHDL">Modern Hardware Construction Languages, including Chisel, HML and the functional subset of Bluespec, provide powerful circuit description facilities for netlist printing in the style of the generate statements found in RTL. The earliest mainstream example was perhaps Lava. They do not support data-directed control flow, and so differ greatly from both conventional RTL and C-to-gates or scientific acceleration HLS (high-level synthesis) tools such as LegUp and Kiwi.</p>
+            <p>In this talk, Greaves will illustrate the essential differences between these styles and discuss the motivation for separate languages, which is a surprising departure when one considers that a major selling point of Verilog and VHDL was they almost seamlessly integrated simulation, generative constructs and algorithm expression. He will also discuss the need for higher-level concurrency primitives and how they might be provided in hardware construction languages.</p>
+
+            <p id="DavidGreaves" class="vcard"><a class="fn url" title="David Greaves — Homepage" href="http://www.cl.cam.ac.uk/~djg11/">David Greaves</a>, PhD, MIET, is a Senior Lecturer at the University of Cambridge with interests in compiler and hardware design. He has considerable industrial experience at the CTO/Chief Scientist level and has led the design of many hardware systems in areas such as professional audio and broadband access.</p>
+            <p>His current research area is tooling for high-level simulation and energy instrumentation for system-on-chip based on transaction-level modelling (TLM). These enable new hardware architectures to be rapidly explored under real-world workloads, including accelerators for scientific workloads.</p>
+
+            <h3>OpenTransputer: Reinventing a parallel machine from the past</h3>
+            <p id="OpenTransputer">The <a href="http://www.opentransputer.org/" title="OpenTransputer">OpenTransputer</a> is a re-implementation of the Transputer, a pioneering microprocessor architecture first released in the 1980s. The original Transputer was considered revolutionary at its time for its integrated memory and serial communication links intended for parallel computing. Including memory and external links on the same chip made the Transputer essentially a computer on a chip. This allowed information systems to be designed at a higher level – the Transputer functioning as a building block for parallel computing networks.</p>
+            <p>Over the last few years, with the shift to cloud computing there has been a trend in the world of computing of building large clusters of powerful computers that serve data to an ever-growing number of client devices, which themselves only feature tiny and low-power processors. These include mobile phones and tablets, but will soon also comprise every other device that connects to the internet, ranging from washing machines to cars. We think that the Transputer and its unique feature set make it an excellent processor for the emerging Internet of Things (IoT), specifically for the connected homes and wearable computing applications.</p>
+            <p>The OpenTransputer maintains all the ideas of the original device for concurrency management and interprocess communication. However, the serial links that were used to connect multiple Transputers are replaced by a switch that routes messages between cores. Furthermore, we introduce a new I/O interface that is compatible with the vast majority of hardware components such as accelerometers and gyroscopes.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        18 June 2015
+dtstart:     2015-06-16T18:00:00Z
+dtend:       2015-06-16T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thu, 28 May 2015 16:00:00 GMT
+updated:     2015-05-28T16:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1604/
+upcoming:     
+lanyrd:      http://lanyrd.com/2015/oshug42/ 
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - CHERI
+    - HDL
+    - Chips
+    - Transputer
+    - OpenTransputer

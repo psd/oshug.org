@@ -1,0 +1,42 @@
+---
+number:     41
+title:       Wiring the Internet of Things with Raspberry Pi & Node-RED 
+description: |
+            <p><a href="nodered.org" title="Node-RED website">Node-RED</a> is a visual tool for wiring together hardware devices, APIs and online services in new and interesting ways. Used together with Raspberry Pi it provides a compact, powerful platform that is able to read sensors, control outputs, and send and receive data to and from the Web and other systems.</p>
+            <p>This workshop will provide an introduction to Node-RED and integrating simple sensors and outputs, applying basic processing and publishing data to the Web. No prior experience with either Node-RED or electronics is required. However, while not strictly necessary, some experience of JavaScript would be beneficial as this is used to implement custom functionality within Node-RED.</p>
+            <p>The introduction to Node-RED will be presented by Andy Stanford-Clark.</p>
+sessions: |
+            <p id="AndyStanfordClark" class="vcard"><a class="fn url" title="Andy Stanford-Clark — Twitter" href="https://twitter.com/andysc">Andy Stanford-Clark</a> is a Distinguished Engineer in IBM's global Internet of Things team. He is an IBM Master Inventor with more than 40 patents. Andy is based at IBM's Hursley Park laboratories in the UK, and specialises in the Internet of Things, remote telemetry, energy monitoring and management, Smart Metering and Smart Grid technologies. He has a particular interest in home energy monitoring, home automation and driving consumer behaviour change.</p>
+            <p>Andy has been working on what we now call the Internet of Things for more than 15 years: he co-developed the MQTT messaging protocol in 1998. Andy has a BSc in Computing and Mathematics, and a PhD in Computer Science. He is a Visiting Professor at the University of Newcastle, an Honorary Professor at the University of East Anglia, and a Fellow of the British Computer Society.</p>
+            <p><em>Please bring a laptop and, if you have a Raspberry Pi, bring this along with any useful sensors and LEDs. However, note that boards and sensors etc. will also be made available for use by those who do not have these. An SD card image will be provided with Node-RED and associated software pre-installed.</em></p>
+
+            <p><strong>Note: Please aim to arrive by 12:15 as the workshop will start at 12:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Jointly hosted by the <a href="http://ossg.bcs.org/" title="british Computer Society Open Source Specialist Group">BCS OSSG</a>, <a href="http://www.ibm.com/uk/en/" title="IBM UK">IBM UK</a> and OSHUG. With support from the <a href="http://www.ktn-uk.co.uk/" title="KTN UK">Knowledge Transfer Network</a> and hardware sponsored by <a href="http://www.rs-online.com/designspark/electronics/" title="RS DesignSpark">RS DesignSpark</a>.</strong></p>
+             </center>
+
+date:        21 May 2015
+dtstart:     2015-05-21T12:30:00Z
+dtend:       2015-05-21T18:30:00Z
+start:       12:30
+end:         18:30
+pubdate:     Thu, 16 April 2015 13:30:00 GMT
+updated:     2015-04-16T13:30:00Z
+location:    Fab Lab London
+isoduration: P0Y0M0DT06H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1513/
+upcoming:     
+lanyrd:      
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - IBM
+    - NodeRED
+    - IoT
+    - MQTT
+    - M2M

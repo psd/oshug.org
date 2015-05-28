@@ -1,0 +1,63 @@
+---
+number:     40
+title:       Hackerspace/makerspace/fablab panel discussion 
+description: |
+             <p>For the fourtieth meeting we will be hosting a panel discussion which will explore the organisation, operation, challenges and benefits of creative spaces known as hackerspaces, makerspaces and fablabs. There will be representatives from Makespace Cambridge, South London Makerspace, So Make It (Southampton), Fab Lab London, London Hackspace and the UK's innovation agency, Innovate UK.</p> 
+
+sessions: |
+            <h3>Makespace Cambridge</h3>
+            <p id="LauraJames" class="vcard"><a class="fn url" title="Laura James — Twitter" href="https://twitter.com/LaurieJ">Dr Laura James</a> is co-founder and Director of <a href="http://makespace.org/" title="Makespace Cambridge">Makespace Cambridge</a>, a non-profit community inventing shed and hackspace. She is currently consulting on a variety of technology and innovation activities.</p>
+            <p>Laura has worked in technology and leadership roles in a wide variety of organisations. After R&D work at AT&T Labs in both Menlo Park and Cambridge, Laura developed high speed optical networks with Intel Research for her PhD. She was the first employee and VP Engineering at AlertMe.com, developing an easy to use innovative connected home platform and security system. At True Knowledge, Laura was part of the senior management team leading the company through a pivot, to apply their unique semantic technology to next generation search, creating Evi, a revolutionary conversational search app. Laura has also worked as Chief Operating Officer at CARET, a dynamic innovation department of the University of Cambridge, developing open source systems to support teaching and research. Most recently, Laura was CEO of Open Knowledge, a civil society organisation dedicated to opening up knowledge to empower people. Laura is an advisor to Open Knowledge, Product Health, Good Night Lamp, and the ContentMine.</p>
+            <p>Laura holds Masters and PhD degrees in Engineering from the University of Cambridge, received the Royal Academy of Engineering Leadership Award and a NESTA Crucible Fellowship, and is a Chartered Engineer.</p>
+
+            <h3>South London Makerspace</h3>
+            <p id="Tom Lynch" class="vcard"><a class="fn url" title="Tom Lynch — website" href="http://tomlynch.co.uk/">Tom Lynch</a> is a Designer/Maker based in London, after completing his MA at the Royal College of Art he went on to start Elephant & Castle Mini Maker Faire at the London College of Communication where he now works as a Physical Computing Specialist Technician. Living in South London, Tom is a founder and trustee of <a href="http://southlondonmakerspace.org/" title="South London Makerspace">South London Makerspace</a>, a social, community workshop in Herne Hill.</p>
+
+            <h3>So Make It</h3>
+            <p id="JemGillam" class="vcard"><a class="fn url" title="Jem Gillam — Twitter" href="https://twitter.com/jemgillam">Jem Gillam</a> is an iOS programmer turned stay at home mum, and a trustee at <a href="http://www.somakeit.org.uk/" title="So Make It">So Make It</a>. She has always had an interest in programming and hardware hacking, her first projects involving circuit bending and wearable electronics. Her current project is working with a large team to build a life size remote control Dalek, which meant finally learning to use the power tools at the makerspace!</p>
+
+            <h3>Fab Lab London</h3>
+            <p id="TonyFish" class="vcard"><a class="fn url" title="Tony Fish — Twitter" href="https://twitter.com/tonyfish">Tony Fish</a> is co-founder of <a href="http://fablablondon.org/" title="Fab Lab London">Fab Lab London</a>, investor, entrepreneur and an author with a background in electronics, computing and design.</p>
+
+            <h3>London Hackspace</h3>
+            <p id="JontyWareing" class="vcard"><a class="fn url" title="Jonty Wareing — Twitter" href="https://twitter.com/jonty">Jonty Wareing</a> is co-founder and trustee of <a href="https://london.hackspace.org.uk/" title="London Hackspace">London Hackspace</a>, and co-founder of <a href="https://www.emfcamp.org/" title="Electromagnetic Field">Electromagnetic Field</a>. He is currently hacking on IRC Cloud after three years at Lumi, and five years at Last.fm.</p>
+
+            <h3>Innovate UK</h3>
+            <p id="NikosPronios" class="vcard"><u>Nikos Pronios</u> is Lead Technologist for Information & Communication Technologies (ICT) at <a href="https://www.gov.uk/government/organisations/innovate-uk" title="Innovate UK">Innovate UK</a> which he joined in early 2014. He has a diverse background in the ICT sector with experience in US and Europe, both in the industry and academia. After obtaining his PhD from the University of Southern California, he worked for Bell Communication Research in New Jersey, before moving to INTRACOM in Greece. Nikos has worked in various industry positions covering before moving to INTRACOM in Greece. Nikos has worked in various industry positions covering civilian and defence sectors, and he is currently using his diverse experience of more than 20 years to help organisations innovate and compete.</p>
+
+            <p><b><em>Chaired by:</em></b></p>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Jeremy Bennett — Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is Founder and CEO of <a href="http://www.embecosm.com/" title="Embecosm — the embedded systems experts">Embecosm</a>, an open source compiler and silicon chip modeling consultancy, that are a strong supporter of the makerspace movement as sponsor of So Make It, <a href="http://chiphack.org/" title="Chip Hack">Chip Hack</a> and regular workshops that serve to introduce people to embedded computing.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="http://abopen.com">
+                     <img class="sponsor" src="/images/ABOpen.png" title="AB Open" alt="AB Open">
+                 </a>
+             </center>
+
+date:        16 April 2015
+dtstart:     2015-04-16T17:30:00Z
+dtend:       2015-04-16T20:00:00Z
+start:       17:30
+end:         20:00
+pubdate:     Fri, 20 March 2015 10:30:00 GMT
+updated:     2015-03-20T10:30:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1479/
+upcoming:     
+lanyrd:      http://lanyrd.com/2015/oshug40/ 
+
+tags:
+    - OpenSource
+    - OSHW
+    - OSHUG
+    - OSSG
+    - SoMakeIt
+    - MakespaceCambridge
+    - SouthLondonMakerspace
+    - FabLabLondon
+    - LondonHackspace

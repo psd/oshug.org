@@ -127,6 +127,15 @@ locations:
         postcode:  S1 1WB
         latitude:  53.379176
         longitude: -1.466163
+
+    Fab Lab London:
+        uri:       http://fablablondon.org/
+        extendedaddress: Off Old Jewry
+        street:    1 Frederick’s Place
+        locality:  London
+        postcode:  EC2R 8AE
+        latitude:  51.514194
+        longitude: -0.091342
  
 feeds:
     - atom
@@ -193,3 +202,6 @@ released:
     - 37
     - 38
     - 39
+    - 40
+    - 41
+    - 42
