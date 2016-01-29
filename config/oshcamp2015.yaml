@@ -1,0 +1,161 @@
+---
+number:     oshcamp2015
+li:         43
+title:      Open Source Hardware Camp 2015
+description: |
+            <p>Open Source Hardware Camp will take place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. For the third year running it is being hosted as part of the technology festival, <a href="http://wutheringbytes.com/">Wuthering Bytes</a>.</p>
+
+            <p>Note that a social is planned for the Saturday evening.</p>
+
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a>, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Research led reality – how rhetoric and research shapes the maker movement</h4>
+            <p id="ResearchLedReality">Over the past 10 years there has been an exponential rise in research about makerspaces, alongside rhetoric about the ‘maker movement’ going mainstream.</p>
+            <p>This talk will give a sweeping overview of the past decade, focusing on the relationship between rhetoric, research and reality – (is there more to it than alliteration?) It will attempt to answer these three questions:</p>
+            <p>What are the promises of the maker movement and does the evidence built up by the research so far prove them? What does the research tell us about the differences between the UK and USA maker movement? Who is funding all the research and what are their motivations and agendas?</p>
+            <p id="HannahStewart" class=vcard"><a class="fn url" title="Hannah Stewart - Twitter" href="https://twitter.com/Freerange_Inc">Hannah Stewart</a> is a Research Associate at the Royal College of Art and an independent researcher. Alongside Andrew Sleigh she was commissioned to produce the UK Makerspaces Open Dataset for NESTA. Her Phd research with the Creative Exchange focused on the values and practices of the makerspace, indieweb and open data communities.</p>
+
+            <h4>Confusion of Things — The IoT Hardware Kerfuffle</h4>
+            <p id="ConfusionThings">While the definition of the term IoT (i.e: Internet of Things) is as cloudy as the “cloud”, everyone seems to be doing it. With excitement levels reaching stratospheric levels, the amount of buzzword-driven articles and colourful (and oh so unnecessary) abstract vector drawings that depict toasters communicating with cars have essentially made lives of many engineers who just want to build things a living hell.</p>
+            <p>This talk will strip back the layers of marketing and aim to answer the question: “Which hardware platform should you use for building connected devices?”. With the plethora of chips/single board computers and specifically IoT-branded offerings out there, the platform choice does get a little difficult at times. By breaking down the application at hand into certain key requirement categories, this process could be simplified. There will also be mention of some of the most popular hardware platforms and how they differ from each other.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerK">Omer Kilic</a> is an embedded systems engineer who likes tinkering with small computers of all shapes and sizes. He works at the various intersections of hardware and software engineering practices and likes good beer.</p>
+
+            <h4>Disrupting the IoT by leveraging the ESP8266 for big data</h4>
+            <p id="DisruptingIoT">The ESP8266 is as a cheap, self-contained WIFI module; for £3 you can add WIFI to your microcontroller project.</p>
+            <p>Recently, the toolchain for compiling custom firmware for the module's SOC has been ported to the Arduino IDE, making it possible for beginners to deploy the ESP8266 as a complete IoT wireless sensor/actuator.</p>
+            <p>This talk will cover: ESP8266 capabilities, the rest of the ESP8266 family members, using the module as a WIFI gateway with AT commands, uploading your own firmware using the recent Arduino port, and projects utilising the module.</p>
+            <p id="MatthewVenn" class="vcard"><a class="fn url" title="Mathew Venn - Twitter" href="https://twitter.com/matthewvenn">Matthew Venn</a> is a freelance engineer and workshop facilitator. As a qualified electronic engineer, he has worked with Arcola Energy, BOC, RS, Sustrans, Bristol Braille Technology and others on various projects ranging from bicycle powered cinemas to fuel cell theatre lighting.</p>
+            <p>Matthew's hands-on STEM workshops have proven successful with over 5,000 children taking part worldwide over the last 3 years. Recent workshops include the London School's Hydrogen cell Challenge, an aerial photography project for Island Hydrogen and building solar mood lamps for the Abu Dhabi Science Festival.</p>
+            <p>When he's not inventing new ways of getting people excited about engineering, Matthew plays music, invents puzzle boxes, practices martial arts and is a director of Bristol Hackspace.</p>
+
+            <h4>Controlling a CNC milling machine with a BeagleBone Black and Machinekit</h4>
+            <p id="BeagleBoneMachinekitMill">A journey into the wonderful world of CNC machining. This talk will look at the modification of an old milling machine, retrofitting it with new electronics for improved performance and open source software control. Also covered will be things learnt along the way and how to take an idea through to machined part.</p>
+            <p id="StuartChilds" class="vcard"><a class="fn url" title="Stuart Childs - Twitter" href="https://twitter.com/sc_r">Stuart Childs</a> enjoys designing and building physical projects, has exhibited at every Maker Faire UK event and worked at Arduino specialists, oomlout. He is a supporter of Open Knowledge and has helped in running their annual OKFest and OKCon events in 2012, 2013 and 2014.</p>
+
+            <h4>Speculative Hardware in Abstract Culture</h4>
+            <p id="SpeculativeHardware">Derek will talk about open hardware as a speculative practice in abstract culture. Derek's talk will be grounded in his experience with the Arts Council England R&D projects at the Digital Research Unit 10 years ago that commissioned innovative DIY/open hardware and audiovisual software tools and software art released under a free/open licenses. His talk will work with the design-fictional concept of noise to explore the function of open hardware in abstract culture. In the talk Derek will give a brief account of abstract culture in contemporary practice where artists are directly involved in making hardware and software works realised by the use of free and open source technologies.</p>
+            <p id="DerekHales" class="vcard"><a class="fn url" title="Derek Hales - Twitter" href="https://twitter.com/dxhales">Derek Hales</a> is an independent researcher in the field of abstract culture. He has worked in academic and para-academic contexts of artist-led R&D and cultural production. He co-founded the Digital Research a semi-autonomous art-technology research facility based at the media centre Huddersfield and at Bates Mill, Huddersfield until 2009, where he worked on projects with the universities of Leeds, Bradford and Huddersfield.</p>
+            <p>He has previously been funded by Arts Council England, the Arts and Humanities Research Council, the Engineering and Physical Science Research Council and the Higher Education Innovation Fund. His pataphysical take on speculative hardware in abstract culture was recently published as a chapter in the book ‘Deleuze and Design’ (2015) by Edinburgh University Press. Derek is currently completing his Phd with the Royal College of Art. He is a director of Bridge Rectifier, Hebden Bridge Hackspace.</p>
+
+            <h4>How to Openwash Your Product and Make Your Millions!</h4>
+            <p id="ProductOpenwash">Open Hardware has sparked a home brew electronics revolution. The current wave of 3D printers, drones and development boards are in the most part built on Open Hardware. As a result Open Hardware or Open Source Hardware have become terms with which many new products would like to be associated with, it’s rare to see an electronics Kickstarter project without the claim of being Open Source. It would seem however that in some cases the understanding of what constitutes Open Hardware is different to the original definition.</p>
+            <p>Openwashing is a term that refers to dubious vendor claims about openness, and assumes, perhaps wrongly, that the misunderstanding of the Open Source definition is intentional.</p>
+            <p id="BenjaminGray" class="vcard"><a class="fn url" title="Benjamin Gray - Twitter" href="https://twitter.com/phenoptix">Benjamin Gray</a> is a proponent of Open Hardware, founder of <a href="https://www.kickstarter.com/projects/phenoptix/mearm-pocket-sized-industrial-robotics-for-everybo" title="MeArm">MeArm</a>, an open source robot arm manufacturer and phenoptix, a now retired maker business. Ben graduated from the University of Exeter with a chemistry degree and a fledgling phenoptix before moving to Nottingham to complete a PhD in theoretical physical chemistry. With 11 years of Maker business experience under his belt he's set out on a new adventure manufacturing the MeArm, a pocket sized robot arm.</p>
+
+            <h4>Simulating and benchmarking the Adapteva Parallella board</h4>
+            <p id="SimulatingBenchmarkingParallella">The Adapteva Epiphany is a fascinating combination of old and new: a brand new, energy-efficient SoC processor that makes use of an old idea in concurrency: communicating sequential processes. This talk will be a deep-dive into the design of the Epiphany from the point of view of a software developer. We will look at the design of the Epiphany through the lens of a new simulator for the chip, and explore the SDK through a series of new benchmarks.</p>
+            <p id="SarahMount" class="vcard"><a class="fn url" title="Sarah Mount - Twitter" href="https://twitter.com/snim2">Sarah Mount</a> is a Senior Lecturer in Computer Science at the University of Wolverhampton, with particular interests in concurrency, parallelism and dynamic languages.</p>
+
+            <h4>Introducing a fun documentation standard to share your project</h4>
+            <p id="DokuBricks">DokuBricks is a new open source hardware (OSH) documentation software we developed to make it easier for you to document your project well. After all, sharing instructions in a way that is useful to others is the whole purpose of OSH! With the tool, you click together your documentation in a descriptive and modular fashion and create dependencies. An associated database allows to easily reuse functional modules of projects, which in turn grows the impact and recognition of the creator of the original project.</p>
+            <p>The ideas behind this free and open source documentation standard will be presented along with other OSH projects of ours in the Cambridge network. Our vision is to make OSH development and sharing easier and specifically more attractive to scientists - a group that develops a large amount of functional devices on a routine basis but rarely shares that insight.</p>
+            <p id="TobiasWenzel" class="vcard"><a class="fn url" title="TobiasWenzel - website" href="http://steiner.bss.phy.cam.ac.uk/people/tw347@cam.ac.uk">Tobias Wenzel</a> "Tobey" is a Winton Scholar at the University of Cambridge who channels most of his enthusiasm into his Bioengineering work. He has build a range of equipment but is generally more involved in meta-projects that enable greater community impact to further technological development and access to it. He is a passionate promoter of hands-on education and loves to socialise with people sharing his can-do attitude. The DokuBricks project is a collaborative effort involving the <a href="http://irnas.eu/" title="IRNAS institute">IRNAS institute</a>, <a href="http://openplant.org/" title="Open technologies for synthetic plant biology">OpenPlants</a>, Tobey's colleague, Johan Henriksson, and more enthusiastic helpers.</p>
+
+             <h4>C88 — possibly the world's lowest spec PC</h4>
+             <p id="C88">What happens when somebody designs a CPU simply to prove to themselves that they can? The result is minimal and has few practical applications but could be a great learning tool. C88 is an 8 bit computer with only 8 bytes of memory, it represents a bare minimum computer architecture. It was inspired by the world's first stored-program computer, the SSEM, more commonly known as The Manchester Baby. It's fully open source and there is even a simulator that runs in your browser.</p>
+             <p id="DanielBailey" class="vcard"><a class="fn url" title="Daniel Bailey - Twitter" href="https://twitter.com/danieljabailey">Daniel Bailey</a> is studying electronics at the University of York, has a scholarship with ARM and is a member of York Hackspace.</p>
+
+              <h4>Using open source processors and fabrics for scale-out compute</h4>
+              <p id="OpenSourceProcessors">Using open source processors and fabrics for scale-out compute systems. This talk will give an overview of the challenges faced by the industry and the technical approach we are taking.</p>
+              <p id="RobTaylor" class="vcard"><a class="fn url" title="Rob Taylor - Twitter" href="https://twitter.com/robtaylor78">Rob Taylor</a> has been working commercially with Linux and Open Source technologies since the late 90's. He founded two Open Source consultancies, Collabora and Codethink, and is now founding a new company to bring Open Source Hardware to the enterprise market.</p>
+
+              <h4>WSPR, You Versus the Atmosphere: Pushing the limits of radio with minimal hardware</h4>
+              <p id="WSPR">WSPR is a transmission protocol designed to test the radio propagation properties of the atmosphere using very low powered transmission.</p>
+              <p>This talk will describe the problem of unpredictable atmospheric propagation, give an overview of WSPR, and show some of the ways to set up a WSPR station as both a transmitter or a receiver.</p>
+              <p id="JennyList" class="vcard"><a class="fn url" title="Jenny List - Twitter" href="https://twitter.com/Jenny_Alto">Jenny List</a> is an electronic engineer and radio amateur who has worked in the is an electronic engineer and radio amateur who has worked in the start-up, <a href="http://www.languagespy.com/" title="Language Spy website">Language Spy</a>, aiming to democratise access to language corpora and lexical data.</p>
+
+              <h4>Low level Ethernet on micros and FPGA</h4>
+              <p id="LowLevelEthernet">Forget about ISO 7 layer abstractions, Berkley sockets, huge APIs and even operating systems. This is about taking direct control of Ethernet hardware with a micro or even an FPGA and finding that it’s not that hard. Standard C code running on an ARM CortexM4 micro supporting ARP, UDP and enough ICMP to PING ! And a quick tour of doing the same thing in VHDL on a low cost FPGA.</p>
+              <p id="MichaelKellett" class="vcard"><u>Michael Kellett</u> is an independent Electronic design engineer with analogue and digital hardware experience starting with HiFi audio in the 1970s, though designing microphones, accelerometers, test gear and active suspension controls. Now he’ll design anything electronic (nothing evil) for anyone but with a preference for low power analogue, small micros and things with FPGAs in them.</p>
+
+              <h4>Open Hardware Licensing - it’s easier than you think</h4>
+              <p id="OpenHardwareLicensing">There are several hundred different free and open source software licences making licence compatibility a nightmare, but at the moment only a handful of open hardware licences (and let’s hope it stays that way). Andrew explains why licences are important, how to select a suitable licence for your project, and how to avoid getting too ambitious about what a licence can actually achieve.</p>
+              <p id="AndrewKatz" class="vcard"><a class="fn url" title="Andrew Katz - Twitter" href="https://twitter.com/andrewjskatz">Andrew Katz</a> is a lawyer with 21 years' experience in technology law. He has advised a number of open source software projects, and more recently has become active in open hardware licensing. He’s been involved in drafting the Solderpad Licence, and the CERN Open Hardware licence and has published and lectured widely. Andrew is Managing Partner of Moorcrofts LLP, a boutique corporate/tech law firm based in the Thames Valley.</p>
+
+               <h4><i><center>Compered by:</center></i></h4>
+               <p id="DrJeremyBennett" class="vcard"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/" title="Embecosm - the embedded systems experts">Embecosm</a>, a consultancy specializing in the development of open source compiler tool chains.</p>
+               <h3 id="workshops">Sunday :: Workshops</h3>
+               <p>Some  workshops will provide tools, boards and components etc. However, subject to demand this may involve an element of sharing and please feel free to bring along equipment and components, but note that you must be able to take full responsibility for your own personal safety and that of others in respect to these. Common sense must be exercised!</p>
+
+               <h4>3D modelling with Node.js</h4>
+               <p id"3DModellingNodejs">Come along and learn how to use the open source <a href="https://www.npmjs.com/package/frameworx" title="NPMJS - Frameworx library">Frameworx</a> library and some simple Javascript code to quickly build beautiful and intricate 3D models ready to send to your printer or favourite 3D print agency.</p>
+               <p>Fractal trees, structural trusses, jewellery, molecular models - if it's made of sticks Frameworx can model it!</p>
+               <p id="BenJefferson" class="vcard"><u>Ben Jefferson</u> is a software engineer who initially trained as an architect (as in buildings not Ben was tech director at Leeds based web agency Sense Internet for 10 years and is now a freelance software engineer and IT consultant. His combined interest in structures, fractals, computing and innovation set Ben on a mission to model and 3D print a "Fractal Truss". After trying many different open source 3D modelling packages Ben found that none of them leant themselves to fast algorithmic generation of multi-million facet 3D models - thus Frameworx was born. Frameworx is now used all over the world including in labs working at the cutting edge of 3D printing technology.</p>
+               <p><em>Workshop notes: bring along a laptop which has node.js and MeshLab (or similar STL file viewer) installed. A basic knowledge of Javascript coding is required.</em></p>
+
+               <h4>A hands-on introduction to ESP8266: Sensors for the Home</h4>
+               <p id="HandsonESP8266">This workshop will introduce attendees to the popular low-cost WiFi enabled ESP8266 platform and go through a series of practical exercises focusing around a sensor device for the home. The device will get temperature/humidity, PIR activity and ambient light readings from the sensors on the purpose built demo board and report them back to the local “hub” and/or a cloud service.</p>
+               <p>The exercises will run on the NodeMCU firmware, which is based on the Lua programming language. Before we get to the sensor readings part, there will be a quick introduction to the language and the platform with trivial exercises such as controlling GPIOs, using timers and various other fundamentals.</p>
+               <p>Run by: <a href="#OmerKilic">OmerKilic</a>.
+               <p><em>Workshop notes: bring along a laptop (Windows/Linux/OSX), your charger and a Micro USB cable. Please have your root/admin credentials handy in case you need to install any required software components during the workshop.</em></p>
+
+               <h4>Learn KiCad by building an ESP8266 sensor board</h4>
+               <p id="KiCADESP8266">The ESP8266 is a WIFI gateway for microcontrollers. It can also have its firmware replaced with custom code that makes it even easier to build distributed sensors.</p>
+               <p>KiCad is a free, open source, electronics CAD tool for designing circuit boards. It's recently undergone a rapid expansion and change due to CERN funding. Consequently lots of documentation is now out of date.</p>
+               <p>In this workshop you'll learn how to use the new KiCad by building a circuit board that provides the ESP8266 with 3.3v regulated power from a 5v input (easily powered with a phone charger), headers for serial programming and a temperature or light sensor.</p>
+               <p>Thanks to our workshop sponsors OSHPark, each participant will get vouchers to have their board made free of charge.</p>
+               <p>Run by: <a href="#MatthewVenn">Matthew Venn</a>.</p>
+               <p><em>Workshop notes: please bring a laptop computer with KiCad installed. Note that installation can take quite a while as it needs to be compiled from source code.</em></p>
+
+               <h4>A £100 3D printed digital microscope, anyone?</h4>
+               <p id="3DPrintedMicroscope">3D printing brought incredible examples of Open Labware to life. My personal favourite (to be published soon): My colleague Richard Bowman's Raspberry Pi driven digital microscope, about the size of two fists, which allows a sample positioning of 1micrometer for X,Y and Z axis with its 3-printed flex-structures. Fun for you and Christmas for your kids!</p>
+               <p>The kit (3D printed components and other bits including an optional raspberry pi) will be made available. The exact cost will depend on the 3D printing contractor I will use but should lie significantly under £100. At home you can extend the microscope in order to automate the three axes, if you wish.</p>
+               <p>Run by: <a href="#TobiasWenzel">Tobias Wenzel</a>.</p>
+               <p><em>Workshop notes: please bring a laptop and, if you like, your own raspberry pi. A steady hand will be beneficial for the assembly!</em></p>
+
+               <h4>Arduino-based wearable electronics with the Seahorse</h4>
+               <p id="SeahorseWorkshop">The Seahorse is a flexible kit based on the <a href="http://shrimping.it/" title="Shrimping.it website">Shrimping.it</a> breadboard design and <a href="http://www.embecosm.com/resources/hardware/#EHW6" title="Cuttlefish information">Cuttlefish PCB</a>.</p>
+               <p>The kit allows you to create a fully functional Arduino compatible computer, powering two LEDs and an IR receiver and transmitter. The board is fully extensible, making it easy to connect to a range of other peripherals via conductive thread.</p>
+               <p>During this workshop, which lasts for the complete afternoon, you will solder up the circuit board, program it, and then sew it to a T-shirt.</p>
+               <p>Run by: <a href="#DrJeremyBennett">Dr Jeremy Bennett</a>.</p>
+               <p><em>Workshop notes: please bring a T-shirt or other item of clothing to which you wish to attach the seahorse.</em></p>
+
+               <h4>Assembling the OSHCamp kit</h4>
+               <p id="OSHCampKitWorkshop">Get help with assembling this year's kit.</p>
+               <p id="ChelseaBack" class="vcard"><u>Chelsea Back</u> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, and is currently getting to grips with schematic capture and PCB layout.</p>
+               <p><em>Workshop notes: bring along the OSHCamp 2015 kit.</em></p>
+
+                <p><strong>NOTE:</strong>
+                </ul>
+                 <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+                 <li>A light lunch and refreshments will be provided each day.</li>
+                 <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+                </ul></p>
+
+date:        26th September 2015
+dtstart:     2014-09-26T09:00:00Z
+dtend:       2014-09-27T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Mon, 10 August 2015 21:00:00 BST
+updated:     2015-10-21T00:00:00Z
+location:    Hebden Bridge Town Hall
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2015.eventbrite.co.uk
+lanyrd:      http://lanyrd.com/2015/wutheringbytes/
+
+tags:
+    - OSHUG
+    - wutheringbytes
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - IoT
+    - Cuttlefish
+    - CNC
+    - Parallella
+    - KiCAD
+    - Ethernet
+    - DokuBricks
+    - Openwashing
+    - meARM
+    - lowRISC
