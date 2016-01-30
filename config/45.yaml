@@ -1,0 +1,62 @@
+---
+number:     45
+title:       Open Energy Tools & Interoperability (Open Inverter, OpenTRV, Heat Pump Monitoring)
+description: |
+             <p>For the forty-fifth meeting we will return to a topic which has been a recurring theme and of much interest at previous meetings, open energy platforms. There will be talks on Open Inverter, OpenTRV, OpenEnergyMonitor and heat pump monitoring, with a focus also on interoperability. The evening meeting will also be preceded by an interoperability hack day for project contributors.</p>
+
+sessions: |
+            <h3>Low power DC conversion using open source hardware</h3>
+            <p id="OpenInverter">The Open Inverter is a micro inverter designed to produce an AC power output of up to 250 VA. It uses modular, open source PCB designs for both it's controller and power boards — and is extendible to larger power outputs or for other power electronics projects, such as battery charging, DC ring mains and DC power transformation using buck-boost DC/DC converters.</p>
+            <p>Open Inverter will provide an AC output from a single 250W photovoltaic panel, micro-hydro turbine. It also has applications in electric bike charging and DC power storage. The key PCBs are currently at either the layout or manufacture stage. The microcontroller board features an RFM69 low power wireless, making it compatible with the Open Energy Monitor ecosystem.</p>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/Monsonite">Ken Boak</a> started his professional career at BBC Research Department in 1986 working on digital signal processing systems for HDTV and subsequently over 30 years, a mix of 10 other technology companies, both UK and US based, in the fields of instrumentation, automation, telemetry telecomms.</p>
+            <p>Ken has been interested in energy monitoring since the early 1990s, when he constructed a 4 seater electric car, and provided rudimentary energy analysis of the battery charge and discharge cycles. In 1998 he joined a South London company and designed a low power wireless, monitor device for automatic, remote gas and electricity meter reading.</p>
+            <p>In 2009 Ken worked on the Onzo Energy Monitoring Kit, a commercial device that was ultimately distributed to Southern Electric customers. Then in 2010 he produced a series of educational devices to teach engineering undergraduates the principles of photovoltaic energy systems.</p>
+            <p>Ken has continued his interests in energy monitoring, working collaboratively with Megni on the OpenEnergyMonitor project, the open Inverter Project and also for All Power Labs in Berkeley, California, where he was involved in power monitoring of wood gasifier generator sets. He tries to live a low impact lifestyle in a modest Edwardian house in Surrey, with a little help from modern electronics.</p>
+
+            <h3>OpenTRV</h3>
+            <p id="OpenTRV"><a href="http://opentrv.org.uk/" title="OpenTRV website">OpenTRV</a> have a vision to make carbon cutting and energy saving easy and cheap for everyone, with a mission to take 8% out of the EU’s carbon emissions and in the order of £300 out of a typical UK home’s heating bill every year. Achieving this using a device that doesn’t need an instruction manual or a smartphone to operate.</p>
+            <p>OpenTRV aim to eventually be managing 400 million home radiators across Europe. Their journey so far has taken them from “scratching an itch” with open source, to injection moulded plastics being made in Shenzhen, and attempting to build a growth business around their ideas, that could really make a difference to carbon and climate, while improving householder comfort and health.</p>
+            <p>As part of their aim to make the world a better place, OpenTRV will keep as much as possible of their work in the public eye and liberally licensed, while interoperating with existing equipment and protocols so that there is no need to reinvent the wheel and the end user doesn’t get “locked in”. To that end, interoperability with OpenergyMonitor and OpenHAB are high on their wish list!</p>
+            <p id="DamonHartDavis" class="vcard"><a class="fn url" title="Damon Hart-Davis - Twitter" href="https://twitter.com/DamonHD">Damon Hart-Davis</a> is lead on the <a href="http://opentrv.org.uk/" title="The OpenTRV project">OpenTRV open source project</a> created following his 2012 presentation to DECC's smart heating workshop. He has freelanced in technology for over 30 years, delivering mission-critical products from design to BAU in the City for more than 20 of those, and has founded and been involved in several start-ups over that time with his creations seen on TV, the Web, and his pioneering Internet Service Provider helping crack open that market more than 20 years ago. A previous virtual/on-line credit-card company start-up that he co-founded as CTO, Ixaris, turns over ~£10m.</p>
+            <p id="MarkHill" class="vcard"><u>Mark Hill</u> spent 15 years in the City after a solid grounding in IT at the chip level at the microprocessor manufacturer Inmos, designing and delivering highly complex systems. Project management, direction and governance are all part of his toolkit. He now speaks regularly about innovation, collaboration and IoT. Recently he founded a mobile phone software start-up and is now OpenTRV Ltd's co-founder.</p>
+
+            <h3>OpenEnergyMonitor 5 years on</h3>
+            <p id="OpenEnergyMonitor"><a href="http://openenergymonitor.org/emon/" title="OpenEnergyMonitor website">OpenEnergyMonitor</a> is a project to develop open-source tools to help us relate to our use of energy, our energy systems and the challenge of sustainable energy.</p>
+            <p>This short talk will provide an overview of what has been achieved so far, what has been learnt and outline the project roadmap for the future. Topics will include: running an open-hardware business, local manufacture and electronic carbon footprinting and sustainability.</p>
+            <p id="GlynHudson" class="vcard"><a class="fn url" title="Glyn Hudson - Twitter" href="https://twitter.com/glynhudson">Glyn Hudson</a> is co-founder and full-time developer of the OpenEnergyMonitor project.</p>
+
+            <h3>Heat pumps and heat pump monitoring</h3>
+            <p id="HeatPumps">Heat pumps are a key part of zero carbon energy plans, making it possible to provide heating from renewable energy in an efficient way. Heat pumps have a rocky track record in the UK and there are numerous stories of poorly performing systems, giving householders unexpectedly high electricity bills. However, there are also many systems that have been designed and installed well that do work effectively.</p>
+            <p>This talk will give an example of using open source hardware and software tools to monitor and evaluate the performance of heat pumps, using the speaker's own air source heat pump system at home as a case study.</p>
+            <p id="TrystanLea" class="vcard"><a class="fn url" title="Trystan Lea - Twitter" href="https://twitter.com/TrystanLea">Trystan Lea</a> is co-founder and core developer on the OpenEnergyMonitor project. He is also testing out through his own life how it is possible to provide for our energy needs from sustainable sources, while using and developing open source energy modelling and monitoring tools, to understand and evaluate what is possible and how we might better design zero carbon energy systems. Trystan is currently testing heat pump heating, along with electric vehicle and solar photovoltaic at home.</p>
+
+            <h3>Interoperability Hack Day</h3>
+            <p id="HackDay">The 18th February meeting will be preceded by a hack day, running from 09:00-17:00 and also hosted at the BCS offices in Covent Garden. This will aim to to foster collaboration between open energy platform projects, in support of a greater interoperability.</p>
+            <p>There is a separate registration page for this part of the day, but please note that participants are expected to have experience of developing for a relevant platform, such as OpenEnergyMonitor, OpenHAB, OpenTRV, or some other open source energy or home automation etc. system. As such, those without suitable experience would not benefit from attending.</p>
+            <p><a href="https://events.bcs.org/book/1886/" title="Open Energy Plaforms Interoperability Hack Day registration">Hack day registration link</a></p>
+            <p><em>Please note that the link at the top of the page should be used for registering for the evening talks.</em></p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        18 February 2016
+dtstart:     2015-18-16T18:00:00Z
+dtend:       2015-18-16T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Fri, 29 January 2016 10:00:00 GMT
+updated:     2016-01-30T15:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1887/
+upcoming:     
+lanyrd:     
+
+tags:
+    - Energy
+    - OpenInveter
+    - OpenTRV
+    - OpenEnergyMonitor
+    - OpenHAB
+    - HackDay
+    - Interoperability

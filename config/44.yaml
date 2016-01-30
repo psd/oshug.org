@@ -1,0 +1,52 @@
+---
+number:     44
+title:       Security (Hardware RNG, PGP key signing party)
+description: |
+             <p>The theme for the forty-fourth OSHUG meeting is security and it will feature a talk on hardware random number generation, plus a PGP key signing party.</p>
+
+sessions: |
+            <h3>Hardware random number generation</h3>
+            <p id="RNG">In this talk we will take a look at what makes a good random number, why you might want a reliable source of them and some methods of generating random numbers in hardware.</p>
+            <p id="MarkLongStaff-Tyrell" class="vcard"><a class="fn url" title="Mark Longstaff-Tyrell -	Twitter" href="https://twitter.com/Frisnit">Mark Longstaff-Tyrell</a> has a degree in Electronic Engineering and a masters in Intelligent Systems from UCL. He has extensive experience in app development and as well as working at several blue chip companies was part of the team that launched the BBC's flagship iPlayer app for Android in addition to leading the teams that delivered the mobile apps for BBC News. He has designed electronics kits under the Denkimono label, and has recently co-founded and launched a tech-fashion brand in the UK. Mark is also a consultant for small businesses and start-ups on apps, mobile and hardware development.</p>
+
+            <h3>Trustless Computing: Running a World Computer on Consensus Platform Technology</h3>
+            <p id="trustlessComputing">The Internet was an amazing invention - a decentralized communication infrastructure that has revolutionized society. However, the revolution is not over yet: with the invention of cryptographically secured blockchains we now have a decentralized computing and record-keeping platform on which we can use the internet in the spirit that has been long imagined. In this talk we will have a look at Ethereum as the most advanced consensus platform to date, what it can do for us, and how, as it is improved as a concept, it will help us run better societies.</p>
+            <p id="AeronBuchanan" class="vcard"><u>Dr. Aeron Buchanan</u> received his doctorate from the Robotics department of Oxford University in the field of Computer Vision, after working as a algorithm designer for the special effects industry and reading Engineering and Computer Science for his undergraduate degree. He has since designed algorithms for UAVs, started tech companies building light-show controllers and blockchain technology, plus acted as a consultant to economics professors and ecological research laboratories. He is currently the CTO of his latest new venture: EthCore, a company aiming to continue the advancements in consensus platform technology and more readily bring the benefits to society and the economy.</p>
+
+            <h3>PGP key signing party</h3>
+            <p id="KeySigning">There will be a quick introduction to PGP, The Web of Trust, public/private key cryptography and key signing. Following this there will be a key signing party and everyone is invited to participate!</p>
+            <p>The idea of a key signing party is to help build and strengthen the "Web of Trust". The PGP Web of Trust is used extensively in Free and Open Source communities in order to verify the authenticity of software distributions and e-mail. Participating in the Web of Trust by having your key signed and by signing other keys, establishes your identity as a member of the community and increases the likelihood that you will be able to verify the signatures that are often included on messages sent to mailing lists.</p>
+            <p>In order to take part in the key signing party you need to:</p>
+            <ol>
+                <li>Have a PGP key. If you do not have one already and need assistance, please e-mail <a href="mailto:a@jpb.li">Andy Bennett</a> and he will help you get started.</li>
+                <li>Submit your key to <a href="mailto:a@jpb.li">Andy Bennett</a> before Friday 15th January 2016, so that he can compile the key list.</li>
+                <li>Be physically present at this meeting!</li>
+                <li>For keys containing your real name, bring government issued photo ID. For pseudonymous keys please bring appropriate evidence that you are allowed to use that name and assert that identity.</li>
+                <li>Have details of the key you submitted: key ID, key type, key fingerprint and key size. You can get this information from GPG by using the following command: <em>gpg your.email@address.dom</em>.</li> 
+                <li>Bring a printed copy of the key list that will be circulated between 16th and 20th January.</li>
+            </ol>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        21 January 2016
+dtstart:     2015-21-16T17:30:00Z
+dtend:       2015-21-16T20:00:00Z
+start:       17:30
+end:         20:00
+pubdate:     Mon, 4 January 2016 21:00:00 GMT
+updated:     2016-01-12T08:16:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1857/
+upcoming:     
+lanyrd:      http://lanyrd.com/2016/oshug44/ 
+
+tags:
+    - Security
+    - Cryptography
+    - blockchain
+    - trust
+    - random
+    - RNG
+    - OSSG
