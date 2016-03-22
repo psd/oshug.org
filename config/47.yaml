@@ -1,0 +1,45 @@
+---
+number:     47
+title:       Open Source Where You Least Expect It
+description: |
+             <p>At the forty-seventh meeting we will take a look at the use of open source hardware and software in less obvious places.</p>
+
+sessions: |
+            <h3>Ownership and Gift; Open Source and God; How a Vicar values Open Source</h3>
+            <p id="OwnershipGift">Do we really own anything, or is it a gift? When we try to claim ownership how does that affect our attitude and our freedom? Does my choice of software really have a spiritual dimension? How can I give something back? These are all questions which arise for an ex-compiler-writing Vicar who wants software which does the job at hand but also wants to live with integrity and Christian values. In his talk Rev Peter Salisbury explores these questions through examples of the way his church uses Open Source software and hardware.</p>
+            <p id="PeterSalisbury" class="vcard"><u>Peter Salisbury</u> was an electronics geek in his teens just as logic chips first hit the Maplin catalogue. From building computers in a cupboard he went to study Computation at UMIST, graduating in 1980. He worked in system tools with Burroughs Machines, then moved to language design and compiler writing for a Project Management company. In 1989 he moved to Salisbury to study theology in preparation for becoming a vicar. He was ordained in 1992 and is currently Vicar of Lymington on the south coast near Southampton. He has never really forgotten he's a geek.</p>
+
+            <h3>Open hardware for open science</h3>
+            <p id="OpenScience">Is science open source and should it be? This talk will look at the current state of open software and hardware in scientific practice. Example open hardware projects from the worlds of biology, astronomy and computer science will be presented.</p>
+            <p id="SarahMount" class="vcard"><a class="fn url" title="Sarah Mount - Twitter" href="https://twitter.com/snim2">Sarah Mount</a> is a Research Associate on the Efficient Editing of Homogeneous Programs (Editors4) project. Previously, she was a Senior Lecturer at the University of Wolverhampton, and before that she held a number of positions at Coventry University.</p>
+
+            <h3>Hacking the atmosphere</h3>
+            <p id="HackingAtmosphere">The <a href="http://airpi.es/" title="AirPi website">AirPi</a> is an open source board he designed for measuring and recording air pollution and weather information. Despite its innocuous goal, that board has ended up in some fairly weird situations — come along to find out where!</p>
+            <p id="TomHartley" class="vcard"><a class="fn url" title="Tom Hartley - Twitter" href="https://twitter.com/tmhrtly">Tom Hartley</a> is a student at Imperial College, currently sitting on the fence between software and hardware. Prompted by a mysterious fascination with the Raspberry Pi that lives on to this day, he developed the AirPi 2 years ago as part of a competition and went on to sell over 1,000 kits to people who care about the air they breathe. A devotee of open source, the code he writes and the boards he designs are all available freely online.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        21 April 2016
+dtstart:     2016-04-21T18:00:00Z
+dtend:       2016-04-21T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 21 March 2016 21:00:00 GMT
+updated:     2016-03-22T09:45:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2002/
+upcoming:     
+lanyrd:     
+
+tags:
+    - Church
+    - God
+    - OpenScience
+    - Sensors
+    - AirPi
+    - RaspberryPi
+    - OpenSource
+    - OSHW
+    - FOSS

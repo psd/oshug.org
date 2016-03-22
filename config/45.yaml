@@ -39,12 +39,12 @@ sessions: |
             <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
 
 date:        18 February 2016
-dtstart:     2015-18-16T18:00:00Z
-dtend:       2015-18-16T20:00:00Z
+dtstart:     2016-01-18T18:00:00Z
+dtend:       2016-01-18T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Fri, 29 January 2016 10:00:00 GMT
-updated:     2016-01-30T15:00:00Z
+updated:     2016-02-18T11:13:00Z
 location:    BCS London
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
