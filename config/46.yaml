@@ -1,0 +1,52 @@
+---
+number:     46
+title:       Embedded Platforms (BSD, OpenWRT, Plan 9 & Inferno)
+description: |
+             <p>The forty-sixth OSHUG meeting will take a look at embedded platforms, with talks on the BSD family of operating systems, Linux and OpenWRT, and Plan 9 and Inferno in distributed systems.</p>
+
+sessions: |
+            <h3>The BSD Family of Operating Systems </h3>
+            <p id="BSDFamily"><strong><em>A familiar environment for your VAX, PIC32 or RISC-V ISA and many other platforms.</em></strong></p>
+            <p>The Berkeley Software Distribution started out as a patch set to AT&T UNIX in the 70's and grew to a complete Operating Systems. Today several projects continue to develop variant operating systems based on the work originally started by the Computer Science Research Group, each with a different area of focus.</p>
+            <p>This presentation will cover some of the benefits these operating systems can offer to aid the workflow of a hardware project.</p>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+
+            <h3>Developing Linux based products in the connected devices ecosystem -- The OpenWRT Approach</h3>
+            <p id="OpenWRT">Linux is accepted as a standard component of the Internet of Things domain. With the abundance of development platforms and the abhorrent state of vendor provided SDKs, getting started with and more importantly the maintenance of Linux powered devices is pretty much a dark art these days.</p>
+            <p> This talk focuses on the mass market hardware platforms of  interest to folks building the Next Great IoT Product<sup>TM</sup> and how the development could be sped up with OpenWRT. To supplement the topic of product development, a couple of noteworthy System-on-Chip devices and how they could be adopted will also be discussed.</p>
+
+            <p id="IvanIacono" class="vcard"><a class="fn url" title="Ivan Iacono - Twitter" href="https://twitter.com/ivaniacono">Ivan Iacono</a> is an Embedded Systems Engineer interested in the development of Linux based products and the surrounding periphery of embedded devices, cloud and the overall architecture of connected systems. He is the Firmware Wrangler at <a href="http://getden.co.uk" title="Deno Automation website">Den Automation</a>.
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerKilic">Omer Kilic</a> is an Embedded Systems Engineer who likes tinkering with small computers of all shapes and sizes. He works at the various intersections of hardware and software engineering practices, product development and manufacturing. He is the Chief Hacker at Den Automation.</p>
+
+            <h3>Embedded devices are often now part of a distributed system: my Pebble watch is linked to my Nexus phone, which is coupled to Google.</h3>
+            <p id="DistributedSystem">Plan 9 and Inferno are two distributed systems originally developed by the Bell Labs research centre that produced Unix. They allow a single large system to be composed from smaller cooperating systems performing specific tasks. (In other areas they illustrate an alternative time line that diverged from strict adherence to Unix's details of the 1970's.)</p>
+            <p>Distributed systems infrastructure often focuses on algorithmic aspects, such as Paxos, and the operating system is largely irrelevant when it is not merely obstructive. Plan 9 and Inferno provide structural support for distribution, at the operating system level. Their defining novelty is the representation of all distributable resources as hierarchical name spaces, which can be composed in useful ways, and simplify design, development, testing and integration. This talk will give a brief summary of both systems, then begin to name names, including their use in embedded appliances in distributed systems.</p>
+            <p id="DrCharlesForsyth" class="vcard"><a class="fn url" title="Dr Charles Forsyth - Twitter" href="https://twitter.com/charles_forsyth">Dr Charles Forsyth</a> is a founder and Technical Director of <a href="http://www.vitanuova.com" title="Vita Nuova website">Vita Nuova</a>, which specialises in systems software and distributed systems.</p>
+            <p>He is interested in compilers, operating systems, networking (protocols and services), security, and distributed systems and algorithms. He specialises in the design and implementation of systems software, from low-level drivers through compilers to whole operating systems. He has published papers on operating systems, Ada compilation, worst-case execution analysers for safety-critical applications, “resources as files”, and the development of computational grids.</p
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        17 March 2016
+dtstart:     2016-03-17T18:00:00Z
+dtend:       2016-03-17T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thu, 18 February 2016 11:00:00 GMT
+updated:     2016-02-18T11:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/1952/
+upcoming:     
+lanyrd:     
+
+tags:
+    - Embedded
+    - Linux
+    - BSD
+    - OpenWRT
+    - Plan9
+    - Inferno
+    - OpenSource
+    - OSHW
+    - FOSS
