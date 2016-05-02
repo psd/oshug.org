@@ -1,0 +1,57 @@
+---
+number:     49
+title:       Open Source Chips Pt. 3
+description: |
+             <p>At the forty-ninth meeting we will return to the topic of open source chip design, with talks on AAP — an open hardware processor architecture — and its simulation, the Free and Open Source Silicon Foundation (FOSSi), and getting into FPGAs.</p>
+
+sessions: |
+            <h3>AAP: An Altruistic Processor</h3>
+            <p id="AAP"><a href="http://www.embecosm.com/resources/appnotes/#EAN13" title="AAP Application Note">An Altruistic Processor (AAP)</a> is an open hardware 16-bit architecture for deeply embedded applications running on small FPGA devices. It is somewhat configurable, with a minimum of 4 16-bit general registers, at least one word-addressed code space of up to 16Mword and at least one byte addressed data space of up to 64kbyte.</p>
+            <p>The primary role of AAP is as a test bench for compiler backends. It encapsulates features found in a wide range of popular embedded processors which traditionally cause difficulties for compiler writers.</p>
+            <p>In this talk we will discuss the motivation behind this project, our experience implementing and testing LLVM for this architecture, the architectural features unique to our processor and how these interact with LLVM. In AAP integers are less than 32-bits, pointers may be word addressed, and too large to fit in a registers (of which there may be very few), and have multiple function and code spaces that may be switched between at run time, each with their own addressing requirements.</p>
+            <p id="EdwardJones" class="vcard"><a class="fn url" title="Edward Jones - Twitter" href="https://twitter.com/AquaticPenguin">Edward Jones</a> Edward Jones supports <a href="http://www.embecosm.com" title="Embecosm website">Embecosm</a>'s work on runtime libraries, LLVM toolchains and testing. Currently his work involves developing LLVM compiler support for embedded systems, as well as work on the <a href="http://tsero.org/" title="TSERO website">TSERO</a> project to develop tools which intelligently optimise compiled code. Other research topics include superoptimization, the art of finding the provably optimal instruction sequence for a given task.</p>
+
+            <h3>AAPSim: Simulating Hardware in LLVM</h3>
+            <p id="AAPSim">An Altruistic Processor (AAP) is an open hardware 16-bit architecture for deeply embedded applications running on small FPGA devices. It is somewhat configurable, with a minimum of 4 16-bit general registers, at least one word-addressed code space of up to 16Mword and at least one byte addressed data space of up to 64kbyte.</p>
+            <p>A key part of any implementation of an embedded toolchain is a simulator of the architecture, both such that user written code can be run and so the compiler's implementation itself can be verified. As part of AAP, we have implemented a simulator based on LLVM MC that both runs standalone and as part of a gdb/lldbserver.</p>
+            <p>This talk explores the design and experiences of using LLVM as the host for a simulator.</p>
+            <p id="SimonCook" class="vcard"><a class="fn url" title="Simon Cook - Twitter" href="https://twitter.com/simonpcook">Simon Cook</a> has a background in low-power processors, with a particular focus on the energy constraints of code running in embedded environments. Since 2012, he has been working on LLVM for deeply embedded architectures, primarily focusing on optimization, but also on providing compiler support for unique hardware features. Most recently, he has been working on LLVM for AAP, a reference Harvard architecture with the aim of improving upstream support for more eccentric architectural features.</p>
+
+            <h3>Open Source Silicon Design Ecosystem</h3>
+            <p id="FOSSi">The talk will begin by surveying the current state of the open source chip design space and present some of the most exciting and interesting projects and communities which are contributing to the field. Next, the <a href="http://fossi-foundation.org/" title="FOSSi website">Free and Open Source Silicon Foundation</a> (FOSSi) will be introduced as a group to help further the cause through <a href="http://librecores.org/" title="LibreCores website">LibreCores</a>, amongst other initiatives.</p>
+            <p id="JuliusBaxter" class="vcard"><u>Julius Baxter</u> has been involved in the OpenRISC project since 2008. Now working as a digital design engineer in Cambridge, he helps run the annual OpenRISC conference, ORCONF, which has since become a general open source digital design conference, and is one of the founders of FOSSi.</p>
+
+            <h3>Getting into FPGAs; Why, what, how & where might this lead</h3>
+            <p id="GettingintoFPGAs">Why? Probably the biggest question I get with programmable logic and gate arrays is: why would I need to use an FPGA, when I can do so much with commonly available micro-controllers? In other words when doesn't a low cost Von Neumann chip do the job efficiently.</p>
+            <p>What? A lightning tour of low cost FPGAs and their capabilities, classic applications and use cases that don't involve spending $millions on fabricating silicon chips.</p>
+            <p>How? The field of FPGAs and chip design can appear big and scary at first. It can present a challenging environment to any newcomer and requires acquisition of multiple new disciplines and commercial tools. As a result many are put of by the steep learning curve and investment of proprietary tools and hardware. <a href="http://www.clifford.at/icestorm/" title="Icestorm website">Icestorm</a> is <a href="http://www.clifford.at/" title="Clifford Wolf website">Clifford Wolf</a>'s an opensource project which combines tools like <a href="http://www.clifford.at/yosys/" title="Yosys">Yosys</a> to provide a simple and open tool set supporting multiple vendors of FPGAs. Although it is at an early stage and only a small range of products are supported its a great tool to get started with on small projects and enables you to get close to the mechanicals. In addition to it's Verilog support, it also exposes some nice low level features that will result in more innovative and diverse open tools flourishing around it further down the road.</p>
+            <p>Where? A glimpse at the part FPGAs might play in the emerging embedded intelligence market: Matrixed Open Turing Engines (Motes) enabling low powered smart controllers for robotics, devices and IoT. This illustrates at least one fascinating trajectory for FPGAS & ASICs in the opensource hardware community.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded applications using Motes on FPGA and emerging Asics. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/" title="xCORE community">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/" title="Surrey and Hampshire Makerspace website">Surrey and Hampshire Makerspace</a>.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        19 May 2016
+dtstart:     2016-05-19T18:00:00Z
+dtend:       2016-05-19T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 2 May 2016 09:00:00 GMT
+updated:     2016-05-02T09:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2054/
+upcoming:     
+lanyrd:     
+
+tags:
+    - chips
+    - digitaldesign
+    - AAP
+    - FOSSi
+    - Verilog
+    - HDL
+    - FPGA
+    - OpenSource
+    - OSHW
+    - FOSS

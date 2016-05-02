@@ -1,0 +1,91 @@
+---
+number:     nmiopen
+li:         48
+title:       NMI Open Source Conference
+description: |
+             <p>In partnership with the <a href="https://nmi.org.uk/" title="NMI website">NMI</a> and <a href="http://www.bcs.org/" title="BCS website">BCS</a>, this conference explores the increasingly vital role of open source as an enabler in the world of electronic systems. It will provide attendees with an informative view of:
+             <ul><li>The benefits and challenges of using open source</li>
+             <li>Leading electronic systems organisation using open source today sharing their experience</li>
+             <li>The breadth of opportunities presented by open source, from application software down to silicon IP</li>
+             <li>Open source capabilities from a range of leading suppliers</li></ul></p>
+
+sessions: |
+            <h3>Meet the Supplier Pitches</h3>
+            <p id="MeetTheSupplier">Provider of open source solutions or services?  Give a 2 minute pitch!</p>
+
+            <h3>Session 1: Challenges & Opportunities</h3>
+
+            <h4>Open Source: The Enabler for IoT Greatness (and Mediocrity)</h4>
+            <p id="GreatEnabler">Strip the layers of marketing fluff on the shiny new Internet of Things devices and you will find, in almost all cases, a slew of great Open Source projects powering these little gadgets, to perform their intended duties. Go up a layer and guess what — the cloud is full of Open Source too!</p>
+            <p>This talks uses IoT as a case study in explaining how Open-Source makes rapid iterations and complex interconnected things happen very quickly. While this all sounds great, we will also look at how certain approaches in "openness" actually cause more problems than they solve especially when it comes to interoperability between ecosystems.</p>
+            <p id="OmerKilic"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerK">Omer Kilic</a> is an Embedded Systems Engineer who enjoys working with small computers of all shapes and sizes. He works at the various intersections of hardware and software engineering practices, product development and manufacturing. He is the Chief Hacker at Den Automation, an Internet of Things hardware startup in London.</p>
+
+            <h4>Sailing the open seas</h4>
+            <p id="OpenSeas">Deciding to operate a business with an 'open source' mindset, and looking beyond "why would you give everything away for free?", there are interesting business models to be had. Those invariably come with challenges, but also have the benefits that are derived from maintaining a culture of openness. <a href="http://www.boldport.com/" title="Boldport website">Boldport</a> is a small business that open sourced their primary internal software tool, PCBmodE, and who releases all their hardware designs as 'open source hardware'. We'll discuss where 'openness' is challenging and where it has created opportunities, all with a hardware perspective.</p>
+            <p id="SaarDrimer" class="vcard"><a class="fn url" title="Saar Drimer - Twitter" href="https://twitter.com/boldport">Saar Drimer</a> combines his obsessive doodling, love for circuit design, programming, and problem solving into Boldport’s products and services. As an engineer he’s learned to appreciate the value of adopting industrial design thinking and making it an integral part of his design process. He studied electrical engineering at UC Santa Cruz, and researched the topic of hardware security for his PhD at the Computer Lab, University of Cambridge.</p>
+
+            <h3>Session 2: Practical Solutions</h3>
+
+            <h4>Red, Amber, Green: Free and Open-Source Software in the Supply Chain – When to Avoid, Tread Carefully and Embrace</h4>
+            <p id="RedAmberGreen">Almost all software projects have an aspect of open source: and for very good reason. With reference to client case studies, Andrew considers how to maximise the utility of open source code, both in terms of the code itself, and engaging with the communities around it, and mitigating risk throughout the supply chain.</p>
+            <p id="AndrewKatz"><a class="fn url" title="Andrew Katz - Twitter" href="https://twitter.com/andrewjskatz">Andrew Katz</a> is a UK-based lawyer specialising in FOSS and open content.</p>
+            <p>Prior to becoming a lawyer, Andrew Katz was a developer and has released software under the GPL. He advises individuals, corporations, foundations and public sector organisations on FOSS law issues, and is a visiting researcher at the University of Skövde, Sweden, and visiting lecturer at Queen Mary, University of London. He is a founder editor of the Free and Open Source Software Law Review.</p>
+
+            <h4>Open Source Tools for the Electronics Systems Industry</h4>
+            <p id="ToolsForES">This talk will explore the huge range of open source tools that are available to electronics systems engineers; EDA tools such such as Icarus Verilog, GHDL, Verilator and SystemC, along with embedded software development tools such as GCC, LLVM, SDCC and Eclipse. We will consider their status, robustness as products and how to ensure they are supported for business critical use.</p>
+            <p>We'll also look at the some of the important legal implications of adopting open source tools in your work flow, particularly when such tools are also supplied to customers. For example, does the source code of an open source compiler expose important information about your processor architecture that you would rather keep secret.</p>
+            <p>The talk will conclude by looking at some of the open source tools projects under development, which while not ready for production use today, may bring about radical changes in the future.</p>
+            <p id="JeremyBennett"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/" title="Embecosm website">Embecosm</a>, which develops free and open source compilers and silicon chip models for companies around the world. Contact him at <a href="mailto:jeremy.bennett@embecosm.com">jeremy.bennett@embecosm.com</a>.</p>
+
+            <h4><em>Details of third talk in this session TBC</em></h4>
+
+            <h3>Session 3: First Hand Experiences and the Future</h3>
+
+            <h4>Establishing a Corporate Open Source Group: Journey and Lessons Learned</h4>
+            <p id="CorporatePolicy">Creating a dedicated Open Source Group within a large consumer focused company such as Samsung is both challenging and rewarding. This talk recaps a 3-years journey, lessons learned and highlights some of the significant challenges still remaining. The talk is particularly relevant to any organization that is relatively new to Open Source and uncertain about the practicalities of engaging in it. During this talk Gurj Bahia will cover various topics from process changes for open source contributions, legal aspects such as licenses and IP, cultural changes to learn why and how to deal with the open source community to technical changes to allow a smooth way of communicating and collaborating between your internal team and the external community.</p>
+            <p id="GurjBahia"><a class="fn url" title="Gurj Bahia - Twitter" href="https://twitter.com/GurjOnTheLine">Gurj Bahia</a> leads the European office of Samsung’s Open Source Group. He is helping to accelerate the use of and collaboration with open source software. With more the 20 years industry experience helping a number of companies to deliver mobile technology to market and working as a hands-on software architect and technical manager, Gurj is able to bridge the gap between traditionally closed downstream ways of working (most of his career) and the more modern open, collaborative methods (recent experiences).</p>
+
+            <h4>Open Source Field Programmable RF Technology Driving Innovation in Wireless Networks</h4>
+            <p id="FPRF">The wide spread use of programmable digital technology has enabled a vast array of new wireless applications to be created. In fact, much of the innovation in wireless networks that has supported such a growth in recent years could be attributed to ever increasing levels of functionality within the digital chipsets. On the other hand, RF technology has been providing fixed function for a given design with very little in the way of programmability and flexibility. As we move from one generation of wireless technology to another, this issue has become more prevalent to the extent that today’s RF technology has become a bottleneck, hampering innovation in the design and implementation of future networks.This talk presents the concept of Field programmable RF technology where flexibility is extended from digital to RF domain. Use cases and application areas where such technology is making a significant impact is also presented where the Open Source community are getting behind the technology  and driving a Significant level of innovation in the field.</p>
+            <p id="EbrahimBushehri"><u>Dr Ebrahim Bushehri</u> is the founder and CEO of the field-programmable RF chip company <a href="http://www.limemicro.com/" title="Lime Microsystems website">Lime Micro</a>. He is also the founder of the non-profit initiative <a href="https://myriadrf.org/" title="Myriad-RF website">MyriadRF</a> which seeks to bring open source RF hardware to a wider audience through the development of low-cost, professional-grade hardware. Ebrahim’s experience spans over 25 years in directing and managing of design teams for the implementation of high performance ICs within the wireless communication market. He has worked with  organizations such as Nokia, Qinetiq (formerly Defence Evaluation Research Agency) and Fraunhofer IAF. Ebrahim is a member of Institution of Electrical and Electronic Engineering (IEEE).</p>
+
+            <h4>lowRISC – an Open-Source System-on-Chip Design</h4>
+            <p id="lowRISC">lowRISC is a not-for-profit project aiming to produce the 'Linux of the hardware world', providing an open-source System-on-Chip design for industry, academia, and the wider open source community to build upon. This talk will update on lowRISC's current status and explore the challenges facing open source hardware projects along with the potential benefits of a more open hardware ecosystem. It will also briefly cover tagged memory and minion cores, both novel features which demonstrate the lowRISC approach to creating a secure, flexible, and extensible SoC architecture.</p>
+            <p id="AlexBradbury"><a class="fn url" title="Alex Bradbury - Twitter" href="https://twitter.com/asbradbury">Alex Bradbury</a> is a researcher at the University of Cambridge Computer Laboratory where he co-founded the not-for-profit lowRISC project to produce a fully open-sourced, Linux-capable, RISC-V based SoC design. He has a particular interest in compilers, doing substantial work with LLVM over the past 5 years as part of his research in to novel many-core architectures and also authors the popular LLVM Weekly newsletter. Alex was one of the key volunteers for the Raspberry Pi project, where he previously had the role of Lead Linux Developer, as well as co-authoring the book Learning Python with Raspberry Pi.</p>
+
+            <h3>Panel Discussion</h3>
+            <p id="Panel">Whilst this event provides a focal-point, the real opportunity lies in identifying actions that advance the capabilities of the electronic systems community in utilising the opportunities provided by open source software. The panel discussion will focus on the identification of some areas for further work.</p>
+
+            <p><strong>Note: Please aim to arrive by 09:15 as the event will start at 09:30 prompt.</strong></p>
+
+date:        10 May 2016
+dtstart:     2016-05-10T09:30:00Z
+dtend:       2016-05-10T17:00:00Z
+start:       09:30
+end:         17:00
+pubdate:     Mon, 18 April 2016 10:00:00 GMT
+updated:     2016-04-18T10:05:00Z
+location:    BCS London
+isoduration: P0Y0M0DT07H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/1938/
+upcoming:     
+lanyrd:     
+
+tags:
+    - NMI
+    - semiconductors
+    - electronicsystems
+    - licensing
+    - verification
+    - embeddedsystems
+    - OpenSource
+    - OSHW
+    - FOSS
+    - opensourcepolicy
+    - myriadrf
+    - lowrisc
+    - pcbmode
+    - internetofthings
+    - IoT
+    - standards
