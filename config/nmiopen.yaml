@@ -24,6 +24,10 @@ sessions: |
             <p id="OpenSeas">Deciding to operate a business with an 'open source' mindset, and looking beyond "why would you give everything away for free?", there are interesting business models to be had. Those invariably come with challenges, but also have the benefits that are derived from maintaining a culture of openness. <a href="http://www.boldport.com/" title="Boldport website">Boldport</a> is a small business that open sourced their primary internal software tool, PCBmodE, and who releases all their hardware designs as 'open source hardware'. We'll discuss where 'openness' is challenging and where it has created opportunities, all with a hardware perspective.</p>
             <p id="SaarDrimer" class="vcard"><a class="fn url" title="Saar Drimer - Twitter" href="https://twitter.com/boldport">Saar Drimer</a> combines his obsessive doodling, love for circuit design, programming, and problem solving into Boldport’s products and services. As an engineer he’s learned to appreciate the value of adopting industrial design thinking and making it an integral part of his design process. He studied electrical engineering at UC Santa Cruz, and researched the topic of hardware security for his PhD at the Computer Lab, University of Cambridge.</p>
 
+            <h4>Opening networks with open hardware</h4>
+            <p id="NetFPGA">Networks are made better by open standards; in the context of the research and education platform: <a href="http://netfpga.org" title="NetFPGA website">NetFPGA</a>, this session will discuss some of the triumphs, and traps-ahead from the perspective of this open-source powered project.</p>
+            <p id="AndrewMoore" class="vcard"><a class="fn url" title="Andrew Moore - Twitter" href="https://twitter.com/awm22">Andrew Moore</a> is Reader in Systems at the University of Cambridge. Andrew likes building things and appreciates research that is repeatable. His specific interests include reducing latency in systems and building, measuring and characterising networked computer systems. Some of his work also results in the positive outcome of putting better tools into the hands of researchers and practitioners.</p>
+
             <h3>Session 2: Practical Solutions</h3>
 
             <h4>Red, Amber, Green: Free and Open-Source Software in the Supply Chain – When to Avoid, Tread Carefully and Embrace</h4>
@@ -64,7 +68,7 @@ dtend:       2016-05-10T17:00:00Z
 start:       09:30
 end:         17:00
 pubdate:     Mon, 18 April 2016 10:00:00 GMT
-updated:     2016-04-18T10:05:00Z
+updated:     2016-05-05T:17:05:00Z
 location:    BCS London
 isoduration: P0Y0M0DT07H30M00S
 generator:   vi
