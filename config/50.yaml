@@ -1,0 +1,44 @@
+---
+number:     50
+title:       Drones Pt. 2 (Captain Buzz, Whirly Blades of Death, Bounder)
+description: |
+             <p>For the fiftieth OSHUG meeting we return to the theme of twentieth meeting back in June 2012, "drones", with a talk on Captain Buzz, a smartphone app that flies drones, another on what goes into making a quadrotor stay in the air, and a third talk on managing drone airspace.</p>
+
+sessions: |
+            <h3>Captain Buzz: Your smartphone’s real ‘airplane mode'</h3>
+            <p id="CaptainBuzz">In ten years time drones will be delivering Amazon packages to your door minutes after ordering them. Current drones are built using purpose-designed hardware and software with limited computational power. Moreover, adding features typically requires purchasing and connecting additional hardware modules.</p>
+            <p>In this talk I present Captain Buzz: a smartphone app that flies a drone, eliminating the need for such dedicated hardware. I show that by mounting your smartphone on a drone, Captain Buzz can use the inbuilt sensors to calculate the drone's position and orientation. Captain Buzz then uses the headphone socket, connected to the drone's servos, to manoeuvre the drone in the air. By building drones using smartphones, we can leverage existing smartphone functionality: Internet connectivity, maps, cameras for novel uses of drones.</p>
+            <p>With Captain Buzz your next smartphone might be delivered to you by your previous one!</p>
+            <p id="Oliver Chick" class="vcard"><a class="fn url" title="Oliver Chick - Twitter" href="https://twitter.com/oc243">Oliver Chick</a>Oliver Chick recently finished a PhD in Computer Science at the University of Cambridge Computer Laboratory. His research concerns techniques for measuring the performance of software stacks executing in a virtual machine. Highlights of this work include a best paper at ApSys 2015 and publication in SIGOPS Operating Systems Review (OSR). Alongside this research, Oliver worked with colleagues on a “20%” project to build Captain Buzz, the subject of tonight’s talk. Since completing his PhD, Oliver has started working as a Teaching Associate at Queens’ College Cambridge, and Focal Point Positioning, a startup that is revolutionising positioning in difficult environments.</p>
+
+            <h3>Whirly blades of death</h3>
+            <p id="WhirlyBlades">Since the availability of cheap MEMS sensor technology and powerful brushless motors, radio controlled flight has changed enormously. Quadrotors have been viable for several years now and have enjoyed an enormous rush of popularity due largely to their mechanical simplicity. That mechanical simplicity comes at the cost of considerable complexity in the control system. We will take a look at what goes into making a lump of metal with four whirly blades of death stay in the air.</p>
+            <p id="Gavan Fantom" class="vcard"><a class="fn url" title="Gavan Fantom - Twitter" href="https://twitter.com/gavanfantom">Gavan Fantom</a> is a professional embedded software engineer with a penchant for wielding screwdrivers and soldering irons. He has a keen interest in things that fly, things that make sound and things that make and receive light (ranging from the visible spectrum down to a few MHz). Some people are terrified of his oversized metal quadrotor, noting the fact that it looks menacing as well as expressing fear that he wrote the control software that keeps it flying. For some reason they seem to think it might decide that their face needs the spiral cucumber treatment, never realising that he feeds it pizza before letting it out in public to prevent this from happening.</p>
+
+            <h3>Managing drone airspace</h3>
+            <p id="ManagingAirspace">Drones flying into controlled airspace have gotten attention in the media including the recent incident of drone in Heathrow. Ensuring that drones fly within an allowed zone and looking at the possiblity of managing the airspace with a platform to do this, is an interesting challenge. A quick survery of the area with a focus more the software stack of one of them, which was prototype build behind Bounder. High level overview of the choices and tradeoffs and hardware choices associated are discussed.</p>
+            <p id="AnishMohammed" class="vcard"><a class="fn url" title="Anish Mohammed - Twitter" href="https://twitter.com/anishmohammed">Anish Mohammed</a> has been an electronics enthusiast and software hacker since his early teens. He endured medical school, before working in security and cryptography. He has spent half his career researching cryptographic algorithms and protocols at three different research groups, including Microsoft Research. He is also a self-confessed UAV addict who owns more than a dozen AHRS/Autopilots. His interests are mostly focused on navigation algorithms for unmanned vehicles. His research interests include AI and Ethics of AI, and he is one of the folks behind  <a href="http://www.bounder.io" title="Bounder website">Bounder</a> and <a href="http://www.dexethics.com" title="Dexethics website">Dexethics</a> .These days he works for Lloyds, where he is involved with, among other things, internal innovation and Blockchain initiatives.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        16 June 2016
+dtstart:     2016-06-16T18:00:00Z
+dtend:       2016-06-16T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 16 May 2016 20:00:00 GMT
+updated:     2016-05-16T20:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2087/
+upcoming:     
+lanyrd:     
+
+tags:
+    - drones
+    - quadcopters
+    - aircraft
+    - OpenSource
+    - OSHW
+    - FOSS
