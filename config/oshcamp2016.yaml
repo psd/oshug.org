@@ -1,0 +1,146 @@
+---
+number:     oshcamp2016
+li:         51
+title:      Open Source Hardware Camp 2016
+description: |
+            <p>Open Source Hardware Camp 2016 will take place place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. For the third year running it is being hosted as part of the <a href="http://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+            <p>There will be a social event on the Saturday evening from 8PM.</p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>LabRTC — progress at the Open University on instant real-time control of lab hardware that's half a world away</h4>
+            <p id="LabRTC">Now that web infrastructure is finally delivering on the promises made in the 90s, instant real-time interactions with live hardware on the other side of the world are a reality. For example, we have recently been testing a rotating pendulum that can be controlled from a mobile phone, tablet or PC, from anywhere in the world, with no noticeable lag in the video feed.</p>
+            <p>This approach is at the core of the new <a href="https://www3.open.ac.uk/media/fullstory.aspx?id=28618">openSTEM lab being created at the Open University</a>, as part of a £2.7M HEFCE project. The Open University are world leaders in connecting knowledge with distance students, and are now tackling the challenge of linking distance students in their homes with state of the art hardware on our campus, yet achieving the same response times as if they were in the same room with it.</p>
+            <p>This talk will present core aspects of the technology behind our new openSTEMlab for electronics, as well as give you a teaser of the open-source version of our software that we are developing for eventual release to our students (and you) for use with open-source hardware in your own projects. Attendees will also be given the opportunity to remotely access activities in the openSTEMlab itself over coming months, as it enters alpha and beta phases ahead of the first electronics courses going live in October 2017.</p>
+            <p id="TimDrysdale" class="vcard"><a class="fn url" title="Tim Drysdale - Twitter" href="https://twitter.com/timothydrysdale">Dr Tim Drysdale</a> is a Senior Lecturer in electronics at The Open University, leading the development of the openSTEMlab and the creation of two new electronics courses. His research area involves antenna design and numerical software development.</p>
+
+            <h4>Openly Educating the Next Generation of Engineers</h4>
+            <p id="OpenlyEducating">In this talk we take a look at technical education past and present and discusses how it can benefit from open hardware.</p>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/monsonite">Ken Boak</a> got his first soldering iron on his 6th birthday, and was introduced to electronics by his father, by constructing crystal sets together.</p>
+
+            <p>Ken studied Electronic Engineering at the University of North Wales, Bangor, and then went on to work for BBC Research Department on the then, fledgling HDTV systems.</p>
+
+            <p>Since leaving the BBC in 1994, Ken has held 10 permanent positions, plus several contract jobs across a wide range of hardware disciplines.  Ken still enjoys tinkering with the latest hardware and has interests in FPGAs, soft core processors and educational hardware.</p>
+
+            <h4>Indie Manufacturing</h4>
+            <p id="IndieManufacturing">Is there a scale of production between craft and mass-manufacture?  Does it work for consumer products?  Can local suppliers - particularly across the <a href="http://makerbelt.org.uk/">UK Maker Belt</a> in the North - help us bridge the gap and scale up?  Adrian McEwen will share what he's learnt exploring the issues and building a new IoT product as part of the <a href="http://futuremakespaces.rca.ac.uk/">RCA Future Makespaces &amp; Redistributed Manufacturing</a> project.</p>
+            <p id="AdrianMcEwen" class="vcard"><a class="fn url" title="Adrian McEwen - Twitter" href="https://twitter.com/amcewen">Adrian McEwen</a> is a technologist and entrepreneur based in Liverpool. He has been connecting devices to the Internet since 1995 — first cash registers, then mobile phones, and now anything from bubble machines to wave energy prototypes. He founded MCQN Ltd., an Internet of Things product studio and is co-founder of DoES Liverpool, a hybrid co-working/makerspace that is the home for tech startups in Liverpool. He co-wrote the book Designing the Internet of Things and runs the monthly #IoTLiverpool meetups.</p>
+            <p>Adrian concentrates on how the Internet of Things intersects with people’s lives and how heterogeneous networks of devices should work together, and lectures and speaks on these issues internationally.</p>
+
+            <h4>Keeping your project on track</h4>
+            <p id="KeepinOnTrack">This talk will look at a project from inception through to the "end product". It will look at the various stages: research, design, hardware development and software development, debugging and fault finding. It will consider the possible choices you have at each stage. It will look at the tools that are available to help your development, such as IDEs, debuggers, and so on.</p>
+            <p>The example that will be used is a controller for model trains using "Digital Cab Control" ("DCC").</p>
+            <p id="MelanieRhiannaLewis" class="vcard"><a class="fn url" title="Melanie Rhianna Lewis - Twitter" href="https://twitter.com/cyberspice">Melanie Rhianna Lewis</a> started a life long love of electronics as a child when her Dad helped her make a "crystal" radio with an ear piece, a coil of wire, a diode and a radiator! Melanie currently works for an embedded device consultancy near Bradford where she works developing Linux based devices using ARM and MIPS. In her spare time she can be found on roller skates hitting people.</p>
+
+            <h4>Open Source and Feature Film Production</h4>
+            <p id="OpenFilmProduction">Having researched and examined how open source has reached out into many areas of current working environments, Daniel Mulligan was struck by how little open source seems to be used within the film production community. It appearing that little has been developed for an entire production workflow and backbone, from the sensor and how it is used and manipulated, the colour science and workflow.</p>
+            <p>Examples do exist, such as <a href="http://www.oscars.org/science-technology/sci-tech-projects/aces">ACES</a> (Academy Color Encoding System), providing a free, open source colour and look management architecture. This has been taken forward through the educational department of the <a href="http://www.oscars.org/">Oscars</a> and by established Industry practitioners, but being such a new subject has as yet to completely encompass the entire workflow.</p>
+            <p>Thus seeking to further the understanding and appreciation of production processes we can create a diverse array of programs and hardware for filmmakers (and institutions) to provide unique opportunities for engagement with the principles of open source relating to film production, and by approaching the subject now and introducing hardware research with an ethical ethos and approach, the belief is that we can further educate those who would like to see open source become a stronger and more realistic proposition as it continues to thrive and develop. Learning, teaching and research are all encompassed in the entire pipeline for a production. Open content, open practice, open data, open access are all elements that can be attributed to open source for film and education. </p>
+            <p>On this basis contact was established with Apertusº for their <a href="https://www.apertus.org/axiom">open source 4K camera hardware</a>. This has allowed us to tackle the subject fully by developing not only sensor technology but also the processing involved. We have currently had delivered the very first shipped Open Source 4K hardware camera and testing fully its capabilities. </p>
+            <p>The aim is to create free and open technology and hardware, and make all the generated knowledge freely available to everyone, encouraging participation along the way. By developing this approach we can create a production pathway that includes subjects such as open data, open collaboration and open hardware and software.</p>
+            <p>Open source film production is an emerging environment effecting production tremendously, and is a perfect example of collaboration and education developing in multiple areas for the future, and can all be developed with an extremely strong emphasis on hardware development with software support.</p>   
+            <p id="DanielMulligan" class="vcard"><a class="fn url" title="Daniel Mulligan - Twitter" href="https://twitter.com/cinema_open">Daniel Mulligan</a> started in cameras (assisting and focus pulling), before then graduating up the ranks to Camara Operating for F1, BBC Dramas then 2nd Unit Cinematography for Feature Theatrical Productions.</p>
+            <p>Daniel also started and privately ran a rental house supplying digital cameras, plus an onset/location company providing location post and digital camera workflows. This culminated just recently with a 2-3 year stint at Technicolor as their locations digital dailies supervisor, looking after projects such as Jupiter Ascending, Mortdecai and The Man from UNCLE.</p>
+            <p>During this time Daniel has seen a few changes and re-iterations of the current digital workflows and it has struck him over time how much we do rely on proprietary systems for most delivery. And perhaps quite rightly so, as the delivery requirements for VFX to DI, to onset LUTs and more need that service.</p>
+
+            <h4>The Things Network, a crowd sourced data network for the Internet of Things</h4>
+            <p id="TTN">In November 2015 a group of geeks in Reading were inspired to create an Internet for the IoT, a community project that has grown legs and is up and walking. The great thing about this project is how is has built connections with many abstract groups in the area. Mike will talk about the project to date, the plans for the future and how you can get involved, and Mark will outline the progress and gotchas when rolling out <a href="https://thethingsnetwork.org/">The Things Network</a> on a grand scale.</p>
+            <p id="MikeBeardmore" class="vcard"><a class="fn url" title="Mike (The Bee) Beardmore - Twitter" href="https://twitter.com/mikethebee">Mike (The Bee) Beardmore</a> is a maker based in Berkshire. He tinkers with software and hardware, micros and 3D printing. He is an enthusiastic supporter of open source and is working with projects connecting things, including horticulture, energy systems and art installations.</p>
+            <p id="MarkHill" class="vcard"><a class="fn url" title="Mark Hill - Twitter" href="https://twitter.com/OpenTRV">Mark Hill</a> is the co-founder of OpenTRV, a company on a mission to cut carbon emissions. With smart thermostatic radiator valves (TRVs), OpenTRV aims to knock 10% off the entire UK's carbon emissions. Whether hardware, software or making a noise about guerilla IoT networks, Mark concentrates on making things happen, and in the right way.</p>
+
+            <h4>Kitnic.it - A registry for open hardware electronics projects</h4>
+            <p id="Kitnic.it"><a href="https://kitnic.it/">Kitnic.it</a> is a site to share electronics projects in a way that makes sense: give me the Gerbers and let me buy all the parts with a few clicks. In this talk the creator of the open source site outlines it's functionality, the standards it's trying to promote, some of the technical challenges encountered in making it and what's on the roadmap for the future.</p>
+            <p id="KasparEmanuel" class="vcard"><a class="fn url" title="Kaspar Emanuel - Twitter" href="https://twitter.com/kaspar_e">Kaspar Emanuel</a> is a freelance electronic design engineer and software developer working on projects ranging from musical instruments, to robots, to Braille displays. His primary professional interest is in making technology more accessible, less scary and more fun.</p>
+
+            <h4>Computer Controlled Heating System — cool use for a hot Pi</h4>
+            <p id="PiHeating">This talk will take a look at the shortcomings with currently available heating controllers (even the posh ones) and Andrew Gladwell came up with a system that solves all of the identified problems.</p>
+            <p id="AndrewGladwell" class="vcard"><u>Andrew Gladwell</u> is a computer technician operating his own repair workshop in Ashton Under Lyne. He has been interested in Linux and open source for many years and no longer has any Windows or Mac equipment in regular use..</p>
+            <p>Andrew has become convinced in recent months that he has undiagnosed and hopefully mild Aspergers Syndrome but is not sure quite what, if anything, to do about that.</p>
+            <p>When not down the rabbit hole of the terminal shell Andrew enjoys walking, cycling, motorbikes, DIY, rock climbing.</p>
+
+            <h4>Scaling IoT with Open Data</h4>
+            <p id="ScalingIoT">In this talk, Yodit will make the case that Open Data is the best practical way to make IoT in work within the 'Smart Cities' context.  She will talk about examples of community sensing projects from all over the world from air quality to water quality.  The digitisation of public spaces means that sensors are deployed in a number of contexts from environmental to traffic, practically this data is useful to lots of people and reuse is vital.</p>
+            <p id="YoditStanton" class="vcard"><a class="fn url" title="Yodit Stanton - Twitter" href="https://twitter.com/yoditstanton">Yodit Stanton</a> is a data nerd and machine learning developer who runs <a href="https://www.opensensors.io/">OpenSensors.io</a>. OpenSensors provides data infrastructure for the Internet of Things enabling anyone to publish real time open data from sensor networks. OpenSensors came out of my her own frustration at not being able to find real time information about the world and we are fixing that...  As the physical world becomes digitised making sure people and not just businesses understand the data  within their own context is especially important for IoT to succeed.</p>
+            
+            <h4>Building a Smarter Island</h4>
+            <p id="SmarterIsland">The island of Martha’s Vineyard, 7 miles off the coast of Massachusetts, is a popular holiday destination for tourists, US Presidents and celebrities, but it also has an engaged year round community.</p>
+            <p><a href="https://herelab.io/">HereLab</a> is building a LoRaWAN network to cover island towns, land and waterways. This talk will cover how Thing Innovations and HereLab have collaborated to develop a long range sensor platform designed for air, land, water and town applications. </p>
+            <p>It will provide some use-cases which will demonstrate how the sensor platform is being used to monitor greenhouses, aqua farms, buildings, trash and traffic. It will also outline how data is being used to help islanders measure the local environment and, as a result, to better manage and engage their local natural, social and built-space resources.</p>
+            <p id="AndrewLindsay" class="vcard"><a class="fn url" title="Andrew Lindsay - Twitter" href="https://twitter.com/andrewdlindsay">Andrew Lindsay</a> is a freelance developer with an active interest in embedded hardware and the "Internet of Things”, developing sensor devices through his IoT consultancy <a href="https://thinginnovations.uk/">Thing Innovations</a>.</p>
+            <p>Andrew has been tinkering with electronics and computers for over 35 years. His first computer was a Sinclair ZX80. He has worked as a software developer for over 25 years working in industries as diverse as Cable TV, Water instrumentation &amp; control systems, Network hardware, ISP, Telecoms, Finance and Retail systems. </p>
+            <p>Outside of work, Andrew enjoys real ale, good food, gadgets, heavy metal, motorcycles and of course his family. Andrews projects include designing and building river level sensors for the Oxford Flood network system, building a community LoRaWAN network and developing a range of sensors to use the network. </p>
+
+            <h4>Going Beyond the von Neumann Architecture with FPGAs</h4>
+            <p id="BeyondVNAwithFPGA">The late 20th century was 0wned by John von Neumann's architecture and Alan Wood predicts that the 21st century will become Alan Turing's algorithmic playground. The current pinnacle of computation at the beginning of the 21st century is represented by peak Von Neumann Architectures (VNA), as more and more has been squeezed out of this arrangement, it has been clocked and optimised to it's very limits, and now it's shrinking cores are being, multiplied and integrated to their logical extreme.</p>
+            <p>However, the next era of computation requires an exponential jump in performance per watt in order to tackle 21st century needs; regression, prediction, machine learning, complex real-time transforms, convolution kernels, neural networks and general artificial intelligence. In order to get anywhere near the efficiencies we see in nature with the human brain, for example, we need neuron computation operating at picojoule energies, which is not suited to VNA. Therefore we need a new primitive vocabulary of Turing Complete Engines which we can use to matrix, network and orchestrate real-time, real-world embedded helpers, bots, devices and robots.</p> 
+            <p>In this talk Alan will explore first history leading to this millennial transition and indicate what to expect as one of this centuries most important developments (A.I.) unfolds, I will provide a peek into the emerging Turing playgrounds of hybrids, ASICs and focus on DIY/Opensource FPGAs approaches to influencing and playing a part in this exciting transition.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded applications using Motes on FPGA and emerging Asics. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/" title="xCORE community">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/" title="Surrey and Hampshire Makerspace website">Surrey and Hampshire Makerspace</a>.</p>
+
+            <h4><i><center>Compered by:</center></i></h4>
+            <p id="DrJeremyBennett" class="vcard"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/" title="Embecosm - the embedded systems experts">Embecosm</a>, a consultancy specializing in the development of open source compiler tool chains.</p>
+
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Getting started with FPGAs and Verilog using project IceStorm</h4>
+            <p id="IceStorm">In this workshop we will build some basic Verilog blocks and modules targeting low power, low cost FPGAs from the Lattice Ice40 series. The workshop will operate using a complete open source Verilog toolchain based around Clifford Wolf's Yosys and Arachne-PNR, which can be run on Linux and OS X. We will cover basic sequential and combinational logic blocks, before moving on to ALU's and simple Turing Machines or even a Forth processor.</p>
+            <p>This workshop will give participants a real taste of FPGA development in an open source environment. It will hopefully whet their appetite with emerging hardware applications and perhaps allow them to delve deeper into FPGAs.</p>
+            <p>Run by: <a href="#AlanWood">Alan Wood</a> &  <a href="#KenBoak">Ken Boak</a></p>
+
+            <h4>Develop your own long range sensor using Arduino and the Thing Innovations LoRaWAN Sensor development shield.</h4>
+            <p id="LoRaWAN">Develop your own long range sensor using Arduino and the Thing Innovations LoRaWAN Sensor development shield, to connect to The Things Network and access your sensor data.</p>
+            <p>In this workshop participants will learn how to use the LoRaWAN development shield based on the Microchip RN2483 LoRaWAN module. This comes with a number of basic sensors, while the shield also includes additional Arduino headers so you can add your own sensor shields and devices.</p>
+            <p>The aim of the workshop is for participants to create their own Arduino-based sensor devices using The Things Network.</p>
+            <p>Run by: <a href="#AndrewLindsay">Andrew Lindsay</a></p>
+
+            <h4>Axiom 4K Open Source Camera demonstration</h4>
+            <p id="AxiomDemo">This workshop will demonstrate an entire RAW 4K workflow from the sensor and develop an image in 4K. Capturing and processing from a 4K sensor and showing what can be done through open source access to the hardware. Demonstrating the Axiom hardware, its capabilities and explaining why open source is applicable to this type of application.</p>
+            <p>Run by: <a href="#DanielMulligan">Daniel Mulligan</a></p>
+
+            <h4>Assembling the OSHCamp kit</h4>
+            <p id="Soldering">Get help with assembling this year's kit.</h4>
+            <p id="ChelseaBack" class="vcard"><a class="fn url" title="Chelsea Back - Twitter" href="https://twitter.com/ChelseaMSBack">Chelsea Back</a> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, is a student member of the IET and recently enrolled as a STEM Ambassador.
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch and refreshments will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+date:        3rd September 2016
+dtstart:     2012-09-03T09:00:00Z
+dtend:       2012-09-04T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Tue, 31 May 2016 20:00:00 BST
+updated:     2016-05-31T22:00:00Z
+location:    The Birchcliffe Centre
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2016.eventbrite.com
+lanyrd:       http://lanyrd.com/2016/oshcamp/
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - LoRaWAN
+    - TheThingsNetwork
+    - IoT
+    - IndieManufacturing
+    - FPGA
+    - IceStorm
+    - YoSys
+    - OpenData
+    - AXIOM
+    - OpenSourceCinema
+    - LabRTC
+    - Education
