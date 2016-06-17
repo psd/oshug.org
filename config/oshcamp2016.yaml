@@ -72,7 +72,11 @@ sessions: |
             <p>It will provide some use-cases which will demonstrate how the sensor platform is being used to monitor greenhouses, aqua farms, buildings, trash and traffic. It will also outline how data is being used to help islanders measure the local environment and, as a result, to better manage and engage their local natural, social and built-space resources.</p>
             <p id="AndrewLindsay" class="vcard"><a class="fn url" title="Andrew Lindsay - Twitter" href="https://twitter.com/andrewdlindsay">Andrew Lindsay</a> is a freelance developer with an active interest in embedded hardware and the "Internet of Things”, developing sensor devices through his IoT consultancy <a href="https://thinginnovations.uk/">Thing Innovations</a>.</p>
             <p>Andrew has been tinkering with electronics and computers for over 35 years. His first computer was a Sinclair ZX80. He has worked as a software developer for over 25 years working in industries as diverse as Cable TV, Water instrumentation &amp; control systems, Network hardware, ISP, Telecoms, Finance and Retail systems. </p>
-            <p>Outside of work, Andrew enjoys real ale, good food, gadgets, heavy metal, motorcycles and of course his family. Andrews projects include designing and building river level sensors for the Oxford Flood network system, building a community LoRaWAN network and developing a range of sensors to use the network. </p>
+            <p>Outside of work, Andrew enjoys real ale, good food, gadgets, heavy metal, motorcycles and of course his family. Andrews projects include designing and building river level sensors for the Oxford Flood network system, building a community LoRaWAN network and developing a range of sensors to use the network.</p>
+
+            <h4>Making the Laser Light Synths</h4>
+            <p id="LightSynths">The Laser Light Synths are LED emblazoned musical instruments that anyone can play. Along with high power lasers, they form part of a large outdoor installation that switch the traditional roles of audience and performer.</p>
+            <p id="SebLee-Delisle" class="vcard">As an artist, <a class="fn url" title="Seb Lee-Delisle - Twitter" href="https://twitter.com/seb_ly">Seb Lee-Delisle</a> likes to make interesting things from code that encourage interaction and playfulness from the public. Notable projects include <a href="http://lunartrails.com/">Lunar Trails</a>, featuring a 3m wide drawing machine, and <a href="http://pixelpyros.org/">PixelPyros</a>, the Arts Council funded digital fireworks display that toured nationwide.</p>
 
             <h4>Going Beyond the von Neumann Architecture with FPGAs</h4>
             <p id="BeyondVNAwithFPGA">The late 20th century was 0wned by John von Neumann's architecture and Alan Wood predicts that the 21st century will become Alan Turing's algorithmic playground. The current pinnacle of computation at the beginning of the 21st century is represented by peak Von Neumann Architectures (VNA), as more and more has been squeezed out of this arrangement, it has been clocked and optimised to it's very limits, and now it's shrinking cores are being, multiplied and integrated to their logical extreme.</p>
@@ -117,7 +121,7 @@ dtend:       2012-09-04T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Tue, 31 May 2016 20:00:00 BST
-updated:     2016-05-31T22:00:00Z
+updated:     2016-06-17T09:45:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -144,3 +148,4 @@ tags:
     - OpenSourceCinema
     - LabRTC
     - Education
+    - Lasers
