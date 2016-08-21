@@ -115,13 +115,21 @@ sessions: |
               <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
              </ul></p>
 
+            <div id="support">
+             <p><strong><i>With thanks to sponsors:</i></strong></p>
+              <p><ul>
+              <li><a id="oshpark" title="OSHPark -  Perfect  Prompt  Purple  PCBs" href="http://oshpark.com/">OSHPark</a></li>
+              </ul></p>
+            </div>
+
+
 date:        3rd September 2016
 dtstart:     2012-09-03T09:00:00Z
 dtend:       2012-09-04T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Tue, 31 May 2016 20:00:00 BST
-updated:     2016-06-17T09:45:00Z
+updated:     2016-08-21T13:20:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi

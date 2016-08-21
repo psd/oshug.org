@@ -120,12 +120,22 @@ sessions: |
                <p id="ChelseaBack" class="vcard"><u>Chelsea Back</u> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, and is currently getting to grips with schematic capture and PCB layout.</p>
                <p><em>Workshop notes: bring along the OSHCamp 2015 kit.</em></p>
 
-                <p><strong>NOTE:</strong>
-                </ul>
-                 <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
-                 <li>A light lunch and refreshments will be provided each day.</li>
-                 <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
-                </ul></p>
+               <p><strong>NOTE:</strong>
+               </ul>
+                <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+                <li>A light lunch and refreshments will be provided each day.</li>
+                <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+               </ul></p>
+
+               <div id="support">
+                 <p><strong><i>With thanks to sponsors:</i></strong></p>
+                 <p><ul>
+                    <li><a id="ktn" title="The Knowledge Transfer Network" href="http://www.ktn-uk.co.uk/">The Knowledge Transfer Network</a></li>
+                    <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+ 
+                 </ul></p>
+               </div>
+
 
 date:        26th September 2015
 dtstart:     2014-09-26T09:00:00Z
