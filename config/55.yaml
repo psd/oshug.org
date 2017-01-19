@@ -1,0 +1,54 @@
+---
+number:     55
+title:       FPGA projects past, planned and possible
+description: |
+             <p>The fifty-fifth meeting will feature a series of shorter talks that explore past, planned and possible projects which use FPGAs.</p>
+
+sessions: |
+            <h3>FPGA Projects - What would I build and why would I want to</h3>
+            <p id="whatandwhy">PLAs have been interesting ever since the 70s when digital logic often became complex, consuming unnecessary space and power. Back then the cost of PLA deployment was high and it has continued to be high until recently. Now that we have powerful, low cost development platforms and relatively cheap FPGAs the cost equation has shifted radically.</p>
+            <p id="Paul Tanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="https://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software. His day job is IT-based business improvement for SMEs. By night he turns energy nut, creating tools to optimise energy use. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, switching to consulting in 2000.</p>
+
+            <h3>Using FPGAs to solve realtime problems</h3>
+            <p id="realtime">Microcontrollers a great platform to solve basic control problems in electronics, with simple motor drivers and sensors readily avaiable and easy to integrate. However, when the motor control becomes more complex with BLDC and FOC things get much more tricky. When you have to use multiple BLDC motors and more complex sensors with image processing the poor microcontroller quickly becomes to swamped to provide control in realtime. This is where adding FPGA technology makes a great deal of sense particularly in mutli-discipline projects like robotics where many sensors, motors and image processing will need to  be managed and controlled concurrently. A robotics platform must therefore contain both concurrent hardware resources, algorithmic control through soft or hard cores along with communication protocols.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning, inference and image processing for embedded applications using FPGA and multi-cores. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/">Surrey and Hampshire Makerspace</a> and <a href="http://www.mystorm.uk/">myStorm</a> FPGA development boards.
+
+            <h3>FPGAs in the Cloud?</h3>
+            <p id="fpgacloud">It is no secret that FPGA based computing machines are great at dealing with certain types of workloads that conventional CPU based machines can not efficiently handle. These machines, alongside their GPU and even custom ASIC based brethren, have been filling up racks in large data centres all over the globe helping speed up systems that have components of machine learning, complex analytics and even video processing.</p>
+            <p>This short talk will have a look at the state of FPGAs in the datacenter and discuss the recent developments around the availability of FPGA equipped computing nodes in commodity cloud providers.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerK">Omer Kilic</a> is an Embedded Systems Engineer who enjoys working with small connected computers of all shapes and sizes. He works at the various intersections of hardware and software engineering practices, product development and manufacturing.</p>
+
+            <h3>Chip Hack 2017 & EDSAC Challenge</h3>
+            <p id="chiphackedsac">This talk will introduce and issue a call for participation for two events that are being hosted as part of the <a href="http://wutheringbytes.com/">Wuthering Bytes</a> technology festival, that will take place in Hebden Bridge in September, in the week following Open Source Hardware Camp 2017.</p>
+            <p><a href="ihttp://chiphack.org/">Chip Hack</a> is a two day hands-on workshop that provides a gentle introduction to programming FPGAs and is aimed at novices with no prior experience of Hardware Description Languages (HDLs) or FPGAs. This will be followed immediately by a challenge event, during which a small team of experts will work to extend a basic functional FPGA model of EDSAC — the pioneering computer designed and constructed at Cambridge University, and which was operational by 1949.</p>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/">Embecosm</a>, a consultancy implementing open source compilers and chip simulators for major corporations around the world. He is a author of the standard textbook "Introduction to Compiling Techniques" (McGraw-Hill 1990, 1995, 2003). Contact him at: <a href="mailto:jeremy.bennett@embecosm.com">jeremy.bennett@embecosm.com</a>.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        16 February 2017
+dtstart:     2016-12-01T18:00:00Z
+dtend:       2016-12-01T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Thu, 19 January 2017 09:00:00 GMT
+updated:     2017-01-19T09:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2404/
+upcoming:
+lanyrd:
+
+tags:
+    - FPGA
+    - Verilog
+    - VHDL
+    - HDL
+    - electronics
+    - logic
+    - OpenSource
+    - OSHW
+    - FOSS
+    - chiphack
+    - EDSAC
+    - WutheringBytes

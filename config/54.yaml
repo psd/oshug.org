@@ -1,0 +1,53 @@
+---
+number:     54
+title:       Educating the Next Generation (myStorm update, micro:bit, encouraging next generation)
+description: |
+             <p>At the fifty-fourth meeting there will be three talks on the theme of educating the next generation.</p> 
+
+sessions: |
+            <h3>myStorm update</h3>
+            <p id="myStormUpdate">myStorm is an open hardware and software FPGA development platform that is based around a Lattice iCE40 FPGA, which uses the fully open source IceStorm/Yosys/Arache-pnr toolchain for development. It is low cost and aims to provide a gentle on-ramp for those who are new to RTL development and working with FPGAs. In this talk we will hear a report from the <a href="/event/53">workshop which took place earlier in the day</a>, together with a status update on the myStorm project.</a>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/Monsonite">Ken Boak</a> started his professional career at BBC Research Department in 1986 working on digital signal processing systems for HDTV and subsequently over 30 years, a mix of 10 other technology companies, both UK and US based, in the fields of instrumentation, automation, telemetry telecomms.</p>
+            <p>Ken has been interested in energy monitoring since the early 1990s, when he constructed a 4 seater electric car, and provided rudimentary energy analysis of the battery charge and discharge cycles. In 1998 he joined a South London company and designed a low power wireless, monitor device for automatic, remote gas and electricity meter reading.</p>
+            <p>In 2009 Ken worked on the Onzo Energy Monitoring Kit, a commercial device that was ultimately distributed to Southern Electric customers. Then in 2010 he produced a series of educational devices to teach engineering undergraduates the principles of photovoltaic energy systems.</p>
+            <p>Ken has continued his interests in energy monitoring, working collaboratively with Megni on the OpenEnergyMonitor project, the open Inverter Project and also for All Power Labs in Berkeley, California, where he was involved in power monitoring of wood gasifier generator sets. He tries to live a low impact lifestyle in a modest Edwardian house in Surrey, with a little help from modern electronics.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded applications using Motes on FPGA and emerging Asics. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/" title="xCORE community">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/" title="Surrey and Hampshire Makerspace website">Surrey and Hampshire Makerspace</a>.</p>
+
+            <h3>micro:bit first impressions</h3>
+            <p id="microbit"> The BBC micro:bit is an ARM Microcontroller based development board that has been handed out to all year 7 (first year secondary) school kids. The BBC's aim is to get kids coding, along the same lines as with the BBC Micro that became ubiquitous in schools in the 80s. This presentation will look at what it can (and can't) do, and how accessible it is.</p>
+            <p id="ChrisSwan" class="vcard"><a class="fn url" title="Chris Swan - Twitter" href="https://twitter.com/cpswan">Chris Swan</a> has been tinkering with electronics since he was a small child, and got into software when he realised that it was necessary to make hardware do interesting things. In his day job as CTO for Global Infrastructure Services for CSC he's bringing a large services company and its customers into a world of DevOps and Infrastructure as Code. On evenings and weekends he can often be found making some sort of project around a dev board, with a particular fondness for Raspberry Pis.</p>
+
+            <h3>Encouraging the next generation: How a 16-year old got to present his silicon chip design at CERN</h3>
+            <p id="NextGeneration">In 2014 a local Year 10 student, Dan Gorringe, approached Embecosm to ask it he could do a 2-week work experience with us. We agreed and asked him to take our existing hobbyist weekend course on introductory FPGA design with Verilog and rework it for use by students of his age. We forgot to tell him teenagers aren't supposed to be able to write Verilog, and the result was the Embecosm Application Note, <a href="http://www.embecosm.com/resources/appnotes/#EAN12">Silicon Chip Design for Teenagers</a>.</p>
+            <p>In 2015, Dan asked to work for us over the summer. We had recently designed an instruction set architecture, AAP, which is a 16-bit mixed byte/word addressed Harvard architecture to test compiler technology, and which worked in simulation. We realized that a physical implementation would be very useful, so we asked Dan to create this over the summer. We forgot to tell him that teenagers aren't supposed to be able to design processors and the result was an <a href="https://github.com/embecosm/aap-verilog">implementation of AAP which runs on a DE0-Nano FPGA board</a>.</p>
+            <p>As a result Dan was asked to <a href="https://www.youtube.com/watch?v=HKWS85b6PAU&index=24&list=PLUg3wIOWD8yoX2ECfeU_QP5snbu2Zs1Wp">present his work at ORCONF 2015</a>, which happened to be held at CERN. Probably one of the better excuses for a day off school. Dan also subsequently won the BCS OSSG School Student competition for his work, which he spoke about at the BCS AGM in October 2016.</p>
+            <p>Dan came to work for us this summer, and since we are currently working on energy efficient compilation for high performance computing we asked him to build us a system out of single board computers. We again forgot to tell him that teenagers aren't supposed to be able to design supercomputers. We demonstrated his system at the BCS OSSG AGM, and it is reported in the HiPEAC newsletter of November 2016 for academic researchers in high performance and energy efficient computing in Europe.</p>
+            <p>Dan is taking his 'A' levels next summer and is hoping to attend university next year to study engineering mathematics.</p>
+            <p>In this talk we'll look at the factors that made such a series of projects both possible and successful.</p>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/">Embecosm</a>, a consultancy implementing open source compilers and chip simulators for major corporations around the world. He is a author of the standard textbook "Introduction to Compiling Techniques" (McGraw-Hill 1990, 1995, 2003). Contact him at: <a href="mailto:jeremy.bennett@embecosm.com">jeremy.bennett@embecosm.com</a>.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        1 December 2016
+dtstart:     2016-12-01T18:00:00Z
+dtend:       2016-12-01T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Tue, 1 December 2016 09:00:00 GMT
+updated:     2016-11-01T09:00:00Z
+location:    CSC
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2306/ 
+upcoming:     
+lanyrd:     
+
+tags:
+    - education
+    - microbit
+    - myStorm
+    - FPGA
+    - software
+    - OpenSource
+    - OSHW
+    - FOSS

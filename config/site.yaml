@@ -136,6 +136,24 @@ locations:
         postcode:  EC2R 8AE
         latitude:  51.514194
         longitude: -0.091342
+
+    Prince Philip Room:
+        uri: https://www.thersa.org/
+        extendedaddress: The Royal Society of Arts
+        street: 8 John Adam Street
+        locality: London
+        postcode: WC2N 6EZ
+        latitude: 51.5093963
+        longitude: -0.1227355
+
+    CSC:
+        uri: http://www.csc.com
+        extendedaddress: 3rd Floor, The Wallbrook Building
+        street: 25 Wallbrook
+        locality: London
+        postcode: EC4N 8AQ
+        latitude: 51.5103063
+        longitude: -0.0961973
  
 feeds:
     - atom
@@ -214,3 +232,7 @@ released:
     - 49
     - 50
     - oshcamp2016
+    - 52
+    - 53
+    - 54
+    - 55

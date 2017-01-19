@@ -1,0 +1,45 @@
+---
+number:     53
+title:       Getting started with FPGAs and Verilog using project IceStorm and myStorm
+description: |
+             <p>A full day, hands-on FPGA programming workshop that is free to attend. The regular monthly meeting will then follow in the evening, but at a different venue and for details see the <a href="/event/54" title="OSHUG No. 54">OSHUG No. 54 event page</a>.</p>
+             <p><em>Please note that if you intend to attend both the workshop and evening meeting, you must register separately for each of these!</em></p>
+
+sessions: |
+            <h3>Workshop details</h3>
+            <p>In this workshop we will build some basic Verilog blocks and modules targeting low power, low cost FPGAs from the Lattice iCE40 series. The workshop will operate using a complete open source Verilog toolchain based around Yosys and Arachne-PNR, which can be run on Linux and OS X. We will cover basic sequential and combinational logic blocks. In addition we will show you how you can combine simple ARM microcontroller code running alongside and communicating with Verilog peripherals synthesised on a Lattice iCE40 FPGA, all running together on myStorm.</p>
+            <p>This workshop will give participants a real taste of FPGA development in an open source software environment, using open source hardware. 
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/Monsonite">Ken Boak</a> started his professional career at BBC Research Department in 1986 working on digital signal processing systems for HDTV and subsequently over 30 years, a mix of 10 other technology companies, both UK and US based, in the fields of instrumentation, automation, telemetry telecomms.</p>
+            <p>Ken has been interested in energy monitoring since the early 1990s, when he constructed a 4 seater electric car, and provided rudimentary energy analysis of the battery charge and discharge cycles. In 1998 he joined a South London company and designed a low power wireless, monitor device for automatic, remote gas and electricity meter reading.</p>
+            <p>In 2009 Ken worked on the Onzo Energy Monitoring Kit, a commercial device that was ultimately distributed to Southern Electric customers. Then in 2010 he produced a series of educational devices to teach engineering undergraduates the principles of photovoltaic energy systems.</p>
+            <p>Ken has continued his interests in energy monitoring, working collaboratively with Megni on the OpenEnergyMonitor project, the open Inverter Project and also for All Power Labs in Berkeley, California, where he was involved in power monitoring of wood gasifier generator sets. He tries to live a low impact lifestyle in a modest Edwardian house in Surrey, with a little help from modern electronics.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded applications using Motes on FPGA and emerging Asics. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/" title="xCORE community">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/" title="Surrey and Hampshire Makerspace website">Surrey and Hampshire Makerspace</a>.</p>
+            <h3>What to bring</h3>
+            <p id="WhatToBring">Participants must bring a laptop computer and ideally one that is running either Linux or OS X. If your laptop is running Windows, you should also bring along a Raspberry Pi or similar Linux SBC, that you can use to build the toolchain and program myStorm over USB.</p>
+
+            <p><strong>Note: Please aim to arrive by 08:45 as the workshop will start at 09:00 prompt.</strong></p>
+
+date:        1 December 2016
+dtstart:     2016-12-01T09:00:00Z
+dtend:       2016-12-01T17:00:00Z
+start:       09:00
+end:         17:00
+pubdate:     Fri, 28 October 2016 10:00:00 GMT
+updated:     2016-11-01T10:00:00Z
+location:    Prince Philip Room
+isoduration: P0Y0M0DT08H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2302/
+upcoming:     
+lanyrd:     
+
+tags:
+    - myStorm
+    - iceStorm 
+    - Yosys
+    - Arachne
+    - FPGA
+    - DigitalDesign
+    - OpenSource
+    - OSHW
+    - FOSS

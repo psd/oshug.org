@@ -1,0 +1,57 @@
+---
+number:     52
+title:       The Future of Open Source (chip design for the masses, musical instruments, algorithms as pictures, open source research)
+description: |
+             <p>The fifty-second meeting will feature talks from the BCS OSSG Open Source Project Contest winners, followed by a talk from the designers of MyStorm, an ultra-low cost FPGA board, and a talk on open source research.</p>
+
+sessions: |
+            <h3>The Light Theremin Project</h3>
+            <p id="LightTheremin">This talk will look at what the The Light Theremin Project is, and how it has evolved from perfboard to PCB.</p>
+            <p id="ChelseaBack" class="vcard"><a class="fn url" title="Chelsea Back - Twitter" href="https://twitter.com/ChelseaMSBack">Chelsea Back</a> is a trainee electronics engineer at open source and technical communities consultancy, AB Open. She is currently studying towards a HND in Electrical and Electronic engineering and recently became a STEM Ambassador.</p>
+
+            <h3>The Next Generation of Open Source Engineers</h3>
+            <p id="NextGeneration">Dan will talk about the Open Source technology that helps children from 4 years upwards get involved with electronics and computing. He’ll talk about “chiphack for teens”, his design of an FPGA processor, which he presented at CERN and his most recent project, an Open Source 64-core supercomputer built from Pine64 boards for research into energy efficient computing.</p>
+            <p id="DanGorringe" class="vcard"><u>Dan Gorringe</u> is an A Level student at Brockenhurst College. During each summer since 2014 Dan has worked at Embecosm: creating a teenager's guide to Verilog, a processor implementation and a 64 core cluster computer made from small board computers. As part of his Duke of Edinburgh silver award he is leading a team of fellow participants in running DIY computer bulding workshops for teenagers. Next year he is hoping to attend university to study engineering mathematics.</p>
+
+            <h3>The use of Open Source projects to scaffold the development of new programmers</h3>
+            <p id="NewProgrammers">The talk will briefly explain what his project comprised of and how he used existing Open Source software to construct the algorithm visualiser. He will then explain how his programming skills were developed through the close examination and modification of these Open Source softwares. The presentation will stress the benefits of being able to study and adapt professionally written code, allowing students to adopt styling conventions and develop an understanding of how complicated software functions.</p>
+            <p id="LukeRoberts" class="vcard"><u>Luke Roberts</u></a> is currently a second year computer science student at the University of Leeds. Luke's objective is to use the skills developed during his degree course to pursue a career as a software engineer.</p>
+
+            <h3>The myStorm Project</h3>
+            <p id="myStorm">In May 2016 after Alan Wood's FPGA presentation at OSHUG #49, he and Ken Boak joined forces to build an Open Source hardware FPGA development platform to compliment Clifford Wolf's IceStorm open source toolchain. In order to make it generally accessible they set an ambitious retail price target of $30 per board, and so was born project ‘myStorm’.</p>
+            <p>This is the story of how project myStorm happened, why it was conceived and what it's aims and purpose are. This journey will also highlight why we need FPGA's, why toolchains should be open source and what kind of things become possible with the right combination of hardware and tools. It will also touch on popular memes: ‘Yosys is GCC for hardware’ and ‘Hardware is eating software’.</p>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/Monsonite">Ken Boak</a> started his professional career at BBC Research Department in 1986 working on digital signal processing systems for HDTV and subsequently over 30 years, a mix of 10 other technology companies, both UK and US based, in the fields of instrumentation, automation, telemetry telecomms.</p>
+            <p>Ken has been interested in energy monitoring since the early 1990s, when he constructed a 4 seater electric car, and provided rudimentary energy analysis of the battery charge and discharge cycles. In 1998 he joined a South London company and designed a low power wireless, monitor device for automatic, remote gas and electricity meter reading.</p>
+            <p>In 2009 Ken worked on the Onzo Energy Monitoring Kit, a commercial device that was ultimately distributed to Southern Electric customers. Then in 2010 he produced a series of educational devices to teach engineering undergraduates the principles of photovoltaic energy systems.</p>
+            <p>Ken has continued his interests in energy monitoring, working collaboratively with Megni on the OpenEnergyMonitor project, the open Inverter Project and also for All Power Labs in Berkeley, California, where he was involved in power monitoring of wood gasifier generator sets. He tries to live a low impact lifestyle in a modest Edwardian house in Surrey, with a little help from modern electronics.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded applications using Motes on FPGA and emerging Asics. He is a long term advocate and moderator (aka Folknology) for <a href="http://www.xcore.com/" title="xCORE community">xCORE</a> and other opensource communities, as well as a founder of <a href="http://www.sh-hackspace.org.uk/" title="Surrey and Hampshire Makerspace website">Surrey and Hampshire Makerspace</a>.</p>
+            <h3>Open Source Research</h3>
+            <p id="OpenResearch">Nick Pelling is programmer by day. By night he conducts open source research on his <a href="http://ciphermysteries.com/">blog</a>. He uses the blog to summarize what he finds, to post transcriptions and translations of sources, and to actively invite comments and corrections from readers (the blog has just passed 2 million hits and 19,000 comments).</p>
+            <p>Nick recently launch a <a href="https://www.kickstarter.com/projects/nickpelling/gold-beyond-your-dreams">KickStarter project to fund a documentary about is open source research into pirate treasure on Mauritius</a>. In this lightning talk he'll introduce the concept of open source research and how it drives his KickStarter project.</p>
+            <p id="NickPelling" class="vcard"><a class="fn url" title="Nick Pelling - Twitter" href="https://twitter.com/nickpelling">Nick Pelling</a> is a British-born computer programmer and inventor, best known for a series of 1980s video games for the BBC Micro and Commodore 64 programmed under the pen name Orlando M. Pilchard or simply Orlando, and released under the company title Aardvark Software.</p>
+            <p>Nick has a degree in Maths and Philosophy from Manchester University and an MBA with Distinction from Kingston University.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        20 October 2016
+dtstart:     2016-10-20T18:00:00Z
+dtend:       2016-10-20T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Mon, 10 October 2016 10:00:00 GMT
+updated:     2016-10-10T10:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: http://www.bcs.org/content/conEvent/10589
+upcoming:     
+lanyrd:     
+
+tags:
+    - theremin
+    - chips
+    - research
+    - software
+    - OpenSource
+    - OSHW
+    - FOSS
