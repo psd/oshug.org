@@ -24,6 +24,10 @@ sessions: |
             <p>This lightning talk will introduce pkgsrc and how you can get started quickly with icestorm and other tools to help with your hardware project.</p>
             <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
 
+            <h3>Multicore Made Simple - Conducting a Chorus of Cores on an FPGA</h3>
+            <p id="MulticoreMadeSimple">FPGA technology makes it simple to build a multicore CPU, by instantiating multiple copies of a soft processor design on a single chip. The challenge is to connect and coordinate the cores into a resource which is useful for application programming. While traditional multicore processors include shared memory, shared buses and/or general communications networks, all of these are costly in hardware resources and complexity, and subtle details of synchronization and cache coherency can make programming difficult and risky.  Building our own system on an FPGA, we can choose a minimalist “shared nothing” architecture, with only local memories and simple synchronous point to point communications links in a topology tailored to the application.  As an example of this approach, I’ll demonstrate a 40 voice (plus conductor) polyphonic digital audio synthesizer, running on an array of 41 Nios2 cores on an Altera Cyclone II.</p>
+            <p id="DrRichardMiller" class="vcard"><u>Dr Richard Miller</u> has had a long career in the borderlands between hardware and software, in academia and industry and now as an independent consultant. Particular interests have been operating systems portability (starting in 1977 with the world’s first UNIX port, from PDP/11 to Interdata 7/32 at the University of Wollongong in 1977; and most recently porting the Plan 9 OS to the Raspberry Pi); programming language implementations in constrained environments (e.g. a LOGO interpreter on a 48KB Apple II; and a JavaCard JVM and runtime library on a smartcard with a 8KB of RAM and 1MB of flash); parallel computing infrastructure (on hardware ranging from Transputers to the Cray T3D); and embedded systems firmware (e.g. a complete Bluetooth stack for a range of prototype phones and tablets).  Current work in progress includes building a communications network on an FPGA, for a microcluster of Raspberry Pi Zeroes.</p>
+
             <h3>Chip Hack 2017 & EDSAC Challenge</h3>
             <p id="chiphackedsac">This talk will introduce and issue a call for participation for two events that are being hosted as part of the <a href="http://wutheringbytes.com/">Wuthering Bytes</a> technology festival, that will take place in Hebden Bridge in September, in the week following Open Source Hardware Camp 2017.</p>
             <p><a href="ihttp://chiphack.org/">Chip Hack</a> is a two day hands-on workshop that provides a gentle introduction to programming FPGAs and is aimed at novices with no prior experience of Hardware Description Languages (HDLs) or FPGAs. This will be followed immediately by a challenge event, during which a small team of experts will work to extend a basic functional FPGA model of EDSAC — the pioneering computer designed and constructed at Cambridge University, and which was operational by 1949.</p>
@@ -37,7 +41,7 @@ dtend:       2016-12-01T20:00:00Z
 start:       18:00
 end:         20:00
 pubdate:     Thu, 19 January 2017 09:00:00 GMT
-updated:     2017-02-01T12:00:00Z
+updated:     2017-02-05T09:00:00Z
 location:    BCS London
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
@@ -58,3 +62,6 @@ tags:
     - chiphack
     - EDSAC
     - WutheringBytes
+    - synthesizer
+    - pkgsrc
+    - NiosII
