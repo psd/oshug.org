@@ -1,0 +1,58 @@
+---
+number:     56
+title:       An introduction to software-defined radio with LimeSDR
+description: |
+             <p>A Software-Defined Radio (SDR) is a highly reconfigurable radio that can be used for many different radio applications through simply changing the software that links with it. An example of such a reconfigurable radio is the <a href="https://myriadrf.org/projects/limesdr/">LimeSDR</a>, which can both transmit and receive data and voice, using just about any wireless system.</p>
+             <p>The LimeSDR was launched by <a href="http://www.limemicro.com/">Lime Microsystems</a> in May 2016 via a <a href="https://www.crowdsupply.com/lime-micro/limesdr">crowdfunding campaign</a>, and is now shipping to over 3,500 customers worldwide. It is based on the Lime Microsystems <a href="http://www.limemicro.com/products/field-programmable-rf-ics-lms7002m/">LMS7002M</a> Field Programmable RF (FPRF) 2x2 MIMO transceiver, which continuously covers frequencies from 100kHz to 3.8GHz. The LMS7002M has been successfully used in a wide range of digital radio applications, including 2G/4G Femtocell base stations, GNSS, DAB, DVBT receivers and RF test and measurement equipment. The LimeSDR also includes an FPGA and USB 3.0 to provide host connectivity.</p>
+
+sessions: |
+            <h3>Workshop scope</h3>
+            <p id="workshopscope">The heart of the day is to provide a practical ‘hands-on’ afternoon session using the LimeSDR with the <a href="https://myriadrf.org/projects/lime-suite/">Lime Suite</a> GUI and FFT Viewer. Then to use <a href="https://www.gnu.org/software/octave/">GNU Octave</a> and <a href="http://www.pothosware.com/">Pothos</a> to make some very simple digital radio examples.</p>
+            <p>To facilitate this, the morning will include introductory talks explaining the purpose of the various analogue and digital blocks included in the LMS7002M. It will also include tutorial material covering the key concepts required to understand modern digital radio transceivers, and how to use them, as well as practical issues associated with radio reception.</p>
+            <p>In addition the day will feature some advanced demonstrations showing the full capabilities of the LimeSDR and its LMS7002M transceiver, including 4G Femtocell, as well as educational examples such as a simple OFDM transceiver data link.</p>
+
+            <h3>Participant requirements</h3>
+            <p id="participantrequirements"><strong>** Participants are required to bring a laptop computer with USB 3.0 **</strong></p>
+            <p>Minimum computer hardware requirements are USB 3.0 capability and 2GB RAM.</p>
+            <p>Although no prior knowledge of radio is required, an awareness of basic terminology will be very helpful. Basic computer programming and administration skills will also be helpful.</p>
+            <p><strong>The software that will be used must be installed prior to the event.</strong> For details see:</p>
+            <p><a href="http://www.pothosware.com/">https://wiki.myriadrf.org/LimeSDR_Workshop</a></p>
+
+            <h3>What is provided</h3>
+            <p id="whatisprovided"><ul><li>LimeSDR hardware will be provided for use during the workshop</li>
+            <li>A light lunch will be provided and please ensure that any dietary requirements are made clear during registration</li></ul></p>
+
+            <h3>Hosted by</h3>
+            <p id="hosts">The workshop will be led by Dr. Danny Webster, who has over 25 years of experience in the field of RF design covering varied applications from military radio to cellular infrastructure. Danny Graduated from Swansea University in 1988 and was awarded a PhD from University College London in 1995. From 1995 he worked as a Research Fellow at University College London and was a  consultant to companies such as Nokia, Roke Manor Research and Agilent in Santa Rosa. From 2001 he was with Hipertech and joined Lime Micro in 2005 as Principle Design Engineer (RF) working on Field programmable RF ICs. Danny is a senior member of the IEEE.</p>
+            <p><em>This workshop is free to attend and hosted by <a href="http://limemicro.com/">Lime Microsystems</a> in partnership with the <a href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a> and the Open Source Hardware User Group.</em></p>
+
+
+            <p><strong>Note: Please aim to arrive by 08:45 as the workshop will start at 09:00 prompt.</strong></p>
+
+date:        24 March 2017
+dtstart:     2016-03-24T09:00:00Z
+dtend:       2016-03-24T17:00:00Z
+start:       09:00
+end:         17:00
+pubdate:     Sun, 12 February 2017 20:45:00 GMT
+updated:     2017-02-12T20:45:00Z
+location:    BCS London
+isoduration: P0Y0M0DT08H00M00S
+generator:   vi
+registration: https://events.bcs.org/book/2451/
+upcoming:
+lanyrd:
+
+tags:
+    - SDR
+    - softwaredefinedradio
+    - LimeSDR
+    - LMS7002M
+    - radio
+    - wireless
+    - DSP
+    - communications
+    - Octave
+    - Pothos
+    - OSHW
+    - FOSS
