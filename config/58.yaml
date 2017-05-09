@@ -1,0 +1,62 @@
+---
+number:     58
+title:       Getting started with NetBSD on embedded platforms Pt. 2
+description: |
+             <p>
+
+sessions: |
+            <h3>Workshop scope</h3>
+            <p id="workshopscope">Following on from the <a href="/event/57">previous workshop</a>, we will be continuing with the theme of NetBSD on embedded platforms. This time covering GPIO access with lua and rapid development with Rump kernel, which we did not get to in the previous workshop due to the lack of time.</p>
+            <p>If you did not get to attend the previous workshop, not to worry, <a href="/pipermail/oshug/2017-April/000608.html">notes are available</a> and assistance will be provided on the day.</p> 
+
+            <h3>Participant requirements</h3>
+            <p id="participantrequirements">You will need to bring:</p>
+            <p><ul><li>Your own laptop (running Windows, Linux or Mac OS X);</li>
+            <li>A Raspberry Pi or BeagleBone Black;</li>
+            <li>An appropriate SD card for your board;</li>
+            <li>USB card reader to write a new OS image onto said SD card;</li>
+            <li>An ethernet cable to connect board to laptop and/or a USB UART/FTDI adapter to access the board via the serial console.</li></ul></p>
+            <h4>Windows 10 users</h4>
+            <p>Install <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">Windows Subsystem for Linux</a>.
+            <h4>Windows 10 / Linux (Debian/Ubuntu) users</h4>
+            <p>Install the following packages:<p>
+            <p><ul><li>build-essential</li>
+            <li>zlib1g-dev</li>
+            <li>flex</li>
+            <li>libc6-dev-i386</li></ul>
+            <h4>Mac OS X users</h4>
+            <p>Install GCC or clang via Xcode  or command line tools.</p>
+            <h4>All</h4>
+            <p>Everyone should fetch the source code for NetBSD:</p>
+            <p>Download all source archives (.tgz files) from <a href="http://nycdn.netbsd.org/pub/NetBSD-daily/HEAD/201704270800Z/source/sets/">http://nycdn.netbsd.org/pub/NetBSD-daily/HEAD/201704270800Z/source/sets/</a> . </p>
+            <p>(It is likely the above URL will become invalid as old builds are purged and new ones are generated. Substitute 201704270800Z with the most recent release available on <a href="http://nycdn.netbsd.org/pub/NetBSD-daily/HEAD">http://nycdn.netbsd.org/pub/NetBSD-daily/HEAD</a>).
+            <p>Extract all fetched source code files. In your terminal, enter:</p>
+            <p>for file in *.tar.gz<br/>do<br/>tar -xzf $file<br/>done</p>
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">discussion list</a>.</p>
+
+            <h3>Hosted by</h3>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+            <p><strong>Note: Please aim from 17:30 onwards for an 18:00 start.</strong></p>
+
+date:        18 May 2017
+dtstart:     2016-05-18T18:00:00Z
+dtend:       2016-05-18T20:00:00Z
+start:       18:00
+end:         20:00
+pubdate:     Tue, 09 May 2017 11:00:00 GMT
+updated:     2017-05-09T12:47:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/2577/
+upcoming:
+lanyrd:
+
+tags:
+    - BSD
+    - NetBSD
+    - embedded
+    - GPIO
+    - RaspberryPi
+    - BeagleBoneBlack
+    - BeagleBone
