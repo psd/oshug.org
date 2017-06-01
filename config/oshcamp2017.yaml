@@ -1,0 +1,138 @@
+---
+number:     oshcamp2017
+li:         59
+title:      Open Source Hardware Camp 2017
+description: |
+            <p>Open Source Hardware Camp 2017 will take place place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>. For the fifth year running it is being hosted as part of the <a href="http://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+            <p>There will be a social event on the Saturday evening from 8PM.</p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>An introduction to RISC-V, a Free and Open RISC Instruction Set Architecture</h4>
+            <p id="RISC-V">An Instruction Set Architecture (ISA) defines the interface between a computer's hardware and software, the valid instructions that the machine may execute. Unlike other ISAs (such as those from ARM, MIPS, Intel, etc.), the RISC-V ISA is provided under an open-source licence, giving anyone the freedom to create a RISC-V implementation.</p>
+            <p>This freedom has enabled a proliferation of RISC-V implementations for a wide range of applications, from small 32-bit embedded cores up to complex 64-bit multicore superscalar designs. As RISC-V is a relatively new ISA, there are many parts of the ecosystem such as compilers, assemblers, simulators, debugging tools, and other supporting infrastructure in rapid concurrent development.</p>
+            <p>This talk gives an overview of the RISC-V ISA, and takes a look at some of the more interesting RISC-V cores. We will take a short look at the present state of the RISC-V software ecosystem, and try to predict where we will see RISC-V implementations used in the future.</p>
+            <p id="GrahamMarkall" class="vcard"><a class="fn url" title="Graham Markall - Twitter" href="https://twitter.com/gmarkall">Dr Graham Markall</a> has a background in languages and compilers for scientific computing, and is well known for his work on the Numba project. He is part of Embecosm’s GNU tool chain team, where his current projects include the implementation of security enhancements to the GCC and LLVM compilers for RISC-V and ARM, and the development a GCC-based toolchain for a customised RISC-V processor.</p>
+
+            <h4>Artificial intelligence and Machine learning for embedded systems</h4>
+            <p id="AI">Artificial Intelligence (AI) and Machine Learning (ML) allow technology to automate what was previously considered unique to human intelligence, we already see this in big data with image classification, speech recognition and sentiment analysis to name just a few applications. How will this effect embedded systems and hardware, what part can open source play in this emerging area by embedding intelligence or intuition into future products.</p>
+            <p>Alan will provide an overview the current state of machine learning and inference techniques used within embedded applications, he will show how open source software and hardware can be used to apply these ML techniques into embedded and robotics and projects.</p>
+            <p>Areas covered will include Artificial Neural Networks (ANN), Recurrent Neural Networks (RNN), Reinforcement Learning (RL) along with differences between training and inference deployments. Alan will also discuss some emergent AI hardware areas such as energy efficient neuromorphic computation and processing which can perhaps commodify AI over the coming decades.</p>
+            <p>With both open source software and hardware we are poised to rapidly advance both education, experimentation and development of machine learning into working embedded automation, there could not be a better time to get into this emerging area of technology.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded automation using FPGA, CSP and Neural Turing Machines. He is a long term advocate of open source communities, a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p> 
+
+            <h4>So you decided to run a workshop</h4>
+            <p>Over the past year many fixes/improvements/bug reports have been made for the NetBSD workshop to run smoothly. This talk covers the changes which go in to a project to insure a workshop goes smoothly on the day, how a workshop evolved, and what was done to prevent the same issues reoccurring.</p>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+
+            <h4>An Introduction to Open Source for Film production : From Sensor to Post</h4>
+            <p>This discussion will be based on the future of Open Source and its relationship wth Film  & TV Production. New colour developments through ACES (Academy Color Encoding System) and new approaches by vendors such as Blackmagic and, of course, Blender, we are seeing a wider adoption of Open Source.</p>
+            <p>We will discuss ACES and Apertusº Axiom OS camera and see where the future may lie regarding OS and Film Production.</p>
+            <p id="DanielMulligan" class="vcard"><a class="fn url" title="Daniel Mulligan - Twitter" href="https://twitter.com/cinema_open">Daniel Mulligan</a> started in cameras (assisting and focus pulling), before then graduating up the ranks to Camera Operating for F1, BBC Dramas then 2nd Unit Cinematography for Feature Theatrical Productions.</p>
+            <p>Daniel also started and privately ran a rental house supplying digital cameras, plus an onset/location company providing location post and digital camera workflows. This culminated just recently with a 2-3 year stint at Technicolor as their locations digital dailies supervisor, looking after projects such as Jupiter Ascending, Mortdecai and The Man from UNCLE.</p>
+            <p>Now running new Companies for Open Source Cinema and an imaging research Company called Cine Imaging Lab, Daniel is also writing new Courses for the University of Portsmouth for both Undergraduate and Masters Degree in Imaging Science and consulting for image workflows for Post Production and VFX Houses.</p>
+            <p>During this time Daniel has seen a few changes and re-iterations of the current digital workflows and it has struck him over time how much we do rely on proprietary systems for most delivery. And perhaps quite rightly so, as the delivery requirements for VFX to DI, to onset LUTs and more need that service.</p>
+
+            <h4>Some micro:bit stories</h4>
+            <p id="microbit">Lawrence recently helped the BBC and a consortium of partner companies produce the micro:bit. He thinks there are some stories worth telling about the instigation and development of the product.</p>
+            <p><ul><li>BBC micro:bit grew from the passion of real people, not publicity departments</li>
+            <li>Asking for a few million pounds is quite fun</li>
+            <li>Shenzhen may be fast, but ShenFen is pretty good too</li>
+            <li>Engineers like the probably-impossible</li>
+            <li>Some cost and design decisions</li>
+            <li>Your support would be much appreciated</li></ul></p>
+            <p id="LawrenceArchard" class="vcard"><a class="fn url" title="Lawrence Archard - Twitter" href="https://twitter.com/dvlngl">Lawrence Archard</a> grew up among heterodyne whistles of an amateur radio rig hand-built by his grandad, who started him off building a two-transistor musical oscillator. That led to him studying Music Technology at Keele University, then Electronics primarily as an excuse to stay there. After a spell designing synthesizers, he had to get a 'proper job' with a consultancy developing high-volume, cost-sensitive products across a range of industries - music, toys, construction, medical, office and kitchen appliances. He became an early proponent of IoT (but not for the fridge ordering milk) and left to work with an informal group of associates in 2000. As DevelAngel, Lawrence acts as interim CTO or project manager for angel and VC-funded startups. For mainstream R&D-for-hire, there is sister entity uPBeat Product Development.</p>
+
+            <h4>Robot Operating System</h4>
+            <p id="ROS">Robot Operating System is 8 years old, and despite the fact that it isn't actually an operating system has become the default platform for robotic research in Universities around the world.</p>
+            <p>I will talk about the recent version of their turtlebot platform that has made the hardware side much more open, and may attempt a live demo. It might even work this time. In addition I will also talk about ROS2, the next version that is currently in development.</p>
+            <p id="NickWeldin" class="vcard"><a class="fn url" title="Nick Weldin - Twitter" href="http://twitter.com/tinkernick">Nick Weldin</a> initiated the first public <a title="Arduino" href="http://arduino.cc">Arduino</a> course in the UK in 2005, because he didn't want to program PIC chips on the accounts computer at work after everyone else had gone home any more, and he couldn't get his boss to send him to the Arduino course that was running in Spain. When <a title="Tinker.it!" href="http://www.tinkerlondon.com">Tinker London</a> started up he joined them and ran courses teaching Arduino wherever anyone was interested. He is co-author of the <a title="Arduino Cookbook" href="http://oreilly.com/catalog/9780596802486">Arduino Cookbook</a> and now works for Middlesex University.</p>
+
+            <h4>BuggyAir for mobile personal pollution exposure monitoring</h4>
+            <p id="BuggyAir">Last year we did a trial of a consortium project called BuggyAir for mobile personal pollution exposure monitoring.  This was based on GSM comms using a smartphone for that and GPS.  This year we have made a second version with LoRaWAN comms and tested this in London. We have also demonstrated an initial version with a choice of the two comms approaches.  We are about to do another trial in Cambridge and our partners are also working on another version of the hardware to make it smaller and lighter without compromising the sensor precision.</p>
+            <p id="PaulTanner" class="vcard"><a class="fn url" title="Paul Tanner - Twitter" href="https://twitter.com/paul_tanner">Paul Tanner</a> is a consultant, developer and maker in wood, metal, plastic, electronics and software. His day job has evolved from IT-based business improvement for SMEs to a specialisation in Internet of Things system development. By night he turns energy nut, creating tools to optimise energy use and for "assistive" applications. Paul graduated in electronics and was responsible for hardware and software product development and customer services in several product and service start-ups, forming his consulting firm Virtual Technologies in 2000.
+
+            <h4>Computer Science from the Ground Up</h4>
+            <p id="CSGroundUp">As computers become increasingly sophisticated, it is difficult for students of computing science and electronic engineering to gain a broad enough understanding of the technology to fully grasp the underlying principles of some modern devices. In his presentation, Ken takes you back to when computers were much simpler, and proposes that with the help of practical learning by doing, and a bottom up approach, there is a better way of teaching the next generation of engineers.</p>
+             <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/monsonite">Ken Boak</a> built his first computer from a kit, aged 17 when he should have been revising for A Levels. Despite mediocre A level grades, Ken got a 1st class degree in electronic engineering in 1986 and went on to work on early experimental HDTV systems at BBC Research Department. In the last 30 years, and 10 subsequent jobs, Ken has encountered much of the fabric of the Digital Revolution - but chosen to ignore 95% of it - and now spends quality time on a narrow boat in Hebden Bridge.</p>
+
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Debugging and Troubleshooting Projects with OpenScope MZ</h4>
+            <p id="OpenScope">Participants learn how to connect a portable multi-function programmable instrumentation module to computer (through WiFi or a USB cable) to acquire, analyze, visualize, and control signals from circuits, sensors, and other electronic devices.</p>
+            <p>Run by: engineers from Digilent</p>
+
+            <h4>An introductory workshop to NetBSD on embedded platforms</h4>
+            <p id="NetBSDEmbedded">An introductory workshop to NetBSD in the context of developing embedded platforms. NetBSD is a fully featured operating system with great agility that has been around for many many years. This workshop is intended to introduce some of the features which are available in the operating system as standard. We'll explore how to go from obtaining the source code to building the operating system, cover features which simplify working with the system, how accessible it is without resorting to installing third party software or writing any C.</p>
+            <p>In this workshop participants will learn how to use the LoRaWAN development shield based on the Microchip RN2483 LoRaWAN module. This comes with a number of basic sensors, while the shield also includes additional Arduino headers so you can add your own sensor shields and devices.</p>
+            <p>Topics we will cover:</p>
+            <p><ol><li>Cross compilation support with build.sh</li>
+            <li>File tamper detection / execution prevention with Veriexec</li>
+            <li>High-level access to subsystems e.g exploring GPIO via Lua</li>
+            <li>Rapid development with Rumpkernel</li></ol></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop (Macos, Linux or Windows (windows 10 specifically))</li>
+            <li>ARM board (Pi or BeagleBoneBlack and such)</li>
+            <li>USB->TTL for serial access</li></ul></p>
+            <p>Run by: <a href="#SevanJaniyan">Sevan Janiyan</a></p>
+
+            <h4>Robot Operating System - a practical intro</h4>
+            <p id="ROSIntro">This will be a practical hands on session getting started with using ROS to get robots to do things. You will learn about what a ROS system is how to ineract with it, and write basic code to work within a ROS system. We will look mostly at mobile robots, and will spend time looking at mapping and autonomous navigation.</p>
+            <p>We will have a few robots and sensors on hand to get practical experience with. You will also learn about using robot simulators with ROS, so that you can carry on experimenting after the workshop even if you don't have access to a robot.</p>
+            <p>You will need to bring a computer to work with. ROS currently runs primarily on Ubuntu. We will have virtual machine images with ROS installed that you can use.</p>
+            <p>No knowledge of ROS is assumed, but some experience using the command line and python would be useful.</p>
+            <p>Run by: <a href="#NickWeldin">Nick Weldin</a></p>
+
+            <h4>Open Source Applications for Feature Film Workflows: Demonstrating an entire 4K/HD workflow from the sensor to dailies and Post Production</h4>
+            <p>We will firstly be demonstrating the Axiom 4K Open Source camera from Apertusº. The camera has a 4K CMV12000 sensor that is entirely Open which allows us the opportunity to create a camera unencumbered by proprietary restrictions.</p>
+            <p>Recording live 1080p30 video and capturing 4K images as RAW snap12 files we can demonstrate how the RAW imaging can be processed and turned into usable 4K images with correct colour applied for Post. We can process then to Log-C encoded imaging for full information for the Grading processes.</p>
+            <p>Next will be a look at the imaging as it is processed digitally. By using a digital Lab system we can then playback the captured images and produce our final desired deliverable.</p>
+            <p>Run by: <a href="#DanielMulligan">Daniel Mulligan</a></p>
+
+            <h4>Artificial Intelligence and Machine Learning</h4>
+            <p>This workshop will take participants through an ML/AI based embedded application, you will need a Raspberry Pi and something to communicate with it (Laptop etc..).This will provide a lightning hands on intro to using embedded AI.</p>
+            <p>Run by: <a href="#AlanWood">Alan Wood</a></p>
+
+            <h4>Assembling the OSHCamp kit</h4>
+            <p id="Soldering">Get help with soldering this year's kit.</h4>
+            <p id="ChelseaBack" class="vcard"><a class="fn url" title="Chelsea Back - Twitter" href="https://twitter.com/ChelseaMSBack">Chelsea Back</a> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, is a student member of the IET and a STEM Ambassador.</p>
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch and refreshments will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+date:        2nd September 2017
+dtstart:     2017-09-02T09:00:00Z
+dtend:       2017-09-03T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Thu, 1 June 2017 13:00:00 BST
+updated:     2017-06-01T13:00:00Z
+location:    The Birchcliffe Centre
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2017.eventbrite.com
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - IoT
+    - AXIOM
+    - OpenSourceCinema
+    - Education
+    - Soldering
+    - robotics
+    - ROS
+    - AI
