@@ -1,0 +1,58 @@
+---
+number:     57
+title:       Getting started with NetBSD on embedded platforms
+description: |
+             <p>
+
+sessions: |
+            <h3>Workshop scope</h3>
+            <p id="workshopscope">You're hired at the latest startup as a hardware engineer and required to build the firmware which will run on "The Greatest Next Generation Appliance" (GNA). The GNA  boots, prints a message and interacts with a device (in this case an LED).</p>
+            <p>In this workshop we cover how a person with an interest and a focus on hardware can make progress with the software side by using the NetBSD operating system and the features it offers to save considerable time and effort.</p>
+            <p><ul><li>NetBSD supports a wide & diverse range of <a href="http://www.netbsd.org/ports/">systems & CPU architectures</a>.</li>
+            <li>Support for cross compilation is offered by default and works out of the box.</li>
+            <li>There is a high level language interface to interact with the system internals.</li>
+            <li>File integrity verification support to detect tampering of binaries and preventing execution is builtin.</li>
+            <li>An instance of the kernel can be run as a user process on different operating systems where rapid development can take place.</li></ul></p>
+            <p>Things we will cover:</p>
+            <p><ol><li>An introduction to cross-compilation with build.sh and constructing an image to boot on your hardware.</li>
+            <li>Interacting with the system using Lua (which is embedded in the kernel, avoiding having to write C or have knowledge of OS internals) to e.g. access GPIO.</li>
+            <li>Preventing the execution of tampered or unauthorised binaries with veriexec.</li>
+            <li>Using rump kernel for rapid development away from a potentially slow dev board.</li></ol></p>
+            <p><em>Note: Due to budgeting cuts, "The Greatest Next Generation Appliance" has not yet been purchased, so, the workshop will target the development of the firmware on a Raspberry Pi or BeagleBone Black.</em></p>
+            
+
+            <h3>Participant requirements</h3>
+            <p id="participantrequirements">You will need to bring:</p>
+            <p><ul><li>Your own laptop (running Windows, Linux or Mac OS X);</li>
+            <li>A Raspberry Pi or BeagleBone Black;</li>
+            <li>An appropriate SD card for your board;</li>
+            <li>USB card reader to write a new OS image onto said SD card;</li>
+            <li>An ethernet cable to connect board to laptop and/or a USB UART/FTDI adapter to access the board via the serial console.</li></ul></p>
+            <p>Any questions shuold be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">discussion list</a>.</p>
+
+            <h3>Hosted by</h3>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+            <p><strong>Note: Please aim to arrive by 17:15 as the workshop will start at 17:30 prompt.</strong></p>
+
+date:        20 April 2017
+dtstart:     2016-04-20T17:30:00Z
+dtend:       2016-04-20T20:00:00Z
+start:       17:30
+end:         20:00
+pubdate:     Wed, 15 March 2017 11:00:00 GMT
+updated:     2017-03-15T11:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://events.bcs.org/book/2502/
+upcoming:
+lanyrd:
+
+tags:
+    - BSD
+    - NetBSD
+    - embedded
+    - GPIO
+    - RaspberryPi
+    - BeagleBoneBlack
+    - BeagleBone

@@ -60,15 +60,23 @@ sessions: |
             <p id="CSGroundUp">As computers become increasingly sophisticated, it is difficult for students of computing science and electronic engineering to gain a broad enough understanding of the technology to fully grasp the underlying principles of some modern devices. In his presentation, Ken takes you back to when computers were much simpler, and proposes that with the help of practical learning by doing, and a bottom up approach, there is a better way of teaching the next generation of engineers.</p>
              <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/monsonite">Ken Boak</a> built his first computer from a kit, aged 17 when he should have been revising for A Levels. Despite mediocre A level grades, Ken got a 1st class degree in electronic engineering in 1986 and went on to work on early experimental HDTV systems at BBC Research Department. In the last 30 years, and 10 subsequent jobs, Ken has encountered much of the fabric of the Digital Revolution - but chosen to ignore 95% of it - and now spends quality time on a narrow boat in Hebden Bridge.</p>
 
+            <h4>From project to kit</h4>
+            <p id="projectkit">A talk outlining the process of turning a personal electronic project into a successful kit business.</p>
+            <p>We've all wondered whether we could sell our own electronic designs, but have been scared away by the complexity of turning them into products, finding customers, and shipping them out. This talk will look at the process based on personal experience of building a small electronic kit business, from initial idea through prototyping, kit assembly, selling, and after-sales.</p>
+            <p id="JennyList" class="vcard"><a class="fn url" title="Jenny List - Twitter" href="https://twitter.com/Jenny_Alto">Jenny List</a> is an electronic engineer and technical writer who spent a long career in electronic publishing from CD-ROMs to dictionaries before breaking out and forming her own hardware business, and writing about hardware as a contributing editor for Hackaday.com.</p>
+
+            <h4>Open Source Instrumentation with the Digilent OpenScope MZ</h4>
+            <p id="OpenScopeMZTalk">Instrumentation has traditionally been expensive, bulky and difficult to use for most electronics hobbyists. Digilent has spent the past ten years trying to change the landscape. Meet the latest addition to the Digilent instrumentation portfolio, the OpenScope MZ.  Join us in answering these questions: How is Digilent making affordable instrumentation a reality for everyone? Why the Open Source movement is needed to make affordable instrumentation a reality?</p>
+            <p id="IoanCatuna" class="vcard"><u>Ioan Catuna</u> is an experienced engineer at Digilent and previously worked for the parent Company, National Instruments. He has a master degree in Integrated Circuit and Systems and passionate about doing embedded development and instrumentation design.</p>
+
             <h3 id="workshops">Sunday :: Workshops</h3>
             
-            <h4>Debugging and Troubleshooting Projects with OpenScope MZ</h4>
-            <p id="OpenScope">Participants learn how to connect a portable multi-function programmable instrumentation module to computer (through WiFi or a USB cable) to acquire, analyze, visualize, and control signals from circuits, sensors, and other electronic devices.</p>
-            <p>Run by: engineers from Digilent</p>
+            <h4>Debug Electronics with Instrumentation- Digilent OpenScope MZ and Waveforms Live</h4>
+            <p id="OpenScopeMZWorkshop">Hands on, Instrumentation workshop featuring the latest all-in-one portable tool solution from Digilent: OpenScope MZ and Waveforms Live. Participants will learn about when and how to use an Oscilloscope, Waveform Generator, Network Analyzer, Power Supply, Logic Analyzer and Data Logger. Lab experiments will range from analog electronics to debugging an embedded project.</p>
+            <p>Run by: <a href="#IoanCatuna">Ioan Catuna</a></p>
 
             <h4>An introductory workshop to NetBSD on embedded platforms</h4>
             <p id="NetBSDEmbedded">An introductory workshop to NetBSD in the context of developing embedded platforms. NetBSD is a fully featured operating system with great agility that has been around for many many years. This workshop is intended to introduce some of the features which are available in the operating system as standard. We'll explore how to go from obtaining the source code to building the operating system, cover features which simplify working with the system, how accessible it is without resorting to installing third party software or writing any C.</p>
-            <p>In this workshop participants will learn how to use the LoRaWAN development shield based on the Microchip RN2483 LoRaWAN module. This comes with a number of basic sensors, while the shield also includes additional Arduino headers so you can add your own sensor shields and devices.</p>
             <p>Topics we will cover:</p>
             <p><ol><li>Cross compilation support with build.sh</li>
             <li>File tamper detection / execution prevention with Veriexec</li>
@@ -108,13 +116,22 @@ sessions: |
               <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
              </ul></p>
 
+              <div id="support">
+                <p><strong><i>With thanks to sponsors:</i></strong></p>
+                <p><ul>
+                   <li><a id="garnerosborne" title="Garner Osborne - Specialists in Printed Circuit Board Technology" href="http://www.garnerosborne.co.uk/">Garner Osborne</a></li>
+                   <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+                </ul></p>
+              </div>
+
+
 date:        2nd September 2017
 dtstart:     2017-09-02T09:00:00Z
 dtend:       2017-09-03T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Thu, 1 June 2017 13:00:00 BST
-updated:     2017-06-01T13:00:00Z
+updated:     2017-06-20T18:00:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -136,3 +153,6 @@ tags:
     - robotics
     - ROS
     - AI
+    - projects
+    - OpenScope
+    - Digilent
