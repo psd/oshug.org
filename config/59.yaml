@@ -1,0 +1,38 @@
+---
+number:     59
+title:       OSSG July Meeting
+description: |
+             <p>
+
+sessions: |
+            <h3>July Meeting</h3>
+
+	    <p id="julymeeting">BCS Open Source SG returns this month, after a brief hiatus for an
+	    evening of talks on the topics of trust and provenance in Open Data
+	    at GDS, adding security to compilers (LADA project and SECURE
+	    project), extending a RISC ISA to add capability enhancements for
+	    improved security (CHERI project).</p>
+
+date:        27 July 2017
+dtstart:     2017-07-18T18:00:00Z
+dtend:       2017-07-18T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Tue, 18 July 2017 11:00:00 GMT
+updated:     2017-07-27T12:47:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   nvi
+registration: https://events.bcs.org/book/2645/
+upcoming:
+lanyrd:
+
+tags:
+    - MIPS
+    - RISC
+    - ISA
+    - Security
+    - Toolchain
+    - Compiler
+    - Data
+    - Open Data
