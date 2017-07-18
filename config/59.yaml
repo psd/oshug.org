@@ -1,0 +1,90 @@
+---
+number:     59
+title:       OSSG July Meeting
+description: |
+	    <p id="julymeeting">BCS Open Source SG returns this month, after a
+brief hiatus for an evening of talks on the topics of trust and provenance in
+Open Data at GDS, adding security to compilers (LADA project and SECURE
+project), extending a RISC ISA to add capability enhancements for improved
+security (CHERI project).</p>
+
+sessions: |
+	    <h3>Trust and provenance in Open Data</h3>
+	    <p id="opendata">T.B.A</p>
+
+	    <h3>Adding security to compilers</h3>
+	    <p id="compilersecurity">Information leakage via side channels is a
+widely recognised threat to cyber security.  In particular small devices are
+known to leak information through physical channels, i.e. power consumption,
+electromagnetic radiation, and timing behaviour.  Serveral implementation
+techniques and countermeasures are arising nowadays against this kind of
+threaths, but still only fully equipped testing labs with skilled people can
+afford to test new implementations against leakage attacks.  We will focus on
+the information leakage due to timing behaviour and the possibility of
+'cache-based' timing attacks.  Then we will discuss about my work in the
+context of two projects (LADA project and SECURE project) which aim at bringing
+the skill of a testing lab to the desk of a developer of standard consumer
+devices, without the need for domain specific knowledge through the development
+of open source compilers.</p>
+	    <p id="Paolo Savini" class="vcard"><a class="fn url" title="Paolo
+Savini - Work" href="http://www.embecosm.com">Paolo Savini"</a> is an Intern
+Compiler Engineer at Embecosm Ltd working on the SECURE Project, where he is
+helping to bring the next generation of secure programming techniques to open
+source compilers.  Prior to joining Embecosm he cooperated with the LADA
+project at the University of Bristol in order to explore the possility of
+creating compiler tools to help improve implementation of cryptography.  Paolo
+is currently graduating at the University of Pavia (Italy), where he achieved a
+Bachelor degree in Electronic and Computer Engineering.</p>
+
+	    <h3>The CHERI CPU: Hardware-software co-design for security</h3>
+	    <p id="cheri">This talk will introduce the CHERI CPU and associated
+C/C++ compiler stack.  Various design decisions in the project were made based
+on the needs of programming languages to support real-world code and the
+requirements of hardware implementation.  The C specification is intentionally
+vague and it would be very easy to create a conforming implementation of the
+language if this were the only requirement, but a C environment is only as good
+as the code that it runs.  In the CHERI project, we have investigated a number
+of common C idioms and ensured that these can be supported by our hardware,
+while simultaneously allowing fine-grained memory safety and coarser-grained
+compartmentalisation of C programs.</p>
+	    <p id="David Chisnall" class="vcard"><a class="fn url" title="David
+Chisnall - Computer Lab Home Page" href="http://www.cl.cam.ac.uk/~dc552/">David
+Chisnall</a> is a Senior Research Associate at the University of Cambridge.
+His primary research interest is
+safe interoperability between programming languages.  Most recently, he has
+been working on this in the context of the CHERI project, creating an
+implementation of the C programming language that can be used safely in the
+same process as languages with stricter safety guarantees.  He presented a case
+study of this, allowing Java and C code to coexist in the same process without
+violating any of the JVM's safety and security guarantees at ASPLOS earlier
+this year.  David is an active open source contributor, having been an LLVM
+committer since 2008, a member of the FreeBSD Core Team for two successive
+terms, and the author / maintainer of widely deployed Objective-C and C++
+runtime libraries.</p>
+
+	    <p><strong>Note: Please aim to arrive by 18:15 as the event will
+start at 18:30 prompt.</strong></p>
+
+date:        27 July 2017
+dtstart:     2017-07-18T18:00:00Z
+dtend:       2017-07-18T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Tue, 18 July 2017 11:00:00 GMT
+updated:     2017-07-27T12:47:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   nvi
+registration: https://events.bcs.org/book/2645/
+upcoming:
+lanyrd:
+
+tags:
+    - MIPS
+    - RISC
+    - ISA
+    - Security
+    - Toolchain
+    - Compiler
+    - Data
+    - Open Data
