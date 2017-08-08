@@ -73,6 +73,8 @@ sessions: |
             
             <h4>Debug Electronics with Instrumentation- Digilent OpenScope MZ and Waveforms Live</h4>
             <p id="OpenScopeMZWorkshop">Hands on, Instrumentation workshop featuring the latest all-in-one portable tool solution from Digilent: OpenScope MZ and Waveforms Live. Participants will learn about when and how to use an Oscilloscope, Waveform Generator, Network Analyzer, Power Supply, Logic Analyzer and Data Logger. Lab experiments will range from analog electronics to debugging an embedded project.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li></ul></p>
             <p>Run by: <a href="#IoanCatuna">Ioan Catuna</a></p>
 
             <h4>An introductory workshop to NetBSD on embedded platforms</h4>
@@ -121,6 +123,7 @@ sessions: |
                 <p><ul>
                    <li><a id="garnerosborne" title="Garner Osborne - Specialists in Printed Circuit Board Technology" href="http://www.garnerosborne.co.uk/">Garner Osborne</a></li>
                    <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+                   <li><a id="boldport" title="Boldport - Electronic Craftmanship" href="https://www.boldport.com/">Boldport</a></li>
                 </ul></p>
               </div>
 
@@ -131,7 +134,7 @@ dtend:       2017-09-03T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Thu, 1 June 2017 13:00:00 BST
-updated:     2017-06-20T18:00:00Z
+updated:     2017-08-08T11:00:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi

@@ -141,6 +141,10 @@ img.logo {
 	background-image: url('/images/sup_garnerosborne.jpg');
 }
 
+#support ul li a#boldport {
+	background-image: url('/images/sup_boldport.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }
