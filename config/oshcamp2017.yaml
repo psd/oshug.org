@@ -69,6 +69,18 @@ sessions: |
             <p id="OpenScopeMZTalk">Instrumentation has traditionally been expensive, bulky and difficult to use for most electronics hobbyists. Digilent has spent the past ten years trying to change the landscape. Meet the latest addition to the Digilent instrumentation portfolio, the OpenScope MZ.  Join us in answering these questions: How is Digilent making affordable instrumentation a reality for everyone? Why the Open Source movement is needed to make affordable instrumentation a reality?</p>
             <p id="IoanCatuna" class="vcard"><u>Ioan Catuna</u> is an experienced engineer at Digilent and previously worked for the parent Company, National Instruments. He has a master degree in Integrated Circuit and Systems and passionate about doing embedded development and instrumentation design.</p>
 
+            <h4>Conservatory and Garden Automation</h4>
+            <p id="ConservatoryGarden">Rod will talk about his recent conservatory project where he grows exotic plants, and how he has used Arduino to automate the heating, cooling & ventilation, humidification and irrigation, and how a Windows PC is used as the user interface to provide monitoring, set-point adjustment, calibration and data logging. The brief introduction explains how he came to choose Arduino as his preferred microcontroller, while a background picture show takes you through the construction and planting phases of the conservatory. He then goes on to talk about:</p>
+            <p><ul><li>Heating</li>
+            <li>Humidification</li>
+            <li>Cooling and ventilation by pneumatic control of the windows</li>
+            <li>Irrigation</li>
+            <li>Choice of all hardware, actuators, solenoid valves, relay boards, power supplies etc.</li>
+            <li>Choice of sensors for temperature, humidity and water flow</li>
+            <li>EMI testing, analogue R.C filtering and digital filtering of the analogue inputs from the sensors</li>
+            <li>The design of a capacitance probe for measuring both pond water level and soil moisture level</li></ul></p>
+            <p id="RodMoody"><u>Rod Moody</u> worked as an electrical engineer in the manufacturing industry primarily building diesel-engine driven electrical generators ranging from a few kW to a few MW for both base load and standby applications. At 15 years of age he started an electrical engineering apprenticeship and through day release and night class gained an HNC in electrical engineering. At the age of 19 he was the companies test department manager, this soon led to many trips around the world to provide commissioning, trouble shooting and training. In his mid-twenties he moved into R&D and designed many control systems using relay logic. As technology advanced, and as a self-taught electronics engineer, he designed complex control systems using CMOS logic. In his thirties he was promoted to the companie’s engineering director. He retired at the age of 60, some 17 years ago.</p>
+
             <h3 id="workshops">Sunday :: Workshops</h3>
             
             <h4>Debug Electronics with Instrumentation- Digilent OpenScope MZ and Waveforms Live</h4>
@@ -109,7 +121,8 @@ sessions: |
 
             <h4>Assembling the OSHCamp kit</h4>
             <p id="Soldering">Get help with soldering this year's kit.</h4>
-            <p id="ChelseaBack" class="vcard"><a class="fn url" title="Chelsea Back - Twitter" href="https://twitter.com/ChelseaMSBack">Chelsea Back</a> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, is a student member of the IET and a STEM Ambassador.</p>
+            <p id="GarethHalfacree" class="vcard"><a class="fn url" title="Gareth Halfacree - Twitter" href="https://twitter.com/ghalfacree">Gareth Halfacree</a> is a <a href="http://freelance.halfacree.co.uk/">freelance technology journalist</a> and the co-author of the Raspberry Pi User Guide, alongside project co-founder Eben Upton. He also writes the maker-centric Hobby Tech column for Custom PC Magazine, as well as numerous features in magazines including PC Pro, Linux User & Developer, Micro Mart, Computeractive and others.</p>
+            <p>Formerly a system administrator working in the education sector, Gareth's passion for open source projects has followed him from one career to another and he can often be seen reviewing, documenting or even contributing to projects including GNU/Linux, LibreOffice, Fritzing and Arduino. He is also the creator of the Sleepduino and Burnduino open hardware projects and numerous small software tools, all released under permissive licences.</p>
 
             <p><strong>NOTE:</strong>
              </ul>
@@ -134,7 +147,7 @@ dtend:       2017-09-03T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Thu, 1 June 2017 13:00:00 BST
-updated:     2017-08-08T11:00:00Z
+updated:     2017-08-21T14:00:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
