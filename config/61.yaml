@@ -1,0 +1,59 @@
+---
+number:     61
+title:      BCS Open Source SG - AGM, Reimagining EDSAC, Updates to NetBSD, Interplay Between Semantic and Change Coupling of Software Classes
+description: |
+            <p>After a brief hiatus we return this month for an evening of talks on the topics of trust and provenance in Open Data at GDS, adding security to compilers (LADA project and SECURE project), extending a RISC ISA to add capability enhancements for improved security (CHERI project).</p>
+
+sessions: |
+            <h3>BCS Open Source SG - AGM</h3>
+            <p id="agm">All members of OSHUG are welcome to attend and OSHUG members are encouraged to put themselves forward to join the committee. In particular we would welcome anyone to join the event organizers who arrange the speakers for each month and the occasional all-day workshops. Currently we have Sevan Janiyan, @ndy Bennett and Andrew Back as event organizers on the committee.</p>
+
+            <h3>Updates to the NetBSD operating system since OSHUG #57 &amp; #58</h3>
+            <p id="netbsd">Since the workshops held earlier this year, numerous changes have been made to the NetBSD operating system to ensure future workshops are easier for users and work smoother from the outset. This talk will cover some of the improvements made so far and what's currently in the works. From wrestling with the u-boot firmware to new tools included in the os and much more.</p>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+
+            <h3>Reimagining EDSAC: The ChipHack experience</h3>
+
+            <p id="chiphackedsac">ChipHack is an occasional 2 day workshop introducing students and hobbyists to FPGA design. This year, ChipHack was sponsored by the BCS OSSG and Computer Conservation Society. To celebrate the 60th anniversary of the BCS, the workshop was extended by half a day and attempted to reimagine one of the earliest valve computers, EDSAC, designed by the BCS' founding president, Prof Sir Maurice Wilkes.</p>
+            <p id="Merry Bennett" class="vcard"><a class="fn" title="Merry Bennett">Merry Bennett</a> led the team putting together the technical content of the workshop. She will report back on what was achieved, from the three implementations of the computer, to the diverse reimagining of the original peripherals. The result is a legacy of lectures and videos, to allow anyone to run their own ChipHack course.</p>
+
+            <h3>The Interplay between Semantic Coupling and Co-Change of software classes</h3>
+            <p id="softwareclasses">During maintenance, developers must ensure that related entities are updated to be consistent with these changes. Studies in the static change impact analysis domain have identified that a combination of source code and lexical information outperforms using each one when adopted independently. The presentation has two aims: first, to compare the effectiveness of measuring semantic coupling of OO software classes using (i) simple identifier based techniques and (ii) the word corpora of the entire classes in a software system. Second, to empirically investigate the interplay between semantic and change coupling.</p>
+
+            <p id="Dr Andrea Capiluppi" class="vcard">Dr Andrea Capiluppi joined the Department of Computer Science at Brunel University London (UK), as a Lecturer in Software Development in May2012. Between 2009 and 2012 he was at University of East London, working as a Senior Lecturer in Software Engineering. Before that, he worked as a Senior Lecturer and at University of Lincoln between 2006 and 2009. Andrea's research and teaching interests focus on Software Evolution and Maintenance, as well as the construction, evaluation and maintenance of Social Networks. Andrea is mostly interested in the use of open technologies and in understanding how they can improve learning and teaching as well as the production of software and other artefacts.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        19 October 2017
+dtstart:     2017-10-19T18:00:00Z
+dtend:       2017-10-19T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Thu, 05 October 2017 11:00:00 GMT
+updated:     2017-10-05T11:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   nvi
+registration: https://events.bcs.org/book/2717/
+upcoming:
+lanyrd:
+
+tags:
+    - FPGA
+    - methodology
+    - workshop
+    - NetBSD
+    - BSD
+    - embedded
+    - GPIO
+    - firmware
+    - Verilog
+    - VHDL
+    - HDL
+    - electronics
+    - logic
+    - OpenSource
+    - OSHW
+    - FOSS
+    - chiphack
+    - EDSAC
