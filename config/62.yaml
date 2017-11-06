@@ -1,0 +1,50 @@
+---
+number:     62
+title:      RISC-V, RISC-V, RISC-V
+description: |
+            <p>This months meeting will be on the theme of RISC-V, an open <acronym title="Instruction Set Architecture">ISA</acronym> which started life at the University of California, Berkeley.
+
+sessions: |
+            <h3>Bringing up cycle-accurate models of RISC-V cores</h3>
+            <p id="modelsofrisc-v">The openness of the RISC-V ISA has enabled the development of many open-source RISC-V cores with varying capabilities. Choosing an implementation that meets given requirements can be done to some extent by comparing specifications and other attributes of the cores, but any decision must be based on actual testing. Using Verilator to generate cycle-accurate models enables rapid development of testing platforms. This talk provides a report of our experience bringing up cycle-accurate models of two cores in particular, RI5CY from the PuLP project, and Clifford Wolf's PicoRV32. For testing, a software ecosystem consisting of a compiler, binary utilities, debugger, and an interface between the model and debugger accompanies the Verilator model. To compare the cores, we used the GCC test suite and the RISC-V ISA test suite for measuring correctness, and the Bristol/Embecosm Embedded Benchmark Suite (BEEBS) to compare performance. All code and scripts used for the implementation are open-source, and can be re-used by others who wish to do similar exercises with other RISC-V cores.</p>
+
+            <p id="Eddward Jones" class="vcard">Edward Jones has a background in parsing techniques and works at Embecosm on LLVM and GNU toolchains. He is also involved in research by Embecosm to investigate ways in which the software tool chain can reduce program energy consumption. Edward Jones is a Computer Science graduate of the University of Kent.</p>
+
+            <h3>FreeBSD/RISC-V and Device Drivers</h3>
+
+            <p id="freebsdrisc-v">The FreeBSD port to RISC-V 64-bit ISA was added in January 2016. FreeBSD is the first operating system that officially supported RISC-V in the main repository. Since its introduction, support has evolved, RISC-V privileged architecture has updated a few times. The platform is maturing making it suitable for general, commercial, research and educational use. The GCC v7.0 target for RISC-V was officialy upstreamed and NVIDIA is planning to ship all of their GPUs with RISC-V coprocessor enabled in the future. Several companies have announced the start of RISC-V chip development and many universities are taking RISC-V as a target architecture for doing research. The world first RISC-V microcontroller-class board HiFive1 was released and we are getting closer to the first general purpose board to become available! This talk will describe the current status of FreeBSD/RISC-V, toolchain and supported simulators. The porting process as well as describing the latest changes made to FreeBSD in order to support the latest RISC-V privilege specification (v1.10). This includes enabling by default <acronym title="Flattened Device Tree">FDT</acronym> support and drivers attachment change, SBI interface, compiler flags/built-in definition changes, support for updated BBL boot loader, RISC-V privilege levels, initial page tables build, page table entry flags and other changes. An overview of FreeBSD device drivers subsystem will also be covered describing the device frameworks, buses and kernel-interfaces that exists in FreeBSD (e.g. Newbus, cdevsw, bus_dma, SYSINIT, vt, sound, ifnet, spibus, etc), how to use and configure them and how to debug a device driver. This should answer the question: How to write device driver for FreeBSD/RISC-V?</p>
+
+            <p id="Ruslan Bukin" class="vcard">Ruslan Bukin is a Research Associate at University of Cambridge Computer Laboratory. He has been a FreeBSD user since 2002 and src committer since 2013. His main interests and contributions to FreeBSD are related to computer architectures support, performance monitoring technologies support, hardware tracing technologies (Intel PT), devicedrivers, DMA engines and DMA frameworks, hardware security (Intel SGX, CHERI), heterogeneous computing. Ruslan is the lead developer of the FreeBSD/RISC-V project. He obtained a Computer Science degree in 2008 from Peoples' Friendship University of Russia in Moscow</p>
+
+            <h3>Talk #3 TBA</h3>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+            <p><strong>Closing date for bookings is Tuesday 21st November 2017 at 11:30 pm. No more bookings will be taken after this date. For overseas delegates who wish to attend the event please note that BCS does not issue invitation letters</strong></p>
+
+date:        23 November 2017
+dtstart:     2017-11-23T18:00:00Z
+dtend:       2017-11-23T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Thu, 02 November 2017 11:00:00 GMT
+updated:     2017-11-02T10:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   nvi
+registration: https://ossg231117.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - FPGA
+    - methodology
+    - BSD
+    - FreeBSD
+    - Verilog
+    - VHDL
+    - CPU
+    - ISA
+    - logic
+    - OpenSource
+    - OSHW
+    - FOSS
