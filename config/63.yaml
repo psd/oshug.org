@@ -1,0 +1,47 @@
+---
+number:     63
+title:      Collaborative music making, ultra-low latency audio and sensor processing 
+description: |
+            <p>We start the new year with an event on the theme of open source musical software and hardware.
+
+sessions: |
+            <h3>Bela, an embedded platform for ultra-low latency audio and sensor processing</h3>
+            <p id="bela"><a href="http://blog.bela.io/" title="Bela Blog">Bela</a> started off as a research project at Centre For Digital Music (Queen Mary University of London) and is now a commercial product, mainly aimed at makers, programmers and researchers  that work with audio. The platform is based on a BeagleBone Black with a custom expansion cape and a dedicated software environment. The board runs Debian Linux with Xenomai as a real-time co-kernel. The combined use of Xenomai and the BeagleBone Black's on-board PRU microcontroller allows to achieve sub-millisecond latency for audio and sensor processing, while node.js is used to provide a user-friendly web-based IDE.  The project is entirely open source, hardware and software.  
+            <p id="Giulio Moro" class="vcard"><a class="fn url" title="Giulio Moro - Twitter" href="https://twitter.com/giu_lio_mo_ro">Giulio Moro</a> is a PhD student in the Centre for Digital Music at Queen Mary University of London. A sound engineer by training, he is now researching in the field of performer-instrument interaction. He is one of the inventors and core developers of Bela.</p>
+
+            <h3>Female Laptop Orchestra: exploring geographical, cultural, technical and artistic challenges of collaborative music making</h3>
+
+            <p id="female-laptop-orchestra">As a collective of female musicians, artists, engineers, computer scientists and researchers, <a href="https://femalelaptoporchestra.wordpress.com/" title="FLO website">Female Laptop Orchestra</a> has been pushing the boundaries of technology and cross-cultural co-located and distributed collaborative music making since 2014. Besides musical instruments, we use a variety of open source and commercial tools to create music, stream music and connect with our audience during the performance. We often collaborate with classical composers and ensembles, filmmakers, visual designers, choreographers and dancers. Recently, we also collaborated with members of Women in Music Technology (a student organization whose goal is to encouraging more women to join the music tech field of study and highlight the often unsung role of women in music technology, based at Georgia Tech Centre for Music Technology in US) and Sonora (a collaborative network bringing together artists and researchers interested in feminist manifestations in the context of the arts, based in Brazil).</p>
+
+            <p id="Nela Brown" class="vcard"><a class="fn url" title="Nela Brown - Website" href="http://nelabrown.blogspot.co.uk/">Nela Brown</a> is a sound artist, technologist, researcher and educator. In the past decade, she composed music and designed sound for award-winning projects including theatre performances, dance, mobile, film, documentaries and interactive installations. She is the founder of the Female Laptop Orchestra (FLO), an eclectic group of female musicians and technologists exploring co-located and distributed collaborative music making within different contexts and across different geographical locations. As a creative director of FLO since 2014, Nela co-ordinated 7 national and international FLO performances involving 36 collaborators from 21 different countries.</p>
+
+            <h3>Talk #3 TBA</h3>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+            <p><strong>Closing date for bookings is Tuesday 16th January 2018 at 11:30 pm. No more bookings will be taken after this date. For overseas delegates who wish to attend the event please note that BCS does not issue invitation letters</strong></p>
+
+date:        18 January 2018
+dtstart:     2018-01-23T18:00:00Z
+dtend:       2018-01-23T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Thu, 14 December 2018 11:00:00 GMT
+updated:     2018-01-02T10:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   nvi
+registration: 
+upcoming:
+lanyrd:
+
+tags:
+    - FPGA
+    - Music
+    - BeagleBone
+    - audio
+    - SuperCollider
+    - OpenSource
+    - OSHW
+    - FOSS
+    - Linux
+    - javascript
