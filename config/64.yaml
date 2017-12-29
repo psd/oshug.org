@@ -1,0 +1,63 @@
+---
+number:     64
+title:       Intel® Movidius™ Neural Compute Stick Workshop
+description: |
+            <p>Learn how to use the Intel® Movidius™ Neural Compute Stick and open source frameworks to deploy deep neural networks at the edge.</p>
+sessions: |
+            <h3>Workshop details</h3>
+            <p id="workshop">Market research estimates there will be as many as 20 billion connected devices in the market by 2020. These devices are expected to generate billions of petabytes of data traffic between cloud and edge devices. In 2017 alone, 8.4B connected devices are expected in the market which is sparking a strong need to pre-process data at the edge. This has led many IoT device manufacturers, especially those working on vision based devices like smart cameras, drones, robots, AR/VR, etc., to bring intelligence to the edge.</p>
+            <p>Through the recent addition of the <a href="https://www.movidius.com/solutions/vision-processing-unit">Movidius™ VPU technology</a> to its existing AI edge solutions portfolio, Intel is well positioned to provide solutions that help developers and data scientists pioneer the low-power intelligent edge devices segment. This workshop will provide hands-on experience with <a href="https://developer.movidius.com/">Intel’s Neural Compute Stick</a> – a low-cost, form-factor developer kit for low-power vision based embedded inference applications.</p>
+            <p>What You Will Learn:
+            <ul><li>Insights into how Movidius™ VPUs are pioneering DNN accelerated vision processing.</li>
+            <li>Introduction to hardware and software components of NCS.</li>
+            <li>Workflow of network profiling and application development using NCS.</li>
+            <li>Detection/Classification models</li>
+            <li>Advanced functionalities</li>
+            <li>Hands-on with advanced demos and sample codes built using NC SDK’s API framework, which includes support for Caffe and TensorFlow</li></ul></p> 
+
+            <h3>Participant requirements</h3>
+            <p id="participantrequirements"><strong>** Participants are required to bring a laptop computer with Ubuntu 16.04 and <a href="https://github.com/movidius/ncsdk">Neural Compute SDK</a> installed **</strong></p>
+
+            <h3>What is provided</h3>
+            <p id="whatisprovided"><ul><li>NCS hardware will be provided for use during the workshop</li>
+            <li>A light lunch will be provided and please ensure that any dietary requirements are made clear during registration</li></ul></p>
+
+            <h3>Hosted by</h3>
+            <p id="hosts">The workshop will be hosted by Intel engineers.</p>
+            <p><em>This workshop is free to attend and hosted by <a href="https://intel.com/">Intel</a> in partnership with the <a href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a> and the Open Source Hardware User Group.</em></p>
+
+            <p><strong>Note: Please aim to arrive by 08:45 as the workshop will start at 09:00 prompt.</strong></p>
+
+             <center>
+                 <p><strong>Sponsored by:</strong></p>
+                 <a href="https://www.rs-online.com/designspark/home">
+                     <img class="sponsor" src="/images/DesignSpark.png" title="DesignSpark" alt="DesignSpark">
+                 </a>
+             </center>
+
+
+date:        22 February 2018
+dtstart:     2018-02-22T09:00:00Z
+dtend:       2018-02-22T17:00:00Z
+start:       09:00
+end:         17:00
+pubdate:     Fri, 29 December 2017 07:20:00 GMT
+updated:     2017-12-29T07:20:00Z
+location:    BCS London
+isoduration: P0Y0M0DT08H00M00S
+generator:   vi
+registration: https://ossg220218.eventbrite.co.uk/
+upcoming:
+lanyrd:
+
+tags:
+    - Movidius
+    - neuralnetworks
+    - deeplearning
+    - artificialintelligence
+    - Intel
+    - TensorFlow
+    - Caffe
+    - NCS
+    - OSHW
+    - FOSS

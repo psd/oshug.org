@@ -7,7 +7,7 @@ SCRIPTS=\
 	$(BAKE)
 
 # no dependencies, always runs ..
-all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/images/DS_with_RS.jpg site/images/skpang_logo.gif site/images/Embecosm.jpg site/images/ESPKTN.jpg site/images/Quick2Wire.png site/images/Solderpad.png site/images/ABOpen.png site/images/XMOS.png site/images/Codethink.png site/images/KTN.jpg site/images/OSHPark.png site/images/sup_bbcld.jpg site/images/sup_c4cc.jpg site/images/sup_designspark.jpg site/images/sup_londonhackspace.jpg site/images/sup_memset.gif site/images/sup_oomlout.jpg site/images/sup_osmosoft.png site/images/sup_skillsmatter.gif site/images/sup_skpang.gif site/images/sup_universityofkent.jpg site/images/sup_embecosm.jpg site/images/sup_cosm.jpg site/images/sup_capitalscf.jpg site/images/sup_espktn.jpg site/images/sup_erlangsolutions.png site/images/sup_quick2wire.png site/images/sup_solderpad.png site/images/sup_surevoip.png site/images/sup_solderpad.png site/images/sup_abopen.png site/images/sup_xmos.png site/images/sup_codethink.png site/images/sup_ktn.jpg site/images/sup_oshpark.png site/images/sup_garnerosborne.jpg site/images/sup_boldport.png site/favicon.ico
+all::	site site/images site/styles site/images/oshug.png site/images/oshug.pdf site/images/DS_with_RS.jpg site/images/skpang_logo.gif site/images/Embecosm.jpg site/images/ESPKTN.jpg site/images/Quick2Wire.png site/images/Solderpad.png site/images/ABOpen.png site/images/XMOS.png site/images/Codethink.png site/images/KTN.jpg site/images/OSHPark.png site/images/GarnerOsborne.jpg site/images/DesignSpark.png site/images/sup_bbcld.jpg site/images/sup_c4cc.jpg site/images/sup_designspark.jpg site/images/sup_londonhackspace.jpg site/images/sup_memset.gif site/images/sup_oomlout.jpg site/images/sup_osmosoft.png site/images/sup_skillsmatter.gif site/images/sup_skpang.gif site/images/sup_universityofkent.jpg site/images/sup_embecosm.jpg site/images/sup_cosm.jpg site/images/sup_capitalscf.jpg site/images/sup_espktn.jpg site/images/sup_erlangsolutions.png site/images/sup_quick2wire.png site/images/sup_solderpad.png site/images/sup_surevoip.png site/images/sup_solderpad.png site/images/sup_abopen.png site/images/sup_xmos.png site/images/sup_codethink.png site/images/sup_ktn.jpg site/images/sup_oshpark.png site/images/sup_garnerosborne.jpg site/images/sup_boldport.png site/favicon.ico
 	$(BAKE)
 
 site:
@@ -58,8 +58,11 @@ site/images/KTN.jpg:
 site/images/OSHPark.png:
 	ln images/OSHPark.png site/images/OSHPark.png
 
-site/images/GarnerOrborne.jpg:
+site/images/GarnerOsborne.jpg:
 	ln images/GarnerOsborne.jpg site/images/GarnerOsborne.jpg
+
+site/images/DesignSpark.png:
+	ln images/DesignSpark.png site/images/DesignSpark.png
 
 site/images/Boldport.png:
 	ln images/Boldport.png site/images/Boldport.png
