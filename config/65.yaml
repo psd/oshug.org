@@ -1,6 +1,6 @@
 ---
 number:     65
-title:       Yanking the Chain: open source software compliance in the supply chain
+title:       Yanking the Chain: Open Source Software Compliance in the Supply Chain
 description: |
             <p>With the ever increasing complexity of embedded device software stacks, coupled with the proliferation of  new mechanisms for distributing complex server software stacks, open source compliance has never been more important — or indeed more of a challenge.</p>
             <p>Fortunately, there are growing number of tools and methods at our disposal to support open source software compliance efforts. This 1-day event will feature talks and hands-on workshops covering a number of these, with insights into practical experiences and lessons learned.</p> 
@@ -15,6 +15,10 @@ sessions: |
             <p>Organizations can use SW360 as a one-stop shop for sharing component information, tracking their usage in projects or products. This involves the handing of compliance information, but also, as an example, matching for vulnerabilities from data providers.</p>
             <p>As an EPL-1.0 licensed <a href="https://www.github.com/sw360">Open Source project</a>, it is highly customizable, letting organizations keep their confidential product development data on premises, and prevents them from becoming dependent on a single vendor. This presentation shows briefly features and a walk through the application to demonstrate capabilities and use cases of SW360.</p>
             <p id="MichaelCJaeger" class="vcard"><a class="fn url" title="Michael C. Jaeger" href="https://www.linkedin.com/in/michael-c-jaeger-b896922/">Michael C. Jaeger</a> is one of the maintainers for the projects, FOSSology and SW360, both of which are in the area of license compliance and component management with open source software. At Siemens Corporate Technology in Munich, Germany, Michael manages the Siemens contributions to SW360 and FOSSology. Michael is a certified software architect and received a German PhD degree from the faculty of electrical engineering and computer science at TU Berlin.</p>
+            <h4 id="ComplianceSimplified">How License Compliance Engineering Can be Simplified</h4>
+            <p>When people are confronted with license compliance for the first time it feels overwhelming because there are many aspects to it: license scanning of hundreds of thousands of files, complete and corresponding source code, derivative works and code clone detection, and so on. Clients often say that they simply do not know where to start.</p>
+            <p>However, experience demonstrates that license compliance does not need to be overly complicated, as there are short-cuts that can be taken and have zero risk, but that will vastly speed up compliance processes. This talk will highlight a few best practices learned from compliance work with clients and explain how information from upstream projects can be used to make the license compliance processes quicker, predictable and more standardised.</p>
+            <p id="ArmijnHemel">Armijn Hemel, MSc, is an expert in open source license compliance engineering. From 2005-2012 he helped enforce the GPL license in Germany several hundred times as part of the coreteam of gpl-violations.org. Since then he has assisted companies to come into compliance (including in recent troll cases in Germany) and is actively involved in advancing the field of compliance by exploring new topics and tooling.</p>
 
             <h3 id="workshops">Workshops</h3>
             <h4 id="UsingFOSSology">Using FOSSology - License Analysis Hands On</h4>
@@ -29,7 +33,7 @@ dtend:       2018-03-22T17:00:00Z
 start:       09:00
 end:         17:00
 pubdate:     Wed, 31 January 2018 17:20:00 GMT
-updated:     2018-01-31T17:20:00Z
+updated:     2018-02-05T22:00:00Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
