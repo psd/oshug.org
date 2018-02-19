@@ -4,12 +4,15 @@ title:       Yanking the Chain: Open Source Software Compliance in the Supply Ch
 description: |
             <p>With the ever increasing complexity of embedded device software stacks, coupled with the proliferation of  new mechanisms for distributing complex server software stacks, open source compliance has never been more important — or indeed more of a challenge.</p>
             <p>Fortunately, there are growing number of tools and methods at our disposal to support open source software compliance efforts. This 1-day event will feature talks and hands-on workshops covering a number of these, with insights into practical experiences and lessons learned.</p> 
-            <p>The preliminary programme can be found below and please note that further details will be published in due course as additional sessions are confirmed.</p>
 sessions: |
             <h3 id="talks">Talks</h3>
             <h4 id="IntroducingOpenChain">Introducing OpenChain</h4>
-            <p><a href="https://www.openchainproject.org/">OpenChain</a> is a scalable, flexible compliance programme, developed by the Linux Foundation. It provides a great foundation for businesses of all sizes to adopt appropriate practices and procedures in place to control development and supply chain risks. Already adopted by companies like Qualcomm, Toyota and ARM, it's equally applicable to SMEs.</p>
+            <p><a href="https://www.openchainproject.org/">OpenChain</a> is a scalable, flexible compliance programme, developed by the Linux Foundation. It provides a great foundation for businesses of all sizes to adopt appropriate practices and procedures in place to control development and supply chain risks. Already adopted by companies like Qualcomm, Siemens and Wind River (an Intel company), it's equally applicable to SMEs.</p>
             <p id="AndrewKatz" class="vcard"><a class="fn url" title="Andrew Katz - Twitter" href="http://twitter.com/andrewjskatz">Andrew Katz</a> is a lawyer and former programmer who advises extensively on free and open source software and other opens. He is head of the technology department at Moorcrofts LLP, a boutique technology law firm, which is one of the 5 OpenChain pilot partners in the world, and has been involved in drafting many of the OpenChain materials.</p>
+
+            <h4 id="SPDX">SPDX: Describing Software and Licenses</h4>
+            <p><a href="https://spdx.org/">Software Package Data Exchange</a> (SPDX) provides a standard format for describing the components and licenses associated with software packages. The SPDX standard helps facilitate compliance with Free and Open Source Software licenses by standardizing the way license information is shared across the software supply chain. SPDX reduces redundant work by providing a common format for companies and communities to share licensing data, thereby streamlining and improving compliance. The presentation will introduce the standard, describe common use scenarios, and provide details on the other deliverables of the SPDX working group, like tools and the authoritative License List.</p>
+            <p id="AlexiosZavras" class="vcard"><a class="fn url" title="Alexios Zavras - LinkedIn" href="https://www.linkedin.com/in/zavras/">Alexios Zavras</a>, PhD, is the Senior Open Source Compliance Engineer of Intel Corporation. He has been involved with Free and Open Source Software since 1983, and is an evangelist for all things Open. He has a PhD in Computer Science after having studied Electrical Engineering and Computer Science in Greece and the United States.</p>
 
             <h4 id="EclipseSW360">Eclipse SW360 - Open Source Management with Open Source</h4>
             <p><a href="https://github.com/sw360/">SW360</a> manages software components with their license compliance documentation in SPDX and allows for setting up bills-of-material to provide comprehensive documentation for products and projects.</p>
@@ -42,7 +45,7 @@ dtend:       2018-03-22T17:00:00Z
 start:       09:00
 end:         17:00
 pubdate:     Wed, 31 January 2018 17:20:00 GMT
-updated:     2018-02-07T06:00:00Z
+updated:     2018-02-19T10:15:00Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
@@ -57,3 +60,6 @@ tags:
     - OpenChain
     - SW360
     - FOSSology
+    - SPDX
+    - Quartermaster
+    - QMSTR
