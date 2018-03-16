@@ -15,19 +15,23 @@ sessions: |
 
             <h3>Pre-requisits</h3>
             <p>BCS Open Source SG will supply the Shrimping kits. You'll need to bring a laptop with the free <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a> installed</p>
+
+            <h3>Speaker Biographies</h3>
+            <p id="JeremyBennett" class="vcard"><a class="fn url" title="Jeremy Bennett" - Twitter" href="http://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is Chair of the BCS Open Source Specialist Group. He is also Chief Executive of Embecosm who provide open source compiler development services. A former academic he is author of the standard textbook "Introduciton to Compiling Techniques" (McGraw-Hill 1990, 1995, 2003).</p>
             <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+            <p><strong>Closing date for bookings is Thursday 19 April 2018 at 08:30 am. No more bookings will be taken after this date. For overseas delegates who wish to attend the event please note that BCS does not issue invitation letters</strong></p>
 
 date:        19 April 2018
 dtstart:     2018-04-19T18:00:00Z
-dtend:       2018-03-19T21:00:00Z
+dtend:       2018-04-19T20:00:00Z
 start:       18:30
-end:         21:00
+end:         20:00
 pubdate:     Wed, 09 March 2018 17:20:00 GMT
 updated:     2018-03-09T10:15:00Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
-registration:
+registration: https://ossg190418.eventbrite.co.uk
 upcoming:
 lanyrd:
 
