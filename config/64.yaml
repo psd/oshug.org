@@ -23,7 +23,10 @@ sessions: |
             <li>A light lunch will be provided and please ensure that any dietary requirements are made clear during registration</li></ul></p>
 
             <h3>Hosted by</h3>
-            <p id="hosts">The workshop will be hosted by Intel engineers.</p>
+            <p id="hosts">The workshop will be hosted by Intel.</p>
+            <p id="JustinShenk" class="vcard"><a class="fn url" title="Justin Shenk - Twitter" href="https://twitter.com/askjustinshenk">Juston Shenk</a> is a cognitive science student in Germany writing his master thesis on deep learning with Peltarion in Stockholm. He develops innovative AI software as an Intel Software Innovator with the goal of bringing people together to collaborate on new technology.</p>
+            <p>Before focusing on AI and deep learning, he worked as a neuroscience researcher in the US. He founded and organized two award-winning projects: a science café, where researchers regularly exchanged ideas with the public, and Open History Project, a collaborative oral history and translation website. He presented his emotion detection project with the Movidius™ Neural Compute Stick at NIPS 2017 in Long Beach, California and is currently developing an extension of FaceNet with TensorFlow for the stick.</p>
+
             <p><em>This workshop is free to attend and hosted by <a href="https://intel.com/">Intel</a> in partnership with the <a href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a> and the Open Source Hardware User Group.</em></p>
 
             <p><strong>Note: Please aim to arrive by 08:45 as the workshop will start at 09:00 prompt.</strong></p>
@@ -42,7 +45,7 @@ dtend:       2018-02-22T17:00:00Z
 start:       09:00
 end:         17:00
 pubdate:     Fri, 29 December 2017 07:20:00 GMT
-updated:     2017-12-29T07:20:00Z
+updated:     2018-02-22T06:44:00Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
