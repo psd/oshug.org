@@ -2,13 +2,13 @@
 number:     66
 title:       Shrimping (hand-built Arduino) workshop for children and adults
 description: |
-            <p>The shrimp is a small Arduino compatible computer built on a breadboard.</p>
+            <p><a href="http://start.shrimping.it/project/blink/build.html">The shrimp</a> is a small Arduino compatible computer built on a breadboard.</p>
             <p>In this 1.5 hour workshop you will learn how to build and program a Shrimp, with two projects. Bring your children (7 and up)</p>
 sessions: |
             <h3>Workshop details</h3>
-            <p id="workshopproject1">Project 1. Flashing LED. This project is to get you started. You will build the shrimp, and get it to flash a small LED. You will then learn how to program the shrimp to change how the LED flashes.</p>
+            <p id="workshopproject1">Project 1. <a href="http://start.shrimping.it/project/blink/index.html">Flashing LED</a>. This project is to get you started. You will build the shrimp, and get it to flash a small LED. You will then learn how to program the shrimp to change how the LED flashes.</p>
 
-            <p id="workshopproject2">Project 2. Persistence of vision. You will add a line of LEDs to your shrimp, and program it to flash them at very high speed, so when waved in the air it spells out a message.</p>
+            <p id="workshopproject2">Project 2. <a href="http://start.shrimping.it/project/pov/index.html">Persistence of vision</a>. You will add a line of LEDs to your shrimp, and program it to flash them at very high speed, so when waved in the air it spells out a message.</p>
 
             <p>At the end of the workshop you can take your shrimp home with you.</p>
             <p>This workshop is suitable for anyone over the age of 7. For children 7-11, it is very much about following instructions to build a computer. For older children (our record is 92), you will start to understand how a computer works and want to explore how much it can be modified.</p>
