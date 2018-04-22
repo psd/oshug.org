@@ -154,6 +154,15 @@ locations:
         postcode: EC4N 8AQ
         latitude: 51.5103063
         longitude: -0.0961973
+
+    The Blue Room:
+        uri: https://www.heritagelincolnshire.org/venue/the-blue-room-lincoln
+        extendedaddress: The Lawn
+        street: Union Rd
+        locality: Lincoln
+        postcode: LN1 3BU
+        latitude: 53.2352345
+        longitude: -0.5436857
  
 feeds:
     - atom
@@ -246,3 +255,5 @@ released:
     - 63
     - 64
     - 65
+    - 66
+    - oshcamp2018

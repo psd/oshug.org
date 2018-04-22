@@ -145,6 +145,10 @@ img.logo {
 	background-image: url('/images/sup_boldport.png');
 }
 
+#support ul li a#bcsossg {
+        background-image: url('/images/sup_bcsossg.jpg');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

@@ -1,0 +1,207 @@
+---
+number:     oshcamp2018
+li:         67
+title:      Open Source Hardware Camp 2018
+description: |
+            <p>Open Source Hardware Camp 2018 will be hosted in the historic county town of Lincoln — home to, amongst others, noted engine builders Ruston & Hornsby (now Siemens, via GEC and English Electric).</p>
+            <p>Lincoln is well served by rail, reachable from Leeds and London within 2-2.5 hours, and 4-5 hours from Edinburgh and Southampton.</p>
+            <p>There will be a social at the Wig and Mitre on the Saturday evening.</p>
+            <p>Travel and accommodation information is provided <a href="#TravelAccomodation">further down.</a></p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Introduction to cycle-accurate Verilog simulation</h4>
+            <p id="CycleAccurateVerilogSimulation">Developing hardware designs in Verilog is tricky, for both FPGA platforms and ASIC hardware targets. Understanding the behaviour of a design, testing it, and debugging are made much easier by simulating in software. There are a variety of simulation approaches with different trade-offs in what properties of the design are accurately modelled and how quickly they run. This talk starts by giving a brief overview of the approaches, then focusing in more detail on cycle-accurate modelling, which is a relatively fast approach that is robustly implemented in an open-source tool called Verilator. The main focus will be on working with CPU designs, but the software and techniques are generally applicable to other areas.</p>
+            <p>A brief overview of how to use Verilator to simulate a design, to develop testbenches, and to visualise simulation output using GTKWave will be given. The software and techniques discussed in this talk will be put into practice in the "Open-source RISC-V core quickstart" workshop on Sunday.</p>
+            <p id="GrahamMarkall" class="vcard"><a class="fn url" title="Graham Markall - Twitter" href="https://twitter.com/gmarkall">Dr Graham Markall</a> has a background in languages and compilers for scientific computing, and is well known for his work on the Numba project. He is part of Embecosm’s GNU tool chain team, where his current projects include the implementation of security enhancements to the GCC and LLVM compilers for RISC-V and ARM, and the development a GCC-based toolchain for a customised RISC-V processor.</p>
+
+            <h4>LoRaWAN at 100,000 feet & 10mW with High Altitude Ballooning</h4>
+            <p id="LoRaWAN10KFeet">High-altitude balloons are manned or unmanned balloons, usually filled with helium, that are released into the stratosphere and generally attaining between 18,000 to 37,000 metres (59,000 to 121,000 ft; 11 to 23 mi). In 2002, a balloon named BU60-1 attained 53.0 km (32.9 mi; 173,900 ft).</p>
+            <p>The advent of cheap open source electronics & suitable GPS chips has allowed hobbyists worldwide to build fly & (usually) recover these balloons since the mid 2000’s with modest budgets compared to professional weather balloons. Indeed, the Raspberry Pi Foundation ran a few Skycademy events aimed at helping school teachers. There is a wealth of information available from the United Kingdom High Altitude Society (UKHAS), their website HabHUB.org and Dave Ackerman’s website.</p>
+            <p>Ofcom limit the power of any airborne transmitter to 10mW, which whilst tiny isn’t a practical problem since the line of sight is usually superb. The community stated using RTTY initially but latterly has begun to use LoRaWAN to transmit the telemetry and some of the pictures taken during a typical 2 to 3 hour flight. The Civil Aviation Authority will grant permission for such flight via their system, NOTAMs. It’s normal to be asked to contact air traffic control before launch to make sure commercial aviation traffic isn’t hindered.</p>
+            <p id="TonyBrookes" class="vcard"><u>Tony Brookes</u> is a member of the Derby Makers who is leading a project to launch such a balloon (or more if funding permits) over the summer. Derby Makers are now resident in the Radio Communications Museum of Great Britain in Derby following their tenure in the Derby Silk Mill museum which is now undergoing HLF funded refurbishment.</p>
+
+            <h4>Machine Vision</h4>
+            <p id="MachineVision">Machine Vision is one of the fastest growing disciplines in robotics and automation. In the past, discrete vision processing tasks have been both complex and brittle requiring a great deal of specialisation and practice. Now however machine learning (ML) inference is becoming practical at the edge, Machine Vision is one of the emerging 'edge applications' of ML inference technology. Machine Vision is much less brittle than earlier approaches and promises much wider and simpler applications. This talk (and hands on workshop) will explore the landscape of Machine Vision and its applications for robotics and automation.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded automation using FPGA, CSP and Neural Turing Machines. He is a long term advocate of open source communities, a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p>
+
+            <h4>Making Electronic Tesla Coils - Keeping in the Magic Smoke</h4>
+            <p id="TeslaCoils">This talk will give an overview of designing and building an electronic Tesla coil from off the shelf or easily modified components. It will cover the safety, construction methods and some of the theory of operation. It will also present details of the controls and methods needed to prevent the Tesla coil from destroying itself when power is applied.</p>
+            <p id="DerekWoodroffe" class="vcard"><a class="fn url" title="Derek Woodroffe - Twitter" href="https://twitter.com/ExtElec">Derek Woodroffe</a> has been building Tesla coils as a hobby for over 20 years. He has constructed over 30 different Tesla coils, from 30mm to over 1M tall and of many different types. He runs both the Nottingham Gaussfest and Cambridge Tesla coiler meet-ups and has worked a number of times on TV to assist with Tesla coil and high voltage demonstrations to programs such as the Royal Institute Christmas Lectures and Dara O Briain's Science club. Derek also has a keen interest in all other uses and generators of high voltage and has built working examples of many. His projects are detailed on <a href="http://www.extremeelectronics.co.uk">www.extremeelectronics.co.uk</a>.</p>
+            <p>Amazingly, he is still alive.</p>
+
+            <h4>Turning your hobby project in to a business for fun and profit</h4>
+            <p id="HobbyToBusiness">Designing hardware is the easy part. Turning it in to a business is where it gets interesting. This talk will cover some of the things needed to take it to market, including stock, marketing, shipping, support, cash flow.</p>
+            <p id="SpencerOwen" class="vcard"><a class="fn url" title="Spencer Owen - Twitter" href="https://twitter.com/ZxSpectROM">Spencer Owen</a> like many kids in the 80s, loved his ZX Spectrum and other 8 bit computers. This set him up for a career in IT, and he worked as a server engineer and network engineer for many years. In 2013, in a bid to see if he really understood how computers worked at the lowest level, Spencer went back to his roots built a simple Z80 based machine on a breadboard. This was to mature in to the RC2014, which Spencer started selling in his spare time in 2015. Within a few months it was clear that the RC2014 was taking up more time than he had spare, so he quit network job and started a retro computer kit company. Spencer is now the largest supplier of Z80 computers worldwide.</p>
+
+            <h4>MakerNet Alliance</h4>
+            <p id="MakerNetAlliance">A brief presentation of ideas the MakerNet Alliance is working on with E-nable.org for a Design Ecology Interface, to visualize the evolution of open source designs for prosthetics (and ultimately any hardware designs) and help users find the design version with the features they need. The presentation will be followed by discussion session with the audience to get feedback on the ideas and input on requirements.</p>
+            <p id="AnnaSeraLowe" class="vcard"><a class="fn url" title="Anna Sera Lowe - Twitter" href="https://twitter.com/annawillcreate">Anna Sera Lowe</a> has always been fascinated by how things are made and how they get to the people who need them. As a manufacturing manager and later a supply chain consultant, she made a career of finding great excuses to visit manufacturing facilities around the globe; from multi-million dollar automated factories to informal waste-processing operations on dumps (sometimes next to each other) - and everything in between. She has consulted for clients as diverse as Johnson & Johnson, the state electricity monopoly of South Africa, and the Global Fund to Fight Aids, Tuberculosis, and Malaria. Over the last few years her interest has been caught by ideas around grassroots innovation and distributed manufacturing networks. She co-founded Kumasi Hive, a makerspace in Ghana, and is leading work on MakerNet, an initiative to explore business models and digital tools for local manufacturing of useful goods for development.</p>
+
+            <h4>EMC for IoT</h4>
+            <p id="EMCIoT">Often the last thing on your mind when working on an exciting new project are the regulatory hurdles that come with getting a product ready for sale in the European market. These afterthoughts suddenly become pressing priorities as you approach your launch date. Electro-Magnetic Compatibility (EMC) is the study of how all electronic devices and phenomena interact and, in our increasingly electro-dense society, these requirements become all the more important. Without EMC and radio regulations we would suffer interference to the wireless infrastructure we so depend on.</p>
+            <p>This talk will give a tour through the EMC and radio regulations for a typical IoT type product (equally applicable to any electronics product), why they are required and look at some of the risks and pitfalls involved in the process. If you've got a product that you want to start selling, have limited experience or are merely EMC-curious then this talk will be extremely useful. Questions often asked include: Why do I need to do EMC testing? What about if I have a radio module in my product? What sort of certificate should I have? Do I even need to do anything? You'll find some of the answers here.</p>
+            <p id="JamesPawson" class="vcard"><a class="fn url" title="James Pawson - LinkedIn" href="https://www.linkedin.com/in/james-pawson-unit-3-compliance/">James Pawson</a>, <a href="http://www.unit3compliance.co.uk/">Unit 3 Compliance</a>. Having a broad background of electronics experience (and also a beard), James found himself drawn to the field of EMC partly because of the interesting variety of work and partly because no one else wanted to do it. Twelve years later, now with his own test laboratory and consultancy business, he has found his vocation in helping solve people's EMC problems. He's also found more grey hairs in his beard and worries that the two are related.</p>
+
+            <h4>Non-Standard Computation — From Bits to Pulses to Spikes</h4>
+            <p id="NonStandardComputation">Taken together the rise of parallel distributed processing and the end of Moore's law has brought a renaissance in alternative views of computation. This talk is a journey through the rapidly changing area of non-standard computation: from GPU's, tensor and neuromorphic processors to stochastic, temporal and quantum computation. The main aim of the talk is to describe the tremendous opportunities that currently exist for radical change in computational paradigms, and crucially for the open source community, in the delivery of these architectures. </p>
+            <p id="JonnyEdwards" class="vcard"><u>Jonny Edwards</u> is the CEO/CTO of Temporal Computing - the first business in the UK to focus on temporal computation methods. The work on temporal computing started in the Non-Standard Computation Group at York University, via several Unconventional Computing Conferences, and has since attracted VC and IUK funding to support long-term commercial exploitation.</p>
+
+            <h4>It’s the people, stupid! (But the people aren’t stupid) — Hardware as an enabler to Heating as as Service</h4>
+            <p id="HaaS">Why are clocks slowing down over western Europe like halving your heating bills at home?</p>
+            <p>Remember when at the start of the year a row in one corner of what used to be Yugoslavia caused clocks across Europe to slow down and eventually lose six minutes? Nothing technical was broken, and it’s a reminder that people issues can’t just be ‘fixed’ blindly with tech.</p>
+            <p>When a purely technical fix for energy efficiency is installed, for example a better boiler, savings tend to persist for many years, maybe for a decade if the tech lasts that long.</p>
+            <p>Solutions that may make as big a difference but rely on the people around it continuing to do something to assist, tend to have much shorter persistence. Maybe between one and four years.</p>
+            <p>We already have a smart radiator valve called “Radbot” that can knock 20–50% off your heating bills and pay for itself in a year. It requires very little input if any to do its job. But it won’t work if people open all their windows in winter and expect magic to happen. Yes, some people do.</p>
+            <p>We just finished an Innovate UK project "Heating as a Service - Lite”. We are more convinced than ever that while the technical and financial elements are probably easy to find solutions to, the social part, making things that work with real people for a long time, is intriguing!</h4>
+            <p id="DamonHart-Davis" class="vcard"><a class="fn url" title="Damon Hart-Davis - Twitter" href="https://twitter.com/DamonHD">Damon Hart-Davis</a> created the OpenTRV project following his 2012 presentation to DECC's smart heating workshop. He has freelanced in technology for over 30 years, delivering mission-critical products from design to production in the City for more than 20 of those, and has founded and been involved in several start-ups over that time with his creations seen on TV, the Web, and his pioneering Internet Service Provider helping crack open that market more than 25 years ago. A previous virtual/on-line credit-card company start-up that he co-founded as CTO, Ixaris, turns over ~GBP13m.</p>
+
+            <h4>Bela, an embedded platform for ultra-low latency audio and sensor processing</h4>
+            <p id="bela"><a href="http://blog.bela.io/" title="Bela Blog">Bela</a> started off as a research project at Centre For Digital Music (Queen Mary University of London) and is now a commercial product, mainly aimed at makers, programmers and researchers  that work with audio. The platform is based on a BeagleBone Black with a custom expansion cape and a dedicated software environment. The board runs Debian Linux with Xenomai as a real-time co-kernel. The combined use of Xenomai and the BeagleBone Black's on-board PRU microcontroller allows to achieve sub-millisecond latency for audio and sensor processing, while node.js is used to provide a user-friendly web-based IDE.  The project is entirely open source, hardware and software.
+            <p id="GiulioMoro" class="vcard"><a class="fn url" title="Giulio Moro - Twitter" href="https://twitter.com/giu_lio_mo_ro">Giulio Moro</a> is a PhD student in the Centre for Digital Music at Queen Mary University of London. A sound engineer by training, he is now researching in the field of performer-instrument interaction. He is one of the inventors and core developers of Bela.</p>
+            <p><em>Note that this talk was originally given at <a href="/event/63">OSHUG #63 in London</a> and is being repeated at OSHCamp as a refresher and to serve as an introduction for the workshop on the Sunday.</em></p>
+
+            <h4><i><center>Compered by:</center></i></h4>
+            <p id="DrJeremyBennett" class="vcard"><a class="fn url" title="Dr Jeremy Bennett - Twitter" href="https://twitter.com/jeremypbennett">Dr Jeremy Bennett</a> is founder and Chief Executive of <a href="http://www.embecosm.com/" title="Embecosm - the embedded systems experts">Embecosm</a>, a consultancy specializing in the development of open source compiler tool chains.</p>
+ 
+            <h3 id="workshops">Sunday :: Workshops</h3>
+
+            <h4>Open-source RISC-V core quickstart</h4>
+            <p id="RISCVCoreQuickStart">An introductory workshop for getting starting with simulating RISC-V cores using Verilator, which is an open-source tool for generating cycle-accurate models of hardware designs written in Verilog. Although this workshop focuses on simulation, the cores can in general be instantiated on FPGAs for use in real applications (and higher performance!)</p>
+            <p>The workshop will use two or three different RISC-V implementations (including Clifford Wolf's PicoRV32 and Ariane from the PuLP platform). Loading and executing programs onto these bare metal systems through a testbench and also through a debugger (GDB) will be covered, along with some examples of interacting with the cores, and inspecting their state. Gathering accurate performance measurements is also possible, because the simulations are cycle-accurate.</p>
+            <p>The tutorial materials will provide enough implementation that it is possible to follow this workshop without having had prior experience of hardware design or Verilog specifically - however, some understanding of programming and the organisation of computer hardware will be required.</p>
+            <p>The workshop should be of interest to people with a background in software who would like to tinker with open-source processor core development, and people with a background in hardware who would like to tinker with software toolchains.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li></ul></p>
+            <p>Run by: <a href="#GrahamMarkall">Dr Graham Markall</a></p>
+
+            <h4>An introductory workshop to NetBSD on embedded platforms</h4>
+            <p id="NetBSDEmbedded">An introductory workshop to NetBSD in the context of developing embedded platforms. NetBSD is a fully featured operating system with great agility that has been around for many many years. This workshop is intended to introduce some of the features which are available in the operating system as standard. We'll explore how to go from obtaining the source code to building the operating system, cover features which simplify working with the system, how accessible it is without resorting to installing third party software or writing any C.</p>
+            <p>Topics we will cover:</p>
+            <p><ul><li>Cross compilation support with build.sh</li>
+            <li>File tamper detection / execution prevention with Veriexec</li>
+            <li>High-level access to subsystems e.g exploring GPIO via Lua</li>
+            <li>Rapid development with Rumpkernel</li></ul></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop (Macos, Linux or Windows (windows 10 specifically))</li>
+            <li>ARM board (BeagleBoneBlack preferably or a Pi and such)</li>
+            <li>USB UART for serial access</li></ul></p>
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Twitter" href="https://twitter.com/sevanjaniyan">Sevan Janiyan</a> is founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures, in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and armv7l CPUs. He hopes to own a NeXTcube & OMRON LUNA-88K2 one day.</p>
+        
+            <h4>High Altitude Ballooning</h4>
+            <p id="HABWorkshop">An in-depth look at the help and advice available online, likely costs and technical issues for those wanting to build, fly and recover a HAB. If our project has some spares available, I’ll try and bring them along so people can see what’s being discussed.</p> 
+            <p>If we’re lucky there may be a balloon launch somewhere in the world that we can follow during the session!</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li></ul></p>
+            <p>Run by: <a href="#TonyBrookes">Tony Brookes</a></p>
+
+            <h4>Machine Vision</h4>
+            <p id="MachineVisionWorkshop"><em>A hands-on machine vision workshop - further details TBC.</em></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li></ul></p>
+            <p>Run by: <a href="#AlanWood">Alan Wood</a></p>
+
+            <h4>Soldering Workshop</h4>
+            <p id="Soldering">A soldering workshop where novices get to assemble and program the Cuttlefish, Arduino-compatible, kit.</p>
+            <p id="ChelseaBack" class="vcard"><a class="fn url" title="Chelsea Back - Twitter" href="https://twitter.com/ChelseaMSBack">Chelsea Back</a> is a trainee engineer and is working towards a degree in Electronic Engineering. She enjoys building microcontroller projects and teaching people how to solder, is a student member of the IET and a STEM Ambassador.</p>
+
+            <h4>Build a Z80 based retro computer</h4>
+            <p id="RC2014MiniZ80">A step-by-step build of a RC2014 Mini Z80 Retro Computer. Approx 2 hours should be enough time to assemble a computer running BASIC.</p>
+            <p><em>Participants will need to purchase a (heavily discounted) RC2014 Mini. Some soldering experience is assumed.</em></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li>
+            <li>A soldering iron, wire cutters, FTDI cable and laptop if you have them</li></ul></p>
+            <p>Run by: <a href="#SpencerOwen">Spencer Owen</a></p>
+
+            <h4>Bela: an embedded platform for ultra-low latency audio and sensor processing</h4>
+            <p id="BelaWorkshop">This hands-on workshop introduces Bela, an embedded platform for ultra-low latency audio and sensor processing. Bela is useful for creating digital musical instruments and other interactive projects, which can be developed in C/C++, Pure Data (Pd) or Supercollider. The platform features an on-board browser-based IDE for getting started quickly. In this workshop we will guide participants through connecting sensors and accessing them from C++ or PureData and use them to control the generated sound. On Bela, sensor inputs are sampled at audio frequency and with high resolution (16bit), in order to allow for detailed, nuanced interactions. The hardware and software architecture allows sub-millisecond latency, allowing for expressive musical performances, as well as feedback control of physical systems.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>Their laptop</li></ul></p>
+            <p>Run by: <a href="#GiulioMoro">Giulio Moro</a></p>
+
+            <h3 id="TravelAccomodation">Travel and accommodation</h3>
+            <p>Lincoln is a city of two halves, the uphill and the downhill. The OSHCamp venue is located uphill in the historic area of the city, home to the castle and cathedral, museums, pubs and a quaint shopping area The Bailgate.</p>
+            <p>The downhill area of Lincoln is the shopping and transport hub, and also contains the Brayford Pool and most ‘night-life’. </p>
+            <h4>Where to stay </h4>
+            <p id="WhereToStay">There are a variety of accommodation options within and around Lincoln from self-contained lets, guest houses, hotels, farms and camping. Visit the <a href="https://www.visitlincoln.com/stay/">Visit Lincoln Website</a> for lots of options.</p>
+            <p>Some nearby, reasonably priced accommodation includes:</p>
+            <p><ul><li><a href="http://www.202guesthouse.co.uk/lincoln/rooms-and-accommodation.asp">202 Guest House</a> (0.5 miles from conference venue – mid hill location.)</li>
+            <li><a href="http://www.stayatstclements.co.uk/">St Clements Old Rectory Apartments</a> (0.5 miles from conference - uphill location).</li></ul></p>
+            <h4>Travel</h4>
+            <h5>Road</h5>
+            <p id="RoadTravel">For downloadable PDF maps and guides of Lincoln including Bus Routes, Cycle Routes and a Train Map visit the <a href="https://www.visitlincoln.com/travel-tools/maps-guides/">Visit Lincoln Website</a>.</p>
+            <p>By road from the:</p>
+            <p><ul><li>North via the A15 (Hull) or the A46 (Grimsby).</li>
+            <li>South via the A46 (Leicester, Nottingham, Newark) or the A1 and A15 (London, East Anglia).</li>
+            <li>East via the A158 (Skegness).</li>
+            <li>West the A1 and A57 (Leeds, Worksop, Sheffield).</li></ul></p>
+            <p>There is a large council run car park at The Lawn, chargeable on the day at the ticket machines (has 2 fast-charge spaces). There are many other <a href="https://en.parkopedia.co.uk/parking/parking_in_lincoln/">car parks in the area</a>, and both up and downhill. There are also <a href="https://www.lincoln.gov.uk/living-in-lincoln/transport-travel-and-parking/parking/electric-vehicle-charging-points/">electric charging points</a>.</p>
+            <h5>Rail</h5>
+            <p id="RailTravel">Lincoln Central railway station is located in the south of the city centre within easy walking distance of Lincoln High Street, the main shopping areas and the historic Cathedral Quarter. Direct connections are provided by East Midlands Trains, Virgin Trains East Coast and Northern Rail which operate daily services to Peterborough, Leicester, Nottingham, Sheffield, Doncaster and London.</p>
+            <p>We would advise you to plan your trip in advance with an <a href="https://traintimes.org.uk/">online route planner</a> or by phone with TrainTracker on 0871 200 49. More information on the train station and its services can be found <a href="http://www.nationalrail.co.uk/stations/lcn/details.html">here</a>.</p>
+            <h5>Bus</h5>
+            <p id="BusTravel">There are good bus connections throughout Lincolnshire and Lincoln.</p>
+            <p>You can find the (brand new!) central bus station, near the train station and at 18-20 Sincil Bank, Lincoln LN5 7ET. For all timetable and route information please visit <a href="http://www.lincsbus.info/">the Lincolnshire County Council website</a> or call in to the Travel Shop at the bus station. Local operators include Stagecoach and PC Coaches.</p>
+            <h5>Walk and ride</h5>
+            <p id="WalkRide">The Lincoln <a href="https://www.visitlincoln.com/travel-tools/walk-ride">Walk & Ride Steep Hill Shuttle</a> is a useful local bus service which operates to link the Cathedral Quarter with the High Street, Cultural and Brayford Waterfront Quarters stopping at most key points across the city.</p>
+            <p>The Walk & Ride Steep Hill Shuttle runs 6 days a week throughout the year: Monday to Saturday: 9.10am – 2:47pm, 4:10pm – 5:22pm.</p>
+            <p>Walk & Ride tickets can be purchased on the bus.</p>
+            <h5>Park and ride</h5>
+            <p>Details of the Park and Ride services can be found on the <a href="https://www.visitlincoln.com/travel-tools/travelling-to-lincoln-by-road/">Visit Lincoln Website</a>.</p>  
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch and refreshments will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+              <div id="support">
+                <p><strong><i>With thanks to sponsors:</i></strong></p>
+                <p><ul>
+                   <li><a id="bcsossg" title="BCS Open Source Specialist Group" href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a></li>
+                   <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+                </ul></p>
+              </div>
+
+
+date:        30th June 2018
+dtstart:     2018-06-30T09:00:00Z
+dtend:       2018-07-01T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Sun, 22 April 2018 15:00:00 BST
+updated:     2018-04-22T15:00:00Z
+location:    The Blue Room
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2018.eventbrite.co.uk
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - IoT
+    - EMC
+    - HighAltitudeBallooning
+    - HAB
+    - MachineVision
+    - Bela
+    - Z80
+    - RetroComputing
+    - ExtremeElectronics
+    - TeslaCoil
+    - RISC-V
+    - LoRaWAN
+    - MakerNetAlliance
+    - TemporalComputing
+    - NetBSD
+    - embedded
+    - Verilog
