@@ -3,7 +3,6 @@ number:     68
 title:      3D Printing and Making
 description: |
             <p>At this evening meeting in London, we return to the popular themes of open source 3D printing and making. We’re delighted to welcome three leading authorities in the field to speak to us.  This is a joint meeting with the UK Open Source Hardware Users Group.</p>
-            <p>Venue is the BCS Offices at 5 Southampton St, London WC2E 7HA from 6-8pm.</p>
 sessions: |
             <h3>Fashion Technology, Stem Cell Research & Mental Health</h3>
             <p id="fashiontech">Rachel will be talking about her personal projects in Fashion Technology and her work in stem cell research and how open source and social media communications has helped her achieve her goals. She will also touch on the importance of having a varied interest in relation to mental health.</p>
@@ -23,7 +22,6 @@ sessions: |
             <p id="AdrianBowyer" class="vcard">Adrian Bowyer holds a first degree and a PhD in engineering from Imperial College. He was an academic engineer and mathematician at the University of Bath for 35 years, from where he retired in 2012 to become a director of RepRap Ltd., a company that sells RepRap machines and components, and that undertakes research and consultancy in RepRap-related projects. RepRap Ltd is an entirely open-source company, and all its designs, software and documentation are freely available to everyone. His areas of research are geometric modelling and geometric computing in general (he is one of the creators of the Bowyer-Watson algorithm for Voronoi diagrams), the application of computers to manufacturing, and biomimetics. He is the author of about one hundred papers and books on many different aspects of engineering, computing, mathematics and biology.</p>
 
             <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
-            <p><strong>For overseas delegates who wish to attend the event please note that BCS does not issue invitation letters</strong></p>
 
 date:        19 July 2018
 dtstart:     2018-07-19T18:00:00Z
