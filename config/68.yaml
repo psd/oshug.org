@@ -8,17 +8,17 @@ sessions: |
             <h3>Fashion Technology, Stem Cell Research & Mental Health</h3>
             <p id="fashiontech">Rachel will be talking about her personal projects in Fashion Technology and her work in stem cell research and how open source and social media communications has helped her achieve her goals. She will also touch on the importance of having a varied interest in relation to mental health.</p>
 
+            <p id="RachelWong" class="vcard"><a class="fn url" title="Rachel Wong - Twitter" href="http://twitter.com/konichiwakitty">Rachel "Konichiwakitty" Wong</a>  is a wearable tech innovator and a stem cell scientist. During the day, her PhD involves using stem cells to grow optic vesicles to study and find a cure for genetic childhood blindness. When she isn't working, she creates wearable fashion technology. She combines her skills in sewing an jewellery-making together with programming and electronics. She exhibits and gives talks on her fashion tech projects around the world to encourage young girls into STEM education and careers. She was recently awarded a Electronics Weekly BrightSparks engineering award for her work in tissue engineering and fashion technology.</p>
+
             <h3>Delta Printers Are Really Cool</h3>
             <p id="deltaprinters">A short talk on the the ups and the many downs of delta machines, when & why you should use one, what the challenges are and a few different ways to conquer those challenges.</p>
 
+            <p id="BrackenDawson" class="vcard"><a class="fn url" title="So Make it" href="https://www.somakeit.org.uk/">Bracken Dawson</a> is a developer at IBM working on the Cloud. He was one of the five founding trustees of So Make It, the Southampton makerspace. He has been building 3D printers since the 3D printing boom in 2012.</p>
+
             <h3>In the future, everyone will work for 15 minutes</h3>
             <p id="future15">There is much said about the coming impact on work of the robot and AI revolutions, some of it quite well-informed. But the powers of automation and intelligence are dwarfed by the power of something else: self-replication. After the fundamental forces of physics, self-replication is the most significant phenomenon that there is. Using the Sun’s energy over the last four billion years, self-replication and Darwin’s Law have created a world-surface that is knee-deep in reproducing nano-machines. Indeed, your very knees are made out of them.</p>
-            <p id="future15">Yet engineering hasn’t worked with the power of self replication much, if at all, until now. This talk will be about the RepRap Project—an open-source project that has created humanity’s first general-purpose self-replicating manufacturing machine. It will examine the likely social and economic impacts of self-replicating technology, and draw parallels with a twelve-thousand-year-old industry that uses natural self-replicating machines, the industry without which we would all starve: farming.</p>
 
-            <h3>Speaker Biographies</h3>
-            <p id="RachelWong" class="vcard"><a class="fn url" title="Rachel Wong - Twitter" href="http://twitter.com/konichiwakitty">Rachel "Konichiwakitty" Wong</a>  is a wearable tech innovator and a stem cell scientist. During the day, her PhD involves using stem cells to grow optic vesicles to study and find a cure for genetic childhood blindness. When she isn't working, she creates wearable fashion technology. She combines her skills in sewing an jewellery-making together with programming and electronics. She exhibits and gives talks on her fashion tech projects around the world to encourage young girls into STEM education and careers. She was recently awarded a Electronics Weekly BrightSparks engineering award for her work in tissue engineering and fashion technology.</p>
-
-            <p id="BrackenDawson" class="vcard"><a class="fn url" title="So Make it" href="https://www.somakeit.org.uk/">Bracken Dawson</a> is a developer at IBM working on the Cloud. He was one of the five founding trustees of So Make It, the Southampton makerspace. He has been building 3D printers since the 3D printing boom in 2012.</p>
+            <p id="future15">Yet engineering hasn't worked with the power of self replication much, if at all, until now. This talk will be about the RepRap Project - an open-source project that has created humanity's first general-purpose self-replicating manufacturing machine. It will examine the likely social and economic impacts of self-replicating technology, and draw parallels with a twelve-thousand-year-old industry that uses natural self-replicating machines, the industry without which we would all starve: farming.</p>
 
             <p id="AdrianBowyer" class="vcard">Adrian Bowyer holds a first degree and a PhD in engineering from Imperial College. He was an academic engineer and mathematician at the University of Bath for 35 years, from where he retired in 2012 to become a director of RepRap Ltd., a company that sells RepRap machines and components, and that undertakes research and consultancy in RepRap-related projects. RepRap Ltd is an entirely open-source company, and all its designs, software and documentation are freely available to everyone. His areas of research are geometric modelling and geometric computing in general (he is one of the creators of the Bowyer-Watson algorithm for Voronoi diagrams), the application of computers to manufacturing, and biomimetics. He is the author of about one hundred papers and books on many different aspects of engineering, computing, mathematics and biology.</p>
 
@@ -35,7 +35,7 @@ updated:     2018-07-10T20:20:00Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
-registration: https://www.eventbrite.co.uk/custombutton?eid=47580240781
+registration: https://www.eventbrite.co.uk/e/open-source-sg-3d-printing-and-making-registration-47580240781
 upcoming:
 lanyrd:
 
