@@ -95,6 +95,21 @@ sessions: |
 
             <h3>upspin.io: a personal storage and sharing system</h3>
 
+            <h3>A Plan 9 C Compiler for RISC-V</h3>
+            <p id="plan9compiler">The Plan 9 operating system was developed at Bell Labs in the 1980s using a new
+            C compiler written by Ken Thompson, which was also later used to implement the
+            kernel of the Inferno operating system and to bootstrap early releases of the
+            Go language.  Like Plan 9 itself, the compiler is highly portable, elegantly
+            minimalist, lightweight and quick.  The ARM version, for example, is about
+            21,000 lines of code and compiles itself in 15 seconds on a Raspberry Pi 3.
+            This talk will describe the exercise of re-targeting the Plan 9 C compiler to
+            generate code for the RISC-V open instruction set architecture.</p>
+
+            <p id="DrRichardMiller">Dr Richard Miller learned C in 1977 while re-targeting (and re-hosting)
+            Dennis Ritchie's original Unix C compiler from the PDP-11 to the Interdata
+            7/32.  Since then he has re-targeted Unix and Plan 9 C compilers for various
+            other CPUs from NS 16032 to Nios II.</p>
+
             <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
 
 date:        13 September 2018
@@ -103,7 +118,7 @@ dtend:       2018-07-13T20:00:00Z
 start:       18:30
 end:         20:00
 pubdate:     Wed, 22 August 2018 17:45:04 GMT
-updated:     2018-08-22T17:45:04Z
+updated:     2018-08-23T31:56:57Z
 location:    BCS London
 isoduration: P0Y0M0DT08H00M00S
 generator:   vi
