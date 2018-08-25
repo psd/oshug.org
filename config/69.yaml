@@ -2,11 +2,11 @@
 number:     69
 title:      Members' Lightning Talks
 description: |
-            <p>We don't usually do a September meeting but this year we thought it would be
+            <p>We don't usually do a September meeting, but we thought it would be
             interesting to hear from our members about the projects that they have been
-            doing over the year. We're delighted to welcome a range of speakers who will
-            spend 10 or 15 minutes discussing their projects. This is a joint meeting with
-            the British Computer Society and the UK Open Source Hardware Users Group.</p>
+            working on over the year. We're delighted to welcome a range of speakers who will
+            spend 10 or 15 minutes discussing their projects.
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
 sessions: |
             <h3>Hammerspoon: Staggeringly powerful macOS desktop automation</h3>
             <p id="hammerspoon">Hammerspoon exposes many parts of macOS to the simple scripting language Lua.
@@ -105,7 +105,7 @@ end:         20:00
 pubdate:     Wed, 22 August 2018 17:45:04 GMT
 updated:     2018-08-22T17:45:04Z
 location:    BCS London
-isoduration: P0Y0M0DT08H00M00S
+isoduration: P0Y0M0DT01H30M00S
 generator:   vi
 registration: https://ossg130918.eventbrite.co.uk/
 upcoming:
