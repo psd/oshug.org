@@ -95,7 +95,15 @@ sessions: |
             parallel I/O, management of cluster systems, cost-efficiency considerations,
             and software engineering of scientific software.</p>
 
-            <h3>upspin.io: a personal storage and sharing system</h3>
+            <h3>Upspin: a personal storage and sharing system</h3>
+            <p id="upspinio"><a href="https://upspin.io">Upspin</a> tries to address the shortcomings of sharing,
+            privacy, and availability of data on the internet, in the modern day. Whether it's making state available across
+            multiple computers or sharing with other parties, Upspin is a personal namespace which can accomodate and be built upon.</p>
+
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Website" href="https://www.sevanjaniyan.co.uk">
+            Sevan Janiyan founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides
+            system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures,
+            in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and ARM CPUs.</p>
 
             <h3>A Plan 9 C Compiler for RISC-V</h3>
             <p id="plan9compiler">The Plan 9 operating system was developed at Bell Labs in the 1980s using a new
