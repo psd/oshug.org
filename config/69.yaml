@@ -16,7 +16,7 @@ sessions: |
             some of the excellent things it can help you do. Of course, it's Open Source,
             so you can also jump in and help make it even better!</p>
 
-            <p id="ChrisJones" class="vcard"><a clas="fn url" title="Chris Jones - Twitter" href="https://twitter.com/cmsj">Chris Jones</a>
+            <p id="ChrisJones" class="vcard"><a class="fn url" title="Chris Jones - Twitter" href="https://twitter.com/cmsj">Chris Jones</a>
             has been creating, using, and advocating for Open Source software,
             since the mid-1990s. He's spent the last 12 years of his professional life
             working on/with Open Source - the first half at Canonical (creators of Ubuntu)
@@ -36,7 +36,7 @@ sessions: |
             control socket), some control software and a dev board to run it on and you
             have the ability to cook perfect steaks, eggs, fish or whatever.</p>
 
-            <p id="ChrisSwan" class="vcard"><a clas="fn url" title="Chris Swan - Twitter" href="https://twitter.com/cpswan">Chris Swan</a>
+            <p id="ChrisSwan" class="vcard"><a class="fn url" title="Chris Swan - Twitter" href="https://twitter.com/cpswan">Chris Swan</a>
             has been tinkering with electronics since he was a small child, and
             got into software when he realised that it was necessary to make hardware do
             interesting things. In his day job as CTO for Global Delivery for DXC
