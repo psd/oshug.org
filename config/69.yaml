@@ -9,14 +9,15 @@ description: |
             <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
 sessions: |
             <h3>Hammerspoon: Staggeringly powerful macOS desktop automation</h3>
-            <p id="hammerspoon">Hammerspoon exposes many parts of macOS to the simple scripting language Lua.
+            <p id="hammerspoon"><a href="http://www.hammerspoon.org">Hammerspoon</a> exposes many parts of macOS to the simple scripting language Lua.
             Its goal is to make the most powerful and flexible tool for serious power users
             to automate and customise as many things as possible. In this talk we'll look
             at the history of automation on Apple computers, how Hammerspoon works, and
             some of the excellent things it can help you do. Of course, it's Open Source,
             so you can also jump in and help make it even better!</p>
 
-            <p id="ChrisJones">Chris Jones has been creating, using, and advocating for Open Source software,
+            <p id="ChrisJones" class="vcard"><a class="fn url" title="Chris Jones - Twitter" href="https://twitter.com/cmsj">Chris Jones</a>
+            has been creating, using, and advocating for Open Source software,
             since the mid-1990s. He's spent the last 12 years of his professional life
             working on/with Open Source - the first half at Canonical (creators of Ubuntu)
             and since then working on OpenStack at HP and Red Hat.<br />
@@ -35,7 +36,8 @@ sessions: |
             control socket), some control software and a dev board to run it on and you
             have the ability to cook perfect steaks, eggs, fish or whatever.</p>
 
-            <p id="ChrisSwan">Chris Swan has been tinkering with electronics since he was a small child, and
+            <p id="ChrisSwan" class="vcard"><a class="fn url" title="Chris Swan - Twitter" href="https://twitter.com/cpswan">Chris Swan</a>
+            has been tinkering with electronics since he was a small child, and
             got into software when he realised that it was necessary to make hardware do
             interesting things. In his day job as CTO for Global Delivery for DXC
             Technology he's bringing a large services company and its customers into a
@@ -93,7 +95,15 @@ sessions: |
             parallel I/O, management of cluster systems, cost-efficiency considerations,
             and software engineering of scientific software.</p>
 
-            <h3>upspin.io: a personal storage and sharing system</h3>
+            <h3>Upspin: a personal storage and sharing system</h3>
+            <p id="upspinio"><a href="https://upspin.io">Upspin</a> tries to address the shortcomings of sharing,
+            privacy, and availability of data on the internet, in the modern day. Whether it's making state available across
+            multiple computers or sharing with other parties, Upspin is a personal namespace which can accomodate and be built upon.</p>
+
+            <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Website" href="https://www.sevanjaniyan.co.uk">
+            Sevan Janiyan founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides
+            system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures,
+            in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and ARM CPUs.</p>
 
             <h3>A Plan 9 C Compiler for RISC-V</h3>
             <p id="plan9compiler">The Plan 9 operating system was developed at Bell Labs in the 1980s using a new
