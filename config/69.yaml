@@ -55,7 +55,7 @@ sessions: |
             <a href="https://github.com/largeostrich/openelectricsurfboard">https://github.com/largeostrich/openelectricsurfboard</a> and
             <a href="https://github.com/largeostrich/openwaterjet">https://github.com/largeostrich/openwaterjet</a>.</p>
 
-            <p id="PeterBennett">Peter Bennett (thelargeostrich) is currently studying Mining Engineering at
+            <p id="PeterBennett" class="vcard"><a class="fn url" title="Peter Bennett - Twitter" href="https://twitter.com/V12Peter">Peter Bennett</a> is currently studying Mining Engineering at
             Camborne School of Mines, University of Exeter. He has a long standing interest
             in open source technology, particularly 3D printing and electronics. He
             previously reimagined peripherals for the EDSAC using 3D printing and arduino
@@ -67,7 +67,7 @@ sessions: |
             Raspberry Pi or Microcontroller he decided it would be digitally controlled
             rather than the usual analogue pwm.</p>
 
-            <p id="AndyClark">Andy Clark has been Making and Repairing in a shed at the bottom of the garden
+            <p id="AndyClark" class="vcard"><a class="fn url" title="Andy Clark - Twitter" href="https://twitter.com/Workshopshed">Andy Clark</a> has been Making and Repairing in a shed at the bottom of the garden
             for the last 10 years. The code and designs for his often quirky and enchanting
             projects can be found on GitHub and documented on the Workshopshed blog.</p>
 
@@ -83,7 +83,7 @@ sessions: |
             parallel workflows but would be beneficial also in the domain of big data and
             even desktop PC.  It bears the opportunity to create a new ecosystem.</p>
 
-            <p id="JulianKunkel">Dr. Kunkel is a Lecturer at the Computer Science Department at the University
+            <p id="JulianKunkel" class="vcard"><u>Dr. Kunkel</u> is a Lecturer at the Computer Science Department at the University
             of Reading. Previously, he worked as postdoc in the research department of the
             German Climate Computing Center (DKRZ) that partners with the Scientific
             Computing group at the Universität Hamburg. He manages several research
@@ -101,7 +101,7 @@ sessions: |
             multiple computers or sharing with other parties, Upspin is a personal namespace which can accomodate and be built upon.</p>
 
             <p id="SevanJaniyan" class="vcard"><a class="fn url" title="Sevan Janiyan - Website" href="https://www.sevanjaniyan.co.uk">
-            Sevan Janiyan founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides
+            Sevan Janiyan</a> founder of <a href="http://www.venture37.com/" title="Venture 37 website">Venture 37</a>, which provides
             system administration & consultancy services. As a fan of operating systems and computers with different CPU architectures,
             in his spare time he maintains builds of open source software on a variety of systems featuring PowerPC, SPARC and ARM CPUs.</p>
 
@@ -115,7 +115,7 @@ sessions: |
             This talk will describe the exercise of re-targeting the Plan 9 C compiler to
             generate code for the RISC-V open instruction set architecture.</p>
 
-            <p id="DrRichardMiller">Dr Richard Miller learned C in 1977 while re-targeting (and re-hosting)
+            <p id="DrRichardMiller" class="vcard"><u>Dr Richard Miller</u> learned C in 1977 while re-targeting (and re-hosting)
             Dennis Ritchie's original Unix C compiler from the PDP-11 to the Interdata
             7/32.  Since then he has re-targeted Unix and Plan 9 C compilers for various
             other CPUs from NS 16032 to Nios II.</p>
@@ -128,7 +128,7 @@ dtend:       2018-07-13T20:00:00Z
 start:       18:30
 end:         20:00
 pubdate:     Wed, 22 August 2018 17:45:04 GMT
-updated:     2018-08-23T31:56:57Z
+updated:     2018-08-28T11:36:57Z
 location:    BCS London
 isoduration: P0Y0M0DT01H30M00S
 generator:   vi
@@ -138,3 +138,13 @@ lanyrd:
 
 tags:
     - makers
+    - foss
+    - oshw
+    - fossi
+    - riscv
+    - plan9
+    - hammerspoon
+    - surfing
+    - surfboard
+    - waterjetcutter
+    - servo
