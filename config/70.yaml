@@ -1,0 +1,83 @@
+---
+number:     70
+title:      Mentoring & Advocacy in Open Source + AGM
+description: |
+            <p>Whilst open source is now more widely accepted, there are still
+            large parts of the engineering community who have yet to "see the
+            light".  Advocacy remains a key role for all who care about open
+            source, while mentoring helps user make best use of open source technology.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>Software Freedom Conservancy</h3>
+            <p id="sfconservancy"><a href="https://sfconservancy.org/">Software
+            Freedom Conservancy</a> helps promote, improve, develop, and defend
+            Free, Libre, and Open Source Software (FLOSS) projects.</p>
+
+            <p id="KarenSandler" class="vcard"><a class="fn url" title="Karen M. Sandler - Twitter" href="https://twitter.com/o0karen0o">Karen M. Sandler</a>
+	    is the executive director of Conservancy. Karen is known as a
+            cyborg lawyer for her advocacy for free software, particularly in relation to
+            the software on medical devices. Prior to joining Conservancy, she was
+            executive director of the GNOME Foundation. Before that, she was general
+            counsel of the Software Freedom Law Center. Karen co-organizes Outreachy, the
+            award-winning outreach program to support women globally and for people of
+            color who are underrepresented in US tech. She is also pro bono counsel to the
+            FSF and GNOME. Karen is a recipient of the Free Software Foundation's Award for
+            the Advancement of Free Software and the O'Reilly Open Source Award.
+            <br />
+            Karen received her law degree from Columbia Law School in 2000, where she was a
+            James Kent Scholar and co-founder of the Columbia Science and Technology Law
+            Review. Karen received her bachelor's degree in engineering from The
+            Cooper Union.</p>
+
+            <h3>Cooking with a touch of science and a dash of engineering.</h3>
+            <p id="fsfe">Free Software Foundation Europe is a charity that empowers users to control technology.
+            <br />
+            Software is deeply involved in all aspects of our lives; and it is
+            important that this technology empowers rather than restricts us.  Free Software
+            gives everybody the rights to use, understand, adapt and share software.  These
+            rights help support other fundamental freedoms like freedom of speech, press and
+            privacy.</p>
+            <p id="PaulAdams" class="vcard"><a class="fn url" title="Paul Adams- Twitter" href="https://twitter.com/therealpadams">Paul Adams</a>
+           is a co-founder of BCS Open Source SG and its second Chair.
+           He served as a FSFE Fellow in 2009 and regularly gives presentations on
+           behalf of the FSFE.</p>
+
+            <h3>Advocacy for Women in Open Source</h3>
+            <p id="womeninoss"></p>
+            <p id="CorneliaBoldyref" class="vcard"><a class="fn url" title="Cornelia Boldyreff - Twitter" href="https://twitter.com/Cornelia">Cornelia Boldyreff</a>
+            is a Visiting Professor at the University of Greenwich.
+            She gained her PhD in Software Engineering from
+            the University of Durham.  In 2004 she became the first Professor of Software
+            Engineering at the University of Lincoln, where she co-founded and directed the
+            Centre for Research in Open Source Software.  Cornelia was most recently
+            Associate Dean (Research and Enterprise) at the University of East London
+
+            She is a founding committee member of the BCSWomen Specialist Group, a committee
+            member of the BCS e-Learning Specialist Group, and from 2013-2017 chaired the
+            BCS Open Source Specialist Group. She has been actively campaigning for more
+            women in STEM throughout her career.  Together with Miriam Joy Morris and Dr
+            Yasmine Arafa, she founded the start-up, ebartex Ltd, and together they are
+            developing a new digital bartering currency, ebarts.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        25 October 2018
+dtstart:     2018-10-25T18:00:00Z
+dtend:       2018-10-25T20:00:00Z
+start:       18:30
+end:         20:00
+pubdate:     Wed, 22 August 2018 17:45:04 GMT
+updated:     2018-08-28T11:36:57Z
+location:    BCS London
+isoduration: P0Y0M0DT01H30M00S
+generator:   vi
+registration: https://www.eventbrite.co.uk/e/open-source-sg-mentoring-advocacy-agm-registration-51065196377
+upcoming:
+lanyrd:
+
+tags:
+    - makers
+    - foss
+    - ossg
+    - advocacy
+    - libre
