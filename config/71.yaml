@@ -46,7 +46,7 @@ sessions: |
             love of which had been instilled in Richard as a young person by his
             father and continues to be a key skill in his career to date.</p>
 
-            <h3>mbedded FreeBSD on a five-core RISC-V processor using LLVM</h3>
+            <h3>Embedded FreeBSD on a five-core RISC-V processor using LLVM</h3>
             <p id="riscvllvm">We were tasked with bringing up and testing embedded FreeBSD on a custom
             five-core 32/64-bit RISC-V processor using LLVM. Given FreeBSD has
             already been ported to RISC-V and LLVM is the standard BSD C/C++
