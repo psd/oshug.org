@@ -1,0 +1,126 @@
+---
+number:     71
+title:      Machines and systems of past, present, future
+description: |
+            <p>To start off the year, we have a series of talks around the
+            theme of Acorn computers, RISC OS, RISC-V toolchain.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>Brief history of Unix-like operating systems on Acorn hardware</h3>
+            <p id="sborrill" class="vcard"><a class="fn url" href="https://twitter.com/PrecedenceTech">Stephen Borrill</a>
+            first encountered Unix while working for a PhD in Psychoacoustics
+            and as a long-term Acorn user, his Acorn RiscPC was his hardware of choice to
+            run it on.
+            <br />
+            While finishing his PhD, Stephen started a part-time job at Acorn
+            Computers working in technical support. This led to full-time employment
+            at Acorn and Xemplar (an Acorn and Apple joint venture focussed on UK
+            education) during which he developed products based on BSD Unix on Acorn
+            hardware which were sold nationally.
+            <br />
+            In 1999 he founded <a class="url" title="Precedence Technologies" href="https://www.precedence.co.uk/">Precedence Technologies</a> who took over support and
+            development of the products he worked on at Acorn and Xemplar. He
+            continues to with the products 20 years later.</p>
+
+            <h3>RISC OS : What's Next</h3>
+            <p id="riscos">As of 2018, RISC OS is an open source operating
+            system. This talk will cover the heritage of RISC OS, direction it
+            would like to go, the response since it was open sourced as well as a demo of
+            the latest computers that run RISC OS.</p>
+            
+            <p id="RichardBrown" class="vcard">Richard Brown is a co-founder and director of <a class="url" title="RISC OS Developments Ltd" href="http://riscosdev.com">RISC OS Developments Ltd</a>. Since
+            its inception in April 2017, Richard has been a driving force in making
+            RISC OS truly open source; this was achieved with significant funding
+            and community support in November 2018.
+
+            Richard is also the sole director of GeneSys Developments Ltd, an IT
+            company, which additionally incorporates Orpheus Internet, an ISP company.
+
+            Despite not having a 'techie' background, Richard would end up assisting
+            or implementing IT solutions for the companies he worked for. Taking the
+            opportunity to further his technical knowledge and experience, Richard
+            went on to work in the IT industry and set up his own business in 1995.
+
+            In the early 80's, Richard spent some time in Canada. Here, he worked in
+            the camera industry where he acquired advanced skills in photography, a
+            love of which had been instilled in Richard as a young person by his
+            father and continues to be a key skill in his career to date.</p>
+
+            <h3>Embedded FreeBSD on a five-core RISC-V processor using LLVM</h3>
+            <p id="riscvllvm">We were tasked with bringing up and testing embedded FreeBSD on a custom
+            five-core 32/64-bit RISC-V processor using LLVM. Given FreeBSD has
+            already been ported to RISC-V and LLVM is the standard BSD C/C++
+            compiler surely this should be easy.
+            <br />
+            But it wasn't. LLVM for RISC-V is still relatively immature,
+            particularly for 64-bit. FreeBSD runs on symmetric multi-core 64-bit
+            QEMU RISC-V, but not on embedded systems and not on heterogeneous
+            multicore systems.
+            <br />
+            In this talk we'll go through the steps needed to bring up a functioning
+            embedded FreeBSD system on multi-core heterogeneous RISC-V system. Our
+            target hardware was not available at the start of the project, so we
+            used the generally available HiFive Freedom Unleashed board.  The result
+            is a reference embedded FreeBSD implementation for RISC-V, freely
+            available to the community.
+            <br />
+            This is not a talk about the deep internals of FreeBSD, but about the
+            practical engineering steps needed to bring up an embedded operating
+            system where many of the key components are not yet fully mature.</p>
+
+            <p id="Jeremy Bennett" class="vcard"><a class="fn url" href="https://twitter.com/jeremypbennett">Jeremy Bennett</a>
+            is Chief Executive of <a class="url" href="http://www.embecosm.com/">Embecosm</a>, a company developing open source compiler tool chains and porting embedded
+            operating systems for new architectures. He is author of the standard
+            text book "Introduction to Compiling Techniques" (McGraw-Hill 1990,
+            1995, 2003) and is an active member of the RISC-V Compliance Task Group.</p>
+
+            <h3>Buildroot for RISC-V (Using Buildroot to create embedded Linux systems for 64-bit RISC-V)</h3>
+
+            <p id="buildroot">Buildroot is an embedded Linux build system that generates complete
+            system images from source for a wide range of boards and processors. I
+            have recently added support for 64-bit RISC-V to the official Buildroot
+            distribution which make it a viable alternative to other build systems
+            for RISC-V such as Yocto.
+
+            During this presentation I will give a brief overview of Buildroot and
+            how it compares to Yocto for those in the audience who are unfamiliar
+            with these systems. In the main part of the talk I will look at the
+            issues relating to the implementation of RISC-V support, based on my
+            experiences. This will include a look at the status of the RISC-V
+            software ecosystem with regard to the selection of a suitable toolchain,
+            C library, kernel and bootloader. I will then run through how to
+            configure and build a minimal system for booting under QEMU. Finally I
+            will consider any further work required to improve Buildroot for RISC-V
+            including the status of 32-bit support.</p>
+
+            <p id="MarkCorbin" class="vcard"><a class="fn url" href="https://uk.linkedin.com/in/mark-corbin-4b879645">Mark Corbin</a> is Embedded Operating Systems Lead at <a class="url" href="http://www.embecosm.com/">Embecosm</a>.
+            He has an extensive background in embedded systems
+            development and has worked with Linux since 1996. He specialises in
+            building embedded Linux distributions and is currently the RISC-V
+            maintainer for the Buildroot project.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        25 October 2018
+dtstart:     2019-01-17T18:00:00Z
+dtend:       2019-01-17T20:30:00Z
+start:       18:30
+end:         20:30
+pubdate:     Tue, 08 January 2019 22:14:04 DST
+updated:     2019-01-09T11:36:57Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg170119.eventbrite.co.uk/
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - toolchain
+    - risc-v
+    - freebsd
+    - unix
+    - acorn
+    - arm
+    - riscos
