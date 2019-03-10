@@ -1,0 +1,99 @@
+---
+number:     72
+title:      OpenSource FPGA Hardware and Tooling Past, Present and Future
+description: |
+            <p>Once upon a time we could only use proprietary tools and
+            development boards supplied by FPGA vendors, This all changed in
+            2016 with the advent of the IceStorm opensource toolchain combined
+            with open Hardware like the myStorm board. With the 2nd generation
+            of tools and hardware sophisticated FPGA features are opening
+            exciting avenues for 'Opensource all the way down', we hope to
+            provide an update and crystal ball on where some of this could be
+            leading to.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>OpenSource FPGA Tooling past to present</h3>
+            <p id="tooling"><a class="fn url"
+            href="https://twitter.com/fpga_dave">David Shah</a> looks at where
+            we have come from with the IceStorm toochain, and looks at how this
+            has devloped recently and expanded Ice40 Lattice support to include
+            new lower power, lower cost, reduced pincount FPGAs to inlcude
+            their Ultra & Ultra Plus range.</p>
+
+            <h3>OpenSource FPGA Hardware past to present</h3>
+            <p id="hardware"><a class="fn url"
+            href="https://twitter.com/folknology">Alan Wood</a> talks about the
+            journey through the early history of OpenSource FPGA open hardware
+            from IcoBoard through myStorm too recent UltraPlus offerings
+            recently made available.</p>
+
+
+            <h3>OpenSource FPGA Tooling present to future</h3>
+            <p id="toolingfuture">Icestorm was aimed at a narrow family of
+            Ice40 FPGAS, the new Symbiflow family of tools expands the
+            opensource tooling exponetially. <a class="fn url"
+            href="https://twitter.com/fpga_dave">David Shah</a> takes a look at
+            NextPNR which lies at the heart of the toolset and deals with
+            specific FPGA family functionality, in particular he concentrates
+            on the Lattice ECP5 family support he has developed with Project
+            Trellis as part of NextPNR and the recent 1.0 version supporting
+            this new family and high end FPGA features.</p>
+
+            <h3>OpenSource FPGA Hardware present to future</h3>
+            <p id="hardwarefuture">What comes next for opensource FPGA
+            hardware, after the success of tinyFPGA and myStorm we are begining
+            to see ECP5 opensource hardware emerging first with Radiona's ULX3S
+            and being followed up by offerings from both tinyFPGA and myStorm
+            dev board stables, with new hardware comes new features building on
+            NextPNRs tooling like DSP, SerDES IO Gearing and DDR memory etc, <a
+            class="fn url" href="https://twitter.com/folknology">Alan</a>plots
+            the course for these new powerfull opesource development
+            boards...</p>
+
+            <h3>Demos of the new Tooling and hardware</h3>
+            <p id="demos">Time permitting we can show some of what's possible
+            with the new tools in a brave new 'Opensource all the way down'
+            world.</p>
+
+            <p id="davidshah" class="vcard"><a class="fn url"
+            href="https://twitter.com/fpga_dave">David Shah</a> is a engineer
+            at Symbiotic EDA and a Electronic and Information Engineering
+            student at Imperial College London. He entered the world of open
+            source FPGAs by extending Project Icestorm, the iCE40 bitstream
+            documentation project, to include the newer iCE40 UltraPlus FPGAs.
+            As well developing Project Trellis, he has been involved in the
+            development of a new open source FPGA place-and-route tool,
+            nextpnr.</p>
+
+            <p id="alanwood" class="vcard"><a class="fn url"
+            href="https://twitter.com/folknology">Alan Wood</a> has been
+            working with parallel distributed programming for several decades.
+            His recent work includes smart grids, 3D printers, robotics,
+            automation, biotec diagnostics and designing FPGA devboards. His
+            current research is focused on machine learning for embedded
+            automation using FPGAs. He is a long term advocate of open source
+            communities, a moderator (aka Folknology) for xCORE, the co-founder
+            of myStorm open hardware FPGA community, as well as a co-founder of
+            Surrey and Hampshire Makerspace.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        21 January 2019
+dtstart:     2019-01-17T18:00:00Z
+dtend:       2019-01-17T20:30:00Z
+start:       18:30
+end:         20:30
+pubdate:     Sun, 10 March 2019 21:05:43 UTC
+updated:     2019-03-10T21:05:43Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg210319.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - software
+    - toolchain
+    - fpga
