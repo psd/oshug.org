@@ -12,7 +12,7 @@ description: |
             leading to.</p>
             <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
 sessions: |
-            <h3>OpenSource FPGA Tooling past to present</h3>
+            <h3>The Tools: past to present</h3>
             <p id="tooling"><a class="fn url"
             href="https://twitter.com/fpga_dave">David Shah</a> looks at where
             we have come from with the IceStorm toochain, and looks at how this
@@ -20,15 +20,14 @@ sessions: |
             new lower power, lower cost, reduced pincount FPGAs to inlcude
             their Ultra & Ultra Plus range.</p>
 
-            <h3>OpenSource FPGA Hardware past to present</h3>
+            <h3>The Hardware: past to present</h3>
             <p id="hardware"><a class="fn url"
             href="https://twitter.com/folknology">Alan Wood</a> talks about the
             journey through the early history of OpenSource FPGA open hardware
             from IcoBoard through myStorm too recent UltraPlus offerings
             recently made available.</p>
 
-
-            <h3>OpenSource FPGA Tooling present to future</h3>
+            <h3>The Tools: present to future</h3>
             <p id="toolingfuture">Icestorm was aimed at a narrow family of
             Ice40 FPGAS, the new Symbiflow family of tools expands the
             opensource tooling exponetially. <a class="fn url"
@@ -39,7 +38,7 @@ sessions: |
             Trellis as part of NextPNR and the recent 1.0 version supporting
             this new family and high end FPGA features.</p>
 
-            <h3>OpenSource FPGA Hardware present to future</h3>
+            <h3>The Hardware: present to future</h3>
             <p id="hardwarefuture">What comes next for opensource FPGA
             hardware, after the success of tinyFPGA and myStorm we are begining
             to see ECP5 opensource hardware emerging first with Radiona's ULX3S
@@ -50,7 +49,7 @@ sessions: |
             the course for these new powerfull opesource development
             boards...</p>
 
-            <h3>Demos of the new Tooling and hardware</h3>
+            <h3>Demos</h3>
             <p id="demos">Time permitting we can show some of what's possible
             with the new tools in a brave new 'Opensource all the way down'
             world.</p>
@@ -78,13 +77,13 @@ sessions: |
 
             <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
 
-date:        21 January 2019
-dtstart:     2019-01-17T18:00:00Z
-dtend:       2019-01-17T20:30:00Z
+date:        21 March 2019
+dtstart:     2019-03-21T18:00:00Z
+dtend:       2019-03-21T20:30:00Z
 start:       18:30
 end:         20:30
 pubdate:     Sun, 10 March 2019 21:05:43 UTC
-updated:     2019-03-10T21:05:43Z
+updated:     2019-03-11T23:16:31Z
 location:    BCS London
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
