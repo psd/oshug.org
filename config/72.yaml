@@ -12,7 +12,7 @@ description: |
             leading to.</p>
             <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
 sessions: |
-            <h3>The Tools: past to present</h3>
+            <h3>Tools: past to present</h3>
             <p id="tooling"><a class="fn url"
             href="https://twitter.com/fpga_dave">David Shah</a> looks at where
             we have come from with the IceStorm toochain, and looks at how this
@@ -20,14 +20,14 @@ sessions: |
             new lower power, lower cost, reduced pincount FPGAs to inlcude
             their Ultra & Ultra Plus range.</p>
 
-            <h3>The Hardware: past to present</h3>
+            <h3>Hardware: past to present</h3>
             <p id="hardware"><a class="fn url"
             href="https://twitter.com/folknology">Alan Wood</a> talks about the
             journey through the early history of OpenSource FPGA open hardware
             from IcoBoard through myStorm too recent UltraPlus offerings
             recently made available.</p>
 
-            <h3>The Tools: present to future</h3>
+            <h3>Tools: present to future</h3>
             <p id="toolingfuture">Icestorm was aimed at a narrow family of
             Ice40 FPGAS, the new Symbiflow family of tools expands the
             opensource tooling exponetially. <a class="fn url"
@@ -38,7 +38,7 @@ sessions: |
             Trellis as part of NextPNR and the recent 1.0 version supporting
             this new family and high end FPGA features.</p>
 
-            <h3>The Hardware: present to future</h3>
+            <h3>Hardware: present to future</h3>
             <p id="hardwarefuture">What comes next for opensource FPGA
             hardware, after the success of tinyFPGA and myStorm we are begining
             to see ECP5 opensource hardware emerging first with Radiona's ULX3S
