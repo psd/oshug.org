@@ -1,0 +1,156 @@
+---
+number:     oshcamp2019
+li:         73
+title:      Open Source Hardware Camp 2019
+description: |
+            <p>Open Source Hardware Camp 2019 will take place place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, where it will return to be hosted for the sixth year as part of the <a href="https://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="http://www.hebdenbridgehostel.co.uk/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a> which adjoins the venue, with private rooms available and discounts for group bookings. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a>.</p>
+            <p>There will be a social event on the Saturday evening from 8PM.</p>
+
+            <p>Any questions should be directed to the <a href="http://oshug.org/cgi-bin/mailman/listinfo/oshug">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Customising a RISC-V Core</h4>
+            <p id="CustomRISCV">This talk walks through the RISC-V ISA and the microarchitecture of an open-source RISC-V core, to provide an understanding of how new instructions can be added to the hardware.</p>
+            <p>RISC-V is an open Instruction Set Architecture (ISA) that can be implemented freely. The ISA is modular, providing a base set of integer instructions alongside standard extensions for multiplication, floating point, atomic operations, and many other categories. In addition to standard extensions, the ISA reserves space for user-defined extensions, providing the flexibility to add custom instructions that fulfil any purpose.</p>
+            <p>There are many open-source implementations of RISC-V cores - in this talk we will look at a small core written in SystemVerilog that is simple enough to be understood by those relatively new digital logic design. We will walk through the different components of the core and how they fit together to build a picture of how instructions are decoded and executed, and go through an example of the changes to each component needed to support a custom instruction.</p>
+            <p id="GrahamMarkall" class="vcard"><a class="fn url" title="Graham Markall - Twitter" href="https://twitter.com/gmarkall">Dr Graham Markall</a> is a software toolchain engineer at Embecosm, which provides open source toolchain services. Most of his work focuses on GNU toolchains (GCC, Binutils, GDB, etc.) and the use of cycle-accurate simulation for pre-silicon toolchain development and testing. His current projects focus on the development of customised toolchains for various RISC-V systems, ranging from small, deeply-embedded applications up to high-performance multicore systems.</p>
+
+            <h4>Building A Network on a Chip for a Raspberry Pi Zero Cluster</h4>
+            <p id="NoCPiCluster">A Raspberry Pi cluster is a popular platform for experimentation and learning about parallel computing. The tiny Raspberry Pi Zero has no built-in ethernet capability, so a Pi Zero cluster needs an alternative way to connect the CPUs. By implementing a specialised local network on an FPGA chip, linked to a serial or SPI port on each CPU, we can avoid the need for bulky ethernet cables and switches, and build a very compact cluster with low cost and low power consumption.</p>
+            <p id="RichardMiller" class="vcard">As a member of Oxford University's Programming Research Group in the 1980s, <u>Richard Miller</u> wrote software for parallel computing systems from the transputer to the Cray T3D. More recently as a freelance software engineer, he ported the Plan 9 operating system to the Raspberry Pi. His current focus is on FPGA circuit design.</p>
+    
+            <h4>From humble beginnings to manufacturing the HILTOP open source test and measurement platform and the problems along the way!</h4>
+            <p id="HILTOP">The story of how three entrepreneurs with a vision and willingness to succeed have carved out an open source test and measurement business and the details behind the hardware and software problems they had with early prototypes and product integration.</p>
+            <p id="TimTelford" class="vcard">Tim Telford is a hardware engineer with diverse skill set and highly motivated self starter. Passionate about design detail and experienced in high reliability solutions for the Aerospace, Defence, Telecoms and Nuclear industries.</p>
+            <p>Development of test equipment and measurement systems for Rolls-Royce Aerospace. Systems and Electronic engineering experience within the nuclear industry. Design of commercial test equipment and high integrity, high value projects.</p>
+            <p>Analogue and Digital board level design, Schematics, PCB, FPGA development, DFM, DFT, Simulation, systems design and integration/testing. Requirements management, FMEA, WCA & PSA analysis techniques.</p>
+            <p id="JoeBurmeister" class="vcard">Joe Burmeister spent nearly 12 years in the console and PC game industry. He worked in a number of areas from graphics and animation engine to art and animation tools, finally file systems and databases.</p>
+            <p>Joe comes from a multiple platform background, partly as consoles used to not be PCs, but also having grown up on RISC OS (Acorn’s desktop ARM OS), before moving to Windows for work then Linux for fun and finally work. For the past five years Joe has done work on GNU/Linux, often on ARM.</p>
+            <p>Having started out bedroom programming, Joe is a strong believer that everyone should have the option of source code and learning how things work.</p>
+
+            <h4>Linux on Open Source Hardware and Libre Silicon</h4>
+            <p id="LinuxLibreSilicon">This talk will explore Open Source Hardware projects relevant to Linux, including boards like BeagleBone, Olimex OLinuXino, Giant board and more. Looking at the benefits and challenges of designing Open Source Hardware for a Linux system, along with BeagleBoard.org's experience of working with community, manufacturers, and distributors to create an Open Source Hardware platform. In closing also looking at the future, Libre Silicon like RISC-V designs, and where this might take Linux.</p>
+            <p id="DrewFustini" class="vcard"><a class="fn url" title="Drew Fustini - Twitter" href="https://twitter.com/pdp7">Drew Fustini</a> is an Open Source Hardware designer at OSH Park, board member of the BeagleBoard Foundation, maintainer of the Adafruit BeagleBone Python library, and Open Source Hardware Association vice president.</p>
+
+            <h4>Exploring the Gigatron TTL Computer</h4>
+            <p id="Gigatron">The Gigatron TTL computer is an open source computer constructed almost entirely from TTL logic - without the need for a microprocessor. The unique design combines 36 standard 74HCTxx TTL devices with  ROM and RAM chips to make a platform capable of colour VGA video and sound. The machine can host 1980's style games and can be programmed in interactive Tiny BASIC.</p>
+            <p>In the last year, Ken has explored the architecture of this machine and achieves some performance gains by overclocking the cpu by over 200%. This has yielded a platform that is rated at about 2 to 3 times the performance of the classic 1980's machines, such as the C64, Spectrum etc.</p>
+            <p>Working with an unfamiliar architecture has meant creating some programming tools and also simulating the machine behaviour on an ARM processor.</p>
+            <p>Ken discusses the progress to date - and poses the question, "What would computers be like had the microprocessor not appeared when it did?"</p>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://twitter.com/monsonite">Ken Boak</a> began programming computers in 1979 at school, and has continued to do so - somewhat infrequently over the last 40 years. The Gigatron rekindles old memories of TTL logic and working with resource limited computing. It illustrates just how much can be done with such a minimal machine.</p>
+
+            <h4>Gearing up for Volume Manufacturing: Tales from China</h4>
+            <p id="TalesFromChina">The journey of a design from engineering sign-off all the way to customer shipment takes many months of hard work and the smallest of hiccups could translate to severe delays. With many actors involved, how does it all work? What is involved in designing and shipping a consumer product with high volume manufacturing in mind?</p>
+            <p>This talk will give the audience a behind the scenes look at what it takes to ship electronics products at scale, particularly focusing on the approach, dialogue and the processes required to run a successful manufacturing project.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Twitter" href="https://twitter.com/OmerK">Omer Kilic</a> is an embedded systems engineer who works at the various intersections of hardware and software engineering practices, product development and manufacturing.</p>
+
+            <h4>Saving Your Electronic Conference Badge From A Life On The Shelf</h4>
+            <p id="SYECB">As the creator of an electronic conference badge, you want to create something memorable, a badge with Wow! factor which will be remembered fondly and remain in use for years afterwards. Unfortunately so many badges end up sitting in drawers gathering dust, never to see the light of day again. Firmware,hardware, or documentation haven't been kind to the conference attendees, and though you've given them an amazing piece of hardware they just haven't been able to get a handle on it and use it in their own projects.</p>
+            <p>This talk gives a few ideas about how that might be avoided, how an awesome badge can avoid being an ignominious piece of e-waste and become a valued piece of hardware used in projects for years afterwards.</p>
+            <p id="JennyList" class="vcard"><a class="fn url" title="Jenny List - Twitter" href="https://twitter.com/Jenny_Alto">Jenny List</a> is an electronic engineer and technical writer who spent a long career in electronic publishing from CD-ROMs to dictionaries before breaking out and forming her own hardware business, and writing about hardware as a contributing editor for Hackaday.com.</p>
+
+            <h4>What's So Good About The Z80 CPU Anyway?</h4>
+            <p id="GoodZ80">This talk will briefly cover the history of the Zilog Z80 CPU including early development, some predictable places where it turned up, as well as some more less expected uses.  It will include a look at the architecture of the Z80 itself and then an overview of how to build a simple Z80 based computer and program it in BASIC.  This will lead on to a description of the kit in your goodie bag and a plug for the workshop on the Sunday.</p>
+            <p id="SpencerOwen" class="vcard"><a class="fn url" title="Spencer Owen - Twitter" href="https://twitter.com/ZxSpectROM">Spencer Owen</a> like many kids in the 80s, loved his ZX Spectrum and other 8 bit computers. This set him up for a career in IT, and he worked as a server engineer and network engineer for many years. In 2013, in a bid to see if he really understood how computers worked at the lowest level, Spencer went back to his roots built a simple Z80 based machine on a breadboard. This was to mature in to the RC2014, which Spencer started selling in his spare time in 2015. Within a few months it was clear that the RC2014 was taking up more time than he had spare, so he quit network job and started a retro computer kit company. Spencer is now the largest supplier of Z80 computers worldwide.</p>
+
+            <h4>Next Generation Open Source FPGAs</h4>
+            <p id="NextGenOSFPGAs">After the success of Icestorm and the growth of the open source FPGA ecosystem, work started on the next generation of open source FPGA toolchains in 2018. This includes the next-generation place-and-route tool nextpnr, designed to support a wide range of FPGA architectures as well as producing higher quality results with less runtime. Combined with Project Trellis which provides bitstream documentation for the Lattice ECP5 FPGAs, a wide range of advanced projects such as Linux-capable RISC-V SoCs with fast memory, Ethernet and video interfaces are possible with an end-to-end open source flow.</p>
+            <p>This talk will introduce these new tools and their capabilities, as well as discussing what lies ahead for open source FPGA tools, and how you can get involved in this exciting new open world!</p>
+            <p id="davidshah" class="vcard"><a class="fn url" href="https://twitter.com/fpga_dave">David Shah</a> is a engineer at Symbiotic EDA and a Electronic and Information Engineering student at Imperial College London. He entered the world of open source FPGAs by extending Project Icestorm, the iCE40 bitstream documentation project, to include the newer iCE40 UltraPlus FPGAs. As well developing Project Trellis, he has been involved in the development of a new open source FPGA place-and-route tool, nextpnr.</p>
+          
+            <h4>Heterogeneous design for embedded development</h4>
+            <p id="HetEmbeddedDev">Developing embedded solutions for today's challenging applications be them IoT, consumer, automation or robotics requires a heterogeneous technology approach involving hardware, FPGA, µC Firmware, and software combined at multiple levels. Concepts such as Machine Vision/Learning, Artificial Intelligence coupled with traditional embedded hardware and software stacks require hybrid approaches to design and implementation. I take a look at typical hardware being used and platform sweet spots I have been identified. I also take a look at some emerging tools and approaches for tackling these heterogeneous projects.</p>
+            <p id="alanwood" class="vcard"><a class="fn url" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded automation using FPGA and µC. He is a long term advocate of open source communities, a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p>
+
+            <h4>EMC Design for Open Source Hardware</h4>
+            <p id="EMCOSHW">Many Open Source electronics designs start off as cool development tools and end up being integrated into commercial products due to their low barrier to entry and ease of development.</p>
+            <p>Now your hardware becomes subject to various Regulatory requirements, Electro-Magnetic Compatibility (EMC) amongst them. Whilst it might not be viable for an Open Source project to undergo full compliance testing, there are things that can be done to improve the EMC performance of your system.</p>
+            <p>In this talk, James gives an overview of common problems encountered during EMC testing of Open Source hardware and the fixes required to resolve them. We'll also look at some key electromagnetic concepts (don't worry, no scary maths) that will help you look at your designs in a new light.</p>
+            <p id="JamesPawson" class="vcard"><a class="fn url" title="James Pawson - LinkedIn" href="https://www.linkedin.com/in/james-pawson-unit-3-compliance/">James Pawson</a> runs <a href="http://www.unit3compliance.co.uk/">Unit 3 Compliance</a>, a West Yorkshire EMC test lab and consultancy that offers practical advice and EMC problem solving for a wide range of electronics products.</p>
+ 
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Customising a RISC-V Core - workshop</h4>
+            <p id="CustomRISCVWorkshop">Starting from an Open-source RISC-V core, add a new instruction to it that you design! This workshop will walk through the process of getting started with simulating an open-source RISC-V core and making the necessary modifications to decode and execute a new instruction.</p>
+            <p>A processor that supports a new instruction is not much good if you can't write any code for it, so the second part of the workshop will focus on adding support into the assembler for your new instruction, so that you can write a program using the instruction and see that it executes correctly (or does not, and helps you to work out the bugs in your implementation).</p>
+            <p>The tutorial materials will provide enough of the implementation and sufficient guidance to be able to work through with a little experience of Verilog and C++. For those new to Verilog, the materials from last year's talk and workshop ("Introduction to cycle-accurate Verilog simulation" and "Open Source RISC-V core quickstart") will be available to provide a more accessible starting point.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Run by: <a href="#GrahamMarkall">Graham Markall</a></p>
+
+            <h4>A Crash Course in KiCAD</h4>
+            <p id="KiCAD">A KiCAD basics workshop that will be a crash course covering the main aspects of schematic capture, PCB layout and generating the manufacturing outputs and 3D models etc.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop with KiCAD version 5 installed ready to go.</li></ul></p>
+            <p>Run by: <a href="#TimTelford">Tim Telford</a></p> 
+
+            <h4>Gigatron TTL Computer demo and hands-on</h4>
+            <p id=GigatronHandsOn">There will be a demo of the machine and an opportunity to do some retro-programming.</p>
+            <p>Run by: <a href="#KenBoak">Ken Boak</a></p>
+
+            <h4>SMD Soldering</h4>
+            <p id="SMDSoldering">In this workshop we will introduce common SMD soldering techniques, including stencils and solder paste usage in a hobbyist home-lab capacity. The format is a series of demonstrations followed by exercises. Participants will be provided with a kit of parts and will assemble their circuits taking turns on the equipment provided. There will be a mixture of hand soldering and hot plate/air reflow techniques covered and a variety of SMD packages including some fine pitch components will be used.</p>
+            <p>Participant requirements:</p>
+            <p><ul><li>Some familiarity with soldering and electronics in general would be beneficial.</li></ul></p>
+            <p>Run by: <a href="#OmerKilic">Omer Kilic</a></p>
+
+            <h4>Assembling Your RC2014 Z80 Based Computer</h4>
+            <p id="RC2014Assembly">This workshop will take participants through all the stages of assembling and getting started with the RC2014 kit. Some basic soldering experience is assumed and soldering irons and tools will be available for groups of up to 6 people at a time.</a>
+            <p>There will be a nominal charge of £5 per person.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li>
+            <li>An FTDI cable is available</li></ul></p>
+
+            <h4>Heterogeneous embedded hardware example walk through</h4>
+            <p id="HetEmbeddedWalkThrough">A walk through a practical heterogeneous application and its development, based around the combination of a microcontroller and an FPGA along with mixed tooling.</p>
+            <p>Run by: <a href="#AlanWood">AlanWood</a></p>
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch and refreshments will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+             <div id="support">
+               <p><strong><i>With thanks to sponsors:</i></strong></p>
+               <p><ul>
+                  <li><a id="garnerosborne" title="Garner Osborne - Specialists in Printed Circuit Board Technology" href="http://www.garnerosborne.co.uk/">Garner Osborne</a></li>
+                  <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+                  <li><a id="boldport" title="Boldport - Electronic Craftmanship" href="https://www.boldport.com/">Boldport</a></li>
+               </ul></p>
+             </div>
+
+
+date:        2nd September 2017
+dtstart:     2017-08-31T09:00:00Z
+dtend:       2017-09-01T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Thu, 6 June 2019 09:00:00 BST
+updated:     2019-06-06T09:00:00Z
+location:    Hebden Bridge Town Hall
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: http://oshcamp2019.eventbrite.co.uk
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - RISCV
+    - RaspberryPi
+    - KiCAD
+    - DFM
+    - Soldering
+    - TTLComputer
+    - FPGA
+    - EMC
+    - Linux

@@ -3,15 +3,10 @@
 			[% PROCESS vcard.html %]
 			<p class=registration">Please 
 [% IF event.registration -%]
-				<a rel="registration" href="[% event.registration %]">register to attend</a>
+				<a rel="registration" href="[% event.registration %]">register to attend</a>.
 [% ELSE -%]
 				<i>(registation not yet open)</i>
 [% END -%]
-				and share on
-[% IF event.upcoming -%]
-				<a href="[% event.upcoming %]">Upcoming</a> and 
-[% END -%]
-				<a href="[% event.lanyrd %]">Lanyrd</a>.
 			</p>
 			<div class='entry-content'>
 				<p id="abstract">[% event.description %]</p>
