@@ -1,0 +1,53 @@
+---
+number:     74
+title:      Makerspaces
+description: |
+            <p>At this evening meeting in London on Thursday 20 June we have two talks, with a total of five speakers looking at makerspace. We last looked at this topic in <a href="/event/40">April 2015</a>, and in the intervening time the maker movement has evolved often, but not always, for the better.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>Setting up and running an interdisciplinary makerspace</h3>
+            <p id="interdisciplinarymakers"><a class="fn url"
+            href="https://twitter.com/jenny_molloy">Dr Jenny Molloy</a>,
+            <a class="fn url" href="https://twitter.com/xa329">Tony Naggs</a> and
+            Anne-Pia Marty will talk about setting up and running an interdisciplinary makerspace,
+            based in their experience at <a href="https://biomake.space/home">Biomakespace Cambridge</a>.
+            They’ll look at how you set up a community lab in a biotechnology hotspot, and engage in open science internationally.</p>
+
+            <p id="jennymolloy" class="vcard"><a class="fn url" href="https://twitter.com/jenny_molloy">Dr Jenny Molloy</a>
+            is a co-founder director of Biomakespace Cambridge and a Shuttleworth Fellow. She is coordinator of OpenPlant and the Synthetic Biology Strategic Research Initiative at the University of Cambridge.</p>
+
+            <p id="tonynaggs" class="vcard"><a class="fn url" href="https://twitter.com/xa329">Tony Naggs</a> is a software architect by profession, and helped set up Biomakespace Cambridge, with a particular interest in its inter-disciplinary work. He serves on the Biomakespace committee.</p>
+
+            <p id="anne-piamarty" class="vcard">Anne-Pia Marty is Biomaker Challenge Africa Coordinator at the University of Cambridge, and an active contributor to Biomakespace Cambridge.</p>
+
+            <h3>Some critical reflections on makerspaces and making, and their role in wider society</h3>
+            <p id="reflectionsonmakerspaces"><a class="fn url"
+            href="http://www.csap.cam.ac.uk/network/laura-james/">Dr Laura James</a> and
+            <a class="fn url" href="https://twitter.com/amcewen">Adrian McEwen</a>
+            provide a critical review of maker spaces and their role in wider society.</p>
+
+            <p id="laurajams" class="vcard"><a class="fn url"
+            href="http://www.csap.cam.ac.uk/network/laura-james/">Dr Laura James</a> is co-founder and former director of Cambridge Makespace.</p>
+
+            <p id="adrianmcewen" class="vcard"><a class="fn url"
+            href="https://twitter.com/amcewen">Adrian McEwen</a> is co-founder and director of <a href="http://doesliverpool.com">DoES Liverpool</a>.</p>
+
+date:        21 March 2019
+dtstart:     2019-06-20T18:00:00Z
+dtend:       2019-06-20T20:30:00Z
+start:       18:30
+end:         20:30
+pubdate:     Wed, 19 June 2019 21:05:43 UTC
+updated:     2019-06-19T23:16:31Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg200619.eventbrite.co.uk/
+upcoming:
+lanyrd:
+
+tags:
+    - makerspaces
+    - hackspaces
+    - biolab
+    - culture
