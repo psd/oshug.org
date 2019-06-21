@@ -1,5 +1,5 @@
 ---
-number:     74
+number:     73
 title:      Makerspaces
 description: |
             <p>At this evening meeting in London on Thursday 20 June we have two talks, with a total of five speakers looking at makerspace. We last looked at this topic in <a href="/event/40">April 2015</a>, and in the intervening time the maker movement has evolved often, but not always, for the better.</p>
@@ -32,7 +32,7 @@ sessions: |
             <p id="adrianmcewen" class="vcard"><a class="fn url"
             href="https://twitter.com/amcewen">Adrian McEwen</a> is co-founder and director of <a href="http://doesliverpool.com">DoES Liverpool</a>.</p>
 
-date:        21 March 2019
+date:        20 June 2019
 dtstart:     2019-06-20T18:00:00Z
 dtend:       2019-06-20T20:30:00Z
 start:       18:30

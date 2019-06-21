@@ -149,6 +149,10 @@ img.logo {
         background-image: url('/images/sup_bcsossg.jpg');
 }
 
+#support ul li a#rc2014 {
+        background-image: url('/images/sup_rc2014.jpg');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

@@ -1,6 +1,6 @@
 ---
 number:     oshcamp2019
-li:         73
+li:         74
 title:      Open Source Hardware Camp 2019
 description: |
             <p>Open Source Hardware Camp 2019 will take place place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, where it will return to be hosted for the sixth year as part of the <a href="https://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
@@ -24,10 +24,10 @@ sessions: |
     
             <h4>From humble beginnings to manufacturing the HILTOP open source test and measurement platform and the problems along the way!</h4>
             <p id="HILTOP">The story of how three entrepreneurs with a vision and willingness to succeed have carved out an open source test and measurement business and the details behind the hardware and software problems they had with early prototypes and product integration.</p>
-            <p id="TimTelford" class="vcard">Tim Telford is a hardware engineer with diverse skill set and highly motivated self starter. Passionate about design detail and experienced in high reliability solutions for the Aerospace, Defence, Telecoms and Nuclear industries.</p>
+            <p id="TimTelford" class="vcard"><a class="fn url" title="Tim Telford - LinkedIn" href="https://www.linkedin.com/in/tim-telford-85500372/">Tim Telford</a> is a hardware engineer with diverse skill set and highly motivated self starter. Passionate about design detail and experienced in high reliability solutions for the Aerospace, Defence, Telecoms and Nuclear industries.</p>
             <p>Development of test equipment and measurement systems for Rolls-Royce Aerospace. Systems and Electronic engineering experience within the nuclear industry. Design of commercial test equipment and high integrity, high value projects.</p>
             <p>Analogue and Digital board level design, Schematics, PCB, FPGA development, DFM, DFT, Simulation, systems design and integration/testing. Requirements management, FMEA, WCA & PSA analysis techniques.</p>
-            <p id="JoeBurmeister" class="vcard">Joe Burmeister spent nearly 12 years in the console and PC game industry. He worked in a number of areas from graphics and animation engine to art and animation tools, finally file systems and databases.</p>
+            <p id="JoeBurmeister" class="vcard"><a class="fn url" title="Joe Burmeister - LinkedIn" href="https://www.linkedin.com/in/joe-burmeister-b0654a3/">Joe Burmeister</a> spent nearly 12 years in the console and PC game industry. He worked in a number of areas from graphics and animation engine to art and animation tools, finally file systems and databases.</p>
             <p>Joe comes from a multiple platform background, partly as consoles used to not be PCs, but also having grown up on RISC OS (Acorn’s desktop ARM OS), before moving to Windows for work then Linux for fun and finally work. For the past five years Joe has done work on GNU/Linux, often on ARM.</p>
             <p>Having started out bedroom programming, Joe is a strong believer that everyone should have the option of source code and learning how things work.</p>
 
@@ -102,32 +102,33 @@ sessions: |
             <p>There will be a nominal charge of £5 per person.</p>
             <p>Participants should bring:</p>
             <p><ul><li>A laptop.</li>
-            <li>An FTDI cable is available</li></ul></p>
+            <li>An FTDI cable if they have one.</li></ul></p>
 
             <h4>Heterogeneous embedded hardware example walk through</h4>
             <p id="HetEmbeddedWalkThrough">A walk through a practical heterogeneous application and its development, based around the combination of a microcontroller and an FPGA along with mixed tooling.</p>
-            <p>Run by: <a href="#AlanWood">AlanWood</a></p>
+            <p>Run by: <a href="#AlanWood">Alan Wood</a></p>
 
             <p><strong>NOTE:</strong>
              </ul>
               <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
               <li>A light lunch and refreshments will be provided each day.</li>
+              <li>Delegates will receive an RC2014 Micro upon registration on the Saturday!</li>
               <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
              </ul></p>
 
              <div id="support">
                <p><strong><i>With thanks to sponsors:</i></strong></p>
                <p><ul>
-                  <li><a id="garnerosborne" title="Garner Osborne - Specialists in Printed Circuit Board Technology" href="http://www.garnerosborne.co.uk/">Garner Osborne</a></li>
+                  <li><a id="bcsossg" title="BCS Open Source Specialist Group" href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a></li>
                   <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
-                  <li><a id="boldport" title="Boldport - Electronic Craftmanship" href="https://www.boldport.com/">Boldport</a></li>
+                  <li><a id="rc2014" title="RC2014" href="https://rc2014.co.uk/">RC2014 - Homebrew Z80 Computer</a></li>
                </ul></p>
              </div>
 
 
-date:        2nd September 2017
-dtstart:     2017-08-31T09:00:00Z
-dtend:       2017-09-01T16:00:00Z
+date:        31st August 2019
+dtstart:     2019-08-31T09:00:00Z
+dtend:       2019-09-01T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Thu, 6 June 2019 09:00:00 BST
