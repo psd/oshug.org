@@ -1,0 +1,119 @@
+---
+number:     75
+title:      What's New In Cryptography & Security
+description: |
+            <p>Over the last few years the security landscape has changed in
+            several major ways. The Internet Of Things has made security and
+            privacy a major problem for everyone. The move to HTTPS on almost
+            every site and the attacks on TLS have raised awareness of security
+            on the web, As a result, there has been a renewed focus on open
+            source cryptography libraries, including new forks and projects.
+            This meeting will take a look at the current state of security and
+            cryptography and we'll look at how open source is contributing to
+            the solutions as well as the problems.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>Failures in Firmware, an analysis of common weaknesses in IOT devices</h3>
+
+            <p id="firmware-failures">The advent of the Internet of Things has
+            created an industry filled with incredible technologies, and
+            incredible vulnerabilities. This talk aims to outline common
+            weaknesses in these devices that can occur even if the developers
+            are trying their best to make a device secure. This will include
+            problems that can occur when implementing standard functionality,
+            such as authentication, firmware updates, secure communication and
+            protection of sensitive data.<p>
+            <p>This talk will cover the following topics, with demonstrations
+            and recommendations:</p>
+            <ul>
+            <li>The basics of cryptography, how it works, how it is
+            implemented, and the different types of software which implement
+            it. This will include an introduction to Open Source encryption
+            libraries and the pitfalls that can occur when they are implemented
+            incorrectly.</li>
+            <li>An introduction to Open Source libraries used for developing
+            embedded software, including an assessment of example libraries for
+            specific chipsets which contain known vulnerabilities.</li>
+            <li>Demonstration of weaknesses in firmware protection mechanisms,
+            covering what happens when you don't secure your firmware, when you
+            encrypt it, and when you sign it. This topic will cover exactly how
+            an attacker could bypass protection mechanisms when they are
+            incorrectly implemented, and how they can be implemented well.</li>
+            <li>An analysis of Linux vs Real Time Operating Systems,
+            demonstrating the security strengths and weaknesses between the two
+            approaches and what can be done to improve the security of
+            both.</li>
+            <li>A demonstration of weaknesses that can occur in hardware,
+            demonstrating what can occur when electronics are designed in a
+            manner which allows for easy debugging, including a demonstration
+            of how firmware can easily be removed from a device when it is not
+            adequately secured.</li>
+            <li>A discussion of how Open Source libraries can both increase and
+            decrease security in a product, and how they can be used
+            effectively.</li>
+            </ul>
+            <p>Each element of this presentation will include working
+            demonstrations in order to exemplify where the weaknesses lie in
+            the standard approaches taken when creating an IOT product.</p>
+
+            <p id="christoper-wade" class="vcard"><a class="fn url" href="https://www.pentestpartners.com/security-blog/author/chris-wade/">Christopher Wade</a>
+            is a seasoned security researcher and consultant. His main focuses
+            are in reverse engineering hardware, finger-printing USB
+            vulnerabilities and playing with Software Defined Radios, His key
+            strength lies in firmware analysis, which he utilises as part of
+            the hardware testing team at Pen Test Partners.</p>
+
+            <h3>Should you choose Open Source Crypto?</h3>
+
+            <p id="open-source-crypto">What are the arguments for and against
+            for using open source crypto code and how have they changed over
+            time.</p>
+
+            <p id="glyn-wintle" class="vcard"><a class="fn url" href="https://twitter.com/glynwintle">Glyn Wintle</a>
+            is CTO at dxwcyber, a security consultancy focused on attack. He
+            has extensive experience of breaking into computer systems in both
+            the public and private sector.
+
+            <h3>Why and How you should start using Onion Networking</h3>
+
+            <p id="onion-networking">The internet began as a network where any
+            computer could communicate directly with any other; but today there
+            are host firewalls, perimeter firewalls, content filters, NATs, DNS
+            restrictions, BGP hijacks and all manner of other challenges that
+            limit you and your computers' ability to communicate. The Tor
+            "Onion" networking protocol is an alternate "disintermediated"
+            layer 3 stack where you do not require permission nor (mostly) any
+            setup in order to communicate directly from/to any well-known
+            address, plus you gain a host of security & operational benefits.
+            We describe this.</p>
+
+            <p id="alec-muffett" class="vcard"><a class="fn url" href="https://twitter.com/AlecMuffett">Alec Muffett</a>
+            has worked in host and network security for 30 years, more than 22
+            of those in industry, holding senior consulting, architecture and
+            engineering roles at Sun Microsystems and Facebook. He is a member
+            of the Board of Directors of the Open Rights Group, a member of the
+            Security and Privacy Executive of the British Computer Society, and
+            a security engineer at Deliveroo.</p>
+
+            <p><strong>Note: Please aim to arrive by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        18 July 2019
+dtstart:     2019-07-18T18:00:00Z
+dtend:       2019-07-18T20:30:00Z
+start:       18:30
+end:         20:30
+pubdate:     Tue, 02 July 2019 11:21:09 UTC
+updated:     2019-07-02T11:21:09Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg180719.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - software
+    - security
+    - cryptography
+    - iot
