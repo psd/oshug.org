@@ -1,6 +1,6 @@
 ---
 number:     oshcamp2019
-li:         74
+li:         75
 title:      Open Source Hardware Camp 2019
 description: |
             <p>Open Source Hardware Camp 2019 will take place place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, where it will return to be hosted for the sixth year as part of the <a href="https://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
@@ -70,6 +70,11 @@ sessions: |
             <p>Now your hardware becomes subject to various Regulatory requirements, Electro-Magnetic Compatibility (EMC) amongst them. Whilst it might not be viable for an Open Source project to undergo full compliance testing, there are things that can be done to improve the EMC performance of your system.</p>
             <p>In this talk, James gives an overview of common problems encountered during EMC testing of Open Source hardware and the fixes required to resolve them. We'll also look at some key electromagnetic concepts (don't worry, no scary maths) that will help you look at your designs in a new light.</p>
             <p id="JamesPawson" class="vcard"><a class="fn url" title="James Pawson - LinkedIn" href="https://www.linkedin.com/in/james-pawson-unit-3-compliance/">James Pawson</a> runs <a href="http://www.unit3compliance.co.uk/">Unit 3 Compliance</a>, a West Yorkshire EMC test lab and consultancy that offers practical advice and EMC problem solving for a wide range of electronics products.</p>
+
+            <h4>The complex and simplistic elegance of the 1-wire protocol</h4>
+            <p id="1wire">The Dallas 1-wire protocol is a two-way communications bus that allows microcontrollers to talk to a number of peripherals using just a single wire. It promises high data rates, a range of peripheral types and very long wires all with the minimum of resource requirements and complexity. This talk will explore how it works, how to implement it and how to actually drive those busses made up of very long wires.</p>
+            <p id="AndyBennett" class="vcard"><a class="fn url" title="Andy Bennett - Twitter" href="https://twitter.com/databasescaling/">Andy Bennett</a> trained as an Electronic & Electrical Engineer and has a background in consumer electronics, FPGAs, operating systems and device drivers. For the last 10 years he has been building companies around distributed database technology. He is currently Director of Register Dynamics who help companies and governments apply their data usefully, responsibly and ethically.</p>
+            <p>Andy is a Technologist that likes to inhabit the void between users, software and the hardware that it all runs on. His love of ceramic taps is well-documented.</p>
  
             <h3 id="workshops">Sunday :: Workshops</h3>
             
@@ -132,7 +137,7 @@ dtend:       2019-09-01T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Thu, 6 June 2019 09:00:00 BST
-updated:     2019-06-06T09:00:00Z
+updated:     2019-07-08T14:45:00Z
 location:    Hebden Bridge Town Hall
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -155,3 +160,4 @@ tags:
     - FPGA
     - EMC
     - Linux
+    - 1wire
