@@ -119,6 +119,15 @@ locations:
         latitude:  51.510812
         longitude: -0.121733
 
+    IET London:
+        uri:       https://savoyplace.theiet.org/
+        extendedaddress: Watson-Watt room
+        street:    2 Savoy Place
+        locality:  London
+        postcode:  WC2R 0BL
+        latitude:  51.51007
+        longitude: -0.11933
+
     Owen Lecture Theatre:
         uri:       http://www.shu.ac.uk/eventservices/venues/owen-lecture-theatre
         extendedaddress: 1028 Owen Building, Sheffield Hallam University
@@ -265,3 +274,4 @@ released:
     - 73
     - 74
     - oshcamp2019
+    - 76

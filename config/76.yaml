@@ -1,0 +1,73 @@
+---
+number:     76
+title:      Inaugural London RISC-V meetup
+description: |
+            <p>This will be the inaugural London meetup for the RISC-V
+            community, hosted by the BCS Open Source Specialist Group and the
+            UK Open Source Hardware User Group.  As with the other UK meetups,
+            we provide an opportunity to share the latest ideas around the
+            RISC-V ecosystem, combined with plenty of time for
+            networking. However unlike other meetups, the London meetup will
+            have a specific focus on the open source aspects of RISC-V.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+sessions: |
+            <h3>The LowRISC project</h3>
+
+            <p id="lowrisc">Alex Bradbury will talk about lowRISC, a non-profit
+            community interest company, using collaborative engineering to
+            develop and maintain open source silicon designs and tools.  Their
+            expertise includes processor and SoC design, with a particular
+            focus on hardware security, design verification, RISC-V tools, and
+            the LLVM compiler.<p>
+
+            <p id="alex-bradbury" class="vcard"><a class="fn url"
+            href="http://asbradbury.org/">Alex Bradbury (@asbradbury)</a> is a
+            Co-founder and Director of the <a
+            href="http://www.lowrisc.org/">lowRISC</a> project. You may also
+            be familiar with his LLVM work, and the <a
+            href="http://www.llvmweekly.org/">LLVM Weekly</a> newsletter.</p>
+
+            <h3>The OpenHW Group</h3>
+
+            <p id="openhw">Rick O'Connor will introduce the Open Hardware
+            Group, an industry and academia grouping, aiming to provide high
+            quality free RISC-V hardware and software IP.</p>
+
+            <p id="rick-oconnor" class="vcard"><a class="fn url"
+            href="https://twitter.com/rickoco">Rick O'Connor</a> is Executive
+            Director of OpenHW.
+
+            <h3>The XCrypt instruction set extension</h3>
+
+            <p id="xcrypt">Ben Marshall will talk about his work at Bristol
+            University on the SCARV project: a side-channel hardened RISC-V
+            platform. He’ll introduce the XCrypt instruction set extension for
+            RISC-V.</p>
+
+            <p id="ben-marshall" class="vcard"><a class="fn url"
+            href="http://www.bristol.ac.uk/engineering/people/ben-marshall/">Ben
+            Marshall</a> is a Research Associate on the SCARV project.</p>
+
+            <p><strong>Note: There is networking over tea, coffee & biscuits
+            from 5:30pm.  The talks will start at 18:00 prompt.  There will be
+            opportunity to network further from 19:30 at the IET, continuing
+            later at the Coal Hole pub on the Strand.</strong></p>
+
+date:        22 July 2019
+dtstart:     2019-07-18T17:30:00Z
+dtend:       2019-07-18T20:30:00Z
+start:       17:30
+end:         20:30
+pubdate:     Tue, 16 July 2019 11:21:09 UTC
+updated:     2019-07-02T11:21:09Z
+location:    IET London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg220719.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - software
+    - risc-v
