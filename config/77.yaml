@@ -1,0 +1,161 @@
+---
+number:     77
+title:      Lightning talks and AGM
+description: |
+            <p>This evening event starts with the BCS Open Source Specialist
+            Group AGM, and is then followed by our lightning talk evening. We
+            introduced this last year, and the event, with talks ranging from
+            open source water jet surfing to open source sous vide cooking was
+            very popular, so we are repeating this year.  The event is not yet
+            full, so if you would like 10 minutes to talk about your pet
+            project, please ask!</p>
+sessions: |
+            <h3>AGM</h3>
+
+            <p id="ossg-agm">Everyone is welcome to attend, but only BCS
+            members may vote. We will have the brief reports on the past
+            year's activities and then elect a new committee. Note: non-BCS
+            members may stand for all committee posts except Chair, Treasurer
+            and Membership secretary. So far we have the following
+            nominations, but more are encouraged.
+            Chair: Jeremy Bennett<br/>
+            Treasurer: Richard Miller<br/>
+            Membership secretary: Julian Kunkel<br/>
+            Secretary: Cornelia Boldyref<br/>
+            Web supremo: Simon Worthington<br/>
+            Events sub-committee: Andy Bennett, Sevan Janyan<br/>
+            Advocacy and outreach: This is planned to be combined with the membership secretary role.<br/>
+            Young Professional/Student representative: No nominations<br/>
+            Committee members: No nominations<br/>
+            </p>
+            <p>We depend on an active committee to put on all our events and
+            drive our advocacy and outreach work. Please consider putting
+            yourself forward.</p>
+
+            <h3>Embedded Facial Recognition on Edge TPU</h3>
+
+            <p id="edgetpu">Google recently released a new development board
+            for edge computation on embedded devices. For my project I
+            implemented a facial recognition system on their device using
+            Tensorflow. In this talk I'm presenting some of the challenges I
+            faced, the limitations of the board and how we were able to
+            overcome them.</p>
+
+            <p id="pietra-madio" class="vcard">Pietra is a college student at
+            Brockenhurst College and an AI Research Engineer for Embecosm.</p>
+
+            <h3>The Open Source Satellite Programme</h3>
+
+            <p id="oss-sat">Over the last 25 years, the UK has brought
+            positive disruptions to the space industry. The University of
+            Surrey innovated small spacecraft: leveraging
+            Commercial-Off-The-Shelf components that could compete with larger
+            more traditionally designed spacecraft. In the last 7 years,
+            Scottish CubeSats (very small satellites) have grown from academic
+            projects into commercially viable products performing earth
+            observation and other applications. Both of these innovations have
+            brought down costs and made space more accessible to greater
+            numbers of people. KIPSE Space Systems aspires to be a catalyst
+            for the next step-change to the industry by collaboratively
+            designing a new, capable spacecraft platform that is open source,
+            all design being freely accessible through the internet.</p>
+
+            <p id="paul-madle" class="vcard">Paul Madle has 20 years'
+            experience as a systems/software engineer within the Aerospace,
+            Finance & Web sectors. His code runs on the most critical on board
+            systems for some of the UK's most significant spacecraft projects.
+            He is very keen to share his knowledge with the next generation of
+            engineers and runs code clubs that have successfully transitioned
+            young people with few qualifications into capable software
+            engineers who now work within the industry.</p>
+
+            <h3>It's Open Source, not gratis binaries</h3>
+
+            <p id="gratisb">A commentary on a prevailing attitude towards Open
+            Source software.</p>
+
+            <p id="sevan-janiyan" class="vcard"><a class="fn url"
+            href="https://sevanjaniyan.co.uk">Sevan Janiyan is the founder of
+            <a href="http://www.venture37.com">Venture37</a>, which offers consultancy around the fundemental
+            building blocks of IT systems such as DNS, email, HTTP, firewalls
+            or routing running on UNIX & alike systems. He is an active
+            supporter OpenBSD, NetBSD, FreeBSD and CoovaChilli.</p>
+
+            <h3>Intel 8080 microprocessor on an FPGA</h3>
+
+            <p id="8080fpga">The Intel 8080 microprocessor was one of the
+            first widely available general-purpose microprocessors. Given its
+            historic significance and relatively straightforward ISA, I
+            implemented a binary compatible softcore variant using VHDL,
+            targeting the Artix7 100T FPGA. Accompanying the softcore CPU is a
+            PS2 keyboard controller, VGA text buffer, and 7-segment display
+            driver. These components are accessible from the 8080 through
+            memory mapping, which is realized by a central memory access
+            controller. Hence, software can read scan codes from the keyboard
+            controller, and writes text to the VGA terminal, which is enough
+            for a simplistic but nonetheless curious software platform.
+
+            The hardware description source can be found on <a
+            href="https://github.com/mablinov/intel-8080">Github</a></p>
+
+            <p id="maxim-blinov">Maxim is currently working at <a
+            href="https://www.embecosm.com">Embecosm</a>, helping to develop
+            and support open-source GCC-based toolchains. His last major work
+            was to benchmark and debug the experimental GCC support for the
+            draft RISC-V bitmanip ISA extension, using both software
+            simulation and verilated IP cores.
+
+            Maxim is also interested in FPGA hardware design, and embedded
+            software development.</p>
+
+            <h3>Making with BlackEdge</h3>
+
+            <p id="blackedge">Using the BlackEdge standard to build the new
+            BlackIceMx, eating our own dog food.</p>
+
+            <p id="al-wood">Al  is an engineer of opensource hardware &
+            software, practitioner of robotics, electronics & 3D Printers and
+            tutor of ML, FPGA & Verilog. Bit wrangler in C, Erlang &
+            Python.</p>
+
+            <h3>Title to be announced</h3>
+
+            <p id=tba"></p>
+
+            <p id="andy-bennett">Andy Bennett is founder of
+            <a href="https://www.register-dynamics.co.uk">Register Dynamics</a>
+            and inhabits the void between hardware, software and users. He
+            serves on the BCS Open Source SG committee as one of our event
+            coordinators.</p>
+
+            <p><strong>Note: There is networking over tea, coffee & biscuits
+            from 18:00.  The AGM will start at 18:30 and lightning talks from
+            18:50.</strong></p>
+
+             <p><strong>We shall be livestreaming and recording the talks for
+            later posting on YouTube via GoToWebinar.  Please register at: <a
+            href="https://attendee.gotowebinar.com/register/5699229864088817933">https://attendee.gotowebinar.com/register/5699229864088817933</a><br/>
+            After registering, you will receive a confirmation email
+            containing information about joining the webinar.</strong></p>
+
+date:        17 October 2019
+dtstart:     2019-10-17T18:00:00Z
+dtend:       2019-10-17T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Mon, 14 October 2019 11:21:09 UTC
+updated:     2019-07-02T11:21:09Z
+location:    BCS London
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+registration: https://ossg171019.eventbrite.co.uk/
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - software
+    - fpga
+    - tensorflow
+    - i8080
+    - blackicemx
