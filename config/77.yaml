@@ -1,6 +1,6 @@
 ---
 number:     77
-title:      Lightning talks and AGM
+title:      Lightning talks and BCS OSSG AGM
 description: |
             <p>This evening event starts with the BCS Open Source Specialist
             Group AGM, and is then followed by our lightning talk evening. We
@@ -10,24 +10,25 @@ description: |
             full, so if you would like 10 minutes to talk about your pet
             project, please ask!</p>
 sessions: |
-            <h3>AGM</h3>
+            <h3>BCS OSSG AGM</h3>
 
             <p id="ossg-agm">Everyone is welcome to attend, but only BCS
             members may vote. We will have the brief reports on the past
             year's activities and then elect a new committee. Note: non-BCS
             members may stand for all committee posts except Chair, Treasurer
             and Membership secretary. So far we have the following
-            nominations, but more are encouraged.
-            Chair: Jeremy Bennett<br/>
-            Treasurer: Richard Miller<br/>
-            Membership secretary: Julian Kunkel<br/>
-            Secretary: Cornelia Boldyref<br/>
-            Web supremo: Simon Worthington<br/>
-            Events sub-committee: Andy Bennett, Sevan Janyan<br/>
-            Advocacy and outreach: This is planned to be combined with the membership secretary role.<br/>
-            Young Professional/Student representative: No nominations<br/>
-            Committee members: No nominations<br/>
-            </p>
+            nominations, but more are encouraged.</p>
+
+            <p><ul><li>Chair: Jeremy Bennett</li>
+            <li>Treasurer: Richard Miller</li>
+            <li>Membership secretary: Julian Kunkel</li>
+            <li>Secretary: Cornelia Boldyref</li>
+            <li>Web supremo: Simon Worthington</li>
+            <li>Events sub-committee: Andy Bennett, Sevan Janyan</li>
+            <li>Advocacy and outreach: <em>This is planned to be combined with the membership secretary role.</em></li>
+            <li>Young Professional/Student representative: <em>No nominations.</em></li>
+            <li>Committee members: <em>No nominations.</em></li></ul></p>
+
             <p>We depend on an active committee to put on all our events and
             drive our advocacy and outreach work. Please consider putting
             yourself forward.</p>
@@ -41,7 +42,7 @@ sessions: |
             faced, the limitations of the board and how we were able to
             overcome them.</p>
 
-            <p id="pietra-madio" class="vcard">Pietra is a college student at
+            <p id="pietra-madio" class="vcard"><u>Pietra Madio</u> is a college student at
             Brockenhurst College and an AI Research Engineer for Embecosm.</p>
 
             <h3>The Open Source Satellite Programme</h3>
@@ -60,7 +61,7 @@ sessions: |
             designing a new, capable spacecraft platform that is open source,
             all design being freely accessible through the internet.</p>
 
-            <p id="paul-madle" class="vcard">Paul Madle has 20 years'
+            <p id="paul-madle" class="vcard"><u>Paul Madle</u> has 20 years'
             experience as a systems/software engineer within the Aerospace,
             Finance & Web sectors. His code runs on the most critical on board
             systems for some of the UK's most significant spacecraft projects.
@@ -75,7 +76,7 @@ sessions: |
             Source software.</p>
 
             <p id="sevan-janiyan" class="vcard"><a class="fn url"
-            href="https://sevanjaniyan.co.uk">Sevan Janiyan is the founder of
+            href="https://sevanjaniyan.co.uk">Sevan Janiyan</a> is the founder of
             <a href="http://www.venture37.com">Venture37</a>, which offers consultancy around the fundemental
             building blocks of IT systems such as DNS, email, HTTP, firewalls
             or routing running on UNIX & alike systems. He is an active
@@ -93,19 +94,19 @@ sessions: |
             memory mapping, which is realized by a central memory access
             controller. Hence, software can read scan codes from the keyboard
             controller, and writes text to the VGA terminal, which is enough
-            for a simplistic but nonetheless curious software platform.
+            for a simplistic but nonetheless curious software platform.</p>
 
-            The hardware description source can be found on <a
+            <p>The hardware description source can be found on <a
             href="https://github.com/mablinov/intel-8080">Github</a></p>
 
-            <p id="maxim-blinov">Maxim is currently working at <a
+            <p id="maxim-blinov"><u>Maxim Blinov</u>is currently working at <a
             href="https://www.embecosm.com">Embecosm</a>, helping to develop
             and support open-source GCC-based toolchains. His last major work
             was to benchmark and debug the experimental GCC support for the
             draft RISC-V bitmanip ISA extension, using both software
-            simulation and verilated IP cores.
+            simulation and verilated IP cores.</p>
 
-            Maxim is also interested in FPGA hardware design, and embedded
+            <p>Maxim is also interested in FPGA hardware design, and embedded
             software development.</p>
 
             <h3>Making with BlackEdge</h3>
@@ -113,38 +114,42 @@ sessions: |
             <p id="blackedge">Using the BlackEdge standard to build the new
             BlackIceMx, eating our own dog food.</p>
 
-            <p id="al-wood">Al  is an engineer of opensource hardware &
-            software, practitioner of robotics, electronics & 3D Printers and
-            tutor of ML, FPGA & Verilog. Bit wrangler in C, Erlang &
-            Python.</p>
+            <p id="alanwood" class="vcard"><a class="fn url" href="https://twitter.com/folknology">Alan Wood</a>
+            has been working with parallel distributed programming for several
+            decades. His recent work includes smart grids, 3D printers,
+            robotics, automation and biotec diagnostics. His current research is
+            focused on machine learning for embedded automation using FPGA and
+            µC. He is a long term advocate of open source communities, a
+            moderator (aka Folknology) for xCORE, the co-founder of myStorm open
+            hardware FPGA community, as well as a co-founder of Surrey and
+            Hampshire Makerspace.</p>
 
-            <h3>Title to be announced</h3>
+            <h3>Title TBC</h3>
 
-            <p id=tba"></p>
+            <p id=tbc"></p>
 
-            <p id="andy-bennett">Andy Bennett is founder of
+            <p id="andy-bennett"><u>Andy Bennett</u> is founder of
             <a href="https://www.register-dynamics.co.uk">Register Dynamics</a>
             and inhabits the void between hardware, software and users. He
             serves on the BCS Open Source SG committee as one of our event
             coordinators.</p>
 
-            <p><strong>Note: There is networking over tea, coffee & biscuits
-            from 18:00.  The AGM will start at 18:30 and lightning talks from
-            18:50.</strong></p>
-
-             <p><strong>We shall be livestreaming and recording the talks for
-            later posting on YouTube via GoToWebinar.  Please register at: <a
-            href="https://attendee.gotowebinar.com/register/5699229864088817933">https://attendee.gotowebinar.com/register/5699229864088817933</a><br/>
-            After registering, you will receive a confirmation email
-            containing information about joining the webinar.</strong></p>
+            <p><strong>Note:</strong>
+            <ul><li>There is networking over tea, coffee & biscuits from 18:00.</li>
+            <li>The AGM will start at 18:30 and lightning talks from 18:50.</li>
+            <li>We shall be livestreaming and recording the talks for 
+            later posting on YouTube via GoToWebinar. 
+            <ul><li>Please <a href="https://attendee.gotowebinar.com/register/5699229864088817933">register</a>.</li>
+            <li>After registering, you will receive a confirmation email
+            containing information about joining the webinar.</li</ul></li></ul></p>
 
 date:        17 October 2019
 dtstart:     2019-10-17T18:00:00Z
 dtend:       2019-10-17T21:00:00Z
 start:       18:00
 end:         21:00
-pubdate:     Mon, 14 October 2019 11:21:09 UTC
-updated:     2019-07-02T11:21:09Z
+pubdate:     Wed, 16 October 2019 09:00:00 UTC
+updated:     2019-10-16T09:00:00Z
 location:    BCS London
 isoduration: P0Y0M0DT02H00M00S
 generator:   vi
