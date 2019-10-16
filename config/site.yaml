@@ -112,12 +112,11 @@ locations:
 
     BCS London:
         uri:       http://www.bcs.org
-        extendedaddress: 1st Floor, The Davidson Building
-        street:    5 Southampton Street
+        street:    25 Copthall Avenue
         locality:  London
-        postcode:  WC2E 7HA
-        latitude:  51.510812
-        longitude: -0.121733
+        postcode:  EC2R 7BP
+        latitude:  51.5168155
+        longitude: -0.090039
 
     IET London:
         uri:       https://savoyplace.theiet.org/
@@ -275,3 +274,4 @@ released:
     - 74
     - oshcamp2019
     - 76
+    - 77
