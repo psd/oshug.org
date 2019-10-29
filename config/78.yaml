@@ -1,0 +1,115 @@
+---
+number:     78
+title:      An evening on modern programming languages
+description: |
+            <p>Held jointly with BCS Open Source Specialist group, we look at
+            the latest in open source programming languages. Three talks from
+            three highly respected speakers.</p>
+sessions: |
+            <h3>An introduction to Perl6</h3>
+
+            <p id="perl6">An introduction to the newest version of <a
+            href="https://raku.org">Perl</a> with an emphasis on some neat
+            features.</p>
+
+            <p id="simon-proctor" class="vcard">With 17 years as a
+            professional web developer (in a range of languages) and over 30
+            years of doing it for fun <a class="fn url"
+            href="https://twitter.com/scimon">Simon Proctor</a> has just about
+            started to understand what he's doing. He's on occasion been known
+            to take things seriously.</p>
+
+            <h3>Julia - A fresh approach to numerical computing</h3>
+
+            <p id="julialang">In this talk, Avik will demonstrate how <a
+            href="https://julialang.org">Julia</a> combines dynamic, high
+            level source with a high performance runtime code. He will show
+            what makes Julia unique among programming languages, and how it
+            enables high quailty numeric computing libraries. He will survey
+            the machine learning / deep learning ecosystem in Julia, and talk
+            about how that can be extended to new kinds of modelling using
+            differentiable programming. The talk will begin as an introduction
+            to the language, and finish by showing how it opens up new
+            paradigms of computing.</p>
+
+            <p id="julialang">Julia is the fastest high performance open
+            source computing language for data, analytics, algorithmic
+            trading, machine learning, artificial intelligence, and many other
+            fields. Julia solves the two language problem by combining the
+            ease of use of Python and R with the speed of C++.</p>
+
+            <p id="avik-senputa" class="vcard"><a class="fn url"
+            href="https://github.com/aviks">Avik Sengupta</a> is the head of
+            product development and software engineering at Julia Computing,
+            contributor to open source Julia and maintainer of several Julia
+            packages. Avik is the author of Julia High Performance, co-founder
+            of two artificial intelligence start-ups in the financial services
+            sector and creator of large complex trading systems for the
+            world's leading investment banks. Prior to Julia Computing, Avik
+            was co-founder and CTO at AlgoCircle and at Itellix, director at
+            Lab49 and head of algorithmic solutions at Decimal Point
+            Analytics. Avik earned his MS in Computational Finance at Carnegie
+            Mellon and MBA Finance at the Indian Institute of Management in
+            Bangalore.</p>
+
+            <h3>Evolving Languages: 5 Steps to Go</h3>
+
+            <p id="golang"><a href="https://golang.org">Go</a> is the latest
+            of a sequence of closely related concurrent programming languages:
+            Squeak, Newsqueak, Alef, Limbo and Go. Each one strictly followed
+            its predecessor, they occupy a similar space (CSP-inspired
+            concurrent languages), and all but Squeak have a vaguely similar
+            syntax, perhaps suggesting gradual refinement and incremental
+            evolution. I take a closer look, revealing their significant
+            differences, especially in in type systems and run-time
+            environments, reflecting the effect of different design choices to
+            satisfy the requirements of a larger, surrounding system.</p>
+
+            <p id="charles-forsyth" class="vcard"><a class="fn url"
+            href="https://twitter.com/charles_forsyth">Dr Charles Forsyth</a>
+            is a founder and Technical Director of <a
+            href="http://vitanuova.com">Vita Nuova</a>, which specialises in
+            systems software and distributed systems.</p>
+
+            <p id="charles-forsyth">He is interested in compilers, operating
+            systems, networking (protocols and services), security,
+            distributed systems, and algorithms. He specialises in the design
+            and implementation of systems software, from low-level drivers
+            through compilers to whole operating systems. He has published
+            papers on operating systems, Ada compilation, worst-case execution
+            analysers for safety-critical applications, "resources as files",
+            and the development of computational grids.</p>
+
+
+            <p><strong>Note:</strong>
+            <ul><li>There is networking over tea, coffee & biscuits from 18:00.</li>
+            <li>We shall be livestreaming and recording the talks for 
+            later posting on YouTube via GoToWebinar. 
+            <ul><li>Please <a href="https://attendee.gotowebinar.com/register/2652791007348976652">register</a>.</li>
+            <li>After registering, you will receive a confirmation email
+            containing information about joining the webinar.</li</ul></li></ul></p>
+
+date:        21 November 2019
+dtstart:     2019-11-21T18:00:00Z
+dtend:       2019-11-21T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Tues, 29 October 2019 09:00:00 UTC
+updated:     2019-10-29T09:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://ossg211119.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - software
+    - languages
+    - programming
+    - limbo
+    - golag
+    - perl6
+    - raku
+    - julia 
+    - inferno
