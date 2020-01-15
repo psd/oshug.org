@@ -1,0 +1,95 @@
+---
+number:     78
+title:      London Open Source Meetup for RISC-V
+description: |
+            <p>Held jointly with BCS Open Source Specialist group, a quarterly
+            meetup for the London open source community, focusing on RISC-V.
+            These meetings provide an opportunity to share the latest ideas
+            around open source in the RISC-V ecosystem, combined with plenty
+            of time for networking.</p>
+sessions: |
+            <h3>Free and Open Source Licensing and RISC-V</h3>
+
+            <p id="r5osslicensing"></p>
+
+            <p id="andrew-katz" class="vcard"><a class="fn url"
+            href="https://twitter.com/andrewjskatz">Andrew Katz</a>, a partner
+            at Moorcorfts LLP, is one of the UK's leading free and open-source
+            lawyers. He drafted the widely-useds solderpad Open Hardware
+            License and is on the core legal team for drafting the CERN Open
+            Hardware License. Andrew is a Fellow of the Free Software
+            Foundation Europe and the Open Forum Academy, and for 7 years held
+            the post of visiting lecturer at Queen Mary, University of London.
+            He is a visiting researcher at the University of Skovde, Sweden
+            where he has co-authored papers whose findings have been adopted
+            into Swidesh government policy.</p>
+
+            <h3>MaxineVM on RISC-V</h3>
+
+            <p id="maxinevm">In this talk we will talk about MaxineVM, a
+            metacircular research VM, in relationship to the RISC-V
+            architecture. A short overview of the current JVM ecosystem on the
+            RISC-V architecture will be presented first.Next we will proceed
+            with a high level view of MaxineVM along with a description of the
+            work that had to be accomplished for the RISC-V port. A comparison
+            of MaxineVM's performance against OpenJDK Zero will follow and we
+            will conclude with a description of our current and future
+            research on safe code modificiation on architectures without SMC
+            hardware support.</p>
+
+            <p id="florin-gabriel-blanaru" class="vcard">Florin-Gabriel
+            Blanaru is currently a research software engineer at the
+            University of Manchester. During his bachelor's degree at the
+            University of Manchester, he successfully ported MaxineVM to the
+            RISC-V architecture. He is interested in all abstraction layers
+            between the hardware and the programming languages, including
+            computer architecture, operating systems and managed runtime
+            systems. Florin is the inaugural winner of the RISC-V Student of
+            the Year award.</p>
+
+            <h3>Evaluating RISC-V using the Embench&trade; 0.5 Benchmark Suite</h3>
+
+            <p id="embench">Dhrystone and Coremark have been the defacto
+            standard microcontroller benchmark suites for the last thirty
+            years, but these benchmarks no longer reflect the needs of modern
+            embedded systems. <a href="https://embench.org">Embench&trade;</a> was explicitly designed to meet the requirements of modern connected embedded systems. The benchmarks are free, relevant, portable, and well implemented.</p>
+            <p id="embench">In this talk we will present the results of
+            benchmarking RISC-V for various IoT class architectures using
+            Embench. We shall look at what this tells us about the impact of
+            architecture, compilers and libraries on how a system performs,
+            both in terms of code size and code speed. The aim is not to show
+            which architecture, library or compiler is best, but to gain
+            insight allowing all architectures to be improved.</p>
+
+            <p id="jeremy-bennett">Dr Jeremy Bennett is Chief Executive of
+            Embecosm, a company based in the UK and Germany providing services
+            developing open source compilers, operating systems and chip
+            models. He is Vice-Chair of Embench Task Group, and has been one
+            of the main developers of the benchmark infrastructure. Jeremy is
+            a Fellow of the BCS where he serves as Chair of the Open Source
+            Specialist Group.</p>
+            
+
+
+            <p><strong>Note:</strong>
+            <ul><li>There is networking over tea, coffee & biscuits from 18:00.</li></ul></p>
+
+date:        20 January 2020
+dtstart:     2020-01-20T18:00:00Z
+dtend:       2020-01-20T21:00:00Z
+start:       18:00
+end:         21:00
+pubdate:     Wed, 15 January 2020 09:00:00 UTC
+updated:     2020-01-15T09:00:00Z
+location:    BCS London
+isoduration: P0Y0M0DT02H30M00S
+generator:   vi
+registration: https://ossg200120.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - riscv
+    - licensing
+    - java
+    - benchmarking
