@@ -1,0 +1,101 @@
+---
+number:     80
+title:      LoRaWAN: Long Range Wireless for the Internet Of Things
+description: |
+            <p>This month we'll be hosting our evening of talks online. You can
+            join remotely from the comfort of your own home to listen to the
+            speakers and chat in realtime with the other attendees.</p>
+            <p>LoRaWAN is a Long Range Wide Area Networking technology that has
+            been quietly sitting in the background of many IoT systems for
+            several years now. This month we'll hear from speakers who were
+            early adopters of the technology. We'll find out what is it, how it
+            works and, most importantly, what they have achieved with it.</p>
+            <p>This is a joint meeting with the <a href="https://ossg.bcs.org/">British Computer Society Open Source Specialist Group</a>.</p>
+            <p>We are currently finalising the details for registration and
+            connection so please save this time in your diary and look out for
+            more information on Tuesday 14th April.</p>
+sessions: |
+            <h3>LoRaWAN</h3>
+            <p id="andrew-tierney" class="vcard"><a class="fn url" href="https://twitter.com/cybergibbons">Andrew Tierney</a> - TBA</p>
+
+            <h3>The Things Network 5 years on</h3>
+
+            <p id="ttn">Amazing how time flies! Mike looks at how LPWAN has
+            progressed since he first got involved with The Things Network in
+            2015. He will look at the technology (radio, devices and code)
+            involved, how to build and deploy your project, and finish with a
+            look to the future of TTN with 5G arriving.</p>
+
+            <p id="mike-beardmore" class="vcard"><a class="fn url"
+            href="https://twitter.com/mikethebee">Mike Beardmore</a> has surfed
+            the wave of opportunities for a creator since the transistor
+            replaced the 'tube'. A life of learning about constant change has
+            been a foundation for working with the recent LPWAN blooming. An
+            active Maker using additive & subtractive tools, he is an advocate
+            for Hackspaces, OpenSource and Creative Commons.</p>
+
+            <h3>LoRa trials (and tribulations)</h3>
+
+            <p id="lora-trials-and-tribulations">A few years ago a group of us
+            came together to see what we could do about measuring actual
+            pollution levels "where you are".  We were disappointed that the
+            only hyper-localised data available came from hard-to-trust models
+            that used widely-spaced sensors.</p>
+            <p>We won some funding to build and test a prototype based on good
+            quality sensors that communicated via a connected smart phone to a
+            cloud-based data store, the data being visualised on a web app.
+            This allowed people to compare alternative routes and select the
+            best ones.</p>
+            <p>The main feedback from these trials was that we needed to make
+            the device much easier to use, smaller and lighter so we looked at
+            ways to make the sensor self-contained.</p>
+            <p>Along came LoRaWAN as one way to achieve this. The prototype was
+            completely redesigned and we have been testing and refining that
+            since.  Unhappily, trialling with schools is currently suspended
+            for obvious reasons but we think we are getting there.</p>
+            <p>The talk will be about our learnings and future options under
+            consideration.</p>
+
+            <p id="paul-tanner" class="vcard"><a class="fn url"
+            href="https://twitter.com/paul_tanner">Paul Tanner</a> is an
+            experienced engineer and project manager.  He has held management
+            positions in several tech startups and developed numerous
+            electronic and software products. He has worked on a diverse range
+            of IT projects in the roles of CTO, project manager, developer and
+            architect.</p>
+            <p>Paul's recent projects have been focused on practical
+            implementation of the "Internet of Things".  These have included
+            two consumer energy portals, an assisted living care-in-the-home
+            system, an assistive street and an energy-optimised smart house and
+            (currently) a portable pollution monitor.  He has also been an
+            advisor and beta tester for a smart heating product.</p>
+            <p>Paul now focuses on "public good" projects, especially in
+            renewable energy, assisted living and cleantech. He is open to
+            whatever roles are appropriate either as an individual or by
+            bringing in a small team.</p>
+            <p>Paul is a graduate of MIT with a BS in Electrical Engineering.
+            Whilst not busy with his family he is a "maker" and clean energy
+            enthusiast.</p>
+
+            <p><strong>Note: Please aim to connect by 18:15 as the event will start at 18:30 prompt.</strong></p>
+
+date:        16 July 2019
+dtstart:     2020-04-16T18:00:00Z
+dtend:       2020-04-16T20:30:00Z
+start:       18:30
+end:         20:30
+pubdate:     Thu, 16 April 2020 16:16:05 UTC
+updated:     2020-04-16T16:16:05Z
+location:    Cyberspace
+isoduration: P0Y0M0DT02H00M00S
+generator:   vi
+#registration: https://ossg180719.eventbrite.co.uk
+upcoming:
+lanyrd:
+
+tags:
+    - hardware
+    - software
+    - security
+    - cryptography
+    - iot
