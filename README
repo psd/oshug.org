@@ -19,7 +19,7 @@ To build and deploy the site, make sure your local copy is fresh:
 
 You'll need Perl and a few modules:
 
-    $ cpan Template YAML JSON
+    $ cpan Template YAML JSON XML-Simple
 
 Make local changes to the yaml or templates, then build the site:
 
