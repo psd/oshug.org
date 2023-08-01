@@ -1,0 +1,176 @@
+---
+number:     oshcamp2023
+li:         78
+title:      Open Source Hardware Camp 2023
+description: |
+            <p>Open Source Hardware Camp 2023 will take place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, where it will return to be hosted as part of the <a href="https://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="https://hebdenbridgehostel.org/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a>. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a> and via Airbnb and Booking.com etc.</p>
+            <p>There will be a social event on the Saturday evening from 7PM.</p>
+
+            <p>Any questions should be directed to the <a href="https://lists.oshug.org/postorius/lists/oshug.oshug.org/">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Life beyond 2-layer FR4: A high-speed peek into the world of PCBs</h4>
+            <p id="HSPCB">The perfect combination of open source tools exponentially getting better and the availability of affordable and easy-to-use printed circuit board manufacturing services have enabled many folks to get their weekend projects “fabbed”. While laying out a 2-layer board is relatively straightforward, there is a much wider world when one gets into the nitty-gritty of the humble circuit board for more complex designs.</p>
+            <p>From materials and finishes to multi-layer stack-ups and exotic drilling and milling options, we will take a quick peek at the world of printed circuit boards.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Website" href="https://omer.kilic.name/">Omer Kilic</a> is an Embedded Systems and Manufacturing Consultant who works at the various intersections of hardware and software engineering practices, product development and manufacturing.</p>
+
+            <h4>Automated irrigation using a novel approach to determine soil moisture level</h4>
+            <p id="SoilMoisture">Rod spoke at OSHCamp 2017 about his greenhouse and garden automation project in York, with particular emphasis on his design of a capacitance sensor for measuring soil moisture level. In 2019 he undertook another project near Scarborough on the East coast of Yorkshire, this time to irrigate 16 vegetable planting areas in a one acre garden. The project went into service in the spring of that year and has continued to work very successfully up to the present time. As with the previous garden project, the Arduino Mega2560 was used but a number of problems were envisaged using capacitance probes.</p> 
+            <p>This talk will largely focus on the novel approach used to determine soil moisture level without the need for physical soil moisture sensors. Instead, employing a predictive algorithm that uses rainfall and climatic temperature and humidity to derive the soil moisture level of each planting area.</p>
+            <p id="RodMoody" class="vcard"><u>Rod Moody</u> was born in 1940, and at 15 years of age started an electrical engineering apprenticeship with Dale Electric, a manufacturer of diesel-engine driven electrical generators ranging from a few kW to a few MW for both base load and standby applications. Through day release and night class he gained an HNC in electrical engineering, and at the age of 19 was appointed to the post of Test Department Manager, this led to many trips around the world to provide commissioning, trouble shooting and training. In his mid-twenties he was appointed to the position of Electrical Engineering Manager responsible for running the design office and designing control systems using relay logic. As technology advanced, and as a self-taught electronics engineer, he designed complex control systems using CMOS logic, and alternator AVRs using semiconductor analogue technology.</p> 
+            <p>In his early thirties Rod was appointed to the position of Engineering Director. In 1992, at 52 years of age he joined Deep Sea Electronics as their Engineering Manager. DSE were quite small at that time using through-hole technology, but through improved product design and the introduction of SMT production they grew very rapidly over the eight years before Rod retired in year 2000 at 60 years of age. DSE are now the leading supplier of microprocessor based controllers to generating set manufacturing companies worldwide.</p>
+            <p>In retirement Rod spends most of his spare time with projects involving mechanics, electronics, and software using Raspberry Pi and Arduino microcontrollers. He continues to be a keen gardener as he has been from an early age, has a keen interest in all aspects of science and engineering, and is leader of the York U3A Science & Engineering World group.</p>
+
+            <h4>The Missing Bit: Recovering data from magnetic discs</h4>
+            <p id="MissingBit">Magnetic discs were - from the 1970s - how computer data was stored. A technical deep-dive into how these relics can be read using modern equipment, by digital an analogue means, and how to handle the problems which creep in. </p>
+            <p id="PhilPemberton" class="vcard">By training <a class="fn url" title="Phil Pemberton - Twitter" href="https://twitter.com/philpem">Phil Pemberton</a> is a software engineer, electronics hobbyist and ham radio operator from Leeds. In his spare time he plays with old computers, reverse-engineers old radio equipment, and tries valiantly to fix his house without destroying it in the process. </p>
+            <p>Phil is an active member of the Stardot retrocomputing community and can often be seen recovering strange and unusual data from magnetic discs.</p>
+  
+            <h4>The story of Älgen guitar: how to mix traditional hand-craft woodwork with cutting edge digital fabrication</h4>
+            <p id="AlgenGuitar">Michael spent the last year designing and building a novel guitar that tries to bring in the best of both traditional luthiery and cutting edge digital fabrication techniques like 3D-printing (not just plastic, but also metal and carbon fibre), and generative design. The result is Älgen, a light-weight, visually distinct, uniquely engineered instrument.</p>
+            <p>This talk will focus on the design behind the guitar, looking at what you can do with generative design and 3D-printing, how to interface the old and new construction techniques (e.g., mating a walnut body with 3D printed nylon sides), and how to decide what bits to do with which technique.</p>
+            <p id="MichaelDales" class="vcard">By training <a class="fn url" title="Electric Flapjack Guitars" href="https://electricflapjack.com/">Michael Dales</a> is a Software Engineer with experience in numerous Cambridge startups and more established companies, and currently works at the University of Cambridge, helping ecologists build tools and methodologies for assessing the impact of climate change on biodiversity of plants and animals.</p>
+            <p>By passion Michael builds custom guitars and guitar related things: whilst he has a love for the craft that goes into hand-build instruments, he also has an equal love for new manufacturing techniques such as generative-design and 3D-printing in metal, and has branched out into building instruments that sit at the intersection of those two worlds.</p>
+
+            <h4>MicroPython for Hardware Hackers</h4>
+            <p id="MicroPythonTalk">Nowadays it should only be necessary to use assembly language for the most demanding and time-critical applications. MicroPython is a port of Python to microcontroller hardware. This talk, followed by workshop on the second day of OSHCamp, explains how the Python programmer interacts with various typical pieces of hardware, and gives you the opportunity to get some hands-on experience.</p>
+            <p id="SteveHolden" class="vcard"><u>Steve Holden</u> has worked with computers since 1967 and started using Python at version 1.4 in 1995. He has since written about Python, created instructor-led training, delivered it to an international audience, and built 40 hours of video training for “reluctant Python users.” An Emeritus Fellow of the Python Software Foundation, Steve served as a director of the Foundation for eight years and as its chairman for three; he created PyCon, the Python community's international conference series and was presented with the Frank Willison Award for services to the Python community.</p>
+            <p>He lives in Hastings, England and works as Technical Architect for the UK Department for International Trade, where he is responsible for the systems that maintain and regulate the trading environment.</p>
+
+            <h4>Reinventing the Single 8 home movie format</h4>
+            <p id="Single8"></p>
+            <p>When home movies on 8mm film were king, there was a format war between Kodak's Super 8 and Fuji's SIngle 8. Just like Sony's Betamax in the home video wars, Fuji's technically superior contender lost the battle, and the final Single 8 cartridges were manufactured in about2010.</p>
+            <p>The physical dimensions of the film are the same though, so here in 2023 it should be possible to load a SIngle 8 camera with film from a Super 8 cartridge. This is the story of the revival and reinvention of a lost film format through OpenSCAD and 3D printing, done mostly without an original cartridge to copy.</p>
+            <p id="JennyList" class="vcard"><a class="fn url" title="Jenny List - Twitter" href="https://twitter.com/Jenny_Alto">Jenny List</a> is an electronic engineer and technical journalist, writing mostly as a contributing editor for <a href="https://hackaday.com/" title="Hackaday">hackaday.com</a>.</p>
+
+            <h4>Open Hardware in Bio Labs and Clinical Diagnostics</h4>
+            <p id="BioClinical">Technology — even when developed for consumer use — has great potential in healthcare and clinical applications, and open source hardware can speed development. We enthusiastically use open source hardware in our biomedical technology research group, for example to shrink critical diagnostic microbiology tests and transport them out of the lab closer to patients.</p>
+            <p>We will present our experience developing a simple to build open source robotic microfluidic blood test platform built around Raspberry Pi imaging. However, although clinical diagnostic testing used to rely entirely on fully open and totally transparent methods, a strong recent trend has replaced these with closed proprietary products. In this "double act" Ruya will describe the benefits of open source technology for a biomedical engineering PhD student, then Al will raise some bigger questions and discussion points about trends in science and technology, such as: Are we losing the ability to make medical decisions based on fully understood and publicly shared testing methods? Could open source hardware avoid this problem? Is it possible to return to open access and transparency in clinical diagnostics?</p>
+            <p id="AlEdwards" class="vcard"><u>Al Edwards</u> is Associate Professor in Biomedical Technology, and has been exploring ways to improve diagnosis of a range of clinically important health problems, from heart attack to bacterial infection, for nearly 15 years. One major aim is to simplify complex laboratory instrumentation using the latest components, such as smartphone cameras. Wherever possible our laboratory uses open source hardware, although we also work towards commercialisation to ensure our developments can become useful products.</p>
+            <p id="RuyaMeltemSariyer" class="vcard"><u>Ruya Meltem Sariyer</u> is currently finishing her PhD using miniaturised blood tests towards improved epidemiology of cardiovascular disease. Arriving in the UK in the depths of covid-19 lab closure, she was able to start building an open source imaging system in her room using a Raspberry Pi zero. Alongside her doctoral laboratory research into blood tests to measure variation in cardiovascular function, she has explored the use of open source hardware as an alternative to expensive lab instruments.</p>
+
+            <h4>Breaking proprietary smart home lock-in: untangling OpenThread and does it Matter?</h4>
+            <p id="SmartHome">Want a smart home, but want it to be open source? We'll explore if the latest Thread and Matter standards and their open source implementations will free us from proprietary smart home solutions. We'll look at the advantages it might offer for security, privacy and reliability. Finally we'll have a whistle-stop tour of the practical details of creating your own Matter device and consider some of the challenges, and how they might be over come.</p>
+            <p id="AndrewRobinson" class="vcard"><a class="fn url" title="Andrew Robinson - Twitter" href="https://twitter.com/fortyfourMu">Andrew Robinson</a> is Engineering Director at OpenLX SP, who as well as offering electronics and IoT consultancy to solve difficult problems, is responsible for creating the PiFace range and CodeBug, the prototype for the BBC micro:bit. Andrew has a passion for making computing, electronics and IoT more accessible to all and has written books and magazines. His career started in university researching low power processor architectures and he now lectures part-time in computer science.</p>
+
+            <h4>Why not build an oscilloscope? How hard can it be?</h4>
+            <p id="ScopeBuild">Tom will discuss the trials and tribulations in building a mid-performance digital oscilloscope (1 gigasample per second 8-bit ADC, 100MHz bandwidth, 4 channels) using a Xilinx Zynq FPGA, a Raspberry Pi, and a few leaked datasheets. In the talk, he will discuss what he learned about oscilloscope architecture, FPGA's and the Raspberry Pi's camera interface, what he'd do differently, and why he did it (because, well, how hard can it be?) There may be a demonstration. The project is open source and available on GitHub.</p>
+            <p id="TomOldbury" class="vcard"><u>Tom Oldbury</u> is an electronics, FPGA and software engineer now living and working in Cambridgeshire, currently working for a company designing and manufacturing thermal imaging systems. He studied Electronics Engineering at the University of Leeds, but has been playing with electronics and software from a young age.</p>
+
+            <h4>The Fuller Stack Engineer</h4>
+            <p id="FullerStackEngineer">The abstractions on which we build software go so much further than what the software industry normally considers a "Full Stack Engineer". This term really just covers the tip of the iceberg. Going lower, into the realm of circuit boards, micro-controllers, and even silicon, is easier than ever. It no longer means working with nasty chemicals, proprietary software, expensive development boards, low level programming languages or processes that are only available to businesses willing to shell out extremely large sums of currency units.</p>
+            <p>I'll explore some of the open software, libraries, tools, that are now available, as well as hardware, services, and educational resources that make it possible, and comparatively easy, to explore the entire tech stack: From GUIs all the way down to doped silicon. Join me on my quest to become a Fuller Stack Engineer, it has never been easier.
+            <p id="ChristianJacobsen" class="vcard"><a class="fn url" title="Christian Jacobsen - Website" href="https://cljacobsen.com/">Christian Jacobsen</a> is a “fuller stack" engineer. When he isn't procrastinating on writing an <a href="https://github.com/clj/kob">ODBC to REST bridge for KiCad</a>, he writes largeish Python backends and tinkers with hardware design. He is an active open-source contributor and in a previous life he <a href="https://en.wikipedia.org/wiki/Transterpreter">ran occam code on a lot of small computers</a>.</p>
+
+            <h4>The Open Source Keyboard Matrix - A dive down into the Open Source keyboard rabbit hole</h4>
+            <p id="OSHKeyboard">A fun journey into the world of Open Source keyboards. Most folks accept the keyboard that comes with a PC without even thinking about it, however many of us want to build or hack our own personal keyboard designs. This leads to a wide diversity of interesting bespoke keyboards. We will take a journey through this diversity and explain common requirements and features available to hack your very own personalised keyboard. We will look at the OpenSource hardware and the software that enable the concoction of virtually any keyboard design. You will get to dive into the keyboard rabbit hole and see just how deep it goes.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation and biotec diagnostics. His current research is focused on machine learning for embedded automation using FPGA and µC. He is a long term advocate of open source communities, a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p>
+
+            <h4>A 1-wire development platform</h4>
+            <p id="1wire">In my 2019 OSHCamp Talk, <a href="/event/oshcamp2019#1wire">The complex and simplistic elegance of the 1-wire protocol</a>, I showed how to extend the Dallas 1-wire bus for over 600 meters. Since then I've built that technology into a suite of open source sensor development boards that can be used to prototype your sensor designs and collect data.</p>
+            <p>This talk will cover how I developed the platform, including sending my first PCBs for manufacture at JLCPCB, testing and bringing up the boards, writing drivers for all of the hardware, porting FreeRTOS to the ATmega128p, bringing up TCP/IP connectivity and building the higher level software for data collection and visualisation.</p>
+            <p>I'll also show you some of the sensors that I've prototyped and how they are applied in the real world.</p>
+            <p>Finally, I'll briefly cover the implications of the time period when this happened: right in the midst of COVID and the semiconductor shortage.</p>
+
+            <p id="AndyBennett" class="vcard"><a class="fn url" title="Andy Bennett - website" href="https://www.register-dynamics.co.uk/authors/andy-bennett">Andy Bennett</a> trained as an Electronic & Electrical Engineer and has a background in consumer electronics, FPGAs, operating systems and device drivers. For the last 15 years he has been building companies around distributed database technology. He is currently Director of Register Dynamics who help companies and governments apply their data usefully, responsibly and ethically.</p>
+            <p>Andy is a Technologist that likes to inhabit the void between users, software and the hardware that it all runs on. His love of ceramic taps is well-documented.</p>
+
+            <h4><i><center>Compered by:</center></i></h4>
+            <p id="KevinMurrell" class="vcard"><a class="fn url" title="Kevin Murrell - Twitter" href="https://twitter.com/krm248">Kevin Murrell</a> is is a trustee of <a href="https://www.tnmoc.org/">The National Museum of Computing</a> with a particular interest in computer technology from the 1950s and 1960s. Kevin recently completed a rebuild of the Wireless World Computer which was published in 1967. During working hours, Kevin is technical director of a UK software house providing systems for the UK, Canada and Ireland. Kevin is the proud owner of a Myford Super 7 - which occupies his spare time!</p>
+ 
+            <h4>Swap Table</h4>
+            <p id="SwapTable">Due to popular demand there will once again be a swap table at Open Source Hardware Camp, where delegates can bring along surplus components, dev kits and (smaller!) unfinished projects to give away and swap with others.</p>
+            <p><u>Please note that larger items such as VDUs and printers must not be brought along and any unwanted items must be removed at the end of the day!</u></p>
+            <p>ITEMS ARE PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF ITEMS RECEIVED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p> 
+
+
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Solder Paste and Stencil Workshop - Build your own WiFi Device!</h4>
+            <p id="SolderWiFi">This hands-on workshop demonstrates the usage of solder paste and stencils with SMD devices in a hobbyist home-lab capacity. Participants will be provided with a kit of electronic parts to assemble a small WiFi device with a few functions, details of which and code examples to be published closer to the event.</p>
+            <p>Some familiarity tinkering with electronic devices would be beneficial, but is not required.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>USB battery pack and USB-C cable.</li>
+            <li>A laptop if you would like to customise the firmware.</li></ul></p>
+            <p>Run by: <a href="#OmerKilic">Omer Kilic</a>.</p>
+
+            <h4>MicroPython for Hardware Hackers</h4>
+            <p id="MicroPythonWorkshop">This workshop follows on from the <a href="#MicroPythonTalk">talk on Saturday</a> and gives you the opportunity to get some hands-on experience.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Run by: <a href="#SteveHolden">Steve Holden</a>.</p> 
+
+            <h4>Build your first Open Source keyboard to take away and customise</h4>
+            <p id="KeyboardBuild">This workshop follows on from the <a href="#OSHKeyboard">talk on Saturday</a> and participants will get to build their own keyboard.</p>
+            <p>Run by: <a href="#AlanWood">Alan Wood</a>.</p>
+
+            <h4>Retro Computing Simulation</h4>
+            <p id="RetroComputing">While some of us hanker after an original PDP8, others want to recreate their early computer experiences but no longer have access to the hardware. 
+            Few of us also have the space required to recreate installations from those early days when disk drives were the size of washing machines!</p>
+            <p>There are excellent software emulations of many of these early systems, but the excitement of operating a functioning front panel cannot be beaten. You will quickly recall 
+            the slog of toggling in the bootstrap code, and then running those old (but incredibly efficient) operating systems.</p>
+
+            <p>We will show the systems running and welcome user interaction. So, get out the old CP/M handbook and the DEC Introduction to Programming and off we go!</p>
+
+            <p>We expect to be demonstrating the following running replicas:
+            <ul>
+            <li>Wireless World Computer</li>
+            <li>Raspberry Pi-based PDP8</li>
+            <li>Raspberry Pi-based PDP11</li>
+            <li>LGP-30</li>
+            <li>IMSAI 8080</ul></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Run by: <a href="#KevinMurrell">Kevin Murrell</a>.</p> 
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+             <div id="support">
+               <p><strong><i>With thanks to sponsors:</i></strong></p>
+               <p><ul>
+                  <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
+                  <li><a id="bcsossg" title="BCS Open Source Specialist Group" href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a></li>
+               </ul></p>
+             </div>
+
+
+date:        26th August 2023
+dtstart:     2023-08-26T09:00:00Z
+dtend:       2023-08-27T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Tue, 7 June 2023 16:00:00 BST
+updated:     2023-08-01T11:00:00Z
+location:    Hebden Bridge Town Hall
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: https://oshcamp2023.eventbrite.co.uk
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - PCB
+    - SoilMoisture
+    - MicroPython
+    - oscilloscope
+    - FPGA
+    - biolab 
+    - clinical
+    - thread
+    - IoT
+    - homeMovie
+    - dataRecovery
+   
