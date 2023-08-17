@@ -42,7 +42,7 @@ sessions: |
 
             <h4>Reinventing the Single 8 home movie format</h4>
             <p id="Single8"></p>
-            <p>When home movies on 8mm film were king, there was a format war between Kodak's Super 8 and Fuji's SIngle 8. Just like Sony's Betamax in the home video wars, Fuji's technically superior contender lost the battle, and the final Single 8 cartridges were manufactured in about2010.</p>
+            <p>When home movies on 8mm film were king, there was a format war between Kodak's Super 8 and Fuji's Single 8. Just like Sony's Betamax in the home video wars, Fuji's technically superior contender lost the battle, and the final Single 8 cartridges were manufactured in about2010.</p>
             <p>The physical dimensions of the film are the same though, so here in 2023 it should be possible to load a SIngle 8 camera with film from a Super 8 cartridge. This is the story of the revival and reinvention of a lost film format through OpenSCAD and 3D printing, done mostly without an original cartridge to copy.</p>
             <p id="JennyList" class="vcard"><a class="fn url" title="Jenny List - Twitter" href="https://twitter.com/Jenny_Alto">Jenny List</a> is an electronic engineer and technical journalist, writing mostly as a contributing editor for <a href="https://hackaday.com/" title="Hackaday">hackaday.com</a>.</p>
 
@@ -79,7 +79,7 @@ sessions: |
             <p>Andy is a Technologist that likes to inhabit the void between users, software and the hardware that it all runs on. His love of ceramic taps is well-documented.</p>
 
             <h4><i><center>Compered by:</center></i></h4>
-            <p id="KevinMurrell" class="vcard"><a class="fn url" title="Kevin Murrell - Twitter" href="https://twitter.com/krm248">Kevin Murrell</a> is is a trustee of <a href="https://www.tnmoc.org/">The National Museum of Computing</a> with a particular interest in computer technology from the 1950s and 1960s. Kevin recently completed a rebuild of the Wireless World Computer which was published in 1967. During working hours, Kevin is technical director of a UK software house providing systems for the UK, Canada and Ireland. Kevin is the proud owner of a Myford Super 7 - which occupies his spare time!</p>
+            <p id="KevinMurrell" class="vcard"><a class="fn url" title="Kevin Murrell - Twitter" href="https://twitter.com/krm248">Kevin Murrell</a> is a trustee of <a href="https://www.tnmoc.org/">The National Museum of Computing</a> with a particular interest in computer technology from the 1950s and 1960s. Kevin recently completed a rebuild of the Wireless World Computer which was published in 1967. During working hours, Kevin is technical director of a UK software house providing systems for the UK, Canada and Ireland. Kevin is the proud owner of a Myford Super 7 - which occupies his spare time!</p>
  
             <h4>Swap Table</h4>
             <p id="SwapTable">Due to popular demand there will once again be a swap table at Open Source Hardware Camp, where delegates can bring along surplus components, dev kits and (smaller!) unfinished projects to give away and swap with others.</p>
@@ -138,6 +138,7 @@ sessions: |
                <p><ul>
                   <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="http://abopen.com">AB Open</a></li>
                   <li><a id="bcsossg" title="BCS Open Source Specialist Group" href="http://ossg.bcs.org/">BCS Open Source Specialist Group</a></li>
+                  <li><a id="pimoroni" title="Pimoroni" href="https://shop.pimoroni.com/">Pimoroni</a></li>
                </ul></p>
              </div>
 
