@@ -157,6 +157,10 @@ img.logo {
         background-image: url('/images/sup_pimoroni.png');
 }
 
+#support ul li a#u3c {
+	background-image: url('/images/sup_u3c.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

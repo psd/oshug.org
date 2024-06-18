@@ -82,7 +82,7 @@ locations:
         longitude: 1.064172
 
     The Birchcliffe Centre:
-        uri:       http://pennineheritage.org.uk/projects/the-birchliffe-centre
+        uri:       https://www.pennineheritage.org.uk/birchcliffe-centre/
         street:    Birchcliffe Road
         locality:  Hebden Bridge
         region:    West Yorkshire
@@ -276,3 +276,4 @@ released:
     - oshcamp2019
     - 77
     - oshcamp2023
+    - oshcamp2024

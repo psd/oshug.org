@@ -1,0 +1,194 @@
+---
+number:     oshcamp2024
+li:         79
+title:      Open Source Hardware Camp 2024
+description: |
+            <p>Open Source Hardware Camp 2024 will take place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, where it will be hosted as part of the <a href="https://wutheringbytes.com/">Wuthering Bytes</a> technology festival.</p>
+            <p>Hebden Bridge is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="https://hebdenbridgehostel.org/" title="Hebden Bridge Hostel">Hebden Bridge Hostel</a>. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a> and via Airbnb and Booking.com etc.</p>
+            <p>There will be a social event on the Saturday evening from 7PM.</p>
+
+            <p>Any questions should be directed to the <a href="https://lists.oshug.org/postorius/lists/oshug.oshug.org/">Discussion List</a>.</p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Adventures in Manufacturing: Things you don’t learn at school</h4>
+            <p id="AIM">This talk is an open book of our collective experiences, filled with the kind of know-how that can only be picked up from the factory floor. Join us for a candid conversation where we peel back the curtain on the world of electronics product manufacturing. Expect invaluable lessons learned from the ground up, offering practical advice wrapped in entertaining stories.</p>
+            <p id="StuartChilds" class="vcard"><u>Stuart Childs</u> has spent the past few years working in the strange space between engineers, product owners and factories — setting up production lines and working with a variety of suppliers, from prototypes to mass production.</p>
+            <p id="OmerKilic" class="vcard"><a class="fn url" title="Omer Kilic - Website" href="https://omer.kilic.name/">Omer Kilic</a> is an Embedded Systems and Manufacturing Consultant who works at the various intersections of hardware and software engineering practices, product development and manufacturing.</p>
+
+            <h4> Open Source Rocketry Tools, FreeCAD and beyond</h4>
+            <p id="OSRT">Rocketry has its challenges, but there are numerous open source tools available to enable the design, simulation and manufacture of amateur, high power and experimental airframes. In this talk Jo will show some of these tools and usage, highlighting along the way how it’s only open source community development that could possibly enable such interesting and interoperable tools to be developed. </p>             
+            <p id="JoHinchliffe" class="vcard"><a class="fn url" title="Jo Hinchliffe - Twitter" href="https://x.com/concreted0g/">Jo Hinchliffe</a> is a technical author, maker, and community developer who has an interest in space. Jo has developed and flown numerous open source rocket designs and has pushed the development of open source rocketry tools. Jo has worked with Libre Space Foundation who built and launched a completely open source satellite off the International Space Station, as well as other on orbit open source space projects. Jo has a wide range of clients he writes for and is the author of “FreeCAD for Makers” available for <a href="https://hackspace.raspberrypi.com/books/freecad">free download from the Raspberry Pi Press</a>.</p> 
+
+            <h4>The National Museum of Computing EDSAC Replica</h4>
+            <p id="EDSAC">EDSAC was the first practical general purpose, stored program, electronic, digital computer and provided a computing service for the University of Cambridge. It ran its first program (Squares of 1 – 100) on 6th May1949. Because of the significance of EDSAC to British Computing, it was decided to create a replica at <a href="https://www.tnmoc.org/">TNMOC</a>. Our task is to build a working reconstruction of EDSAC as it was at the start of its life, providing the world’s first computing service from 1949 to 1958. Money was raised from around 2010, and design work started a couple of years later.</p>
+            <p>With the paper tape reader not yet available, we use an Arduino-based Solid State Injector unit to program the computer, and a Cypress FX2 USB2 clone as a logic analyser with PulseView software. Raspberry Pi Picos are also used as wireless logic analysers.</p>
+            <p id="TonyAbbey" class="vcard"><u>Tony Abbey</u> received a BSc in Electronic Engineering in 1968 at Southampton University and went on to work for the East Midlands Gas Board on communications and instrumentation, where he found that computers could be used for control purposes. There he worked on the Westinghouse “DP2 and a half” computer and DEC PDP11 systems. After EMGAS he worked for 35 years at Leicester University Space Research Dept, where he designed and commissioned X-ray detectors for satellites, getting to Cape Canaveral twice and French Guyana for three satellite launces. He still has cryogenically cooled CCDs in space in the satellites XMM-Newton, Swift and Astrosat, and he provides consulting services as a director of Helaton Services, together with his wife.</p>
+            <p>In retirement Tony has been a director of Leicester Hackspace and he also finds time to race a K1 dinghy at Rutland Water. Software-defined radio has been an interest for several years and helping out at TNMOC has been occupying a lot of his time.</p>
+  
+            <h4>Look, no FPGA!</h4>
+            <p id="NoFPGA">When creating a robust WiFi logic analyser, it is tempting to use complex programmable logic devices; however, there are alternatives, as this talk will show.</p>
+            <p>The end-result is a low-cost unit using a Pi RP2040 microcontroller that can store 500,000 16-bit samples and stream them at high speed across a WiFi network to a Web browser. I’ll be describing simple techniques to tackle the various hardware, software and networking issues, with an end-result that is applicable for a wide range of data-streaming applications – without requiring any logic programming.</p>
+            <p id="JeremyBentham" class="vcard"><u>Jeremy Bentham</u> has been experimenting with electronics from an early age. After graduating with an engineering degree, he worked for London Undergound, specialising in 600-volt DC railway traction systems, and on-train electronics. On leaving LUL, he worked for various Cambridge startup companies, including a one-person consultancy specialising in embedded systems hardware & software development. Based on this experience, he wrote the book ‘TCP/IP Lean’, selling over 15,000 copies in 2 editions, and was recruited by a small vehicle tracking company to create the hardware and software for their tracking systems, of which over 500,000 units were installed</u>.</p>
+            <p>In retirement, his interest in railway engineering was re-ignited by joining a team restoring a 1938-vintage 'Q' stock underground train to run in heritage service, and another team creating a 7 ¼ inch narrow-gauge railway.  He was also asked to create some high-speed wireless logic analyser units for the valve-based EDSAC computer that has been built at the National Museum of Computing in Bletchley. His open-source projects are freely available (no advertisements) on <a href="https://iosoft.blog">iosoft.blog</a>.</p>
+
+            <h4>Dye Sublimation Printing on PCBs</h4>
+            <p id="PCBPrinting">PCB colour choices have come a long way since the green of the 1980s, and it seems like every colour of the rainbow is available. But when Spencer decided to make a Pride based rainbow coloured modular computer in 2023, he found the choices offered by the PCB fabs to be far too limited. The solution he found was dye sublimation. This talk is about how this works with PCBs, the workflow he developed, obstacles overcome and how cheap equipment can be used to set up your own dye sublimation production line. It covers the advantages of printing your own full colour PCBs, and also some of the disadvantages and where it is not suitable.</p>
+            <p id="SpencerOwen" class="vcard"><a class="fn url" title="Spencer Owen - Twitter" href="https://x.com/ZxSpectROM">Spencer Owen</a> is a self confessed retro computer geek. In 2013 he built a Z80 based breadboard computer which went on to become the <a href="https://rc2014.co.uk/">RC2014 kit computer</a>. Since quitting a life in IT in 2016 for this little modular computer, it has taken him to events all over the world. He is passionate about hobby electronics, and always keen to try doing the things that other people haven’t done yet.</p>
+
+            <h4>Continuous Integration for Semiconductors - how Tiny Tapeout makes chips</h4>
+            <p id="CITT"></p>
+            <p>Continuous integration has long been taken for granted by software engineers, but acceptance is still growing in hardware engineers. In this talk, Matt will show how we leverage GitHub Actions to build documentation, create FPGA bitstreams, run tests and create all the files needed to manufacture an open source chip. Together, these automated jobs allow us to regularly manufacture chips filled with hundreds of tiny designs with minimal manual intervention.</p>
+            <p id="MatthewVenn" class="vcard"><a class="fn url" title="Matthew Venn - Twitter" href="https://x.com/matthewvenn">Matthew Venn</a> is is a science & technology communicator and electronic engineer. He has been involved with open source silicon for the last 4 years and has sent 20 chips for manufacture. He has helped over 400 people learn the tools through <a href="https://zerotoasiccourse.com/" title=Zero to ASIC Course">his course</a>, with hundreds more sending designs for manufacture via <a href="https://tinytapeout.com/" title=Tiny Tapeout">Tiny Tapeout</a>.</p>
+
+            <h4>Revisiting the Bit-Serial Computer Architecture</h4>
+            <p id="RBSA">Developed near the dawn of the electronic computing age, around the end of WW2, the bit-serial architecture played an important role in computing and calculating machines, as a result of its simplicity and low component count. Indeed up until about 1960, bit-serial l was the mainstay of computing architecture, as a result of being significantly cheaper than a parallel architecture. Similarly, in the late 1960s bit-serial was adopted for most of the early desktop and pocket electronic calculators.</p>
+            <p>This talk explores the bit-serial architecture and reveals how it is still relevant today, some 80 years on.</p>
+            <p id="KenBoak" class="vcard"><a class="fn url" title="Ken Boak - Twitter" href="https://x.com/monsonite">Ken Boak</a> has been tinkering with electronics and computing for over five decades. His 6th birthday present was a soldering iron! He has interests in minimal computing devices and pre-1981 computer history.  Ken currently works in the renewables field, on hydrogen fuel cells and the conversion of ammonia to hydrogen fuel for stationary and marine internal combustion engines.</p>
+
+            <h4>STEAM Punk Sunflower</h4>
+            <p id="SPS">Andy has been pondering how to build an "interesting" take on an LED matrix since the mid-90s. At last year's OSHCamp, the swap table offered a glut of LEDs and control chips that finally gave him the push he needed. After the conference he went back home and set to work. Taking inspiration from <a href="https://jiripraus.cz/nevadnouci-mechanicky-tulipan/">Jiří Praus</a>, <a href="https://www.bhoite.com/sculptures/">Mohite Bhoite</a> and <a href="https://web.archive.org/web/20090907063800/http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibnat.html">one maths professor's website</a> that he's referred to for far too many projects, he designed something that he hopes is an original take on an LED matrix.</p>
+            <p>At it's heart, this talk will be an OSHCamp community story that covers the scientific, technological, electronic, artistic and mathematical basis for a LED sunflower sculpture.</p>
+            <p id="AndyBennett" class="vcard"><a class="fn url" title="Andy Bennett - Twitter" href="https://x.com/databasescaling">Andy Bennett</a> trained as an Electronic & Electrical Engineer and has a background in consumer electronics, FPGAs, operating systems and device drivers. For the last 15 years he has been building companies around distributed database technology. He is currently Director of Register Dynamics who help companies and governments apply their data usefully, responsibly and ethically.</p>
+            <p>Andy is a Technologist that likes to inhabit the void between users, software and the hardware that it all runs on. His love of ceramic taps is well-documented.</p>
+
+            <h4>Building digital cameras for fun and science</h4>
+            <p id="BDC">This talk gives an introduction to how CMOS digital cameras work, from the diode up. It goes on to describe some custom cameras designed to make modulated light measurements and their scientific applications. The modulated light technique can be used with conventional cameras or photodiodes by using lower modulation frequencies.</p>
+            <p id="RogerLight" class="vcard"><a class="fn url" title="Roger Light - Twitter" href="https://x.com/ralight">Roger Light</a> did a PhD in Electronic Engineering at the University of Nottingham, then moved on to being a researcher and finally lecturer, designing various scientific camera chips along the way, to help with problems ranging from biological measurement, to characterisation of grain structure in metals. Back in 2009 Roger started the Mosquitto MQTT broker project, and as a now ex-academic he is working as a software developer at <a href="https://cedalo.com/">Cedalo</a>, who offer support and extra functionality for Mosquitto. He still hankers after building more cameras.</p>
+
+            <h4>Cost Cutting OSHW with Crafty Concurrency</h4>
+            <p id="CC">Embedded hardware and software need to tackle both real-time responses to concurrent real world demands and events, further it needs to do this in a predictable, deterministic and safe manner. How can we achieve these seemingly irreconcilable goals? Moreover is it possible do do so with basic tooling and without incurring excessive manpower and costs. As someone who battles these challenges with multi disciplined professional teams for fully funded commercial projects, you might be surprised that Alan has discovered a secret low cost formula that anyone can source and develop using fully open source tooling. He will open Pandora's box so you can take a peek.</p>
+            <p id="AlanWood" class="vcard"><a class="fn url" title="Alan Wood - Twitter" href="https://twitter.com/folknology">Alan Wood</a> has been working with parallel distributed programming for several decades. His recent work includes smart grids, 3D printers, robotics, automation biotec diagnostics and flow computation. His current research is focused on multilayer concurrency and mixed language models for complex embedded systems. He is a long term advocate of open source communities, a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p>
+
+            <h4>Showing that you care about security for your open source (hardware) project</h4>
+            <p id="OSCare">Software Bill of Materials (SBOM), Supply-chain Levels for Software Aritfacts (SLSA) and Open Source Security Foundation (OpenSSF) Scorecards form a trifecta of security practices and deliverables that let people know that you're paying attention to the security of your project.</p>
+            <p>This presentation will begin with an overview of the trifecta, looking at why each is needed and how they relate to each other. It will then go into practical steps to incorporate them into a project repo. We will also look at the ongoing maintenance involved once scorecards have been implemented, and how aspects of that maintenance can be better automated to minimize toil.</p>
+            <p id="ChrisSwan" class="vcard"><a class="fn url" title="Chris Swan - Blog" href="https://blog.thestateofme.com/">Chris Swan</a> has been tinkering with electronics since he was at primary school, and got into software when he realised that it was necessary to make hardware do interesting things. In his day job as an Engineer at Atsign, he's helping to build the atPlatform, a Networking 2.0 technology that is putting people in control of their data and removing the frictions and surveillance associated with today’s Internet. On evenings and weekends he can often be found making some sort of project around a dev board, which have mostly been RISC-V recently. Chris is an InfoQ Editor writing about cloud, DevOps and security, he co-hosts the <a href="https://techdebtburndown.com/">Tech Debt Burndown Podcast</a> and is a Dart Google Developer Expert (GDE).</p>
+
+            <h4>Why is my robot doing that? Live visualisation of sensor data</h4>
+            <p id="RobotSensors">Many sensors are a lot cheaper than they used to be. Ultrasonic, IR, time of flight and even lidar are (kind of) within budget for enthusiasts, and you can write code against them fairly easily. But when debugging, it's really handy to look at the raw sensor data in a format that isn't just raw numbers, and that's where data visualisation techniques can help. In this talk, I'll discuss, with easy examples, how data visualisation can help you work out why your robot is going the wrong way.</p>
+            <p id="RickWalker" class="vcard"><u>Rick Walker</u></a> used to be a real scientist, but since leaving academia the only thing he sciences is data. He likes clear explanations, cares a lot about effective data visualization, and wishes he was better with robots.</p>
+
+            <h4><i><center>Compered by:</center></i></h4>
+            <p id="KevinMurrell" class="vcard"><a class="fn url" title="Kevin Murrell - Twitter" href="https://twitter.com/krm248">Kevin Murrell</a> is a trustee of <a href="https://www.tnmoc.org/">The National Museum of Computing</a> with a particular interest in computer technology from the 1950s and 1960s. Kevin recently completed a rebuild of the Wireless World Computer which was published in 1967. During working hours, Kevin is technical director of a UK software house providing systems for the UK, Canada and Ireland. Kevin is the proud owner of a Myford Super 7 - which occupies his spare time!</p>
+ 
+            <h4>Swap Table</h4>
+            <p id="SwapTable">Due to popular demand there will once again be a swap table at Open Source Hardware Camp, where delegates can bring along surplus components, dev kits and (smaller!) unfinished projects to give away and swap with others.</p>
+            <p><u>Please note that larger items such as VDUs and printers must not be brought along and any unwanted items must be removed at the end of the day!</u></p>
+            <p>ITEMS ARE PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF ITEMS RECEIVED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p> 
+
+
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Bit Serial Computing</h4>
+            <p id="BSCWorkshop">Build your own bit serial computer from modern 74HC series logic.</p>
+            <p>The workshop introduces the concepts of bit serial arithmetic, starting with a simple ALU. The addition of a timing sequence generator and memory allows 8-bit computation to be performed.</p>
+            <p>There will be a limit of 20 participants on the workshop, and a <u>£20 charge to cover the cost of PCBs, components and consumables</u>.</p>
+
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop and if possible install "H. Neemann's "Digital" simulator <a href="https://github.com/hneemann/Digital">from his GitHub repository</a>.</li></ul></p>
+            <p>Run by: <a href="#KenBoak">Ken Boak</a>.</p>
+
+            <h4>Dye Sublimation Printing on PCBs</h4>
+            <p id="PCBPrintingWorkshop">Following on from the talk yesterday, Spencer will provide some simple blinky LED PCBs and show you how to get your colourful designs on to it. If you have a laptop with you, you will be able to use an Inkscape template to create your design. This could be something unique that you have drawn yourself, or any drawing or photo that you want to use.<p> <p>Alternatively, fountain pens with CYMK ink can be provided to make a totally one-off design. Once printed and cooled down the PCB can be assembled, so basic through-hole soldering experience may be required.</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop with <a href="https://inkscape.org/">Inkscape</a> installed.</li></ul></p>
+            <p>Run by: <a href="#SpencerOwen">Spencer Owen</a>.</p> 
+
+            <h4>Retro Computing Simulation</h4>
+            <p id="RetroComputing">Some of us hanker after an original minicomputer with all the switches and lights but no longer have access to the hardware. Indeed, few of us have the space required to recreate installations from those early days when disk drives were the size of washing machines!</p>   
+            <p>There are excellent software emulations of many of these early systems, but the excitement of operating a functioning front panel cannot be beaten!</p>
+            <p>We will show the systems running and welcome user interaction. So, get out the old CP/M handbook and the DEC Introduction to Programming and off we go!</p>
+
+            <p>We expect to be demonstrating the following running replicas:
+            <ul>
+            <li>Wireless World Computer</li>
+            <li>Raspberry Pi-based PDP8</li>
+            <li>Raspberry Pi-based PDP11</li>
+            <li>LGP-30</li>
+            <li>IMSAI 8080</li>
+            <li>Raspberry Pi-based PDP10 — possibly just the unboxing!</li></ul></p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Run by: <a href="#KevinMurrell">Kevin Murrell</a>.</p> 
+
+            <h4>Raftabar the Robot</h4>
+            <p id="Raftabar">A follow-up to the <a href="https://wutheringbytes.com/whatson/festival-day">Festival Day</a> talk of the same title. This is not a workshop in the normal sense and there will not be any pre-organised hands-on tasks. It’s more of a casual/informal drop-in to see Raftabar performing, and for more comprehensive and technical discussion about his construction and innermost secrets.</p>
+            <p>We can talk about:
+            <ul>
+            <li>Mechanical construction using MDF, plastic and metal – No 3D printing I’m afraid, although in many cases it would have made a much better job than my hacksaw, file, pedestal drill and lathe.</li>
+            <li>A bit of analogue electronics.</li>
+            <li>Ultrasonic obstacle detection and distance measurement.</li>
+            <li>PWM motor and servo control.</li>
+            <li>How to follow a light beam back to bed.</li>
+            <li>PID control.</li>
+            <li>Raftbar’s software uses several finite-state machines, something that Rod is quite passionate about and loves to talk about.</li>
+            <li>Running multiple Python 3 scripts on a Raspberry Pi and communicating between scripts.</li>
+            <li>Invoking Python 3 scripts on Raspberry Pi boot-up.</li>
+            <li>Raspberry Pi LAN and communication to PC using RealVNC.</li>
+            <li>Raspberry Pi to Raspberry Pi serial communication using UART.</li>
+            <li>Face detection and recognition.</li>
+            <li>Audio speech to text conversion and Text to audio conversion.</li>
+            </ul></p>
+            <p>Rod emphasises that he is not an expert in all areas, but will do his best to explain the principles.</p>
+            <p id="RodMoody" class="vcard"><u>Rod Moody</u> was born in 1940 and at 15 years of age started an electrical engineering apprenticeship with Dale Electric, a manufacturer of diesel-engine driven electrical generators ranging from a few kW to a few MW, for both base load and standby applications. Through day release and night class he gained an HNC in electrical engineering, and at the age of 19 was appointed to the post of Test Department Manager. He went on to become Electrical Engineering Manager responsible for running the design office and designing control systems using relay logic, and following which Engineering Director.</p>
+            <p>In 1992, at 52 years of age Rod joined Deep Sea Electronics as their Engineering Manager. DSE were quite small at that time and using through-hole technology, but with improved product design and the introduction of SMT production they grew very rapidly over the eight years before Rod retired in year 2000 at 60 years of age. DSE are now the leading supplier of microprocessor based controllers to generating set manufacturing companies worldwide.</p>
+            <p>In retirement Rod spends most of his spare time with projects involving mechanics, electronics, and software using the Raspberry Pi and Arduino microcontrollers. He continues to be a keen gardener as he has been from an early age, has a keen interest in all aspects of science and engineering, and is currently leader of the York U3A Science & Engineering World group.</p>
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+             <div id="support">
+               <p><strong><i>With thanks to sponsors:</i></strong></p>
+               <p><ul>
+                  <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="https://abopen.com">AB Open</a></li>
+                  <li><a id="u3c" title="Unit 3 Compliance - Test Lab and Consultancy" href="https://www.unit3compliance.co.uk/">Unit 3 Compliance</a></li>
+               </ul></p>
+             </div>
+
+
+date:        24th August 2024
+dtstart:     2024-08-24T09:00:00Z
+dtend:       2023-08-25T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Sat, 18 May 2024 15:00:00 BST
+updated:     2023-06-18T13:50:00Z
+location:    The Birchcliffe Centre
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: https://www.eventbrite.co.uk/e/open-source-hardware-camp-2024-tickets-908834156427
+
+tags:
+    - OSHUG
+    - OSHW
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - manufacturing
+    - rocketry
+    - EDSAC
+    - LogicAnalyser
+    - PCBprinting
+    - opensilicon
+    - FOSSi
+    - continousIntegration
+    - bitSerialComputing
+    - DigitalCamera
+    - SBOM
+    - retrocomputing
+    - classicComputing
+    - computerHistory
+    - robots
+    - robotics
+    - sensors
+    - digitalImaging
+    - concurrency
+   
