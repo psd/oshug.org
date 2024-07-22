@@ -37,10 +37,10 @@ sessions: |
             <p id="PCBPrinting">PCB colour choices have come a long way since the green of the 1980s, and it seems like every colour of the rainbow is available. But when Spencer decided to make a Pride based rainbow coloured modular computer in 2023, he found the choices offered by the PCB fabs to be far too limited. The solution he found was dye sublimation. This talk is about how this works with PCBs, the workflow he developed, obstacles overcome and how cheap equipment can be used to set up your own dye sublimation production line. It covers the advantages of printing your own full colour PCBs, and also some of the disadvantages and where it is not suitable.</p>
             <p id="SpencerOwen" class="vcard"><a class="fn url" title="Spencer Owen - Twitter" href="https://x.com/ZxSpectROM">Spencer Owen</a> is a self confessed retro computer geek. In 2013 he built a Z80 based breadboard computer which went on to become the <a href="https://rc2014.co.uk/">RC2014 kit computer</a>. Since quitting a life in IT in 2016 for this little modular computer, it has taken him to events all over the world. He is passionate about hobby electronics, and always keen to try doing the things that other people haven’t done yet.</p>
 
-            <h4>Continuous Integration for Semiconductors - how Tiny Tapeout makes chips</h4>
-            <p id="CITT"></p>
-            <p>Continuous integration has long been taken for granted by software engineers, but acceptance is still growing in hardware engineers. In this talk, Matt will show how we leverage GitHub Actions to build documentation, create FPGA bitstreams, run tests and create all the files needed to manufacture an open source chip. Together, these automated jobs allow us to regularly manufacture chips filled with hundreds of tiny designs with minimal manual intervention.</p>
-            <p id="MatthewVenn" class="vcard"><a class="fn url" title="Matthew Venn - Twitter" href="https://x.com/matthewvenn">Matthew Venn</a> is is a science & technology communicator and electronic engineer. He has been involved with open source silicon for the last 4 years and has sent 20 chips for manufacture. He has helped over 400 people learn the tools through <a href="https://zerotoasiccourse.com/" title=Zero to ASIC Course">his course</a>, with hundreds more sending designs for manufacture via <a href="https://tinytapeout.com/" title=Tiny Tapeout">Tiny Tapeout</a>.</p>
+            <h4>Putting Linux into devices using Yocto Project</h4>
+            <p id="Yocto">Embedded computing is very diverse. The majority of devices use ARM architecture processors, but RISC-V is gaining in popularity, and there is always x86. Each device has its own requirements and constraints. To cope with this diversity, we need tools to build the operating system and fundamental applications. Yocto Project is the tool most often used.</p>
+            <p>In this talk Chris will show you how to get started with Yocto, first using QEMU to create an emulated target board, and then using a Raspberry Pi. He will describe the basics of Yocto: Distro, Machine, Image. Chris will talk about Bitbake and bitbake recipes and will show how recipes can be gathered together into layers. If you want to get a head start with Yocto Project and embedded Linux, this is the talk for you.</p>
+            <p id="ChrisSimmonds" class="vcard"><u>Chris Simmonds</u> is a software consultant and professional geek living in Northern England. He has more than two decades of experience in designing and building open-source embedded systems. He is a big believer in Open Source and the importance of community. Chris is author of the book “Mastering Embedded Linux Programming”, and is the moving force behind the AOSP and AAOS Meetup group. He is a frequent presenter at open source and embedded conferences, including the Embedded Linux Conference and FOSDEM. You can see some of his work on the <a href="https://2net.co.uk/">Inner Penguin blog</a>.</p>
 
             <h4>Revisiting the Bit-Serial Computer Architecture</h4>
             <p id="RBSA">Developed near the dawn of the electronic computing age, around the end of WW2, the bit-serial architecture played an important role in computing and calculating machines, as a result of its simplicity and low component count. Indeed up until about 1960, bit-serial l was the mainstay of computing architecture, as a result of being significantly cheaper than a parallel architecture. Similarly, in the late 1960s bit-serial was adopted for most of the early desktop and pocket electronic calculators.</p>
@@ -158,7 +158,7 @@ dtend:       2023-08-25T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Sat, 18 May 2024 15:00:00 BST
-updated:     2023-06-18T13:50:00Z
+updated:     2023-07-22T09:30:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -177,9 +177,9 @@ tags:
     - EDSAC
     - LogicAnalyser
     - PCBprinting
-    - opensilicon
-    - FOSSi
-    - continousIntegration
+    - embeddedLinux
+    - Yocto
+    - bitbake
     - bitSerialComputing
     - DigitalCamera
     - SBOM
