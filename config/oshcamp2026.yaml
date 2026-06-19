@@ -1,0 +1,185 @@
+---
+number:     oshcamp2026
+li:         80
+title:      Open Source Hardware Camp 2026
+description: |
+            <p>Open Source Hardware Camp 2026 will take place in the Pennine town of <a href="http://en.wikipedia.org/wiki/Hebden_Bridge" title="Hebden Bridge — Wikipedia">Hebden Bridge</a>, which is approximately 1 hour by rail from Leeds and Manchester. Budget accommodation is available at the <a href="https://hebdenbridgehostel.org/" title="Hebden Bridge IOU Hostel">Hebden Bridge IOU Hostel</a>. Details of other local accommodation can be found at <a href="http://www.hebdenbridge.co.uk/accommodation/index.html" title="HebWeb">www.hebdenbridge.co.uk</a> and via Airbnb and Booking.com etc.</p>
+            <p>There will be a social event on the Saturday evening from 7PM.</p>
+
+            <p>Any questions should be directed to the <a href="https://lists.oshug.org/postorius/lists/oshug.oshug.org/">Discussion List</a>.</p>
+
+            <p><center><em>Open Source Hardware Camp 2026 is dedicated to the memory of Ken Boak (1966-2026), a founding member of the group, a prolific contributor and a good friend to many.</em></center></p>
+
+sessions: |
+            <h3 id="talks">Saturday :: Talks</h3>
+
+            <h4>Technical Cartoons for Fun (and Profit?)</h4>
+            <p id="technicalCartoons">What happens if you combine a traditional text book, a bunch of hand drawn diagrams, and a cartoon robot?</p>
+            <p>Electro-Magnetic Compatibility (EMC) has a reputation as one of the more mysterious electronics subjects. This project is an attempt to make learning about this subject more intuitive and fun through the power of cartoons.</p>
+            <p>In this talk, James will touch on the subject of Electro-Static Discharges (ESD), inspirations behind this project, different learning styles, the self-publishing process, and lessons learned along the way.</p>
+            <p id="JamesPawson" class="vcard"><u>James Pawson</u> is an electronics engineer, trainer, practitioner of the dark arts (EMC), and now author.</p>
+
+            <h4>Clean-room reverse engineering the ATTiny 1-series On Chip Debugging peripheral</h4>
+            <p id="ATTiny">The 1-series is a range of ATtiny microcontrollers released by Microchip in 2016. They contain an avrxmega3 CPU and a UPDI interface for programming and debugging. The vendor datasheet for the part documents the UPDI protocol and provides information to use the the Chip Erase, NVM programming and User Row Programming functionality. The information provided also allows the interactive reading and writing of the entire CPU Data Space, which allows host-side interaction with main memory and the on chip peripherals. As a result, these features are all well supported in open source tools.</p>
+            <p>Finally, the UPDI chapter of the datasheet promises a range of debugging features including hardware breakpoints, run-time readout of program counter, stack pointer and CPI status registers for code-profiling and program flow control (go, stop, reset, step into). However it is silent on the details required to make use of them.</p>
+            <p>In this talk Andy will explain the how he reverse engineered the On Chip Debugger to write a datasheet that has been used to implement a GDB Server for these devices.</p>
+            <p id="AndyBennett" class="vcard"><u>Andy Bennett</u> is a highly skilled technologist, business leader, entrepreneur and problem solver with almost 20 years experience working in technology. He has worked in a wide variety of industries including government, finance, higher education and consumer electronics.</p>
+            <p>He has a passion for new technologies and has often been at the forefront of pioneering research, development and new product launches, offering both strategic oversight and hands-on development.</p> 
+
+            <h4>A tale of two tiles: custom chips at home</h4>
+            <p id="customChips">Open source silicon provides ordinary people with an opportunity to manufacture real chips! Hundreds of people have made their own designs, but what does the journey look like? This talk will cover the who, what, how and why of the process, with a look at two of Kristaps’ own submissions and a light dive into tools that make it possible.</p>
+            <p id="KristapsKrumins" class="vcard"><u>Kristaps Jurkans</u> is a recent graduate of the University of Lincoln, an open source hardware and software enthusiast, and a big fan of disassembling anything just to learn more about it.</p>
+
+            <h4>What does the future hold for an electronics engineer in the age of AI?</h4>
+            <p id="AIelectronics">Unless you have been hiding under a rock for the last few years, you will have noticed that the world is changing at an unprecedented pace. The rise of Large Language Models (LLMs) is impacting all areas of knowledge work, doubly so for technology related roles.</p>
+            <p>So, what does the future hold for an engineer as we move into this new era? In this talk we will take a look at some exploratory work Alan has been performing over the last year or so to see what's possible with LLMs in the open source hardware space, and what this might mean for the future of open engineering in general. We will look at some of the tools that are already available, and some of the exciting possibilities that are on the horizon. We will also discuss some of the challenges that we will need to overcome in order to fully realize the quality, educational and productivity benefits emerging in OSHW. So, if you are an electronics engineer, a hobbyist or just interested in the future of open source hardware, this talk is for you!</p>
+            <p id="AlanWood" class="vcard"><u>Alan Wood</u> has been working with embedded electronics and FPGAs for many years. His recent work includes smart grids, 3D printers, robotics, automation biotec diagnostics, flow computation, measurement and multi protocol integration. His current research is focused on multilayer concurrency, mixed language models for complex systems, linux and Rust based embedded development, realtime testing, capture and analysis. He is a long term advocate of open source communities, previously a moderator (aka Folknology) for xCORE, the co-founder of myStorm open hardware FPGA community, as well as a co-founder of Surrey and Hampshire Makerspace.</p>
+
+            <h4>RISC-V — the road to ubiquity</h4>
+            <p id="RISC-V">Systems based on the open source RISC-V instruction set architecture are becoming more available and popular in both MCUs and SOCs. The MCU ecosystem is already well developed, but SOCs have greater dependencies, and software stacks that have only recently been marked as production ready. As always happens with new stuff, the hardware people are waiting for broader software support, and the software people are waiting for a larger hardware installed base. This talk will examine the forces that are driving RISC-V forward, and what still needs to happen for RISC-V SOCs to go mainstream.</p>
+            <p id="ChrisSwan" class="vcard"><u>Chris Swan</u> is a long term member of the OSHUG community, and past speaker on security, homebrew projects and the Open Compute Project. In his Engineer role at Atsign he’s been involved in bringing RISC-V support for the Dart programming language into Docker official images. That’s given him a front row seat to how hardware and software have been developing over the past few years. Chris contributes to the broader community as a Google Developer Expert (GDE), InfoQ editor and co-host for the Tech Debt Burndown Podcast.</p>
+
+            <h4>Emulating the great machines of the past!</h4>
+            <p id="greatEmulations">There are now many excellent software emulations of early systems such as the PDP-8 and PDP-11 and as such they work well and support the various operating systems and applications.</p>
+            <p>However, the excitement of operating the functioning front panel cannot be beaten! The range of DEC machines now available as functioning replicas will be shown and the techniques used to emulate both the software and hardware will be discussed.</p>
+            <p id="KevinMurrell" class="vcard"><u>Kevin Murrell</u> is a retired software industry entrepreneur. He co-founded The National Museum of Computing with Tony Sale in 2005. He is the author of several books on the history of British computing and is an authority early home computing. He is a committee member of the Computer Conservation Society and serves as editor of its journal, Resurrection.</p>
+
+            <h4>This is Not a Chip Butty, but bare silicon needs COB and a PCB, Dave</h4>
+            <p id="COBBLED">Getting custom, open-source silicon back from the foundry is amazing, but a piece of silicon won't do much without connectivity. This talk offers a look into the practicalities of getting bare, open-source die connected to the PCB using Chip-on-Board (COB) wire bonding.</p>
+            <p>While COB is a standard industry process, most factories expect automated, high-volume runs. When you turn up with an artisanal batch of assorted chips, things can get somewhat experimental.</p>
+            <p>We will dive into how multiple Open Source ASIC project die were bonded to boards, the physical realities of the assembly process, and the fun to be had along the way.</p>
+            <p id="StuartChilds" class="vcard"><u>Stuart Childs</u> has spent the last decade working directly with factories in China, acting as the glue between the clever people and the manufacturing hubs that can make the things. Before diving into industrial production, Stuart was a member of the UK Maker Belt and wider UK Maker scene, increasingly bringing colour, silliness, and fun to the workplace. As a member of Tiny Tapeout and a long-term Wuthering Bytes attendee, he combines a passion for open-source hardware with the joy of working with others on unusual projects.</p>
+
+            <h4>A Multi-Function Instrument for School Physics Experiments</h4>
+            <p id="MultiFunctionInstrument">An overview of school physics apparatus shows that much can be traced back to the work of the <em>Nuffield Science Teaching Project</em> in the 1960’s. Modern equivalents, having no other commercial use, are expensive. <em>Off-the-Shelf</em> commercial instruments are a poor match to educational requirements. Solutions using general purpose computers raise many IT support problems in a school environment.</p>
+            <p>The multi-function instrument can replace several separate instruments. The emphasis is on suitability for the school environment: robust, simple to use, and lacking extra features that serve little pedagogical purpose.</p>
+            <p>The objective is to produce an open hardware and software design that can be easily reproduced by others or form the basis for alternative variations.</p>
+            <p id="AlanBernard" class="vcard"><u>Alan Bernard</u>. After an apprenticeship with Thorn Electrical Industries leading to a degree in Electrical and Electronic Engineering at Bradford University Alan joined a small company where he designed nucleonic equipment, electronic organs, and apparatus for the Nuffield Physics Project. After running his own business manufacturing instrumentation for the wire-drawing industry he joined ITT developing liquid crystal displays. This led to him designing Public Information Displays for airports, bus and train stations, and on-board trains. Finally, he worked as a physics technician at Bradford Grammar School; a position he held for 12 years before retiring at age 72.</p>
+
+            <h4>Powering Your Home With Your Car</h4>
+            <p id="PoweringHome">How to utilise your very own Big Battery for '1/10th' the price of a "Home Power Wall". (The car comes for free!)</p>
+            <p>This adventure takes low cost overnight “off-peak” electricity, and the occasionally available zero cost excess grid electricity. By utilising the woefully underutilised battery in my EV, it is possible to then power a home each day with those low cost electrons to avoid the much more expensive non-off-peak electrons. Except… There are no UK agreed standards for doing that yet. Here is a personal all-Open-Source story for economically connecting a home to a Big Battery on wheels.</p>
+            <p id="MartinLomas" class="vcard"><u>Martin Lomas</u> has followed the world of computers since the beginnings of the home computer revolution in the UK. He gained degrees in Computer Engineering and subsequently Computer Systems Design. At Fujitsu he worked on, at the time, the world’s largest Application Specific Integrated Circuit ICs. He moved back to academia to develop cutting edge Scanning Probe Microscopes for biophysical investigations at the dept of Pharmaceutical Sciences, The University of Nottingham, gaining his PhD.</p>
+            <p>Martin then supported a multinational pharma research company for all their open source server and computing needs, becoming their IT Director. Since then, he works for himself. More recently, he is considering his next career adventure! Especially, he enjoys making new things and making them work well! He also enjoys hiking, beer, wine, cheese, and the world of Linux. His interests span across technology and science, and computing and the ongoing old/new phenomenon now Marketed as “AI”.</p>
+
+            <h4>FreeCAD Improvements and Exciting Uses</h4>
+            <p id="FreeCAD">FreeCAD the open source CAD package for mechanical engineering and more has had heaps of development in the last few years. Whilst we aren't quite at the "replace Catia or Solidworks in all sectors" tipping point yet we have lots more users, a better (but by no means perfect) user experience and we are beginning to see FreeCAD getting used in all manner of cutting edge use cases.</p>
+            <p>In this talk Jo will quickly run through some of the developments and explore why it might be worth people who previously didn't enjoy FreeCAD to take another look. We'll blast by some high end applications of FreeCAD such as computational fluid dynamics, multi body dynamics and FEA and also squint at some interesting projects undertaken by organisations you might not at first glance think would use FreeCAD! I'll throw in some fun aspects of the community development and talk about FreeCAD's upcoming (but hopefully delivered by the time this talk takes place) first round of their global open source hardware design competition!</p>
+            <p id="JoHinchliffe" class="vcard"><u>Jo Hinchliffe</u> is a freelance technical writer and community developer working across a variety of technical sectors with a passion for open source.</p>
+            <p>Jo is the author of FreeCAD for Makers, a well received book from the Raspberry Pi Press covering beginner and intermediate level usage of FreeCAD. Also on the Raspberry Pi Press Jo has authored “Design an RP2040 Board with KiCad” which not only covers the basics of designing a PCB for fabrication, it goes on to cover automated assembly services, virtual warehousing and more.<p>
+            <p>In article form Jo has written for many platforms, these include multiple STEM/STEAM articles for the American magazine Kids Code and Computer Science, these articles range from tutorials on micro controller projects, to fun maths activities and articles highlighting historic STEM figures. For the Raspberry Pi Press magazines Jo has written dozens of articles and features. Often his own projects, these have included a wide variety of subjects, wooden boat building, an opensource carbon fibre filament winding machine, watch making, cable lacing in space, and much more. A somewhat complete list of articles can be found here. Toms Hardware, Jo has written numerous articles for Toms Hardware including a series on basic use of the Linux terminal.</p>
+            <p>Finally when Jo isn’t writing for his paid clients he can currently be found writing, designing and publishing a free and open source magazine of his own called SOURCE.</p>
+
+            <h4>Open Wetware: How a bioart project inspired a biopunk future</h4>
+            <p id="OpenWetware">This talk will summarise the current trend in biodesign/art to open source 'recipes', through the lens of a recent art project Phycologica, which attempted rather foolishly to reimagine a LCD screen made out of algae.</p>
+            <p>While I wouldn't recommend anyone else reproducing our design- it would just lead to more ewaste- I believe there was still great value in the process of doing this project and in sparking imagination. This was never intended to be rebuilt in its current form.</p>
+            <p>Through preparing this talk I would like to explore, while documenting the important bits of project- the recipes, the care guide, the ethics, what is the value of documenting a project like this? I am also interested in exploring the documentation itself as an artwork- beyond the original piece.</p>
+            <p>We won't reach a more technologically sustainable (solarpunk) future without community collaboration and sharing- the exact ethos of open source hardware. Therefore I propose that the goal of documenting this project will be to collate a library of alternative, bio appropriate technologies that are more aligned to a sustainable society that we want to see in the future.</p>
+            <p id="JonSomerscales" class="vcard"><u>Jon Somerscales</u> is an Experience Designer & Interaction Prototyper researching novel interactions and regenerative design that could highlight better outcomes for us and the planet through a critical making practice. His interactive design work spans digital software, services and installations.</p>
+            <p>Studio Blue Green's Phycologica artwork is a collaboration between Jon Somerscales and Andrew Stone. Studio Blue Green aims to Amplify and recenter living systems through experience design and creative technology, creating impactful, planet-first interventions, encouraging environmental stewardship and ecological consciousness.</p>
+            
+            <h4><em><center>Compered by: <a href="#KevinMurrell">Kevin Murrell</a></center></em></h4>
+ 
+            <h4>Swap Table</h4>
+            <p id="SwapTable">Due to popular demand there will once again be a swap table at Open Source Hardware Camp, where delegates can bring along surplus components, dev kits and (smaller!) unfinished projects to give away and swap with others.</p>
+            <p><u>Please note that larger items such as VDUs and printers must not be brought along and any unwanted items must be removed at the end of the day!</u></p>
+            <p>ITEMS ARE PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF ITEMS RECEIVED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p> 
+
+            <h3 id="workshops">Sunday :: Workshops</h3>
+            
+            <h4>Practising the use of LLMs with open source electronics projects</h4>
+            <p id="LLMWorkshop">This workshop will explore some hands-on use of some of the emerging tools, LLMs and strategies for using them in the engineering space. We will play with some of what is already available, and explore exciting possibilities on the horizon. We will also discuss common challenges that we need to overcome including pitfalls, risks and limitations. So, if you are practicing hardware/firmware engineer, or hobbyist this workshop gives you an opportunity to tinker with the OSHW future.</p>
+
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Hosted by: <a href="#AlanWood">Alan Wood</a>.</p>
+
+            <h4>Retro Computing Simulation</h4>
+            <p id="RetroComputingSimulation">Some of us hanker after an original minicomputer with all the switches and lights but no longer have access to the hardware. Indeed, few of us have the space required to recreate installations from those early days when disk drives were the size of washing machines!<p>
+            <p>There are excellent software emulations of many of these early systems, but the excitement of operating a functioning front panel cannot be beaten!</p>
+            <p>We expect to be demonstrating the following running replicas:
+            <ul>
+            <li>Wireless World Computer</li>
+            <li>Raspberry Pi based PDP-1, PDP-8, PDP-11 and the PDP-10</li>
+            <li>FPGA-based LGP-30</li>
+            <li>FPGA-based PDP-8</li>
+            <li>IMSAI 8080</li></ul></p>
+            <p>We will show the systems running and welcome user interaction. So, get out the old CP/M handbook and the DEC Introduction to Programming and off we go!</p>
+            <p>Participants should bring:</p>
+            <p><ul><li>A laptop.</li></ul></p>
+            <p>Hosted by: <a href="#KevinMurrell">Kevin Murrell</a>.</p> 
+
+            <h4>The Project Salon</h4>
+            <p id="ProjectSalon">The project salon is part show and tell and part project clinic, which will provide an opportunity to discuss projects and share skills and experience with fellow OSHCamp delegates. For example, this might be showing off your latest creation, sharing details of a neat hack, or seeking advice on a particularly tricky problem which has brought your project to a standstill.</p>
+
+            <p>Rod Moody will be bringing along Raftabar — the autonomous robot which made its debut at OSHCamp 2024 — and sharing details of numerous upgrades made over the past few years.</p>
+
+            <p>Short presentations are welcome and if using slides these should be in PDF or OpenDocument Presentation format.</p>
+            
+            <p>Participants should optionally bring:</p>
+            <p><ul>
+            <li>A project. Exercise common sense! E.g. nothing large or dangerous etc.</li>
+            <li>Slides (PDF or OpenDocument Presentation format).</li>
+            </ul></p>
+            <p>Hosted by:</p>
+            
+            <p><a href="#AndyBennett">Andy Bennett</a>.</p>
+            <p id="RodMoody" class="vcard"><u>Rod Moody</u> was born in 1940 and at 15 years of age started an electrical engineering apprenticeship with Dale Electric, a manufacturer of diesel-engine driven electrical generators ranging from a few kW to a few MW, for both base load and standby applications. Through day release and night class he gained an HNC in electrical engineering, and at the age of 19 was appointed to the post of Test Department Manager. He went on to become Electrical Engineering Manager responsible for running the design office and designing control systems using relay logic, and following which Engineering Director.</p>
+            <p>In 1992, at 52 years of age Rod joined Deep Sea Electronics as their Engineering Manager. DSE were quite small at that time and using through-hole technology, but with improved product design and the introduction of SMT production they grew very rapidly over the eight years before Rod retired in year 2000 at 60 years of age. DSE are now the leading supplier of microprocessor based controllers to generating set manufacturing companies worldwide.</p>
+            <p>In retirement Rod spends most of his spare time with projects involving mechanics, electronics, and software using the Raspberry Pi and Arduino microcontrollers. He continues to be a keen gardener as he has been from an early age, has a keen interest in all aspects of science and engineering, and is currently leader of the York U3A Science & Engineering World group.</p>
+
+            <p><strong>NOTE:</strong>
+             </ul>
+              <li>There are <u>separate</u> tickets for Saturday and Sunday.</li>
+              <li>A light lunch will be provided each day.</li>
+              <li>Please aim to arrive between 09:00 and 09:15 on the Saturday as the event will start at 09:20 prompt.</li>
+             </ul></p>
+
+             <div id="support">
+               <p><strong><em>With thanks to sponsors:</em></strong></p>
+               <p><ul>
+                  <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="https://abopen.com">AB Open</a></li>
+               </ul></p>
+             </div>
+
+
+date:        29th August 2026
+dtstart:     2026-08-29T09:00:00Z
+dtend:       2026-08-30T16:00:00Z
+start:       09:00 Saturday morning
+end:         16:00 on the Sunday afternoon
+pubdate:     Fri, 19 Jun 2026 20:30:00 BST
+updated:     2026-06-12T20:30:00Z
+location:    The Birchcliffe Centre
+isoduration: P0Y0M2DT00H00M00S
+generator:   vi
+registration: https://www.eventbrite.co.uk/e/open-source-hardware-camp-2026-tickets-1992209880381
+
+tags:
+    - OSHUG
+    - OSHW
+    - FOSSi
+    - OpenSilicon
+    - OpenSource
+    - hardware
+    - opensourcehardware
+    - openhardware
+    - community
+    - manufacturing
+    - RISCV
+    - FreeCAD
+    - LLM
+    - AI
+    - EMC
+    - MCU
+    - emulation
+    - wetware
+    - physics
+    - homeBattery
+    - retrocomputing
+    - classicComputing
+    - computerHistory
+    - robots
+    - robotics
+
+   
