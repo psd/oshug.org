@@ -161,6 +161,10 @@ img.logo {
 	background-image: url('/images/sup_u3c.png');
 }
 
+#support ul li a#registerdynamics {
+        background-image: url('/images/sup_registerdynamics.png');
+}
+
 h1, h2, h3 {
 	font-family: "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman",serif;
 }

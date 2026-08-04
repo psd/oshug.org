@@ -24,7 +24,7 @@ sessions: |
             <p>Finally, the UPDI chapter of the datasheet promises a range of debugging features including hardware breakpoints, run-time readout of program counter, stack pointer and CPI status registers for code-profiling and program flow control (go, stop, reset, step into). However it is silent on the details required to make use of them.</p>
             <p>In this talk Andy will explain the how he reverse engineered the On Chip Debugger to write a datasheet that has been used to implement a GDB Server for these devices.</p>
             <p id="AndyBennett" class="vcard"><u>Andy Bennett</u> is a highly skilled technologist, business leader, entrepreneur and problem solver with almost 20 years experience working in technology. He has worked in a wide variety of industries including government, finance, higher education and consumer electronics.</p>
-            <p>He has a passion for new technologies and has often been at the forefront of pioneering research, development and new product launches, offering both strategic oversight and hands-on development.</p> 
+            <p>He has a passion for new technologies and has often been at the forefront of pioneering research, development and new product launches, offering both strategic oversight and hands-on development.</p>
 
             <h4>A tale of two tiles: custom chips at home</h4>
             <p id="customChips">Open source silicon provides ordinary people with an opportunity to manufacture real chips! Hundreds of people have made their own designs, but what does the journey look like? This talk will cover the who, what, how and why of the process, with a look at two of Kristaps’ own submissions and a light dive into tools that make it possible.</p>
@@ -54,7 +54,7 @@ sessions: |
             <p id="MultiFunctionInstrument">An overview of school physics apparatus shows that much can be traced back to the work of the <em>Nuffield Science Teaching Project</em> in the 1960’s. Modern equivalents, having no other commercial use, are expensive. <em>Off-the-Shelf</em> commercial instruments are a poor match to educational requirements. Solutions using general purpose computers raise many IT support problems in a school environment.</p>
             <p>The multi-function instrument can replace several separate instruments. The emphasis is on suitability for the school environment: robust, simple to use, and lacking extra features that serve little pedagogical purpose.</p>
             <p>The objective is to produce an open hardware and software design that can be easily reproduced by others or form the basis for alternative variations.</p>
-            <p id="AlanBernard" class="vcard"><u>Alan Bernard</u>. After an apprenticeship with Thorn Electrical Industries leading to a degree in Electrical and Electronic Engineering at Bradford University Alan joined a small company where he designed nucleonic equipment, electronic organs, and apparatus for the Nuffield Physics Project. After running his own business manufacturing instrumentation for the wire-drawing industry he joined ITT developing liquid crystal displays. This led to him designing Public Information Displays for airports, bus and train stations, and on-board trains. Finally, he worked as a physics technician at Bradford Grammar School; a position he held for 12 years before retiring at age 72.</p>
+            <p id="AlanBarnard" class="vcard"><u>Alan Barnard</u>. After an apprenticeship with Thorn Electrical Industries leading to a degree in Electrical and Electronic Engineering at Bradford University Alan joined a small company where he designed nucleonic equipment, electronic organs, and apparatus for the Nuffield Physics Project. After running his own business manufacturing instrumentation for the wire-drawing industry he joined ITT developing liquid crystal displays. This led to him designing Public Information Displays for airports, bus and train stations, and on-board trains. Finally, he worked as a physics technician at Bradford Grammar School; a position he held for 12 years before retiring at age 72.</p>
 
             <h4>Powering Your Home With Your Car</h4>
             <p id="PoweringHome">How to utilise your very own Big Battery for '1/10th' the price of a "Home Power Wall". (The car comes for free!)</p>
@@ -77,16 +77,22 @@ sessions: |
             <p>We won't reach a more technologically sustainable (solarpunk) future without community collaboration and sharing- the exact ethos of open source hardware. Therefore I propose that the goal of documenting this project will be to collate a library of alternative, bio appropriate technologies that are more aligned to a sustainable society that we want to see in the future.</p>
             <p id="JonSomerscales" class="vcard"><u>Jon Somerscales</u> is an Experience Designer & Interaction Prototyper researching novel interactions and regenerative design that could highlight better outcomes for us and the planet through a critical making practice. His interactive design work spans digital software, services and installations.</p>
             <p>Studio Blue Green's Phycologica artwork is a collaboration between Jon Somerscales and Andrew Stone. Studio Blue Green aims to Amplify and recenter living systems through experience design and creative technology, creating impactful, planet-first interventions, encouraging environmental stewardship and ecological consciousness.</p>
-            
+
+            <h4>Raftabar, ChatGPT, and me - The next generation</h4>
+            <p id="RaftabarChatGPTRod">What started out as little more than asking ChatGPT a question, turned into an extensive dialogue, and a wonderful working partnership with ideas, tests and experiments being bounced back and forth for several days between Rod and ChatGPT. Rod will talk about this journey, and the milestones along the way that resulted in the development of a cutting-edge Raspberry Pi, AI Vision Engine that will be integrated into Raftabar, and available as a comprehensive manual, for anyone wanting to build such a system.</p>
+            <p id="RodMoody" class="vcard"><u>Rod Moody</u> was born in 1940 and at 15 years of age started an electrical engineering apprenticeship with Dale Electric, a manufacturer of diesel-engine driven electrical generators ranging from a few kW to a few MW, for both base load and standby applications. Through day release and night class he gained an HNC in electrical engineering, and at the age of 19 was appointed to the post of Test Department Manager. He went on to become Electrical Engineering Manager responsible for running the design office and designing control systems using relay logic, and following which Engineering Director.</p>
+            <p>In 1992, at 52 years of age Rod joined Deep Sea Electronics as their Engineering Manager. DSE were quite small at that time and using through-hole technology, but with improved product design and the introduction of SMT production they grew very rapidly over the eight years before Rod retired in year 2000 at 60 years of age. DSE are now the leading supplier of microprocessor based controllers to generating set manufacturing companies worldwide.</p>
+            <p>In retirement Rod spends most of his spare time with projects involving mechanics, electronics, and software using the Raspberry Pi and Arduino microcontrollers. He continues to be a keen gardener as he has been from an early age, has a keen interest in all aspects of science and engineering, and is currently leader of the York U3A Science & Engineering World group.</p>
+
             <h4><em><center>Compered by: <a href="#KevinMurrell">Kevin Murrell</a></center></em></h4>
- 
+
             <h4>Swap Table</h4>
             <p id="SwapTable">Due to popular demand there will once again be a swap table at Open Source Hardware Camp, where delegates can bring along surplus components, dev kits and (smaller!) unfinished projects to give away and swap with others.</p>
             <p><u>Please note that larger items such as VDUs and printers must not be brought along and any unwanted items must be removed at the end of the day!</u></p>
-            <p>ITEMS ARE PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF ITEMS RECEIVED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p> 
+            <p>ITEMS ARE PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF ITEMS RECEIVED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
 
             <h3 id="workshops">Sunday :: Workshops</h3>
-            
+
             <h4>Practising the use of LLMs with open source electronics projects</h4>
             <p id="LLMWorkshop">This workshop will explore some hands-on use of some of the emerging tools, LLMs and strategies for using them in the engineering space. We will play with some of what is already available, and explore exciting possibilities on the horizon. We will also discuss common challenges that we need to overcome including pitfalls, risks and limitations. So, if you are practicing hardware/firmware engineer, or hobbyist this workshop gives you an opportunity to tinker with the OSHW future.</p>
 
@@ -107,7 +113,7 @@ sessions: |
             <p>We will show the systems running and welcome user interaction. So, get out the old CP/M handbook and the DEC Introduction to Programming and off we go!</p>
             <p>Participants should bring:</p>
             <p><ul><li>A laptop.</li></ul></p>
-            <p>Hosted by: <a href="#KevinMurrell">Kevin Murrell</a>.</p> 
+            <p>Hosted by: <a href="#KevinMurrell">Kevin Murrell</a>.</p>
 
             <h4>The Project Salon</h4>
             <p id="ProjectSalon">The project salon is part show and tell and part project clinic, which will provide an opportunity to discuss projects and share skills and experience with fellow OSHCamp delegates. For example, this might be showing off your latest creation, sharing details of a neat hack, or seeking advice on a particularly tricky problem which has brought your project to a standstill.</p>
@@ -115,18 +121,15 @@ sessions: |
             <p>Rod Moody will be bringing along Raftabar — the autonomous robot which made its debut at OSHCamp 2024 — and sharing details of numerous upgrades made over the past few years.</p>
 
             <p>Short presentations are welcome and if using slides these should be in PDF or OpenDocument Presentation format.</p>
-            
+
             <p>Participants should optionally bring:</p>
             <p><ul>
             <li>A project. Exercise common sense! E.g. nothing large or dangerous etc.</li>
             <li>Slides (PDF or OpenDocument Presentation format).</li>
             </ul></p>
             <p>Hosted by:</p>
-            
-            <p><a href="#AndyBennett">Andy Bennett</a>.</p>
-            <p id="RodMoody" class="vcard"><u>Rod Moody</u> was born in 1940 and at 15 years of age started an electrical engineering apprenticeship with Dale Electric, a manufacturer of diesel-engine driven electrical generators ranging from a few kW to a few MW, for both base load and standby applications. Through day release and night class he gained an HNC in electrical engineering, and at the age of 19 was appointed to the post of Test Department Manager. He went on to become Electrical Engineering Manager responsible for running the design office and designing control systems using relay logic, and following which Engineering Director.</p>
-            <p>In 1992, at 52 years of age Rod joined Deep Sea Electronics as their Engineering Manager. DSE were quite small at that time and using through-hole technology, but with improved product design and the introduction of SMT production they grew very rapidly over the eight years before Rod retired in year 2000 at 60 years of age. DSE are now the leading supplier of microprocessor based controllers to generating set manufacturing companies worldwide.</p>
-            <p>In retirement Rod spends most of his spare time with projects involving mechanics, electronics, and software using the Raspberry Pi and Arduino microcontrollers. He continues to be a keen gardener as he has been from an early age, has a keen interest in all aspects of science and engineering, and is currently leader of the York U3A Science & Engineering World group.</p>
+
+            <p><a href="#AndyBennett">Andy Bennett</a> and <a href="#RodMoody">Rod Moody</a>.</p>
 
             <p><strong>NOTE:</strong>
              </ul>
@@ -136,9 +139,9 @@ sessions: |
              </ul></p>
 
              <div id="support">
-               <p><strong><em>With thanks to sponsors:</em></strong></p>
+               <p><strong><em>With thanks to sponsor:</em></strong></p>
                <p><ul>
-                  <li><a id="abopen" title="AB Open - open source and technical communities consulting" href="https://abopen.com">AB Open</a></li>
+                  <li><a id="registerdynamics" title="Register Dynamics" href="https://www.register-dynamics.co.uk">Register Dynamics</a></li>
                </ul></p>
              </div>
 
@@ -149,7 +152,7 @@ dtend:       2026-08-30T16:00:00Z
 start:       09:00 Saturday morning
 end:         16:00 on the Sunday afternoon
 pubdate:     Fri, 19 Jun 2026 20:30:00 BST
-updated:     2026-06-12T20:30:00Z
+updated:     2026-08-04T20:00:00Z
 location:    The Birchcliffe Centre
 isoduration: P0Y0M2DT00H00M00S
 generator:   vi
@@ -181,5 +184,3 @@ tags:
     - computerHistory
     - robots
     - robotics
-
-   
